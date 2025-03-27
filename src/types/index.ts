@@ -22,10 +22,16 @@ interface ContactForm {
     message: string;
 }
 
+interface FAQItem {
+    question: string;
+    answer: string;
+  }
+
 
 export type {
     NavLinksType,
     SocialMediaLinks,
     Assets,
     ContactForm,
+    FAQItem,
 }

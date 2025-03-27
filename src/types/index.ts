@@ -14,9 +14,18 @@ interface Assets {
     [key: string]: string;
 }
 
+interface ContactForm {
+    name: string;
+    email: string;
+    mobile: string;
+    location: string;
+    message: string;
+}
+
 
 export type {
     NavLinksType,
     SocialMediaLinks,
     Assets,
+    ContactForm,
 }

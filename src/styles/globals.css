@@ -1,26 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f5f5f5;
   --foreground: #171717;
+  --dm-sans: "DM Sans", sans-serif;
+  --rajdhani: "Rajdhani", sans-serif;
+  --inter: "Inter", sans-serif;
+  --custom-green-1: #00897B;
+  --custom-blue-1: #0277BD;
+  --custom-red-light: #FF6B6B;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-custom-green-1: var(--custom-green-1);
+  --color-custom-blue-1: var(--custom-blue-1);
+  --font-custom-red-light: var(--custom-red-light);
+  --font-dm-sans: var(--dm-sans);
+  --font-radjdhani: var(--rajdhani);
+  --font-inter: var(--inter);
+  --spacing-c-10: 10px;
+  --spacing-c-20: 20px;
+  --spacing-c-30: 30px;
+  --spacing-c-32: 32px;
 }
 
-@media (prefers-color-scheme: dark) {
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--dm-sans);
+}
+
+.custom-linear-gradient-blue {
+  background: linear-gradient(360deg, #0277BD 0%, #0277BD 100%);
 }

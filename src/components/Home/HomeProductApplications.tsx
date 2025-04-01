@@ -2,7 +2,6 @@ import images from '@/data/assets'
 import Image from 'next/image'
 import React from 'react'
 import { FaLightbulb } from 'react-icons/fa'
-import { FcGallery } from 'react-icons/fc'
 import { ImImages } from 'react-icons/im'
 
 const HomeProductApplications = () => {

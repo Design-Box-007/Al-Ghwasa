@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaArrowRight } from 'react-icons/fa'
 import images from '@/data/assets'
 
 
@@ -17,10 +16,6 @@ const paragraphVariant = {
     visible: { opacity: 1, y: 0 },
 }
 
-const learnMoreVariant = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-}
 
 const AboutUsSecond = () => {
 

@@ -1,13 +1,13 @@
 'use client';
 
 import { useState } from "react";
-import { FaArrowCircleRight, FaArrowRight, FaChevronDown, FaChevronUp, FaLightbulb } from "react-icons/fa";
+import { FaArrowRight, FaLightbulb } from "react-icons/fa";
 import ProductCard from "../Comman/ProductCard";
 import { BsThermometerHalf } from "react-icons/bs";
 import { MdExplore } from "react-icons/md";
 import productsData from "@/data/productSectionData";
 import Link from "next/link";
-import { FaCircleXmark, FaX, FaXmark } from "react-icons/fa6";
+import { FaXmark } from "react-icons/fa6";
 
 interface Category {
     title: string;

@@ -21,7 +21,7 @@ const Contact = () => {
                 <span className="text-primary">Dream Space</span> Today
             </motion.h1>
 
-            <ContactForm />
+            <ContactForm className='bg-custom-red-light' />
         </section>
     )
 }

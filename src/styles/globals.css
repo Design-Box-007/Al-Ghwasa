@@ -4,6 +4,7 @@
 :root {
   --background: #f5f5f5;
   --foreground: #171717;
+  --custom-gray:#78909C;
   --dm-sans: "DM Sans", sans-serif;
   --rajdhani: "Rajdhani", sans-serif;
   --inter: "Inter", sans-serif;
@@ -18,6 +19,7 @@
   --color-custom-green-1: var(--custom-green-1);
   --color-custom-blue-1: var(--custom-blue-1);
   --color-custom-red-light: var(--custom-red-light);
+  --color-custom-gray:var(--custom-gray);
   --font-dm-sans: var(--dm-sans);
   --font-radjdhani: var(--rajdhani);
   --font-inter: var(--inter);

@@ -14,7 +14,7 @@ const Footer = () => {
                         {/* logo */}
                         <div className="text-xl font-bold text-white flex flex-row items-center gap-2 flex-1">
                             <span>
-                                <span className="text-white font-semibold text-4xl font-radjdhani">Al Ghwsa</span>
+                                <span className="text-white font-semibold text-4xl font-radjdhani">AI Ghwsa</span>
                             </span>
                         </div>
                         {/* Desktop Navigation Links */}

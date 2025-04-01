@@ -3,10 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa6'
+import ProductCTA from '../Comman/ProductCTA'
 
 const Hero = () => {
     return (
-        <header className="p-4 md:p-c-20 min-h-screen lg:h-screen w-full">
+        <header className="p-4 md:px-c-20 min-h-screen lg:min-h-[700px] lg:h-[800px] w-full bg-white pb-30">
             <div className="h-full flex flex-col lg:flex-row items-end p-6 md:p-c-20 relative overflow-hidden rounded-[20px]">
                 {/* Background Image */}
                 <Image
@@ -60,31 +61,9 @@ const Hero = () => {
                         </div>
 
                         {/* Product Categories */}
-                        <div className="flex flex-wrap gap-3 font-semibold text-custom-green-1">
-                            <Link href="/">
-                                <div className="flex items-center gap-2 px-3 py-2 bg-background rounded-lg">
-                                    <Image
-                                        src={images.Thermometer}
-                                        alt="hydration"
-                                        width={52}
-                                        height={36}
-                                        className="rounded-lg"
-                                    />
-                                    <span>Hydration</span>
-                                </div>
-                            </Link>
-                            <Link href="/">
-                                <div className="flex items-center gap-2 px-3 py-2 bg-background rounded-lg">
-                                    <Image
-                                        src={images.Thermometer}
-                                        alt="safety"
-                                        width={52}
-                                        height={36}
-                                        className="rounded-lg"
-                                    />
-                                    <span>Safety</span>
-                                </div>
-                            </Link>
+                        <div className="flex flex-wrap gap-3 font-semibold">
+                            <ProductCTA link="/" name="Hydration" imgSrc={images.Thermometer} className="text-custom-green-1" />
+                            <ProductCTA link="/" name="Safety" imgSrc={images.Thermometer} className="text-custom-red-light" />
                         </div>
                     </div>
                 </div>

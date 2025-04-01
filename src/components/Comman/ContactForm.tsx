@@ -17,7 +17,7 @@ const formSchema = z.object({
     message: z.string().min(1, "Message is required"),
 });
 
-const ContactForm = () => {
+const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
     const [loading, setLoading] = useState(false);
 
     const {
@@ -46,7 +46,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="bg-custom-red-light text-white p-8 rounded-xl">
+        <div className={`text-white p-8 rounded-xl ${className}`}>
             <h2 className="text-3xl font-semibold">Book a Free Consultation</h2>
             <p className="italic text-sm mb-6">
                 {"// Reach out today and take the first step towards an unforgettable experience."}

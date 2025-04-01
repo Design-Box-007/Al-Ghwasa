@@ -3,11 +3,11 @@ import { FaFacebook, FaLinkedin, FaInstagram, FaMedium } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const navLinks: NavLinksType[] = [
-    { navTitle: "Home", navHref: "" },
-    { navTitle: "About Us", navHref: "" },
-    { navTitle: "Our Products", navHref: "" },
-    { navTitle: "Experience Center", navHref: "" },
-    { navTitle: "Blog", navHref: "" },
+    { navTitle: "Home", navHref: "/" },
+    { navTitle: "About Us", navHref: "/about" },
+    { navTitle: "Our Products", navHref: "/products" },
+    { navTitle: "Experience Center", navHref: "/experience-center" },
+    { navTitle: "Blog", navHref: "/blogs" },
 ];
 
 export const socialMedia: SocialMediaLinks[] = [

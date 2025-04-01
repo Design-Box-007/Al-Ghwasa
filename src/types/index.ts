@@ -27,6 +27,28 @@ interface FAQItem {
     answer: string;
   }
 
+  export interface Product {
+    imgSrc: string;
+    name: string;
+}
+
+export interface Category {
+    title: string;
+    products: Product[];
+}
+
+export interface ProductSectionData {
+    number: string;
+    title: string;
+    categories: Category[];
+}
+
+interface Blog{
+    title:string;
+    description:string;
+    imgSrc:string;
+    component:string;
+}
 
 export type {
     NavLinksType,
@@ -34,4 +56,5 @@ export type {
     Assets,
     ContactForm,
     FAQItem,
+    Blog,
 }

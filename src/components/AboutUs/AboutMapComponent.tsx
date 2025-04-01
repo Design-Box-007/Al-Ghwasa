@@ -14,7 +14,7 @@ const AboutMapComponent = () => {
                 </p>
             </div>
             <Image
-                src={"/images/map.png"}
+                src={"/images/Map.png"}
                 alt='map-image'
                 width={1440}
                 height={565}

@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #f5f5f5;
   --foreground: #171717;
-  --custom-gray:#78909C;
+  --custom-gray: #78909C;
   --dm-sans: "DM Sans", sans-serif;
   --rajdhani: "Rajdhani", sans-serif;
+  --poppins: "Poppins", sans-serif;
   --inter: "Inter", sans-serif;
   --custom-green-1: #00897B;
   --custom-blue-1: #0277BD;
@@ -19,10 +20,11 @@
   --color-custom-green-1: var(--custom-green-1);
   --color-custom-blue-1: var(--custom-blue-1);
   --color-custom-red-light: var(--custom-red-light);
-  --color-custom-gray:var(--custom-gray);
+  --color-custom-gray: var(--custom-gray);
   --font-dm-sans: var(--dm-sans);
   --font-radjdhani: var(--rajdhani);
   --font-inter: var(--inter);
+  --font-poppins: var(--poppins);
   --spacing-c-10: 10px;
   --spacing-c-20: 20px;
   --spacing-c-30: 30px;

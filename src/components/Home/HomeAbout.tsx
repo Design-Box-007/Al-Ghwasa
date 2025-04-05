@@ -46,7 +46,7 @@ const HomeAbout = () => {
                 <div className="flex gap-2 items-center">
                     <FaLightbulb className="text-custom-red-light" />
                     <p className="font-inter text-xl">
-                        About AI Ghwasa
+                        About AL Ghwasa
                     </p>
                 </div>
             </motion.div>
@@ -71,7 +71,7 @@ const HomeAbout = () => {
                         transition={{ duration: 1, delay: 0.6 }}
                     >
                         <p className='text-xl font-light text-black'>
-                            {"Established in 1990 in Dubai, AI Ghwasa is a trusted leader in providing cutting-edge solutions in marine, industrial automation, and safety equipment."}
+                            {"Established in 1990 in Dubai, AL Ghwasa is a trusted leader in providing cutting-edge solutions in marine, industrial automation, and safety equipment."}
                         </p>
                         <div className='flex items-center gap-5 font-medium text-base'>
                             <div className='py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-2xl'>Reliablity</div>

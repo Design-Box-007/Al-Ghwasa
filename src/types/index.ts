@@ -25,9 +25,9 @@ interface ContactForm {
 interface FAQItem {
     question: string;
     answer: string;
-  }
+}
 
-  export interface Product {
+export interface Product {
     imgSrc: string;
     name: string;
 }
@@ -43,11 +43,11 @@ export interface ProductSectionData {
     categories: Category[];
 }
 
-interface Blog{
-    title:string;
-    description:string;
-    imgSrc:string;
-    component:string;
+interface Blog {
+    title: string;
+    description: string;
+    imgSrc: string;
+    component: string;
 }
 
 export type {
@@ -57,4 +57,11 @@ export type {
     ContactForm,
     FAQItem,
     Blog,
+}
+export interface ProductFilterBtnProps {
+    title: string;
+    icon: IconType;
+    isActive?: boolean;
+    images: string[];
+    onClick?: () => void;
 }

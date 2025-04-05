@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="max-w-full flex items-center justify-between mx-auto py-c-10 px-c-20 font-medium">
                     {/* ✅ Logo (Always Visible) */}
                     <Link href="#" className="text-white text-3xl font-semibold font-radjdhani">
-                        AI Ghwasa
+                        AL Ghwasa
                     </Link>
 
                     {/* ✅ NavLinks & Contact Button (Visible on md+ screens) */}

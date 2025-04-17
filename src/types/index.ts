@@ -62,6 +62,6 @@ export interface ProductFilterBtnProps {
     title: string;
     icon: IconType;
     isActive?: boolean;
-    images: string[];
+    images?: string[];
     onClick?: () => void;
 }

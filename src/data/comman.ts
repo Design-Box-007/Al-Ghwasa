@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export const navLinks: NavLinksType[] = [
     { navTitle: "Home", navHref: "/" },
     { navTitle: "About Us", navHref: "/about" },
-    { navTitle: "Our Products", navHref: "/products" },
+    { navTitle: "Our Products", navHref: "/our-product" },
     { navTitle: "Experience Center", navHref: "/experience-center" },
     { navTitle: "Blog", navHref: "/blogs" },
 ];

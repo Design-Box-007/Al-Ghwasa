@@ -1,8 +1,8 @@
 import React from 'react'
 import AboutUsHeader from './AboutUsHeader'
 import AboutUsSecond from './AboutUsSecond'
-import AboutCTAButton from './AboutCTAButton'
 import AboutMapComponent from './AboutMapComponent'
+import SectionCTABtn from '../Comman/SectionCTABtn'
 
 const AboutUs = () => {
     return (
@@ -10,7 +10,7 @@ const AboutUs = () => {
             <AboutUsHeader />
             <AboutUsSecond />
             <AboutMapComponent />
-            <AboutCTAButton />
+            <SectionCTABtn />
         </section>
     )
 }

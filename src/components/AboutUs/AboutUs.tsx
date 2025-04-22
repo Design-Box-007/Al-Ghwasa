@@ -10,7 +10,7 @@ const AboutUs = () => {
             <AboutUsHeader />
             <AboutUsSecond />
             <AboutMapComponent />
-            <SectionCTABtn />
+            <SectionCTABtn className='bg-custom-blue-1 rounded-[120px]'/>
         </section>
     )
 }

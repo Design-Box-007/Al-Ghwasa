@@ -1,20 +1,20 @@
 import { IconType } from "react-icons";
 
-interface NavLinksType {
+export interface NavLinksType {
     navTitle: string;
     navHref: string;
 }
 
-interface SocialMediaLinks {
+export interface SocialMediaLinks {
     link: string;
     icon: IconType;
 }
 
-interface Assets {
+export interface Assets {
     [key: string]: string;
 }
 
-interface ContactForm {
+export interface ContactForm {
     name: string;
     email: string;
     mobile: string;
@@ -22,7 +22,7 @@ interface ContactForm {
     message: string;
 }
 
-interface FAQItem {
+export interface FAQItem {
     question: string;
     answer: string;
 }
@@ -43,21 +43,13 @@ export interface ProductSectionData {
     categories: Category[];
 }
 
-interface Blog {
+export interface Blog {
     title: string;
     description: string;
     imgSrc: string;
     component: string;
 }
 
-export type {
-    NavLinksType,
-    SocialMediaLinks,
-    Assets,
-    ContactForm,
-    FAQItem,
-    Blog,
-}
 export interface ProductFilterBtnProps {
     title: string;
     icon: IconType;

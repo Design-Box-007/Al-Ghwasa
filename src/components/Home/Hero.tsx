@@ -12,7 +12,8 @@ const Hero = () => {
                 <Image
                     src={images.HomeHero1}
                     alt="home-hero"
-                    fill
+                    width={1360}
+                    height={683}
                     className="absolute inset-0 z-10 object-cover object-center rounded-[20px]"
                 />
 

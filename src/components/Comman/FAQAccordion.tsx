@@ -13,7 +13,7 @@ const FAQAccordion: React.FC<{ faqs: FAQItem[] }> = ({ faqs }) => {
   };
 
   return (
-    <div className="p-4 min-h-screen lg:h-screen w-full space-y-16 my-5">
+    <div className="p-4 w-full space-y-16 my-5">
       <h2 className="text-5xl font-medium text-black">Frequently Asked Questions</h2>
       <div className="space-y-5">
         {faqs.map((faq, index) => (

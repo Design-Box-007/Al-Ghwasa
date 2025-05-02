@@ -6,7 +6,7 @@ export const navLinks: NavLinksType[] = [
     { navTitle: "Home", navHref: "/" },
     { navTitle: "About Us", navHref: "/about" },
     { navTitle: "Our Products", navHref: "/our-product" },
-    { navTitle: "Experience Center", navHref: "/experience-center" },
+    { navTitle: "Experience Center", navHref: "/gallery" },
     { navTitle: "Blog", navHref: "/blogs" },
 ];
 

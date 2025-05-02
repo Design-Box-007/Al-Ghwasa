@@ -57,3 +57,27 @@ export interface ProductFilterBtnProps {
     images?: string[];
     onClick?: () => void;
 }
+export interface IFeature {
+    title: string;
+    description: string;
+    icon: string | IconType;
+}
+
+export interface IHowItWorks {
+    description: string;
+    sliderData: {
+        imgSrc: string;
+        content: string;
+    }[];
+}
+export interface TableData {
+    [columnName: string]: (string | number)[];
+}
+export interface TestimonialCard {
+  imageSrc: string;
+  userImageSrc: string;
+  userName: string;
+  userRole: string;
+  testimonial: string;
+}
+

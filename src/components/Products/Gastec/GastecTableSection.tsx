@@ -1,6 +1,4 @@
 import CustomTable from '@/components/Comman/CustomTable'
-import FAQAccordion from '@/components/Comman/FAQAccordion'
-import { homePagefaqs } from '@/data/comman'
 import { gastecTableData } from '@/data/tableData'
 import React from 'react'
 

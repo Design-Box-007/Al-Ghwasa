@@ -7,7 +7,7 @@ import { homePagefaqs } from '@/data/comman'
 
 const Gallery = () => {
     return (
-        <section className='mt-[100px] space-y-8'>
+        <main className='mt-[100px] space-y-8'>
             <GalleryHero />
             <GallerySection />
             <BlogSection
@@ -17,7 +17,7 @@ const Gallery = () => {
                 titleClassName='text-[32px] font-medium font-poppins text-black'
             />
             <FAQAccordion faqs={homePagefaqs} />
-        </section>
+        </main>
     )
 }
 

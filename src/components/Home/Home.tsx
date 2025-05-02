@@ -10,7 +10,7 @@ import BlogSection from '../Comman/BlogSection'
 
 const Home = () => {
   return (
-    <section className='mt-[100px] lg:mt-0'>
+    <main className='mt-[100px] lg:mt-0'>
       <Hero />
       <HomeOurProducts />
       <HomeAbout />
@@ -23,7 +23,7 @@ const Home = () => {
       />
       <FAQAccordion faqs={homePagefaqs} />
       <Contact />
-    </section>
+    </main>
   )
 }
 

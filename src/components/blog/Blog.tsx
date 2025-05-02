@@ -7,7 +7,6 @@ import dynamic from "next/dynamic";
 import { useParams } from "next/navigation";
 import { Suspense } from "react";
 import BlogHeader from "./BlogHeader";
-import Head from "next/head";
 
 const componentMap = {
     DummyBlog: dynamic(() => import("@/data/Blogs/DummyBlog")),
@@ -29,20 +28,12 @@ const Blog = () => {
     if (!BlogComponent) return <>BLOG NOT FOUND</>;
 
     return (
-        <section className='p-[10px] md:p-3 lg:p-5 font-poppins space-y-10'>
-            <Head>
-                <Head>
-                    <title>{blogData.title} | Space Sculpt Blog</title>
-                    <meta name="description" content={blogData.description} />
-                    <meta name="robots" content="index, follow" />
-                    <link rel="canonical" href={`http://spacesculpt.ae/blogs/${formatToHyphenated(blogData.title)}`} />
-                </Head>
-            </Head>
+        <main className='p-[10px] md:p-3 lg:p-5 font-poppins space-y-10'>
             <BlogHeader blog={blogData} />
             <Suspense fallback={<p>Loading blog...</p>}>
-                    <BlogComponent />
+                <BlogComponent />
             </Suspense>
-        </section>
+        </main>
     );
 }
 

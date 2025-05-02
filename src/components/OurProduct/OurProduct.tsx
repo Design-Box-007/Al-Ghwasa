@@ -9,14 +9,14 @@ import SectionCTABtn from '../Comman/SectionCTABtn'
 
 const OurProduct = () => {
     return (
-        <section className='px-4 mt-[124px] space-y-8'>
+        <main className='px-4 mt-[124px] space-y-8'>
             <OurProductHero />
             <OurProductCarousel />
             <OurProductVennDiagram />
             <OurCollection />
             <FAQAccordion faqs={homePagefaqs} />
             <SectionCTABtn className='bg-custom-green-1 rounded-[12.89px]' />
-        </section>
+        </main>
     )
 }
 

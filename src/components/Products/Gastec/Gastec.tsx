@@ -12,7 +12,7 @@ import { homePagefaqs } from '@/data/comman'
 
 const Gastec = () => {
     return (
-        <section className='px-4 pt-[22px] bg-white space-y-10'>
+        <main className='px-4 pt-[22px] bg-white space-y-10'>
             <GastecHero />
             <GastecSecondSection />
             <HowItWorksSlider data={gastecSliderData} autoPlayInterval={3000} />
@@ -29,7 +29,7 @@ const Gastec = () => {
                         "The easiest and most reliable gas detection tool we’ve used in our refinery. No power source needed, no calibration—just quick and accurate results every time!",
                 }}
             />
-        </section>
+        </main>
     )
 }
 

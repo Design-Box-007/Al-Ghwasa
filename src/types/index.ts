@@ -59,7 +59,7 @@ export interface ProductFilterBtnProps {
 }
 export interface IFeature {
     title: string;
-    description: string;
+    description?: string;
     icon: string | IconType;
 }
 
@@ -74,10 +74,17 @@ export interface TableData {
     [columnName: string]: (string | number)[];
 }
 export interface TestimonialCard {
-  imageSrc: string;
-  userImageSrc: string;
-  userName: string;
-  userRole: string;
-  testimonial: string;
+    imageSrc: string;
+    userImageSrc: string;
+    userName: string;
+    userRole: string;
+    testimonial: string;
+}
+export interface FeatureClassName {
+    featureClass?: string;
+    imageClass?: string;
+    iconClass?: string;
+    titleClass?: string;
+    contentClass?: string;
 }
 

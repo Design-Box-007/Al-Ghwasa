@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import TrustedPartners from '../Comman/TrustedPartners'
+import TrustedPartners from './TrustedPartners'
 
-const AboutMapComponent = () => {
+const MapComponent = () => {
     return (
-        <section className='space-y-20'>
+        <section className='space-y-20 custom-linear-gradient-gray rounded-2xl'>
             <div className='w-3/4 mx-auto space-y-10 text-center'>
                 <h1 className='font-medium text-[54px]'>
                     Trusted by Industry Leaders <br /> Worldwide
@@ -24,4 +24,4 @@ const AboutMapComponent = () => {
     )
 }
 
-export default AboutMapComponent
+export default MapComponent

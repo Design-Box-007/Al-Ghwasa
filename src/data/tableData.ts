@@ -26,3 +26,26 @@ export const gastecTableData: TableData = {
         "Confined Spaces",
     ],
 };
+export const genralPdf: string[] = [
+    "/docs/sample.pdf",
+    "/docs/sample.pdf",
+    "/docs/sample.pdf",
+    "/docs/sample.pdf",
+]
+
+export const mx3TableData: TableData = {
+    Feature: [
+        "Measurement Type",
+        "Connectivity",
+        "Battery Life",
+        "App Compatibility",
+        "Test Duration",
+    ],
+    Specification: [
+        "Saliva-based hydration test",
+        "Bluetooth-enabled",
+        "Rechargeable, long-lasting",
+        "iOS & Android",
+        "Results in under one minute",
+    ],
+};

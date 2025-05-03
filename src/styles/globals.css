@@ -55,12 +55,16 @@ body {
   background: linear-gradient(180deg, #F7F7F7 0%, #F5F5F5 100%);
 }
 
+.custom-linear-gradient-gray {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F0F0 100%);
+}
+
 .custom-translate-center {
   /* top: 0; */
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.c-num{
+.c-num {
   font-size: 140px;
 }

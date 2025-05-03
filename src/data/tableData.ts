@@ -49,3 +49,23 @@ export const mx3TableData: TableData = {
         "Results in under one minute",
     ],
 };
+
+export const fryingOilTesterTableData: TableData = {
+    Feature: [
+        "Measurement Range",
+        "Accuracy",
+        "Display",
+        "Power",
+        "Probe",
+        "Compliance"
+    ],
+    Specification: [
+        "0% – 40% TPM",
+        "±2% TPM",
+        "Digital LCD with color-coded alerts",
+        "Rechargeable lithium-ion battery",
+        "Stainless steel, heat-resistant",
+        "HACCP, ISO, FDA Standards"
+    ]
+}
+

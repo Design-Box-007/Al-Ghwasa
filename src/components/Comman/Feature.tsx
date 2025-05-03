@@ -24,7 +24,7 @@ const Feature: React.FC<FeatureProps> = ({ feature, featureClassName }) => {
     const isIconComponent = typeof feature.icon !== 'string';
 
     return (
-        <div className={`w-auto flex flex-col gap-3 justify-start text-left ${mergedClassName.featureClass}`}>
+        <div className={`w-auto flex flex-col gap-3 justify-start text-left rounded-2xl ${mergedClassName.featureClass}`}>
             {isIconComponent ? (
                 <feature.icon className={`w-8 h-8 ${mergedClassName.iconClass}`} />
             ) : (

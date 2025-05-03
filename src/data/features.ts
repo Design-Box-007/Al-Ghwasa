@@ -110,3 +110,42 @@ export const mx3Features2: IFeature[] = [{
     title: "Syncs with the MX3 App for personalized recommendations.",
     icon: images.Frame11,
 },]
+
+
+export const fryingOilTesterFeatures: IFeature[] = [
+    {
+        title: "Real-Time TPM Measurement for Precise Oil Monitoring",
+        description: "Instantly assess oil quality with high-accuracy TPM readings to ensure optimal conditions.",
+        icon: images.Frame11
+    },
+
+    {
+        title: "Meets HACCP, ISO, and Global Safety Regulations",
+        description: "Designed for HACCP, ISO 9001, and FDA compliance, ensuring safe & high-quality oil.",
+        icon: images.Frame11
+    },
+
+    {
+        title: "Reduce Oil Waste and Optimize Usage",
+        description: "Track oil quality to extend lifespan, cut costs, and maintain food consistency.",
+        icon: images.Frame11
+    },
+
+    {
+        title: "One-Touch Operation for Quick and Efficient Testing",
+        description: "Lightweight, portable, and simple to use in any kitchen or production facility.",
+        icon: images.Frame11
+    },
+
+    {
+        title: "Designed for High-Temperature, Professional Use",
+        description: "Built with a stainless steel, heat-resistant probe for long-term reliability.",
+        icon: images.Frame11
+    },
+
+    {
+        title: "Designed for High-Temperature, Professional Use",
+        description: "Built with a stainless steel, heat-resistant probe for long-term reliability.",
+        icon: images.Frame11
+    },
+]

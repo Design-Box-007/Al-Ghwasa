@@ -36,3 +36,21 @@ export const mx3SliderData: IHowItWorks = {
         },
     ],
 }
+export const fryingOilTesterSliderData: IHowItWorks = {
+    description: "Accurate Results in Three Simple Steps",
+    sliderData: [
+        {
+            imgSrc: images.MX31,
+            content: 'Insert the probe',
+        },
+        {
+            imgSrc: images.ProductOverview4,
+            content: 'Start detection',
+        },
+        {
+            imgSrc: images.ProductOverview6,
+            content: 'View results instantly',
+        },
+    ],
+}
+

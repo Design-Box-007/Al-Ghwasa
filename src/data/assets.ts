@@ -154,8 +154,9 @@ const images: Assets = {
     Line34: "/images/Icons/Line-34.svg",
     svg2851: "/images/Icons/svg285-1.png",
     svg285: "/images/Icons/svg285.png",
-    Line1:"/images/Icons/line-1.svg",
-    Line2:"/images/Icons/line-2.svg",
+    Line1: "/images/Icons/line-1.svg",
+    Line2: "/images/Icons/line-2.svg",
+    HeroDivider: "/images/Icons/HeroDivider.png",
 
     MX31: "/images/MX3/MX3-1.png",
     MX310: "/images/MX3/MX3-10.png",

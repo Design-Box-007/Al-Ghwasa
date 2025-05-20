@@ -166,6 +166,18 @@ const images: Assets = {
     MX314: "/images/MX3/MX3-14.png",
     MX315: "/images/MX3/MX3-15.png",
     MX316: "/images/MX3/MX3-16.png",
+    MX317: "/images/MX3/MX3-17.png",
+    MX318: "/images/MX3/MX3-18.png",
+    MX319: "/images/MX3/MX3-19.png",
+
+    Athletic1: "/images/MX3/athletic1.jpg",
+    Athletic2: "/images/MX3/athletic2.jpg",
+    Military1: "/images/MX3/military1.jpg",
+    Military2: "/images/MX3/military2.jpg",
+    WorkSpaceSafety1: "/images/MX3/workplace-safety-1.jpg",
+    WorkSpaceSafety2: "/images/MX3/workplace-safety-2.jpg",
+
+
     MX32: "/images/MX3/MX3-2.png",
     MX33: "/images/MX3/MX3-3.png",
     MX34: "/images/MX3/MX3-4.png",

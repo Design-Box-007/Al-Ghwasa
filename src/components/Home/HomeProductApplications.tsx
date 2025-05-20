@@ -25,13 +25,6 @@ const HomeProductApplications = () => {
                 </h1>
             </div>
 
-
-            Full Experience Center
-
-            Full Experience Center
-
-            Full Experience Center
-
             <div className='h-screen space-y-4'>
                 <div className='flex items-center h-1/2 gap-4'>
                     <div className='w-[60%] h-full rounded-xl overflow-hidden flex items-end relative p-c-10'>

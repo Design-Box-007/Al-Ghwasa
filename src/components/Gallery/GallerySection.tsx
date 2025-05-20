@@ -28,7 +28,6 @@ const FilterSection: React.FC = () => {
                         <ProductFilterBtn
                             title={filter.title}
                             icon={filter.icon}
-                            images={filter.images}
                             isActive={activeFilter === filter.title}
                             onClick={() => setActiveFilter(filter.title)}
                         />

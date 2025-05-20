@@ -4,12 +4,13 @@ import { FaArrowRight } from "react-icons/fa";
 interface ProuductCardProps {
     imgSrc: string;
     name: string;
+    className?: string;
 }
 
 
-const ProductCard: React.FC<ProuductCardProps> = ({ imgSrc, name }) => {
+const ProductCard: React.FC<ProuductCardProps> = ({ imgSrc, name, className }) => {
     return (
-        <div className="bg-white p-c-10 rounded-[20px] w-full min-w-[350px] text-custom-green-1 text-lg">
+        <div className={`bg-white p-c-10 rounded-[20px] w-fit min-w-[350px] text-custom-green-1 text-lg ${className}`}>
             <Image
                 src={imgSrc}
                 alt={name}

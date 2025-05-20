@@ -2,7 +2,8 @@ import { IconType } from "react-icons";
 
 export interface NavLinksType {
     navTitle: string;
-    navHref: string;
+    navHref?: string;
+    subLinks?: NavLinksType[]; // Allow nesting
 }
 
 export interface SocialMediaLinks {
@@ -50,11 +51,15 @@ export interface Blog {
     component: string;
 }
 
+export interface mx3DataType extends Omit<Blog, 'description'> { linkName: string }
+
+
 export interface ProductFilterBtnProps {
     title: string;
-    icon: IconType;
+    icon?: IconType;
     isActive?: boolean;
     images?: string[];
+    btnColor?: string;
     onClick?: () => void;
 }
 export interface IFeature {

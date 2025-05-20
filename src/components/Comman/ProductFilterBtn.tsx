@@ -6,16 +6,17 @@ const ProductFilterBtn: React.FC<ProductFilterBtnProps> = ({
     icon: Icon,
     isActive = false,
     onClick,
+    btnColor = "bg-custom-blue-1",
 }) => {
     return (
         <button
             className={`flex items-center gap-2 px-6 py-3 rounded-full transition-all cursor-pointer ${isActive
-                    ? "bg-custom-blue-1 text-white"
-                    : "bg-gray-200 text-gray-500"
+                ? `${btnColor} text-white`
+                : "bg-gray-200 text-gray-500"
                 }`}
             onClick={onClick}
         >
-            <Icon className={`${isActive ? "text-white" : "text-gray-500"}`} size={20} />
+            {Icon && (<Icon className={`${isActive ? "text-white" : "text-gray-500"}`} size={20} />)}
             <span>{title}</span>
         </button>
     );

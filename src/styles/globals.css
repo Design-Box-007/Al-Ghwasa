@@ -68,3 +68,7 @@ body {
 .c-num {
   font-size: 140px;
 }
+
+.my-button {
+  @apply flex items-center gap-2 px-6 py-3 rounded-full transition-all cursor-pointer bg-[#222222] text-white capitalize;
+}

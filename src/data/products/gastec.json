@@ -1,0 +1,1662 @@
+[
+  {
+    "tubeId": "1HH",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1H",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1M",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1LM",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1L",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1La",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1LK",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1LKC",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1LL",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1LC",
+    "name": "Carbon monoxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1D",
+    "name": "Carbon monoxide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1DL",
+    "name": "Carbon monoxide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "1A",
+    "name": "Carbon monoxide",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "2HH",
+    "name": "Carbon dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "2H",
+    "name": "Carbon dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "2L",
+    "name": "Carbon dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "2LL",
+    "name": "Carbon dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "2LC",
+    "name": "Carbon dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "2D",
+    "name": "Carbon dioxide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "2HT",
+    "name": "Carbon dioxide",
+    "category": "Injection type detector tube"
+  },
+  {
+    "tubeId": "2A",
+    "name": "Carbon dioxide",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "2Ag",
+    "name": "Carbon dioxide",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "3H",
+    "name": "Ammonia",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "3HM",
+    "name": "Ammonia",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "3M",
+    "name": "Ammonia",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "3La",
+    "name": "Ammonia",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "3L",
+    "name": "Ammonia",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "3S",
+    "name": "Ammonia",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "3D",
+    "name": "Ammonia",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "3DL",
+    "name": "Ammonia",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4HT",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4HP",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4HH",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4H",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4HM",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4M",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4L",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4LL",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4LK",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4LB",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4LT",
+    "name": "Hydrogen sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4S",
+    "name": "Hydrogen sulphide",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "4D",
+    "name": "Hydrogen sulphide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "4TP",
+    "name": "Hydrogen sulphide",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "5H",
+    "name": "Sulphur dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "5M",
+    "name": "Sulphur dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "5L",
+    "name": "Sulphur dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "5La",
+    "name": "Sulphur dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "5LC",
+    "name": "Sulphur dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "5Lb",
+    "name": "Sulphur dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "5D",
+    "name": "Sulphur dioxide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "5DH",
+    "name": "Sulphur dioxide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "6",
+    "name": "Water vapour",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "6L",
+    "name": "Water vapour",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "6LP",
+    "name": "Water vapour (Pipeline dew point tube)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "6LLP",
+    "name": "Water vapour (Pipeline dew point tube)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "6AH",
+    "name": "Water vapour",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "6A",
+    "name": "Water vapour",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "6Ag",
+    "name": "Water vapour",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "7H",
+    "name": "Phosphine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "7J",
+    "name": "Phosphine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "7",
+    "name": "Phosphine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "7L",
+    "name": "Phosphine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "7LA",
+    "name": "Phosphine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "7LAN",
+    "name": "Phosphine (Mercury-free)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "8HH",
+    "name": "Chlorine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "8H",
+    "name": "Chlorine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "8La",
+    "name": "Chlorine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "8LL",
+    "name": "Chlorine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "8D",
+    "name": "Chlorine",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "8TP",
+    "name": "Chlorine",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "9L",
+    "name": "Nitrogen dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "9D",
+    "name": "Nitrogen dioxide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "9DL",
+    "name": "Nitrogen dioxide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "9P",
+    "name": "Nitrogen dioxide",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "10",
+    "name": "NO & NO2(Separate quantification)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "11HA",
+    "name": "Nitrogen oxides",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "11S",
+    "name": "Nitrogen oxides",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "11L",
+    "name": "Nitrogen oxides",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "11A",
+    "name": "Nitrogen oxides",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "12H",
+    "name": "Hydrogen cyanide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "12M",
+    "name": "Hydrogen cyanide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "12L",
+    "name": "Hydrogen cyanide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "12LL",
+    "name": "Hydrogen cyanide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "12D",
+    "name": "Hydrogen cyanide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "12TP",
+    "name": "Hydrogen cyanide",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "13M",
+    "name": "Carbon disulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "13",
+    "name": "Carbon disulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "13L",
+    "name": "Carbon disulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "13TP",
+    "name": "Carbon disulphide",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "14R",
+    "name": "Hydrogen chloride(for Low humidity)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "14M",
+    "name": "Hydrogen chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "14L",
+    "name": "Hydrogen chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "14D",
+    "name": "Hydrogen chloride",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "15L",
+    "name": "Nitric acid",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "16",
+    "name": "Phosgene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "17",
+    "name": "Hydrogen fluoride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "17L",
+    "name": "Hydrogen fluoride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "17LL",
+    "name": "Hydrogen fluoride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "17D",
+    "name": "Hydrogen fluoride",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "17TP",
+    "name": "Hydrogen fluoride",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "18M",
+    "name": "Ozone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "18L",
+    "name": "Ozone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "19LA",
+    "name": "Arsine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "21",
+    "name": "Carbonyl sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "21LA",
+    "name": "Carbonyl sulphide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "22",
+    "name": "Diborane",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "23M",
+    "name": "Chlorine dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "23L",
+    "name": "Chlorine dioxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "25",
+    "name": "Polytec tube-2",
+    "category": "Polytec tubes"
+  },
+  {
+    "tubeId": "26",
+    "name": "Polytec tube-3",
+    "category": "Polytec tubes"
+  },
+  {
+    "tubeId": "27",
+    "name": "Polytec tube-4",
+    "category": "Polytec tubes"
+  },
+  {
+    "tubeId": "28",
+    "name": "Polytec tube-5",
+    "category": "Polytec tubes"
+  },
+  {
+    "tubeId": "30",
+    "name": "Hydrogen",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "31B",
+    "name": "Oxygen",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "32",
+    "name": "Hydrogen peroxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "32D",
+    "name": "Hydrogen peroxide",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "35",
+    "name": "Sulphuric acid",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "40",
+    "name": "Mercury vapour",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "45H",
+    "name": "Hydrogen sulphide+ Sulphur dioxide(total quantification)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "45S",
+    "name": "Hydrogen sulphide,Sulphur dioxide(Separate quantification)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "51H",
+    "name": "Fluorochlorocarbons",
+    "category": "PYROTEC detector tubes"
+  },
+  {
+    "tubeId": "51",
+    "name": "Fluorochlorocarbons",
+    "category": "PYROTEC detector tubes"
+  },
+  {
+    "tubeId": "51L",
+    "name": "Fluorochlorocarbons",
+    "category": "PYROTEC detector tubes"
+  },
+  {
+    "tubeId": "52",
+    "name": "Nitro compounds",
+    "category": "PYROTEC detector tubes"
+  },
+  {
+    "tubeId": "53",
+    "name": "Dimethyl sulphide",
+    "category": "PYROTEC detector tubes"
+  },
+  {
+    "tubeId": "60",
+    "name": "Phenol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "61",
+    "name": "o-Cresol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "70",
+    "name": "Mercaptans",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "70L",
+    "name": "Mercaptans",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "70LN",
+    "name": "Mercaptans (Mercury-free)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "71H",
+    "name": "Methyl mercaptan",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "71",
+    "name": "Methyl mercaptan",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "72",
+    "name": "Ethyl mercaptan",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "72L",
+    "name": "Ethyl mercaptan",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "72LN",
+    "name": "Ethyl mercaptan (Mercury-free)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "75",
+    "name": "tert-Butyl mercaptan",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "75N",
+    "name": "tert-Butyl mercaptan (Mercury-free)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "75LN",
+    "name": "tert-Butyl mercaptan (Mercury-free)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "75L",
+    "name": "tert-Butyl mercaptan",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "76H",
+    "name": "Tetrahydrothiophene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "76",
+    "name": "Tetrahydrothiophene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "76M",
+    "name": "Tetrahydrothiophene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "77",
+    "name": "TBM and DMS",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "80",
+    "name": "Acid gases",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "81",
+    "name": "Acetic acid",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "81L",
+    "name": "Acetic acid",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "81D",
+    "name": "Acetic acid",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "91M",
+    "name": "Formaldehyde",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "91",
+    "name": "Formaldehyde",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "91L",
+    "name": "Formaldehyde",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "91LL",
+    "name": "Formaldehyde",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "91D",
+    "name": "Formaldehyde",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "91P",
+    "name": "Formaldehyde",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "91PL",
+    "name": "Formaldehyde",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "91TP",
+    "name": "Formaldehyde",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "92",
+    "name": "Acetaldehyde",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "92M",
+    "name": "Acetaldehyde",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "92L",
+    "name": "Acetaldehyde",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "92LA",
+    "name": "Acetaldehyde",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "93",
+    "name": "Acrolein",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "100A",
+    "name": "LPG",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "100B",
+    "name": "Propane",
+    "category": "Injection type detector tube"
+  },
+  {
+    "tubeId": "101",
+    "name": "Gasoline",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "101L",
+    "name": "Gasoline",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "102H",
+    "name": "Hexane",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "102L",
+    "name": "Hexane",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "102TP",
+    "name": "Hexane",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "103",
+    "name": "Hydrocarbons (Lower class)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "104",
+    "name": "Butane",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "105",
+    "name": "Hydrocarbons(Higher class)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "106",
+    "name": "Petroleum naphtha",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "107",
+    "name": "Polytec tube-1",
+    "category": "Polytec tubes"
+  },
+  {
+    "tubeId": "108",
+    "name": "Qualitative analysis tube for fire investigation",
+    "category": "Polytec tubes"
+  },
+  {
+    "tubeId": "109A",
+    "name": "Oil mist",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "109AD",
+    "name": "Oil mist",
+    "category": "Airtec tube"
+  },
+  {
+    "tubeId": "111",
+    "name": "Methanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "111L",
+    "name": "Methanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "111LL",
+    "name": "Methanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "111TP",
+    "name": "Methanol",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "112",
+    "name": "Ethanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "112L",
+    "name": "Ethanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "112D",
+    "name": "Ethanol",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "113",
+    "name": "Isopropyl alcohol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "113L",
+    "name": "Isopropyl alcohol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "113LL",
+    "name": "Isopropyl alcohol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "113TP",
+    "name": "Isopropyl alcohol",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "114",
+    "name": "1-Butanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "115",
+    "name": "2-Butanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "116",
+    "name": "Isobutyl alcohol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "117",
+    "name": "Isoamyl alcohol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "118",
+    "name": "Cyclohexanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "119",
+    "name": "Methylcyclohexanol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "120",
+    "name": "Aromatic hydrocarbons",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "121S",
+    "name": "Benzene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "121",
+    "name": "Benzene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "121SL",
+    "name": "Benzene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "121L",
+    "name": "Benzene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "121SP",
+    "name": "Benzene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "121P",
+    "name": "Benzene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "121TP",
+    "name": "Benzene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "122",
+    "name": "Toluene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "122L",
+    "name": "Toluene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "122DL",
+    "name": "Toluene",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "122P",
+    "name": "Toluene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "122TP",
+    "name": "Toluene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "123",
+    "name": "Xylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "123L",
+    "name": "Xylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "123TP",
+    "name": "Xylene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "124",
+    "name": "Styrene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "124L",
+    "name": "Styrene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "124S",
+    "name": "Styrene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "126",
+    "name": "Chlorobenzene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "126L",
+    "name": "Chlorobenzene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "127",
+    "name": "o-Dichlorobenzene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "127P",
+    "name": "p-Dichlorobenzene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "128",
+    "name": "Stoddard solvent",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "130L",
+    "name": "Vinylidene chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "131",
+    "name": "Vinyl chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "131La",
+    "name": "Vinyl chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "131LB",
+    "name": "Vinyl chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "131L",
+    "name": "Vinyl chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "131P",
+    "name": "Vinyl chloride",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "131TP",
+    "name": "Vinyl chloride",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "132HH",
+    "name": "Trichloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "132HA",
+    "name": "Trichloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "132M",
+    "name": "Trichloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "132L",
+    "name": "Trichloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "132LL",
+    "name": "Trichloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "132D",
+    "name": "Trichloroethylene",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "132P",
+    "name": "Trichloroethylene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "132TP",
+    "name": "Trichloroethylene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "132LC",
+    "name": "Trichloroethylene",
+    "category": "no-type"
+  },
+  {
+    "tubeId": "133HA",
+    "name": "Tetrachloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "133M",
+    "name": "Tetrachloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "133L",
+    "name": "Tetrachloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "133LL",
+    "name": "Tetrachloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "133D",
+    "name": "Tetrachloroethylene",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "133P",
+    "name": "Tetrachloroethylene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "133TP",
+    "name": "Tetrachloroethylene",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "133LC",
+    "name": "Tetrachloroethylene",
+    "category": "no-type"
+  },
+  {
+    "tubeId": "134",
+    "name": "Carbon tetrachloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "134L",
+    "name": "Carbon tetrachloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "135",
+    "name": "1,1,1-Trichloroethane(Methyl chloroform)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "135L",
+    "name": "1,1,1-Trichloroethane(Methyl chloroform)",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "136H",
+    "name": "Methyl bromide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "136L",
+    "name": "Methyl bromide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "136LA",
+    "name": "Methyl bromide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "136LL",
+    "name": "Methyl bromide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "137",
+    "name": "Chloroform",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "137LA",
+    "name": "Chloroform",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "137LL",
+    "name": "Chloroform",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "138",
+    "name": "Methylene chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "138L",
+    "name": "Methylene chloride",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "139",
+    "name": "1,2-Dichloroethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "140",
+    "name": "Aliphatic hydrocarbons",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "141",
+    "name": "Ethyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "141L",
+    "name": "Ethyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "142",
+    "name": "Butyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "142L",
+    "name": "Butyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "143",
+    "name": "Vinyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "144",
+    "name": "Isobutyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "145",
+    "name": "Propyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "146",
+    "name": "Isopropyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "147",
+    "name": "Amyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "148",
+    "name": "Isoamyl acetate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "149",
+    "name": "Methyl methacrylate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "151",
+    "name": "Acetone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "151L",
+    "name": "Acetone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "151D",
+    "name": "Acetone",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "151TP",
+    "name": "Acetone",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "152",
+    "name": "Methyl ethyl ketone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "152L",
+    "name": "Methyl ethyl ketone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "152D",
+    "name": "Methyl ethyl ketone",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "152TP",
+    "name": "Methyl ethyl ketone",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "153",
+    "name": "Methyl isobutyl ketone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "153L",
+    "name": "Methyl isobutyl ketone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "154",
+    "name": "Cyclohexanone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "155",
+    "name": "Methylcyclohexanone",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "159",
+    "name": "Tetrahydrofuran",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "159L",
+    "name": "Tetrahydrofuran",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "161",
+    "name": "Ethyl ether",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "161L",
+    "name": "Ethyl ether",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "163",
+    "name": "Ethylene oxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "163L",
+    "name": "Ethylene oxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "163LL",
+    "name": "Ethylene oxide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "163TP",
+    "name": "Ethylene oxide",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "163TPM",
+    "name": "Ethylene oxide",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "165L",
+    "name": "Ethylene glycol",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "166",
+    "name": "Methyl tert-butyl ether",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "171",
+    "name": "Acetylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "172",
+    "name": "Ethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "172L",
+    "name": "Ethylene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "174",
+    "name": "1,3-Butadiene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "174L",
+    "name": "1,3-Butadiene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "174LL",
+    "name": "1,3-Butadiene",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "174D",
+    "name": "1,3-Butadiene",
+    "category": "Long-term measurement detector tubes"
+  },
+  {
+    "tubeId": "180",
+    "name": "Amines",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "180L",
+    "name": "Amines",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "181",
+    "name": "Aniline",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "182",
+    "name": "Pyridine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "183",
+    "name": "N,N-Dimethylformamide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "183TP",
+    "name": "N,N-Dimethylformamide",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "184",
+    "name": "N,N-Dimethylacetamide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "185",
+    "name": "Hydrazine",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "191",
+    "name": "Acrylonitrile",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "191L",
+    "name": "Acrylonitrile",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "191TP",
+    "name": "Acrylonitrile",
+    "category": "Detector tubes for Automatic air sampling pump"
+  },
+  {
+    "tubeId": "192",
+    "name": "Methacrylonitrile",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "193",
+    "name": "2-Pentenenitrile",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "201H",
+    "name": "Sulphides",
+    "category": "no-type"
+  },
+  {
+    "tubeId": "201L",
+    "name": "Sulphides",
+    "category": "no-type"
+  },
+  {
+    "tubeId": "211H",
+    "name": "Sulphide ion",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "211M",
+    "name": "Sulphide ion",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "211",
+    "name": "Sulphide ion",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "211LL",
+    "name": "Sulphide ion",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "218",
+    "name": "Ozone",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "221L",
+    "name": "Chloride ion",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "221LL",
+    "name": "Chloride ion",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "222",
+    "name": "Free residual chlorine",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "230H",
+    "name": "Methyl iodide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "230",
+    "name": "Methyl iodide",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "231",
+    "name": "Sulphuryl fluoride",
+    "category": "PYROTEC detector tubes"
+  },
+  {
+    "tubeId": "232",
+    "name": "1,2-Dichloroethane",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "233",
+    "name": "Chloropicrin",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "234L",
+    "name": "Methyl isothiocyanate",
+    "category": "Short-term measurement detector tubes"
+  },
+  {
+    "tubeId": "271",
+    "name": "Mercury",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "273",
+    "name": "Chromium (6)",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "281",
+    "name": "Iron(2)",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "284",
+    "name": "Copper",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "285",
+    "name": "Zinc",
+    "category": "Detector tubes for dissolved substances in solution"
+  },
+  {
+    "tubeId": "291",
+    "name": "Nickel",
+    "category": "Detector tubes for dissolved substances in solution"
+  }
+]

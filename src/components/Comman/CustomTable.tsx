@@ -7,7 +7,7 @@ interface CustomTableProps {
     data: TableData; // Notice array inside
     headerBgColor?: string; // Tailwind color class
     projectDocumentation?: string[];
-    title: string;
+    title?: string;
     description?: string;
 }
 
@@ -43,9 +43,11 @@ const CustomTable: React.FC<CustomTableProps> = ({ data, headerBgColor = 'bg-blu
     return (
         <section className='space-y-[54px]'>
             <div className='space-y-6'>
-                <h4 className='text-[60px] font-medium'>
-                    {title}
-                </h4>
+
+                {title &&
+                    <h4 className='text-[60px] font-medium'>
+                        {title}
+                    </h4>}
                 {description && (
                     <p className='text-[40px] font-light'>
                         {description}

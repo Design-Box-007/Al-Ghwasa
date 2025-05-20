@@ -27,7 +27,7 @@ const BlogCard: React.FC<{ blog: Blog }> = ({ blog }) => {
         <Image
           src={blog.imgSrc}
           alt={blog.title}
-          layout="fill"
+          fill
           className="object-cover rounded-2xl"
         />
       </div>

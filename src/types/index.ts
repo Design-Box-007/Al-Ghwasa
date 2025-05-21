@@ -19,11 +19,12 @@ export interface ContactForm {
     name: string;
     email: string;
     mobile: string;
-    // product: string;
+    product: string;
     message: string;
 }
 
-export interface GastecContactForm extends Omit<ContactForm, "product"> { }
+export type GastecContactForm = Omit<ContactForm, "product">;
+
 
 export interface FAQItem {
     question: string;

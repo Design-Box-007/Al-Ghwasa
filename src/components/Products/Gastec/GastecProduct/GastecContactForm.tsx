@@ -1,32 +1,62 @@
 "use client";
 
 // import { sendEmail } from "@/actions/sendEmail";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 // import { toast } from "react-toastify";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { ContactForm as ContactFormType } from "@/types";
+import { GastecContactForm as ContactFormType } from "@/types";
+import { useGastecData } from "@/context/GastecDataContext";
 
 // Validation schema
 const formSchema = z.object({
     name: z.string().min(1, "Name is required"),
     email: z.string().email("Invalid email address"),
     mobile: z.string().regex(/^\d+$/, "Mobile number must be a number"),
-    product: z.string(),
+    product: z.object({
+        id: z.string(),
+        name: z.string(),
+        category: z.string(),
+    }),
     message: z.string().min(1, "Message is required"),
 });
 
-const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
+
+const GastecContactForm: React.FC<{ className: string, btnClassName: string }> = ({ className = "", btnClassName = "" }) => {
     const [loading, setLoading] = useState(false);
+
+    const { selectedItem } = useGastecData();
+
+
+
 
     const {
         register,
         handleSubmit,
+        setValue,
         formState: { errors },
     } = useForm({
         resolver: zodResolver(formSchema),
+        defaultValues: {
+            product: selectedItem ?? {
+                id: "",
+                name: "",
+                category: "",
+            },
+        },
     });
+
+    useEffect(() => {
+        if (selectedItem) {
+            setValue("product", {
+                id: selectedItem.tubeId,
+                name: selectedItem.name,
+                category: selectedItem.category,
+            });
+        }
+    }, [selectedItem, setValue]);
+
 
     const onSubmit = async (formData: ContactFormType) => {
         setLoading(true);
@@ -46,7 +76,7 @@ const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
     };
 
     return (
-        <div className={`text-white p-8 rounded-xl ${className}`}>
+        <div id="gastecid" className={`text-white p-8 rounded-xl ${className}`}>
             <h2 className="text-3xl font-semibold">Book a Free Consultation</h2>
             <p className="italic text-sm mb-6">
                 {"// Reach out today and take the first step towards an unforgettable experience."}
@@ -104,15 +134,21 @@ const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
                     <div className="relative z-0 w-full">
                         <input
                             type="text"
-                            {...register("product")}
+                            value={
+                                selectedItem
+                                    ? `${selectedItem.tubeId}-${selectedItem.name}-${selectedItem.category}`
+                                    : ""
+                            }
+
+                            readOnly
                             className="peer block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-white focus:outline-none focus:ring-0 focus:border-white"
                             placeholder=" "
                         />
                         <label className="absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
-                            Location
+                            Product
                         </label>
-                        {errors.product && <p className="text-yellow-300 text-xs">{errors.product.message}</p>}
                     </div>
+
                 </div>
 
                 {/* Message */}
@@ -133,7 +169,7 @@ const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
                 <div>
                     <button
                         type="submit"
-                        className="w-full bg-white text-red-600 font-semibold py-3 rounded-lg hover:bg-gray-200 transition"
+                        className={`w-full bg-white font-semibold py-3 rounded-lg hover:bg-gray-200 transition ${btnClassName}`}
                         disabled={loading}
                     >
                         {loading ? "Sending..." : "Submit"}
@@ -144,4 +180,4 @@ const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
     );
 };
 
-export default ContactForm;
+export default GastecContactForm;

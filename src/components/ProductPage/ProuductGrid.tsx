@@ -73,7 +73,7 @@ const FilterProducts: React.FC<FilterProps> = ({
             <div>
                 <h2 className="text-xl font-semibold mb-4">Hospitality Equipment</h2>
                 <div className="flex gap-3 flex-wrap">
-                    {productData.map((cat, index) => (
+                    {productData.map((cat:ProductFilterBtnProps, index:number) => (
                         <ProductFilterBtn
                             key={index}
                             title={cat.title}

@@ -14,7 +14,7 @@ const Mx32 = () => {
         </p>
         <p className="text-xl font-semibold text-black">Built for the Demands of Military Service</p>
         <p>
-          Operating in extreme conditions requires peak physical readiness and safety. MX3 provides the only comprehensive system designed to measure critical hydration metrics in real time. It's a vital resource for any branch committed to protecting its people while maximizing capability in the field.
+          {"Operating in extreme conditions requires peak physical readiness and safety. MX3 provides the only comprehensive system designed to measure critical hydration metrics in real time. It's a vital resource for any branch committed to protecting its people while maximizing capability in the field."}
         </p>
 
         <div className="h-[700px] overflow-hidden rounded-lg">

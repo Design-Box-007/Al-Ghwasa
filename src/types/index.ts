@@ -19,9 +19,11 @@ export interface ContactForm {
     name: string;
     email: string;
     mobile: string;
-    location: string;
+    // product: string;
     message: string;
 }
+
+export interface GastecContactForm extends Omit<ContactForm, "product"> { }
 
 export interface FAQItem {
     question: string;
@@ -91,5 +93,10 @@ export interface FeatureClassName {
     iconClass?: string;
     titleClass?: string;
     contentClass?: string;
+}
+export interface GastecDataType {
+    tubeId: string
+    name: string
+    category: string
 }
 

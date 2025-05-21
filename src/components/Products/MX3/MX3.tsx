@@ -7,7 +7,7 @@ import MX3LeaderLines from './MX3LeaderLines'
 import HowItWorksSlider from '@/components/Comman/HowItWorksSlider'
 import { mx3SliderData } from '@/data/sliderData'
 import CustomTable from '@/components/Comman/CustomTable'
-import { genralPdf, mx3TableData } from '@/data/tableData'
+import { genralColumns, genralPdf, mx3TableData } from '@/data/tableData'
 import MX3Osha from './MX3Osha'
 import MapComponent from '@/components/Comman/MapComponent'
 import FAQAccordion from '@/components/Comman/FAQAccordion'
@@ -26,6 +26,7 @@ const MX3 = () => {
             <HowItWorksSlider data={mx3SliderData} />
             <CustomTable
                 data={mx3TableData}
+                columns={genralColumns}
                 headerBgColor='bg-[#EA721B]'
                 title='Product Specifications'
                 projectDocumentation={genralPdf}

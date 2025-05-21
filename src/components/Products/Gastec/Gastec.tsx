@@ -9,7 +9,7 @@ import images from '@/data/assets'
 import FAQAccordion from '@/components/Comman/FAQAccordion'
 import { homePagefaqs } from '@/data/comman'
 import CustomTable from '@/components/Comman/CustomTable'
-import { gastecTableData, genralPdf } from '@/data/tableData'
+import { gasetecColumns, gastecTableData, genralPdf } from '@/data/tableData'
 
 const Gastec = () => {
     return (
@@ -20,6 +20,7 @@ const Gastec = () => {
             <WhyChooseGastec />
             <CustomTable
                 data={gastecTableData}
+                columns={gasetecColumns}
                 headerBgColor='bg-custom-blue-1'
                 projectDocumentation={genralPdf}
                 title='Find the Right Tube for Your Needs'

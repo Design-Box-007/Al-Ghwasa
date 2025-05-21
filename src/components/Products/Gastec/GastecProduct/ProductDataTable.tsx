@@ -2,10 +2,11 @@
 
 import React, { useState } from 'react'
 import { FiSearch, FiSend } from "react-icons/fi"
-import { ProductFilterBtnProps, TableData } from '@/types'
+import { GastecDataType } from '@/types'
 import ProductFilterBtn from '@/components/Comman/ProductFilterBtn'
 import gastecProductData from '@/data/products/gastec.json'
 import CustomTable from '@/components/Comman/CustomTable'
+import { useGastecData } from '@/context/GastecDataContext'
 
 interface FilterProps {
     selectedCategory: string;
@@ -14,12 +15,6 @@ interface FilterProps {
     setSearchTerm: (term: string) => void;
     searchBy: "Number" | "Name" | "Type";
     setSearchBy: (field: "Number" | "Name" | "Type") => void;
-}
-
-interface GastecDataType {
-    tubeId: string;
-    name: string;
-    category: string;
 }
 
 const FilterProducts: React.FC<FilterProps> = ({
@@ -59,9 +54,9 @@ const FilterProducts: React.FC<FilterProps> = ({
             <div className="space-y-4">
                 <h2 className="text-xl font-semibold mb-4">Search By</h2>
                 <div className="flex gap-3 flex-wrap">
-                    {["Number", "Name", "Type"].map((searchTag) => (
+                    {["Number", "Name", "Type"].map((searchTag: string, index: number) => (
                         <ProductFilterBtn
-                            key={searchTag}
+                            key={index}
                             title={searchTag}
                             isActive={searchBy === searchTag}
                             onClick={() => setSearchBy(searchTag as "Number" | "Name" | "Type")}
@@ -88,19 +83,38 @@ const FilterProducts: React.FC<FilterProps> = ({
 };
 
 
-const transformToTableData = (data: GastecDataType[]): TableData => {
-    return {
-        Number: data.map(item => item.tubeId),
-        Name: data.map(item => item.name),
-        Type: data.map(item => item.category),
-    };
-};
-
 
 const ProductDataTable: React.FC = () => {
     const [selectedCategory, setSelectedCategory] = useState("All");
     const [searchTerm, setSearchTerm] = useState("");
     const [searchBy, setSearchBy] = useState<"Number" | "Name" | "Type">("Name");
+
+    const { setSelectedItem } = useGastecData();
+
+    const goToContactForm = (item: GastecDataType) => {
+        setSelectedItem(item);
+
+        const section = document.getElementById("gastecid");
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+
+    const columns = [
+        { key: 'tubeId', header: 'Number' },
+        { key: 'name', header: 'Name' },
+        { key: 'category', header: 'Type' },
+        {
+            key: 'actions',
+            header: 'Actions',
+            render: (row: GastecDataType) => (
+                <button onClick={() => goToContactForm(row)} className={`px-2 py-1 text-[14px] cursor-pointer bg-custom-green-1 text-white hover:bg-white hover:text-custom-green-1 hover font-bold rounded-lg border-[1px] border-solid transition-all duration-300 ease-in-out`}>
+                    {"Enquire"}
+                </button>
+            )
+        }
+    ]
 
     const filteredData = gastecProductData.filter((item) => {
         const matchesCategory =
@@ -113,13 +127,12 @@ const ProductDataTable: React.FC = () => {
             searchBy === "Number"
                 ? item.tubeId.toLowerCase().includes(term)
                 : searchBy === "Name"
-                ? item.name.toLowerCase().includes(term)
-                : item.category.toLowerCase().includes(term);
+                    ? item.name.toLowerCase().includes(term)
+                    : item.category.toLowerCase().includes(term);
 
         return matchesCategory && matchesSearch;
     });
 
-    const tableData: TableData = transformToTableData(filteredData);
 
     return (
         <section className='relative w-full bg-[#F1F1F1] rounded-[20px] p-9 pt-50'>
@@ -134,7 +147,7 @@ const ProductDataTable: React.FC = () => {
 
             {/* ✅ Render filtered products */}
             <div className="w-full">
-                <CustomTable data={tableData} />
+                <CustomTable data={filteredData} columns={columns} />
             </div>
         </section>
     );

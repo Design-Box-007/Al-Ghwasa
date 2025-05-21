@@ -5,7 +5,7 @@ import FOTProduct from './FOTProduct'
 import HowItWorksSlider from '@/components/Comman/HowItWorksSlider'
 import { fryingOilTesterSliderData } from '@/data/sliderData'
 import CustomTable from '@/components/Comman/CustomTable'
-import { fryingOilTesterTableData, genralPdf } from '@/data/tableData'
+import { fryingOilTesterTableData, genralColumns, genralPdf } from '@/data/tableData'
 import TestimonialCard from '@/components/Comman/TestimonialCard'
 import images from '@/data/assets'
 import { homePagefaqs } from '@/data/comman'
@@ -20,6 +20,7 @@ const FryingOilTester = () => {
       <HowItWorksSlider data={fryingOilTesterSliderData} />
       <CustomTable
         data={fryingOilTesterTableData}
+        columns={genralColumns}
         title='Engineered for Accuracy, Built for Durability'
         headerBgColor='bg-[#EC3D3D]'
         projectDocumentation={genralPdf}

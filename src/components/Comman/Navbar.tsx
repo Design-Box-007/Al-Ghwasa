@@ -25,7 +25,7 @@ const Navbar = () => {
 
                     {/* Desktop Menu */}
                     <ul className="hidden lg:flex text-white items-center gap-6">
-                        {navLinks.map((navlink, index) => (
+                        {navLinks.map((navlink: NavLinksType, index: number) => (
                             <li key={index} className="relative group">
                                 {navlink.subLinks ? (
                                     <>
@@ -114,7 +114,7 @@ const Navbar = () => {
                 {/* Mobile Menu */}
                 {isMobileOpen && (
                     <div className="lg:hidden flex flex-col px-6 pb-6 bg-black/50 backdrop-blur-md text-white space-y-4">
-                        {navLinks.map((navlink, i) => (
+                        {navLinks.map((navlink:NavLinksType, i:number) => (
                             <div key={i} className="w-full">
                                 {navlink.subLinks ? (
                                     <>
@@ -127,7 +127,7 @@ const Navbar = () => {
                                         </button>
                                         {mobileDropdown[i] && (
                                             <div className="ml-4 mt-2 space-y-2">
-                                                {navlink.subLinks.map((sublink, j) => (
+                                                {navlink.subLinks.map((sublink:NavLinksType, j:number) => (
                                                     <div key={j}>
                                                         {sublink.subLinks ? (
                                                             <>
@@ -140,7 +140,7 @@ const Navbar = () => {
                                                                 </button>
                                                                 {mobileDropdown[`${i}-${j}`] && (
                                                                     <div className="ml-4 mt-1">
-                                                                        {sublink.subLinks.map((item, k) => (
+                                                                        {sublink.subLinks.map((item:NavLinksType, k:number) => (
                                                                             <Link
                                                                                 key={k}
                                                                                 href={item.navHref || '#'}

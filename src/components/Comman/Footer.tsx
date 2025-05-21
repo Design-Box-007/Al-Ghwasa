@@ -21,7 +21,7 @@ const Footer = () => {
                         <ul className="rounded-[20px] flex flex-col lg:flex-row gap-2 text-white flex-[2] justify-center">
                             {navLinks.map((navlink: NavLinksType, index: number) => (
                                 <Link
-                                    href={navlink.navHref}
+                                    href={navlink.navHref || '#'}
                                     key={index}
                                     className={`pr-4 mr-4 ${index !== navLinks.length - 1 ? "lg:border-r-white lg:border-r-[1px]" : ""}`}
                                     passHref

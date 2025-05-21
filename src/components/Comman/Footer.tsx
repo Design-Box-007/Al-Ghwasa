@@ -3,11 +3,13 @@ import { NavLinksType, SocialMediaLinks } from '@/types'
 import Link from 'next/link'
 
 import React from 'react'
+import ProductCTA from './ProductCTA'
+import images from '@/data/assets'
 
 const Footer = () => {
     return (
         <footer className='h-[395px] p-c-10'>
-            <div className='p-4 rounded-2xl h-full overflow-hidden custom-linear-gradient-blue flex flex-col justify-between gap-4'>
+            <div className='px-4 py-10 rounded-2xl h-full overflow-hidden custom-linear-gradient-blue flex flex-col justify-between gap-4'>
                 {/* top */}
                 <div>
                     <nav className="flex flex-col gap-4 lg:flex-row lg:items-center justify-between">
@@ -54,6 +56,17 @@ const Footer = () => {
                     <div className='space-y-4 lg:space-x-4'>
                         <span className='text-sm block lg:inline font-normal text-white capitalize'>Privacy policy</span>
                         <span className='text-sm block lg:inline font-normal text-white capitalize'>Terms & conditions</span>
+                    </div>
+                </div>
+
+
+                {/* products  */}
+                <div className='w-full py- flex flex-col lg:flex-row lg:items-center justify-between gap-4 capitalize'>
+                    <h2 className='text-7xl capitalize text-white font-semibold'>Lot more to Explore</h2>
+                    <div className="flex flex-wrap gap-3 font-semibold">
+                        <ProductCTA link="/gastec" name="Gastec" imgSrc={images.ProductThumbnail} className="text-custom-green-1" />
+                        <ProductCTA link="/mx-3" name="MX3" imgSrc={images.ProductThumbnail} className="text-custom-green-1" />
+                        <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.ProductThumbnail1} className="text-custom-red-light" />
                     </div>
                 </div>
 

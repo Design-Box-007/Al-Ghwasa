@@ -7,7 +7,7 @@ export const navLinks: NavLinksType[] = [
   { navTitle: "About Us", navHref: "/about" },
   {
     navTitle: "Products",
-    navHref: "our-products",
+    navHref: "/our-products",
     subLinks: [
       {
         navTitle: "mx3",

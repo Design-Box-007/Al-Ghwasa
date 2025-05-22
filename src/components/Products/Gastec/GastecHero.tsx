@@ -2,7 +2,6 @@
 import images from '@/data/assets'
 import Image from 'next/image'
 import React from 'react'
-import { FaArrowRight } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
 const GlideText = () => {

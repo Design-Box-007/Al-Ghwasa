@@ -1,6 +1,8 @@
 import React from 'react'
 import ContactHero from './ContactHero'
 import LightContactFrom from './LightContactForm';
+import GoogleMapComponent from '../Comman/GoogleMapComponent';
+import { address, contactUsEmail, googleMapLink, phoneNumber } from '@/data/comman';
 
 const ContactSection = () => {
     return (
@@ -14,17 +16,17 @@ const ContactSection = () => {
 
                 <div>
                     <p className="text-lg font-semibold">Email</p>
-                    <p className="text-lg">Sales@alghwasa.com</p>
+                    <a href={`mailto:${contactUsEmail.toLowerCase()}`} target="_blank" className="text-lg">{contactUsEmail}</a>
                 </div>
 
                 <div>
                     <p className="text-lg font-semibold">Mobile</p>
-                    <p className="text-lg">+971 55 745 9985</p>
+                    <a href={`tel:${phoneNumber.replace(/\s+/g, '')}`} target="_blank" className="text-lg">{phoneNumber}</a>
                 </div>
 
                 <div>
                     <p className="text-lg font-semibold">Address</p>
-                    <p className="text-lg leading-6">Suite 756 031 Ines Riverway,<br />Rhiannonchester</p>
+                    <a href={googleMapLink} target="_blank" className="text-lg leading-6">{address}</a>
                 </div>
             </div>
             <LightContactFrom />
@@ -39,6 +41,7 @@ const ContactUs = () => {
         <main id='contact' className='px-c-20 pb-20 space-y-[56px] bg-white'>
             <ContactHero />
             <ContactSection />
+            <GoogleMapComponent />
         </main>
     )
 }

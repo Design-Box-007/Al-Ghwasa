@@ -58,7 +58,10 @@ export const homePagefaqs: FAQItem[] = [
   }
 ];
 
-export const contactUsEmail = "samplemail@domain.com"
+export const contactUsEmail: string = "Sales@alghwasa.com";
+export const phoneNumber: string = "+971 4 3968037";
+export const address: string = "Unit M08/09, Al Shraifi-1 Zabeel Road, PO BOX: 52084 Dubai, UAE";
+export const googleMapLink: string = "https://maps.app.goo.gl/b8KAwE9whDgJS2ix8?g_st=com.google.maps.preview.copy";
 
 
 

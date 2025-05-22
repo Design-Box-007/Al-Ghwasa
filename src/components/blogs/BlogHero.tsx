@@ -8,11 +8,11 @@ const BlogHero = () => {
             <div className="relative overflow-hidden rounded-[20px] h-screen lg:min-h-[700px] lg:h-[800px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row justify-center lg:justify-start items-end gap-8">
                 {/* Background Image */}
                 <Image
-                    src={images.HomeHero1}
+                    src={images.gastecL}
                     alt="home-hero"
                     width={1360}
                     height={683}
-                    className="absolute inset-0 z-10 object-cover object-center w-full h-full rounded-[20px]"
+                    className="absolute brightness-75 inset-0 z-10 object-cover object-center w-full h-full rounded-[20px]"
                 />
 
                 {/* Content Layer */}

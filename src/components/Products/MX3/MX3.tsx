@@ -17,7 +17,7 @@ import images from '@/data/assets'
 
 const MX3 = () => {
     return (
-        <main className='px-4 bg-white space-y-10'>
+        <main className='px-4 pt-[150px] bg-white space-y-10'>
             <MX3Hero />
             <MX3About />
             <MX3Features />

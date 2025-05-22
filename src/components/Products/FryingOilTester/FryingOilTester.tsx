@@ -13,7 +13,7 @@ import FAQAccordion from '@/components/Comman/FAQAccordion'
 
 const FryingOilTester = () => {
   return (
-    <main className='px-4 pt-[22px] bg-white space-y-10'>
+    <main className='px-4 pt-[140px] lg:pt-[22px] bg-white space-y-10'>
       <FOTHero />
       <FOTAbout />
       <FOTProduct />

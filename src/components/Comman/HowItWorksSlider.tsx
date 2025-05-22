@@ -13,7 +13,7 @@ interface HowItWorksSliderProps {
     autoPlayInterval?: number; // in milliseconds
 }
 
-const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInterval = 10000 }) => {
+const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInterval = 100000 }) => {
     const [slideIndex, setSlideIndex] = useState<number>(0);
     const [progress, setProgress] = useState<number>(0);
 
@@ -35,15 +35,19 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
     }, [slideIndex]);
 
     return (
-        <div className="bg-[#333333] text-white rounded-lg overflow-hidden p-6 relative flex flex-col">
+        <div className="bg-[#333333] text-white rounded-lg overflow-hidden p-4 sm:p-6 relative flex flex-col gap-8">
             {/* Title and Description */}
-            <div className="mb-6 space-y-4 self-start">
-                <h2 className="text-[140px] font-medium">How It Works</h2>
-                <p className="text-gray-300 font-medium text-[40px]">{data.description}</p>
+            <div className="space-y-4 self-start">
+                <h2 className="text-4xl sm:text-6xl md:text-[80px] lg:text-[100px] xl:text-[140px] font-medium leading-tight">
+                    How It Works
+                </h2>
+                <p className="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-[40px] text-gray-300 font-medium">
+                    {data.description}
+                </p>
             </div>
 
             {/* Swiper Slider */}
-            <div className="relative h-[500px] overflow-hidden w-full self-end flex flex-col">
+            <div className="relative h-[300px] sm:h-[400px] md:h-[500px] overflow-hidden w-full flex flex-col">
                 <Swiper
                     modules={[EffectFade, Autoplay]}
                     effect="fade"
@@ -59,19 +63,22 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
                 >
                     {data.sliderData.map((item, index) => (
                         <SwiperSlide key={index}>
-                            <div className="relative w-full h-full flex flex-col items-end">
+                            <div className="relative w-full h-full flex items-end justify-end px-2 sm:px-6">
                                 <Image
                                     src={item.imgSrc}
                                     alt={item.content}
                                     width={1031}
                                     height={540}
-                                    className="object-cover relative w-4/5 h-full rounded-md z-[15] brightness-75 shadow-lg"
+                                    className="object-cover w-full sm:w-4/5 h-full rounded-md z-[15] brightness-75 shadow-lg"
                                 />
-                                {/* Content over image */}
-                                <p className="absolute bottom-6 z-20 right-6 text-white text-[40px]">{item.content}</p>
 
-                                {/* Big Index number */}
-                                <div className="absolute -rotate-90 top-1/2 -translate-y-1/2 left-[1%] text-[340px] text-white z-[14] text-opacity-10 font-medium">
+                                {/* Content over image */}
+                                <p className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 z-20 text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-[40px] text-white">
+                                    {item.content}
+                                </p>
+
+                                {/* Big Index Number */}
+                                <div className="absolute -rotate-90 md:top-1/2 md:-translate-y-1/2 md:left-1 text-[100px] sm:text-[200px] md:text-[280px] lg:text-[340px] text-white z-[10] text-opacity-10 font-medium">
                                     {"0" + (slideIndex + 1)}
                                 </div>
                             </div>
@@ -79,8 +86,8 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
                     ))}
                 </Swiper>
 
-                {/* Progress Bars for Each Slide */}
-                <div className="flex gap-2 mt-4 w-4/5 self-end">
+                {/* Progress Bars */}
+                <div className="flex gap-2 mt-4 w-full sm:w-4/5 self-end px-2 sm:px-0">
                     {data.sliderData.map((_, index) => (
                         <div key={index} className="flex-1 h-[4px] bg-white rounded-full overflow-hidden">
                             <div
@@ -88,10 +95,10 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
                                 style={{
                                     width:
                                         index < slideIndex
-                                            ? '100%'
+                                            ? "100%"
                                             : index === slideIndex
                                                 ? `${progress}%`
-                                                : '0%',
+                                                : "0%",
                                 }}
                             />
                         </div>
@@ -99,6 +106,7 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
                 </div>
             </div>
         </div>
+
     );
 };
 

@@ -13,10 +13,10 @@ import { homePagefaqs } from '@/data/comman'
 
 const Gastec = () => {
     return (
-        <main className='px-4 pt-[22px] bg-white space-y-10'>
+        <main className='px-4 pt-[150px] lg:pt-[22px] bg-white space-y-10'>
             <GastecHero />
             <GastecSecondSection />
-            <HowItWorksSlider data={gastecSliderData} autoPlayInterval={3000} />
+            <HowItWorksSlider data={gastecSliderData} />
             <WhyChooseGastec />
             {/* <CustomTable
                 data={gastecTableData}

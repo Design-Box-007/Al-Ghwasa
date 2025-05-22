@@ -5,7 +5,6 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import ProductCTA from '../Comman/ProductCTA'
 import ProductCard from '../Comman/ProductCard'
-// import RevealWrapper from '../Comman/RevealWrapper'
 
 const productIds = [1, 2, 3]
 
@@ -15,12 +14,13 @@ type ProductInfo = {
     name: string
     className: string
     textClass: string
+    link: string;
 }
 
 const products: Record<number, ProductInfo> = {
-    1: { imgSrc: images.Thermometer, bgSrc: images.HomeHero1, name: 'Thermometer', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
-    2: { imgSrc: images.Thermometer, bgSrc: images.HomeHero1, name: 'Hydration', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
-    3: { imgSrc: images.Thermometer, bgSrc: images.HomeHero1, name: 'Safety', className: 'bg-custom-red-light', textClass: 'text-custom-red-light' },
+    1: { imgSrc: images.Thermometer, link: "/frying-oil-tester", bgSrc: images.HomeHero1, name: 'Thermometer', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
+    2: { imgSrc: images.Thermometer, link: "/mx-3", bgSrc: images.HomeHero1, name: 'Hydration', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
+    3: { imgSrc: images.Thermometer, link: "/gastec", bgSrc: images.HomeHero1, name: 'Safety', className: 'bg-custom-red-light', textClass: 'text-custom-red-light' },
 }
 
 const Hero = () => {
@@ -79,15 +79,14 @@ const Hero = () => {
                             />
                         </div>
                     </div>
-
                     {/* Navigation Links */}
                     <div className="flex flex-col md:flex-row justify-end items-center gap-6">
                         {/* Product CTA Buttons */}
                         <div className="flex flex-wrap justify-center md:justify-start gap-4 font-semibold text-center">
-                            {productCtaIds.map((id) => (
+                            {productCtaIds.map((id: number) => (
                                 <ProductCTA
                                     key={id}
-                                    link="/"
+                                    link={products[id].link}
                                     name={products[id].name}
                                     imgSrc={products[id].imgSrc}
                                     className={products[id].textClass}

@@ -14,7 +14,7 @@ const MX3LeaderLines = () => {
         <div className="max-w-7xl mx-auto relative">
           <div
             ref={leftRef}
-            className="absolute left-[3%] top-1/2 w-[300px] transform -translate-y-1/2 text-left z-10"
+            className="hidden lg:block absolute left-[3%] top-1/2 w-[300px] transform -translate-y-1/2 text-left z-10"
           >
             <h3 className="text-xl font-semibold">Monitor Your Hydration</h3>
             <p className="text-sm text-gray-300 mt-2">
@@ -35,15 +35,15 @@ const MX3LeaderLines = () => {
 
           <div
             ref={rightRef}
-            className="absolute right-[3%] top-[15%] w-[300px] transform -translate-y-1/2 text-right z-10"
+            className="hidden lg:block absolute right-[3%] top-[15%] w-[300px] transform -translate-y-1/2 text-right z-10"
           >
             <h3 className="text-xl font-semibold">Turn Hydration Data into Actionable Insights</h3>
             <p className="text-sm text-gray-300 mt-2">
               Sync test results with the MX3 App to access detailed hydration analytics, trend comparisons, and custom alerts for improved hydration management.
             </p>
           </div>
-          <Image src={images.Line1} width={430} height={61} alt="line-1" className="absolute top-1/4 right-[10%]" />
-          <Image src={images.Line2} width={519} height={90} alt="line-1" className="absolute bottom-[30%] left-[10%]" />
+          <Image src={images.Line1} width={430} height={61} alt="line-1" className="hidden lg:block absolute top-1/4 right-[10%]" />
+          <Image src={images.Line2} width={519} height={90} alt="line-1" className="hidden lg:block absolute bottom-[30%] left-[10%]" />
         </div>
       </div>
       <div className='p-10 space-y-[34px] bg-white rounded-4xl relative z-[14]'>

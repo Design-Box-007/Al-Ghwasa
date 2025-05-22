@@ -20,9 +20,7 @@ const Blog2 = () => {
       <p className="font-bold">How the MX3 Hydration Testing System Works</p>
 
       <p>
-        Using a small sample of saliva, the MX3 system delivers rapid hydration analysis directly
-        on-site. It's non-invasive, portable, and connects to a digital dashboard for tracking
-        workforce health trends.
+        {"Using a small sample of saliva, the MX3 system delivers rapid hydration analysis directly on-site. It's non-invasive, portable, and connects to a digital dashboard for tracking workforce health trends."}
       </p>
 
       <p className="font-bold">Real-Time Insights for Safety Managers</p>

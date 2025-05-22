@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 import ProductFilterBtn from "../Comman/ProductFilterBtn"
 import ProductCard from "../Comman/ProductCard"
-import { FaTint, FaHotel, FaShieldAlt, FaIndustry, FaWater } from "react-icons/fa" // sample icons
+import { FaTint, FaHotel, FaShieldAlt, FaIndustry } from "react-icons/fa" // sample icons
 
 const productData = [
     {
@@ -42,18 +42,18 @@ const productData = [
             { imgSrc: "/images/Thermometer.png", name: "Wearable Tracker" },
         ],
     },
-    {
-        title: "Marine",
-        icon: FaWater, // or another suitable icon
-        dataset: [
-            { imgSrc: "/images/Thermometer.png", name: "Waterproof Radio" },
-            { imgSrc: "/images/Thermometer.png", name: "Marine Compass" },
-            { imgSrc: "/images/Thermometer.png", name: "Floating Flashlight" },
-            { imgSrc: "/images/Thermometer.png", name: "Sea Safety Kit" },
-            { imgSrc: "/images/Thermometer.png", name: "Boat GPS Tracker" },
-            { imgSrc: "/images/Thermometer.png", name: "Anti-Rust Tools" },
-        ],
-    },
+    // {
+    //     title: "Marine",
+    //     icon: FaWater, // or another suitable icon
+    //     dataset: [
+    //         { imgSrc: "/images/Thermometer.png", name: "Waterproof Radio" },
+    //         { imgSrc: "/images/Thermometer.png", name: "Marine Compass" },
+    //         { imgSrc: "/images/Thermometer.png", name: "Floating Flashlight" },
+    //         { imgSrc: "/images/Thermometer.png", name: "Sea Safety Kit" },
+    //         { imgSrc: "/images/Thermometer.png", name: "Boat GPS Tracker" },
+    //         { imgSrc: "/images/Thermometer.png", name: "Anti-Rust Tools" },
+    //     ],
+    // },
     {
         title: "Industrial",
         icon: FaIndustry, // or any suitable icon

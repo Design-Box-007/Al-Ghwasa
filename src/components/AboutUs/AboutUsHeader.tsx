@@ -10,7 +10,7 @@ const AboutUsHeader = () => {
             </h1>
             <AboutSwiperComponent />
             <p className="font-normal text-base sm:text-lg md:text-xl w-full sm:w-4/5 lg:w-3/4 mx-auto text-center">
-                For over three decades, Al Ghwasa has been a leading force in industrial, marine, hospitality, hydration, and safety solutions. Our commitment to innovation, reliability, and client-focused services has made us a trusted partner across industries in the UAE and beyond.
+                For over three decades, Al Ghwasa has been a leading force in hospitality, hydration, and safety solutions. Our commitment to innovation, reliability, and client-focused services has made us a trusted partner across industries in the UAE and beyond.
             </p>
         </header>
     )

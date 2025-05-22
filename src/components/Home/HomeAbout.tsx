@@ -60,7 +60,7 @@ const HomeAbout = () => {
                     viewport={{ once: true, amount: 0.5 }}
                     transition={{ duration: 1, delay: 0.3 }}
                 >
-                    Over 30 Years of <br />Excellence in Industrial &<br /> Marine Equipment
+                    Over 30 Years of <br />Excellence in
                 </motion.h1>
                 <div className="flex flex-col gap-14 justify-around flex-1 lg:px-2">
                     <motion.div
@@ -72,7 +72,7 @@ const HomeAbout = () => {
                         transition={{ duration: 1, delay: 0.6 }}
                     >
                         <p className='text-xl font-light text-black'>
-                            {"Established in 1990 in Dubai, AL Ghwasa is a trusted leader in providing cutting-edge solutions in marine, industrial automation, and safety equipment."}
+                            {"Established in 1990 in Dubai, AL Ghwasa is a trusted leader in providing cutting-edge solutions in industrial automation, and safety equipment."}
                         </p>
                         {/* <div className='flex items-center gap-5 font-medium text-base'>
                             <div className='py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-2xl'>Reliablity</div>

@@ -1,6 +1,6 @@
 'use client';
 import { IconType } from 'react-icons';
-import { FaTint, FaHotel, FaShieldAlt, FaWater } from 'react-icons/fa';
+import { FaTint, FaHotel, FaShieldAlt } from 'react-icons/fa';
 
 
 export interface ProductsCategory {

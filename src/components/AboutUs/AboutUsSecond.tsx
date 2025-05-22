@@ -62,7 +62,7 @@ const AboutUsSecond = () => {
                         viewport={{ once: true, amount: 0.5 }}
                         transition={{ duration: 1, delay: 0.6 }}
                     >
-                        {"Founded in 1988, Al Ghwasa has become a trusted name in providing high-quality industrial and marine equipment. Our journey reflects a commitment to quality, customer satisfaction, and technological advancement—helping businesses across the UAE operate with efficiency and confidence."}
+                        {"Founded in 1988, Al Ghwasa has become a trusted name in providing high-quality equipment. Our journey reflects a commitment to quality, customer satisfaction, and technological advancement—helping businesses across the UAE operate with efficiency and confidence."}
                     </motion.p>
                 </div>
             </div>

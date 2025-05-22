@@ -27,7 +27,7 @@ const ProductHero = () => {
                                 {"Discover High-Performance Solutions for Every Industry"}
                             </h1>
                             <p className="font-normal text-lg md:text-2xl">
-                                {"Find the perfect solution for your industry. Search or filter by category to browse our selection of hospitality, hydration, safety, marine, and industrial equipment."}
+                                {"Find the perfect solution for your industry. Search or filter by category to browse our selection of hospitality, hydration, safety, and industrial equipment."}
                             </p>
                         </div>
                         <div>

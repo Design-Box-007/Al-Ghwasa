@@ -12,14 +12,14 @@ const GalleryHero = () => {
                     Experience Innovation in Action
                 </h1>
                 <p className='text-lg font-light'>
-                    Experience the Power of Industrial & Marine Solutions in Action
+                    Experience the Power of Solutions in Action
                 </p>
             </div>
 
             <div className='w-full h-[600px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start'>
                 <Image src={images.HomeHero1} alt={"hero-img"} width={1360} height={600} className='w-full h-full absolute inset-0 object-center object-cover z-10' />
                 <p className='relative z-20 font-inter text-base lg:text-xl'>
-                    Discover how our cutting-edge products and solutions are used across marine, industrial, hospitality, safety, and hydration sectors. Browse through our Experience Center to see innovation at work.
+                    Discover how our cutting-edge products and solutions are used across industrial, hospitality, safety, and hydration sectors. Browse through our Experience Center to see innovation at work.
                 </p>
             </div>
 

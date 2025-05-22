@@ -17,11 +17,11 @@ export const gastecFeatures: IFeature[] = [
         description: "Detect hazardous leaks in high-risk environments",
         icon: images.Capa15
     },
-    {
-        title: "Marine & Confined Spaces",
-        description: "Assess gas levels for safe operations",
-        icon: images.Frame11
-    },
+    // {
+    //     title: "Marine & Confined Spaces",
+    //     description: "Assess gas levels for safe operations",
+    //     icon: images.Frame11
+    // },
 ]
 
 export const gastecFeatures2: IFeature[] = [

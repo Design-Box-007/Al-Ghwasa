@@ -24,7 +24,7 @@ const images: Assets = {
 
     gastecL: "/images/Product-Images/gastec-l.jpg",
     gastecT: "/images/Product-Images/gastec-t.jpg",
-    mx3L: "/images/Product-Images/mx3-l.png",
+    mx3L: "/images/Product-Images/mx3-l.jpg",
     mx3T: "/images/Product-Images/mx3-t.jpg",
     oilTesterL: "/images/Product-Images/oil-tester.jpg",
     oilTesterT: "/images/Product-Images/oil-tester-2.jpg",

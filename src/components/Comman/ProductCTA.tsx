@@ -17,7 +17,7 @@ const ProductCTA: React.FC<ProductCTAProps> = ({ link, name, imgSrc, className }
                     alt={name.toLowerCase()}
                     width={52}
                     height={36}
-                    className="rounded-lg object-cover h-full"
+                    className="rounded-lg object-cover h-full brightness-75"
                 />
                 <span className="font-semibold">{name}</span>
             </div>

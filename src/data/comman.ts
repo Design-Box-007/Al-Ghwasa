@@ -23,7 +23,7 @@ export const navLinks: NavLinksType[] = [
     ],
   },
   { navTitle: "Experience Center", navHref: "/gallery" },
-  { navTitle: "Blog", navHref: "/blogs" },
+  { navTitle: "Blogs", navHref: "/blogs" },
 ];
 
 

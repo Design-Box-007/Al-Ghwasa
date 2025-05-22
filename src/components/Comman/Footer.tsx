@@ -8,6 +8,9 @@ import images from '@/data/assets'
 import Image from 'next/image'
 
 const Footer = () => {
+
+    const newNavLinks: NavLinksType[] = navLinks.filter((nav: NavLinksType) => nav.navTitle.toLowerCase() !== "products");
+
     return (
         <footer className='h-auto lg:h-[395px] p-c-10'>
             <div className='px-4 py-10 rounded-2xl h-full overflow-hidden custom-linear-gradient-blue flex flex-col justify-between gap-4'>
@@ -28,11 +31,11 @@ const Footer = () => {
                         </div>
                         {/* Desktop Navigation Links */}
                         <ul className="rounded-[20px] flex flex-col lg:flex-row gap-2 text-white flex-[2] justify-center">
-                            {navLinks.map((navlink: NavLinksType, index: number) => (
+                            {newNavLinks.map((navlink: NavLinksType, index: number) => (
                                 <Link
                                     href={navlink.navHref || '#'}
                                     key={index}
-                                    className={`pr-4 mr-4 ${index !== navLinks.length - 1 ? "lg:border-r-white lg:border-r-[1px]" : ""}`}
+                                    className={`pr-4 mr-4 ${index !== newNavLinks.length - 1 ? "lg:border-r-white lg:border-r-[1px]" : ""}`}
                                     passHref
                                 >
                                     <li className="hover:text-white cursor-pointer">{navlink.navTitle}</li>
@@ -71,9 +74,9 @@ const Footer = () => {
                 <div className='w-full py- flex flex-col lg:flex-row lg:items-center justify-between gap-4 capitalize'>
                     <h2 className='text-4xl lg:text-7xl capitalize text-white font-semibold'>Lot more to Explore</h2>
                     <div className="flex flex-wrap gap-3 font-semibold">
-                        <ProductCTA link="/gastec" name="Gastec" imgSrc={images.ProductThumbnail} className="text-custom-green-1" />
-                        <ProductCTA link="/mx-3" name="MX3" imgSrc={images.ProductThumbnail} className="text-custom-green-1" />
-                        <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.ProductThumbnail1} className="text-custom-red-light" />
+                        <ProductCTA link="/gastec" name="Gastec" imgSrc={images.gastecSmall} className="text-custom-green-1" />
+                        <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
+                        <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" />
                     </div>
                 </div>
 

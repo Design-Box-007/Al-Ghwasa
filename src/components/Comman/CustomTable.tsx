@@ -61,7 +61,7 @@ const CustomTable = <T extends { [key: string]: any }>({
               {columns.map((col) => (
                 <th
                   key={col.key.toString()}
-                  className="px-6 py-4 font-semibold text-sm whitespace-nowrap"
+                  className="px-6 py-4 font-semibold text-sm whitespace-nowrap capitalize"
                 >
                   {col.header}
                 </th>

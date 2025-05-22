@@ -42,10 +42,10 @@ const GastecHero = () => {
                     <p className="text-base md:text-lg font-normal">
                        {" Designed for industrial safety, environmental monitoring, and compliance testing, Gastec's advanced gas detection tubes offer quick and accurate measurements with no need for complex equipment."}
                     </p>
-                    <button className="flex items-center gap-3 bg-black text-white p-2 px-4 rounded-full hover:bg-gray-800 transition">
+                    {/* <button className="flex items-center gap-3 bg-black text-white p-2 px-4 rounded-full hover:bg-gray-800 transition">
                         <span className="font-medium text-base">Learn More</span>
                         <FaArrowRight />
-                    </button>
+                    </button> */}
                 </div>
             </div>
 

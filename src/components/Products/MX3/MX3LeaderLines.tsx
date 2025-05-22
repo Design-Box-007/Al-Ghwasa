@@ -47,10 +47,10 @@ const MX3LeaderLines = () => {
         </div>
       </div>
       <div className='p-10 space-y-[34px] bg-white rounded-4xl relative z-[14]'>
-        <h3 className='font-semibold text-[56px]'>
+        <h3 className='font-semibold text-3xl'>
           {"Seamless Application integration"}
         </h3>
-        <p className='font-medium text-[26px]'>
+        <p className='font-medium text-lg'>
           {"The MX3 App syncs with the MX3 Hydration Testing System to provide real-time test logging, hydration trend analysis, and custom alerts. With Bluetooth connectivity and interactive data visualization, users can track hydration levels, optimize fluid intake, and enhance performance effortlessly."}
         </p>
       </div>

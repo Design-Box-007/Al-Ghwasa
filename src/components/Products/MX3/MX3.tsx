@@ -29,7 +29,6 @@ const MX3 = () => {
                 columns={genralColumns}
                 headerBgColor='bg-[#EA721B]'
                 title='Product Specifications'
-                projectDocumentation={genralPdf}
             />
             <MX3Osha />
             <MapComponent />

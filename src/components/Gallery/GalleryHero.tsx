@@ -35,9 +35,9 @@ const GalleryHero = () => {
 
                 {/* Product Categories */}
                 <div className="flex flex-wrap gap-3 font-semibold">
-                    <ProductCTA link="/mx3" name="Hydration" imgSrc={images.Thermometer} className="text-custom-green-1" />
-                    <ProductCTA link="/frying-oil-tester" name="Hospitality" imgSrc={images.Thermometer} className="text-custom-green-1" />
-                    <ProductCTA link="/gastec" name="Safety" imgSrc={images.Thermometer} className="text-custom-red-light" />
+                    <ProductCTA link="/gastec" name="Gastec" imgSrc={images.gastecSmall} className="text-custom-green-1" />
+                    <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
+                    <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" />
                 </div>
             </div>
 

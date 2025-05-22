@@ -11,6 +11,12 @@ const images: Assets = {
 
 
     About: "/images/About/About.png",
+    AboutSliderHero1: "/images/About/About-Slider-Hero1.jpg",
+    AboutSliderHero2: "/images/About/About-Slider-Hero2.jpg",
+    AboutSliderHero3: "/images/About/About-Slider-Hero3.jpg",
+    AboutSliderHero4: "/images/About/About-Slider-Hero4.jpg",
+
+    AboutSection: "/images/About/About-Section.jpg",
     Map: "/images/About/Map.png",
     Rectangle185: "/images/About/Rectangle-185.png",
     Rectangle186: "/images/About/Rectangle-186.png",
@@ -22,6 +28,10 @@ const images: Assets = {
     mx3T: "/images/Product-Images/mx3-t.jpg",
     oilTesterL: "/images/Product-Images/oil-tester.jpg",
     oilTesterT: "/images/Product-Images/oil-tester-2.jpg",
+
+    gastecSmall: "/images/Product/gastec-small.jpg",
+    mx3Small: "/images/Product/mx3-small.jpg",
+    fryingOilTesterSmall: "/images/Product/frying-oil-tester-small.jpg",
 
     // products section assets
 
@@ -114,6 +124,10 @@ const images: Assets = {
     Gastec4: "/images/Gastec/Gastec-4.png",
     Gastec5: "/images/Gastec/Gastec-5.png",
     Gastec6: "/images/Gastec/Gastec-6.png",
+    GastecStep1: "/images/Gastec/gastec-step-1.jpg",
+    GastecStep2: "/images/Gastec/gastec-step-2.jpg",
+    GastecStep3: "/images/Gastec/gastec-step-3.jpg",
+    GasetecProductHero: "/images/Gastec/gastec-product-hero.jpg",
 
     AboutUs: "/images/Home/About-us.png",
     Article1: "/images/Home/Article-1.png",
@@ -193,6 +207,10 @@ const images: Assets = {
     MX318: "/images/MX3/MX3-18.png",
     MX319: "/images/MX3/MX3-19.png",
 
+    MX3Step1: "/images/MX3/mx3-step-1.jpg",
+    MX3Step2: "/images/MX3/mx3-step-2.jpg",
+    MX3Step3: "/images/MX3/mx3-step-3.jpg",
+
     Athletic1: "/images/MX3/athletic1.jpg",
     Athletic2: "/images/MX3/athletic2.jpg",
     Military1: "/images/MX3/military1.jpg",
@@ -216,6 +234,11 @@ const images: Assets = {
     OilTester05: "/images/Oil-Tester/Oil-Tester-05.png",
     OilTester06: "/images/Oil-Tester/Oil-Tester-06.png",
     OilTester07: "/images/Oil-Tester/Oil-Tester-07.png",
+
+    OilTesterStep1: "/images/Oil-Tester/oil-tester-step-1.jpg",
+    OilTesterStep2: "/images/Oil-Tester/oil-tester-step-2.jpg",
+    OilTesterStep3: "/images/Oil-Tester/oil-tester-step-3.jpg",
+
     Frame1171277072: "/images/Product/Frame-1171277072.png",
     Rectangle190: "/images/Product/Rectangle-190.png",
     Rectangle192: "/images/Product/Rectangle-192.png",

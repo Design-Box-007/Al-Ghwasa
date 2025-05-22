@@ -19,7 +19,7 @@ const productsData: ProductSectionData[] = [
         images: [
             { imgSrc: images.mx3DeviceHp, name: "Hydration device" },
             { imgSrc: images.mx3Device2, name: "Hydration Kit" },
-            { imgSrc: images.mx3DeviceKit, name: "Hydration Test Strips" },
+            { imgSrc: images.mx3DeviceKit, name: "Hydration Test Strip" },
         ]
     },
     {

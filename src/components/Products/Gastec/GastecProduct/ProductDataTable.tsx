@@ -115,7 +115,7 @@ const ProductDataTable: React.FC = () => {
             header: 'Actions',
             render: (row: GastecDataType) => (
                 <button onClick={() => goToContactForm(row)} className={`px-2 py-1 text-[14px] cursor-pointer bg-custom-green-1 text-white hover:bg-white hover:text-custom-green-1 hover font-bold rounded-lg border-[1px] border-solid transition-all duration-300 ease-in-out`}>
-                    {"Enquire"}
+                    {"Inquire"}
                 </button>
             )
         }

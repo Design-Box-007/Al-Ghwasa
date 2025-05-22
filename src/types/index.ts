@@ -71,7 +71,7 @@ export interface IHowItWorks {
     description: string;
     sliderData: {
         imgSrc: string;
-        content: string;
+        content?: string;
     }[];
 }
 export interface TableData {

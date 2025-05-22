@@ -4,7 +4,7 @@ import AboutSwiperComponent from './AboutSwiperComponent'
 const AboutUsHeader = () => {
     return (
         <header className="overflow-auto space-y-6 px-4 sm:px-6 lg:space-y-9">
-            <h1 className="font-medium text-4xl sm:text-6xl md:text-8xl lg:text-[100px] text-black text-center leading-tight">
+            <h1 className="font-medium text-4xl sm:text- md:text-[75px] text-black text-center leading-tight">
                 Driven by Excellence <br />
                 Since <span className="text-custom-blue-1">1988</span>
             </h1>

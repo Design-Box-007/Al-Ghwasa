@@ -41,15 +41,13 @@ const MX3About = () => {
                     ))}
                 </div>
 
-                <div className='w-full lg:w-auto flex justify-center'>
-                    <Image
-                        src={images.MX35}
-                        alt='mx-3-thermometer'
-                        width={336}
-                        height={1304}
-                        className='object-contain w-[180px] sm:w-[220px] md:w-[260px] lg:w-[336px] h-auto lg:h-full'
-                    />
-                </div>
+                <Image
+                    src={images.MX35}
+                    alt='mx-3-thermometer'
+                    width={230}
+                    height={949}
+                    className='object-contain w-[336px] h-full'
+                />
 
                 <div className='space-y-[26px] w-full flex flex-col items-center'>
                     {features2.map((feature, index) => (

@@ -13,7 +13,8 @@ interface HowItWorksSliderProps {
     autoPlayInterval?: number; // in milliseconds
 }
 
-const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInterval = 100000 }) => {
+
+const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInterval = 7000 }) => {
     const [slideIndex, setSlideIndex] = useState<number>(0);
     const [progress, setProgress] = useState<number>(0);
 
@@ -66,16 +67,20 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
                             <div className="relative w-full h-full flex items-end justify-end px-2 sm:px-6">
                                 <Image
                                     src={item.imgSrc}
-                                    alt={item.content}
+                                    alt={item?.content || "content"}
                                     width={1031}
                                     height={540}
-                                    className="object-cover w-full sm:w-4/5 h-full rounded-md z-[15] brightness-75 shadow-lg"
+                                    className="object-cover w-full sm:w-4/5 h-full rounded-md z-[15] brightness-50 shadow-lg"
                                 />
 
                                 {/* Content over image */}
-                                <p className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 z-20 text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-[40px] text-white">
-                                    {item.content}
-                                </p>
+                                {item?.content &&
+                                    (
+                                        <p className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 z-20 text-sm sm:text-xl md:text-2xl lg:text-3xl xl:text-[40px] text-white">
+                                            {item.content}
+                                        </p>
+                                    )
+                                }
 
                                 {/* Big Index Number */}
                                 <div className="absolute -rotate-90 md:top-1/2 md:-translate-y-1/2 md:left-1 text-[100px] sm:text-[200px] md:text-[280px] lg:text-[340px] text-white z-[10] text-opacity-10 font-medium">

@@ -9,9 +9,30 @@ import Image from "next/image";
 
 
 const filters: ProductFilterBtnProps[] = [
-    { title: "Hydration", icon: FaTint, images: [images.HomeHero1, images.HomeHero1, images.HomeHero1,] },
-    { title: "Hospitality", icon: FaConciergeBell, images: [images.HomeHero1, images.HomeHero1, images.HomeHero1,] },
-    { title: "Safety", icon: FaShieldAlt, images: [images.Thermometer, images.HomeHero1, images.HomeHero1,] },
+    {
+        title: "Hydration", icon: FaTint, images: [
+
+            images.mx3DeviceHp,
+            images.mx3Device2,
+            images.mx3DeviceKit,
+        ]
+    },
+    {
+        title: "Hospitality", icon: FaConciergeBell, images: [
+            images.oilTesterHp,
+            images.oilTesterStraws,
+            images.oilTesterKit,
+
+        ]
+    },
+    {
+        title: "Safety", icon: FaShieldAlt, images: [
+
+            images.gastec860_2,
+            images.gastecGHS_501FT_1,
+            images.gastecGHS_8AT_EX_1,
+        ]
+    },
 ];
 
 const FilterSection: React.FC = () => {
@@ -43,7 +64,7 @@ const FilterSection: React.FC = () => {
                 {activeImages.length > 0 && (
                     <>
                         {/* Large Image */}
-                        <div className="h-[300px] lg:h-[500px] overflow-hidden rounded-2xl md:col-span-2">
+                        <div className="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl md:col-span-2">
                             <Image
                                 src={activeImages[0]}
                                 alt="active-image-1"
@@ -54,7 +75,7 @@ const FilterSection: React.FC = () => {
                         </div>
 
                         {/* Two Smaller Images */}
-                        <div className="h-[300px] lg:h-[500px] overflow-hidden rounded-2xl">
+                        <div className="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl">
                             <Image
                                 src={activeImages[1]}
                                 alt="active-image-2"
@@ -63,7 +84,7 @@ const FilterSection: React.FC = () => {
                                 className="object-center object-cover w-full h-full"
                             />
                         </div>
-                        <div className="h-[300px] lg:h-[500px] overflow-hidden rounded-2xl">
+                        <div className="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl">
                             <Image
                                 src={activeImages[2]}
                                 alt="active-image-3"

@@ -8,11 +8,11 @@ const ProductHero = () => {
             <div className="h-full flex flex-col justify-center items-center p-6 md:p-c-20 lg:pt-28justify-between relative overflow-hidden rounded-[20px]">
                 {/* Background Image */}
                 <Image
-                    src={images.ProductOverview36}
+                    src={images.GasetecProductHero}
                     alt="home-hero"
                     width={1360}
                     height={683}
-                    className="absolute inset-0 w-full h-full z-10 object-cover object-center rounded-[20px]"
+                    className="absolute inset-0 brightness-50 w-full h-full z-10 object-cover object-center rounded-[20px]"
                 />
 
                 {/* Hero Content */}

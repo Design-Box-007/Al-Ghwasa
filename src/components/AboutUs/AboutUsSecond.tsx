@@ -42,7 +42,7 @@ const AboutUsSecond = () => {
 
     return (
         <section className="space-y-4 py-5 px-c-20">
-            <div className="flex flex-col lg:flex-row gap-2">
+            <div className="flex flex-col gap-4">
                 <motion.h1
                     className="font-medium text-4xl lg:text-[60px] flex-1"
                     variants={headingVariant}
@@ -64,16 +64,77 @@ const AboutUsSecond = () => {
                     >
                         {"Founded in 1988, Al Ghwasa has become a trusted name in providing high-quality equipment. Our journey reflects a commitment to quality, customer satisfaction, and technological advancement—helping businesses across the UAE operate with efficiency and confidence."}
                     </motion.p>
+                    <motion.p
+                        className="text-xl font-light text-secondary"
+                        variants={paragraphVariant}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 1, delay: 0.6 }}
+                    >
+                        Al Ghwasa is a trusted name in the hospitality, health, and safety industries, delivering specialized testing solutions that prioritize quality, accuracy, and compliance. With over a decade of industry presence, we are proud to be the authorized distributor of world-renowned brands, including Alla France Oil Tester, MX3 Diagnostics, and Gastec—each known for precision and reliability.
+                    </motion.p>
+                    <motion.p
+                        className="text-xl font-light text-secondary"
+                        variants={paragraphVariant}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 1, delay: 0.6 }}
+                    >
+                        Our product portfolio focuses on three key testing categories:
+                    </motion.p>
+                    <motion.p
+                        className="text-xl font-light text-secondary"
+                        variants={paragraphVariant}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 1, delay: 0.6 }}
+                    >
+                        Food Oil Testing – With Alla France’s oil testers, we help kitchens and food production facilities maintain oil quality and comply with food safety standards. Our solutions support consistent taste, healthier frying, and cost-effective oil usage.
+                    </motion.p>
+                    <motion.p
+                        className="text-xl font-light text-secondary"
+                        variants={paragraphVariant}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 1, delay: 0.6 }}
+                    >
+                        Hydration Testing – In partnership with MX3 Diagnostics, we offer portable hydration testing devices ideal for sports teams, military units, and high-risk work environments. Our solutions empower real-time hydration monitoring to prevent dehydration-related risks.
+                    </motion.p>
+                    <motion.p
+                        className="text-xl font-light text-secondary"
+                        variants={paragraphVariant}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 1, delay: 0.6 }}
+                    >
+                        Gas Detection & Air Quality Monitoring – As the regional supplier of Gastec, we provide precise and easy-to-use gas detection tubes and monitors for industrial and occupational safety. Our tools are used across laboratories, factories, and health inspection agencies to ensure breathable air and hazardous gas compliance.
+                    </motion.p>
+                    <motion.p
+                        className="text-xl font-light text-secondary"
+                        variants={paragraphVariant}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, amount: 0.5 }}
+                        transition={{ duration: 1, delay: 0.6 }}
+                    >
+                        At Al Ghwasa, we are committed to advancing health, hygiene, and operational excellence by equipping professionals with innovative tools they can rely on. Our team provides end-to-end support—from product selection and training to after-sales service—ensuring our clients achieve the highest standards in quality control and safety management.
+                    </motion.p>
                 </div>
+
             </div>
             {/* Image Reveal Animation using an overlay */}
             <div className="relative w-full h-auto md:h-[500px] rounded-2xl overflow-hidden flex items-end p-4">
                 <Image
                     loading="lazy"
-                    src={images.HomeHero1}
+                    src={images.AboutSection}
                     alt="about"
-                    width={961}
-                    height={641}
+                    width={1360}
+                    height={700}
                     className="absolute inset-0 z-10 w-full h-full object-cover"
                 />
 

@@ -11,8 +11,8 @@
   --inter: "Inter", sans-serif;
   --custom-green-1: #00897B;
   --custom-blue-1: #0277BD;
-  --custom-blue-2: #007DFC;
   --custom-red-light: #FF6B6B;
+  --custom-blue-2: #007DFC;
 }
 
 @theme inline {

@@ -65,8 +65,8 @@ export const mx3Features: IFeature[] = [
         icon: images.Frame11
     },
     {
-        title: "Test Hydration Anytime, Anywhere",
-        description: "Designed for on-the-go professionals, the MX3 device is compact, lightweight, and fully wireless, making it ideal for sports, industrial, and medical use.",
+        title: "Test Hydration Levels Anytime, Anywhere",
+        description: "Designed for on-the-go professionals, the MX3 device is compact, lightweight, and fully wireless, making it ideal for sports, industrial, medical, and field-based use",
         icon: images.Frame11
     },
 

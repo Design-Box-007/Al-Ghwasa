@@ -11,11 +11,7 @@ export const navLinks: NavLinksType[] = [
     subLinks: [
       {
         navTitle: "MX3",
-        subLinks: [
-          { navTitle: "Athletics", navHref: "/mx-3/athletics" },
-          { navTitle: "Military", navHref: "/mx-3/military" },
-          { navTitle: "Workplace safety", navHref: "/mx-3/workplace-safety" },
-        ],
+        navHref: "/mx-3"
       },
       { navTitle: "Gastec", navHref: "/gastec/product-data" },
       // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },

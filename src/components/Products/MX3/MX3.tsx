@@ -7,26 +7,28 @@ import MX3LeaderLines from './MX3LeaderLines'
 import HowItWorksSlider from '@/components/Comman/HowItWorksSlider'
 import { mx3SliderData } from '@/data/sliderData'
 import CustomTable from '@/components/Comman/CustomTable'
-import { genralColumns, mx3TableData } from '@/data/tableData'
+import { genralColumns, mx3Columns, mx3TableData } from '@/data/tableData'
 import MX3Osha from './MX3Osha'
 import MapComponent from '@/components/Comman/MapComponent'
 import FAQAccordion from '@/components/Comman/FAQAccordion'
 import { homePagefaqs } from '@/data/comman'
 import TestimonialCard from '@/components/Comman/TestimonialCard'
 import images from '@/data/assets'
+import MX3SubPageLinks from './MX3SubPageLinks'
 
 const MX3 = () => {
     return (
         <main className='px-4 pt-[150px] bg-white space-y-10'>
             <MX3Hero />
             <MX3About />
+            <MX3SubPageLinks />
             <MX3Features />
             <MX3TrackingSlider />
             <MX3LeaderLines />
             <HowItWorksSlider data={mx3SliderData} />
             <CustomTable
                 data={mx3TableData}
-                columns={genralColumns}
+                columns={mx3Columns}
                 headerBgColor='bg-[#EA721B]'
                 title='Product Specifications'
             />

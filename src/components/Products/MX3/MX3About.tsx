@@ -8,9 +8,9 @@ import React from 'react';
 const MX3About = () => {
     const mx3FeatureClass: FeatureClassName = {
         iconClass: "text-custom-blue-1",
-        titleClass: "text-[34px] text-[#EA721B]",
+        titleClass: "text-[24px] text-[#EA721B]",
         contentClass: "font-normal",
-        featureClass: "py-[30px] px-5 space-y-[10px] rounded-[40px] bg-[#F4F4F4] w-full lg:w-[445px] lg:h-[410px] flex flex-col items-start justify-center"
+        featureClass: "py-[30px] px-5 space-y-[10px] rounded-[40px] bg-[#F4F4F4] w-full lg:w-[445px] flex flex-col items-start justify-center"
     };
 
     const features1: IFeature[] = mx3Features.slice(0, 3);
@@ -27,7 +27,7 @@ const MX3About = () => {
                         {"The MX3 Hydration Testing System delivers real-time, non-invasive hydration analysis, providing fast, lab-quality results for professionals in sports, industrial environments, and healthcare."}
                     </p>
                 </div>
-                <h3 className='text-[40px] sm:text-[56px] md:text-[72px] lg:text-[88px] font-medium leading-tight'>
+                <h3 className='text-[36px] sm:text-[48px] md:text-[60px] lg:text-[76px] font-medium flex-1 leading-tight'>
                     {"Sweat & Saliva Hydration Tester"}
                 </h3>
             </div>

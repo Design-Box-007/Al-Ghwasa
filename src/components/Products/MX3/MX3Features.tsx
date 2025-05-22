@@ -12,7 +12,7 @@ interface TestKitProps {
 
 const TestKit: React.FC<TestKitProps> = ({ image, testKitName }) => {
     return (
-        <div className='w-full lg:w-auto h-auto space-y-6 sm:space-y-8 py-6 sm:py-8 px-6 sm:px-10 border border-[#B4B4B4] border-solid rounded-[30px] flex flex-col items-start'>
+        <div className='w-full lg:w-auto h-auto space-y-6 sm:space-y-8 py-6 sm:py-8 px-6 sm:px-10 border border-[#B4B4B4] border-solid rounded-[30px] flex flex-col items-start flex-1'>
             <Image src={image} alt={testKitName} width={540} height={91} className='w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[540px] h-auto' />
             <h4 className='text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] text-left font-medium'>
                 {testKitName}
@@ -25,7 +25,7 @@ const MX3Features = () => {
     return (
         <section className='px-2 sm:px-4'>
             <section className='bg-[#F5F4F4] rounded-4xl space-y-[40px] sm:space-y-[50px] lg:space-y-[60px] py-[60px] sm:py-[70px] lg:py-[80px] px-4 sm:px-6 lg:px-5'>
-                <h2 className='font-semibold text-[40px] sm:text-[60px] md:text-[80px] lg:text-[112px] text-[#FF842C] leading-tight'>
+                <h2 className='font-semibold text-[40px] sm:text-[60px] text-[#FF842C] leading-tight'>
                     {"MX3 Can Do Lot More..."}
                 </h2>
 

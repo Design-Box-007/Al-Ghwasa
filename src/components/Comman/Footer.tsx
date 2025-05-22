@@ -1,4 +1,4 @@
-import { contactUsEmail, navLinks, socialMedia } from '@/data/comman'
+import { navLinks, socialMedia } from '@/data/comman'
 import { NavLinksType, SocialMediaLinks } from '@/types'
 import Link from 'next/link'
 

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import ProductCTA from '../Comman/ProductCTA'
 import ProductCard from '../Comman/ProductCard'
-import RevealWrapper from '../Comman/RevealWrapper'
+// import RevealWrapper from '../Comman/RevealWrapper'
 
 const productIds = [1, 2, 3]
 

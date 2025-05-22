@@ -1,6 +1,5 @@
 import React from 'react'
 import ContactHero from './ContactHero'
-import ContactForm from '../Comman/ContactForm'
 import LightContactFrom from './LightContactForm';
 
 const ContactSection = () => {

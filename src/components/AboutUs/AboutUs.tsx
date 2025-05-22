@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutUsHeader from './AboutUsHeader'
 import AboutUsSecond from './AboutUsSecond'
-import SectionCTABtn from '../Comman/SectionCTABtn'
+// import SectionCTABtn from '../Comman/SectionCTABtn'
 import MapComponent from '../Comman/MapComponent'
 
 const AboutUs = () => {

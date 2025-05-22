@@ -19,7 +19,7 @@ const FAQAccordion: React.FC<{ faqs: FAQItem[] }> = ({ faqs }) => {
         {faqs.map((faq, index) => (
           <div key={index} className="border rounded-2xl overflow-hidden">
             <button
-              className="w-full flex justify-between text-left items-center py-5 px-4 lg:px-10 bg-white text-black text-lg font-medium"
+              className="w-full flex cursor-pointer justify-between text-left items-center py-5 px-4 lg:px-10 bg-white text-black text-lg font-medium"
               onClick={() => toggleFAQ(index)}
             >
               {faq.question}

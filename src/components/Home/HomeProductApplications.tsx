@@ -7,15 +7,14 @@ import { ImImages } from 'react-icons/im'
 const HomeProductApplications = () => {
     return (
         <section className="px-6 py-10">
-            <div className="w-full flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-                <div className="space-y-4">
+            <div className="w-full flex flex-col lg:flex-row items-start lg:items-center justify-start gap-6">
+                <div className="space-y-2">
                     <div className="flex gap-2 items-center">
                         <FaLightbulb className="text-custom-red-light" />
                         <p className="font-inter text-xl">Product Applications</p>
                     </div>
-                    <p className="font-medium text-2xl">See Our Products in Action</p>
+                    <h1 className="font-medium text-4xl lg:text-[100px] leading-tight">Experience Center</h1>
                 </div>
-                <h1 className="font-medium text-4xl lg:text-[100px] leading-tight">Experience Center</h1>
             </div>
 
             <div className="mt-10 space-y-6">
@@ -23,9 +22,9 @@ const HomeProductApplications = () => {
                 <div className="flex flex-col lg:flex-row gap-4 h-auto lg:h-[50vh]">
                     <div className="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]">
                         <Image
-                            src={images.HomeHero1}
+                            src={images.gastecL}
                             alt="grid-image"
-                            className="absolute z-10 inset-0 w-full h-full object-cover"
+                            className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
                             width={788}
                             height={469}
                         />
@@ -42,9 +41,9 @@ const HomeProductApplications = () => {
 
                     <div className="lg:w-[40%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]">
                         <Image
-                            src={images.HomeHero1}
+                            src={images.mx3T}
                             alt="grid-image"
-                            className="absolute z-10 inset-0 w-full h-full object-cover"
+                            className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
                             width={788}
                             height={469}
                         />
@@ -64,9 +63,9 @@ const HomeProductApplications = () => {
                 <div className="flex flex-col lg:flex-row-reverse gap-4 h-auto lg:h-[50vh]">
                     <div className="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]">
                         <Image
-                            src={images.HomeHero1}
+                            src={images.mx3L}
                             alt="grid-image"
-                            className="absolute z-10 inset-0 w-full h-full object-cover"
+                            className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
                             width={788}
                             height={469}
                         />
@@ -83,9 +82,9 @@ const HomeProductApplications = () => {
 
                     <div className="lg:w-[40%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]">
                         <Image
-                            src={images.HomeHero1}
+                            src={images.oilTesterT}
                             alt="grid-image"
-                            className="absolute z-10 inset-0 w-full h-full object-cover"
+                            className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
                             width={788}
                             height={469}
                         />

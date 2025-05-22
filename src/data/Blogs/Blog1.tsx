@@ -2,22 +2,38 @@ import React from 'react';
 
 const Blog1 = () => {
   return (
-    <div className='blog-content space-y-8'>
-      <p className="text-base md:text-lg text-gray-600 font-medium">{"When it comes to interior design in Dubai, one of the most powerful elements often overlooked is lighting. In a city where innovation, luxury, and aesthetic appeal reign, lighting plays a critical role in defining the atmosphere and functionality of a space. Whether it’s a commercial office, a home, or a retail store, the right lighting not only enhances the look but also improves the overall experience of the space."}</p>
-      
-      <h2 className="text-3xl md:text-4xl text-[#000000] font-medium">{"Why Lighting Matters in Interior Fit-Outs in Dubai:"}</h2>
-      
-      <ul className='space-y-2'>
-        <p className="text-base md:text-lg text-gray-600 font-medium"><b className='text-black'>{"Setting the Mood:"}</b> {"The right lighting can transform a room. Soft, warm lighting creates a relaxed atmosphere in living spaces, while brighter, cooler lighting is ideal for working environments like offices."}</p>
-        <p className="text-base md:text-lg text-gray-600 font-medium"><b className='text-black'>{"Highlighting Design Features:"}</b> {"Lighting is an essential tool for emphasizing key features in interior design, such as artwork, architectural details, and textures. It helps bring out the best in the materials used for your interior fit-out."}</p>
-        <p className="text-base md:text-lg text-gray-600 font-medium"><b className='text-black'>{"Energy Efficiency:"}</b> {"With Dubai’s focus on sustainability, choosing energy-efficient lighting like LED lights or smart lighting systems can help reduce energy consumption and lower electricity bills. These lights are durable, cost-effective, and have a smaller environmental footprint."}</p>
-        <p className="text-base md:text-lg text-gray-600 font-medium"><b className='text-black'>{"Task Lighting vs. Ambient Lighting:"}</b> {"Balancing ambient lighting with task lighting (focused light for specific tasks like reading or working) is key to ensuring both aesthetics and functionality. Task lighting in offices and kitchens, for example, helps with focus and productivity, while ambient lighting in living rooms and bedrooms adds warmth and comfort."}</p>
+    <section className="blog-content space-y-6 text-[11pt] font-sans">
+
+      <h2 className="text-lg font-semibold mb-2">
+        {"In hazardous industrial environments, accurate gas detection is not a luxury—it’s a necessity."}
+      </h2>
+      <p className="mb-4 text-base leading-relaxed">
+        The Gastec Gas Detection System provides reliable, portable, and precise solutions for identifying harmful gases and vapors across a range of industries. From confined spaces to offshore rigs, Gastec detector tubes and pumps are trusted globally to protect lives and ensure regulatory compliance.
+      </p>
+
+      <h2 className="text-lg font-semibold mb-2">The Importance of On-Site Gas Monitoring</h2>
+      <p className="mb-4 text-base leading-relaxed">
+        Industries like oil and gas, manufacturing, and marine operations deal with a wide array of potentially toxic and flammable gases. Real-time, on-the-spot gas testing is crucial to prevent accidents, illnesses, and environmental damage.
+      </p>
+
+      <h2 className="text-lg font-semibold mb-2">How Gastec Detector Tubes Work</h2>
+      <p className="mb-4 text-base leading-relaxed">
+        Gastec systems use a manual pump and calibrated chemical detector tubes that visibly change color upon exposure to a target gas. This low-tech yet highly accurate method offers immediate results without needing electricity or software calibration.
+      </p>
+
+      <h2 className="text-lg font-semibold mb-2">GHS-8AT-EX: Explosion-Proof Protection</h2>
+      <p className="mb-4 text-base leading-relaxed">
+        The GHS-8AT-EX is an explosion-proof model designed for EX zones, allowing safe gas sampling in high-risk areas. It comes equipped with an extension hose for remote or confined sampling.
+      </p>
+
+      <h2 className="text-lg font-semibold mb-2">Applications Across Industries</h2>
+      <ul className="list-disc list-inside space-y-2 text-base leading-relaxed">
+        <li>Confined space entry</li>
+        <li>Petrochemical processing</li>
+        <li>Industrial hygiene inspections</li>
+        <li>Marine and offshore monitoring</li>
       </ul>
-      
-      <h2 className="text-3xl md:text-4xl text-[#000000] font-medium">{"Conclusion:"}</h2>
-      
-      <p className="text-base md:text-lg text-gray-600 font-medium">{"In Dubai's interior fit-outs, lighting isn't just about visibility—it's about creating a feeling. Whether in luxury homes, corporate offices, or retail spaces, the right lighting can elevate the space and complement the overall design vision. To make your next fit-out project shine, prioritize lighting to create the perfect ambiance. For expert design guidance and implementation, contact Spacesculpt UAE to transform your space with the perfect lighting solution."}</p>
-    </div>
+    </section>
   );
 };
 

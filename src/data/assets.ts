@@ -5,6 +5,7 @@ const images: Assets = {
     Thermometer: "/images/thermometer.png",
     ProductVennDiagram: "/images/product-venn-diagram.png",
 
+    HomeAbout: "/images/Home/home-aboutus.jpg",
 
     Logo: "/images/logo2.png",
 
@@ -15,7 +16,26 @@ const images: Assets = {
     Rectangle186: "/images/About/Rectangle-186.png",
     Rectangle187: "/images/About/Rectangle-187.png",
 
+    gastecL: "/images/Product-Images/gastec-l.jpg",
+    gastecT: "/images/Product-Images/gastec-t.jpg",
+    mx3L: "/images/Product-Images/mx3-l.png",
+    mx3T: "/images/Product-Images/mx3-t.jpg",
+    oilTesterL: "/images/Product-Images/oil-tester.jpg",
+    oilTesterT: "/images/Product-Images/oil-tester-2.jpg",
 
+    // products section assets
+
+    gastec860_2: "/images/Product-Images/gastec-device-3.jpg",
+    gastecGHS_501FT_1: "/images/Product-Images/gastec-device-2.jpg",
+    gastecGHS_8AT_EX_1: "/images/Product-Images/gastec-device-hp.jpg",
+
+    mx3DeviceHp: "/images/Product-Images/mx3-device-hp.jpg",
+    mx3Device2: "/images/Product-Images/mx3-device2-hp.jpg",
+    mx3DeviceKit: "/images/Product-Images/mx3-kit-hp.jpg",
+
+    oilTesterHp: "/images/Product-Images/oil-tester-hp.jpg",
+    oilTesterStraws: "/images/Product-Images/straws-hp.jpg",
+    oilTesterKit: "/images/Product-Images/oil-tester-kit-hp.jpg",
 
 
     ProductOverview1: "/images/All-Product-Assets/Product-Overview-1.png",

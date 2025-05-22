@@ -36,10 +36,26 @@ export const socialMedia: SocialMediaLinks[] = [
 ];
 
 export const homePagefaqs: FAQItem[] = [
-  { question: "How do I choose the right hydration system?", answer: "We provide expert recommendations based on your needs." },
-  { question: "Do you provide on-site setup and support?", answer: "Yes, we offer full installation and maintenance support." },
-  { question: "What brands do you work with?", answer: "We collaborate with top hydration brands globally." },
-  { question: "Can I get a custom system for my space?", answer: "Absolutely! We tailor solutions for your requirements." },
+  {
+    question: "What makes Gastec gas detection systems different from electronic gas detectors?",
+    answer: "Gastec gas detection systems use manual pumps and chemical detector tubes that provide instant visual results without electricity or calibration. They’re cost-effective, maintenance-free, and ideal for fieldwork in hazardous or remote environments. The GHS-8AT-EX model even allows safe use in explosion-prone zones."
+  },
+  {
+    question: "How accurate is the MX3 Hydration Testing System for workforce monitoring?",
+    answer: "MX3 uses saliva-based analysis, providing highly accurate hydration status within minutes. It’s trusted by health and safety managers across industries for its scientific backing, digital integration, and ability to prevent dehydration-related incidents on-site."
+  },
+  {
+    question: "How often should cooking oil be tested using Alla France Frying Oil Testers?",
+    answer: "It’s recommended to test frying oil at least once per day in commercial kitchens, or more frequently depending on usage volume. Regular monitoring with Alla France testers ensures food safety, flavor consistency, and compliance with HACCP standards."
+  },
+  {
+    question: "Can Gastec detector tubes measure multiple types of gases?",
+    answer: "Yes. Gastec offers a wide range of pre-calibrated tubes designed to measure over 500 different gases and vapors, including toxic, flammable, and corrosive compounds. Each tube is specific to a target gas and concentration range."
+  },
+  {
+    question: "Is the MX3 Hydration Testing System suitable for industries outside construction or oil & gas?",
+    answer: "Absolutely. MX3 is widely used in sports, military, firefighting, and industrial environments—anywhere hydration impacts performance and safety. It’s portable, easy to use, and scalable for teams of all sizes."
+  }
 ];
 
 export const contactUsEmail = "samplemail@domain.com"

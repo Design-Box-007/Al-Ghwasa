@@ -18,9 +18,9 @@ type ProductInfo = {
 }
 
 const products: Record<number, ProductInfo> = {
-    1: { imgSrc: images.Thermometer, link: "/frying-oil-tester", bgSrc: images.HomeHero1, name: 'Thermometer', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
-    2: { imgSrc: images.Thermometer, link: "/mx-3", bgSrc: images.HomeHero1, name: 'Hydration', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
-    3: { imgSrc: images.Thermometer, link: "/gastec", bgSrc: images.HomeHero1, name: 'Safety', className: 'bg-custom-red-light', textClass: 'text-custom-red-light' },
+    1: { imgSrc: images.oilTesterT, link: "/frying-oil-tester", bgSrc: images.oilTesterL, name: 'Thermometer', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
+    2: { imgSrc: images.mx3T, link: "/mx-3", bgSrc: images.mx3L, name: 'Hydration', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
+    3: { imgSrc: images.gastecT, link: "/gastec", bgSrc: images.gastecL, name: 'Safety', className: 'bg-custom-red-light', textClass: 'text-custom-red-light' },
 }
 
 const Hero = () => {
@@ -49,7 +49,7 @@ const Hero = () => {
                     alt="home-hero"
                     width={1360}
                     height={683}
-                    className="absolute inset-0 z-10 object-cover object-center w-full h-full rounded-[20px]"
+                    className="absolute inset-0 brightness-[.4] z-10 object-cover object-center w-full h-full rounded-[20px]"
                 />
 
                 {/* Content Layer */}

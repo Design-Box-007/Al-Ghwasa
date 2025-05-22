@@ -4,22 +4,22 @@ import images from "./assets";
 
 export const blogListData: Blog[] = [
     {
-        title: "The Importance of Lighting in Dubai’s Interior Fit-Outs: Creating the Right Ambiance",
-        description: "Explore how lighting choices impact interior spaces, enhancing aesthetics and functionality in Dubai's fit-outs.",
-        imgSrc: images.HomeHero1,
-        component: "DummyBlog"
+        title: "Why Gastec Gas Detection Systems Are Essential for Industrial Safety",
+        description: "In hazardous industrial environments, accurate gas detection is not a luxury—it’s a necessity.",
+        imgSrc: images.gastecL,
+        component: "Blog1"
     },
     {
-        title: "Top Materials for Interior Fit-Outs in Dubai: From Marble to Sustainable Alternatives",
-        description: "Discover the best materials for interior fit-outs in Dubai, from luxurious marble to eco-friendly alternatives.",
-        imgSrc: images.HomeHero1,
-        component: "DummyBlog"
+        title: "Hydration Testing with MX3: A Game-Changer for Workforce Health & Safety",
+        description: "Dehydration is a silent threat on job sites, especially in hot, demanding environments.The MX3 Hydration Testing System offers a revolutionary, science-backed solution to monitor",
+        imgSrc: images.mx3T,
+        component: "Blog2"
     },
     {
-        title: "Interior Fit-Out for Dubai’s Retail Sector: How to Design Engaging Shopping Experiences",
-        description: "Learn how to create immersive retail spaces that attract customers and enhance shopping experiences in Dubai.",
-        imgSrc: images.HomeHero1,
-        component: "DummyBlog"
+        title: "Improve Food Quality and Safety with Alla France Frying Oil Testers",
+        description: "Oil quality plays a major role in food flavor, safety, and customer satisfaction.",
+        imgSrc: images.oilTesterL,
+        component: "Blog3"
     },
     // {
     //     title: "Smart Furniture for Small Apartments",

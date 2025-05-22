@@ -47,20 +47,20 @@ const HomeAbout = () => {
                 <div className="flex gap-2 items-center">
                     <FaLightbulb className="text-custom-red-light" />
                     <p className="font-inter text-xl">
-                        About AL Ghwasa
+                        About Al Ghwasa
                     </p>
                 </div>
             </motion.div>
             <div className="flex flex-col lg:flex-row gap-2">
                 <motion.h1
-                    className="font-medium text-3xl lg:text-[56px] flex-1"
+                    className="font-medium text-3xl lg:text-[56px] flex-1 capitalize"
                     variants={headingVariant}
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
                     transition={{ duration: 1, delay: 0.3 }}
                 >
-                    Over 30 Years of <br />Excellence in
+                    Over 30 Years of <br />Excellence in industrial and marine
                 </motion.h1>
                 <div className="flex flex-col gap-14 justify-around flex-1 lg:px-2">
                     <motion.div
@@ -72,7 +72,7 @@ const HomeAbout = () => {
                         transition={{ duration: 1, delay: 0.6 }}
                     >
                         <p className='text-xl font-light text-black'>
-                            {"Established in 1990 in Dubai, AL Ghwasa is a trusted leader in providing cutting-edge solutions in industrial automation, and safety equipment."}
+                            {"With over 30 years of excellence in supplying high-quality industrial and marine equipment, Al Ghwasa has earned a trusted reputation across the Middle East for reliability, innovation, and technical expertise."}
                         </p>
                         {/* <div className='flex items-center gap-5 font-medium text-base'>
                             <div className='py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-2xl'>Reliablity</div>
@@ -90,7 +90,7 @@ const HomeAbout = () => {
                     >
                         <Link href="/about" passHref className="text-sm sm:text-base md:text-2xl font-medium text-custom-red-light">Learn More About us</Link>
                         <span className="bg-transparent rounded-full p-1 sm:p-2">
-                            <FaArrowRight size={14} className="text-custom-red-light" />
+                            <FaArrowRight className="text-custom-red-light" />
                         </span>
                     </motion.div>
                 </div>
@@ -99,7 +99,7 @@ const HomeAbout = () => {
             <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-2xl overflow-hidden">
                 <Image
                     loading="lazy"
-                    src={images.HomeHero1}
+                    src={images.HomeAbout}
                     alt="about"
                     width={961}
                     height={641}

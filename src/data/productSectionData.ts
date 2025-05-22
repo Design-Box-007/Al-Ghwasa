@@ -6,78 +6,31 @@ const productsData: ProductSectionData[] = [
         number: "01",
         title: "Hospitality Equipment",
         link: "/frying-oil-tester",
-        categories: [
-            {
-                title: "Thermometer",
-                products: [
-                    { imgSrc: images.Thermometer, name: "Digital Thermometer" },
-                    { imgSrc: images.Thermometer, name: "Infrared Thermometer" },
-                    { imgSrc: images.Thermometer, name: "Smart Thermometer" },
-                ],
-            },
-            {
-                title: "Food Oil Tester",
-                products: [
-                    { imgSrc: images.Thermometer, name: "Basic Oil Tester" },
-                    { imgSrc: images.Thermometer, name: "Advanced Oil Tester" },
-                    { imgSrc: images.Thermometer, name: "Pro Oil Tester" },
-                ],
-            },
-            {
-                title: "Eco-Friendly Straws",
-                products: [
-                    { imgSrc: images.Thermometer, name: "Paper Straws" },
-                    { imgSrc: images.Thermometer, name: "Bamboo Straws" },
-                    { imgSrc: images.Thermometer, name: "Metal Straws" },
-                ],
-            },
-        ],
+        images: [
+            { imgSrc: images.oilTesterHp, name: "Digital Food Oil Tester" },
+            { imgSrc: images.oilTesterStraws, name: "Straws" },
+            { imgSrc: images.oilTesterKit, name: "Device Kit" },
+        ]
     },
     {
         number: "02",
         title: "Hydration Measurement",
         link: "/mx-3",
-        categories: [
-            {
-                title: "Sweat Test",
-                products: [
-                    { imgSrc: images.Thermometer, name: "Basic Water Tester" },
-                    { imgSrc: images.Thermometer, name: "Advanced Water Tester" },
-                    { imgSrc: images.Thermometer, name: "Pro Water Tester" },
-                ],
-            },
-            {
-                title: "Saliva Test",
-                products: [
-                    { imgSrc: images.Thermometer, name: "Temperature Bottle" },
-                    { imgSrc: images.Thermometer, name: "Hydration Reminder Bottle" },
-                    { imgSrc: images.Thermometer, name: "UV Purifier Bottle" },
-                ],
-            },
-        ],
+        images: [
+            { imgSrc: images.mx3DeviceHp, name: "Hydration device" },
+            { imgSrc: images.mx3Device2, name: "Hydration Kit" },
+            { imgSrc: images.mx3DeviceKit, name: "Hydration Test Strips" },
+        ]
     },
     {
         number: "03",
         title: "Safety Solutions",
         link: "/gastec",
-        categories: [
-            {
-                title: "Sanitization",
-                products: [
-                    { imgSrc: images.Thermometer, name: "Hand Sanitizer" },
-                    { imgSrc: images.Thermometer, name: "Surface Disinfectant" },
-                    { imgSrc: images.Thermometer, name: "Air Sanitizer" },
-                ],
-            },
-            {
-                title: "Protective Gear",
-                products: [
-                    { imgSrc: images.Thermometer, name: "Face Mask" },
-                    { imgSrc: images.Thermometer, name: "Gloves" },
-                    { imgSrc: images.Thermometer, name: "Face Shield" },
-                ],
-            },
-        ],
+        images: [
+            { imgSrc: images.gastec860_2, name: "860_2" },
+            { imgSrc: images.gastecGHS_501FT_1, name: "GHS_501FT_1" },
+            { imgSrc: images.gastecGHS_8AT_EX_1, name: "GHS_8AT_EX_1" },
+        ]
     },
 ];
 

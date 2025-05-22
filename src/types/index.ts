@@ -36,16 +36,11 @@ export interface Product {
     name: string;
 }
 
-export interface Category {
-    title: string;
-    products: Product[];
-}
-
 export interface ProductSectionData {
     number: string;
     title: string;
     link:string;
-    categories: Category[];
+    images: Product[];
 }
 
 export interface Blog {

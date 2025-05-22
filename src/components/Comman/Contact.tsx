@@ -11,14 +11,14 @@ const Contact = () => {
         <section id='contact' className='px-c-20 py-5 my-5 space-y-[56px]'>
 
             <motion.h1
-                className="text-[48px] leading-[64px] sm:text-[64px] sm:leading-[84px] md:text-[80px] md:leading-[108px] lg:text-[96px] lg:leading-[130px] xl:text-[120px] xl:leading-[162px] text-secondary font-medium"
+                className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold font-dm-sans leading-tight mb-8"
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 1 }}
             >
-                {"Let's Design Your"} <br />
-                <span className="text-primary">Dream Space</span> Today
+                {"Let’s Connect &"} <br />
+                Collaborate Together
             </motion.h1>
 
             <ContactForm className='bg-custom-red-light text-white' />

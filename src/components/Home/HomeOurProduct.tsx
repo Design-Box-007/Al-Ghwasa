@@ -3,28 +3,26 @@
 import { useState } from "react";
 import { FaArrowRight, FaLightbulb } from "react-icons/fa";
 import ProductCard from "../Comman/ProductCard";
-import { BsThermometerHalf } from "react-icons/bs";
 import { MdExplore } from "react-icons/md";
 import productsData from "@/data/productSectionData";
 import Link from "next/link";
 import { FaXmark } from "react-icons/fa6";
 
-interface Category {
-    title: string;
-    products: { imgSrc: string; name: string }[];
+interface Products {
+    imgSrc: string;
+    name: string
 }
 
 interface ProductSectionProps {
     number: string;
     title: string;
-    categories: Category[];
+    images: Products[];
     isOpen: boolean;
     link: string;
     onClick: () => void;
 }
 
-const ProductSection: React.FC<ProductSectionProps> = ({ number, title, categories, isOpen, onClick, link }) => {
-    const [selectedCategory, setSelectedCategory] = useState(categories[0]?.title || "");
+const ProductSection: React.FC<ProductSectionProps> = ({ number, title, images, isOpen, onClick, link }) => {
 
     return (
         <div className="py-4">
@@ -71,37 +69,14 @@ const ProductSection: React.FC<ProductSectionProps> = ({ number, title, categori
 
             {isOpen && (
                 <div className="mt-4">
-                    {/* Filter Bar */}
-                    <div className="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
-                        {/* Filter buttons */}
-                        <div className="flex flex-wrap gap-2">
-                            {categories.map((category) => (
-                                <button
-                                    key={category.title}
-                                    className={`py-2 px-3 border border-[#4A4A4A] flex items-center gap-2 rounded-3xl text-sm sm:text-base
-          ${selectedCategory === category.title ? "bg-custom-green-1 text-white" : ""}`}
-                                    onClick={() => setSelectedCategory(category.title)}
-                                >
-                                    <BsThermometerHalf />
-                                    <span>{category.title}</span>
-                                </button>
-                            ))}
-                        </div>
-
-                        {/* Explore More */}
-                    </div>
-
-
                     {/* Products Grid */}
                     <div className="mt-4 overflow-x-auto">
                         <div className="flex md:justify-between gap-4 pb-2 no-scrollbar">
-                            {categories
-                                .find((category) => category.title === selectedCategory)
-                                ?.products.map((product, index) => (
-                                    <div key={index} className="flex-shrink-0">
-                                        <ProductCard imgSrc={product.imgSrc} name={product.name} />
-                                    </div>
-                                ))}
+                            {images.map((product, index) => (
+                                <div key={index} className="flex-shrink-0 h-[400px] lg:flex-1 w-[400px] lg:w-fit lg:h-[400px]">
+                                    <ProductCard imgSrc={product.imgSrc} name={product.name} className="h-full" />
+                                </div>
+                            ))}
                         </div>
                     </div>
 
@@ -133,16 +108,16 @@ const HomeOurProducts = () => {
             </h1>
 
             {/* Product Sections */}
-            {productsData.map((section, index) => (
+
+
+            {productsData.map((section, index: number) => (
                 <ProductSection
                     key={index}
                     link={section.link}
                     number={section.number}
                     title={section.title}
-                    categories={section.categories}
                     isOpen={openSection === index + 1}
-                    onClick={() => toggleSection(index + 1)}
-                />
+                    onClick={() => toggleSection(index + 1)} images={section.images} />
             ))}
         </div>
 

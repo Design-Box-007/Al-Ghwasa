@@ -20,7 +20,7 @@ const ContactHero = () => {
                         Connect with
                     </p>
                     <h1 className='font-medium text-[68px] md:text-[100px] lg:text-[250px] text-white leading-[1]'>
-                        AL Ghwasa
+                        Al Ghwasa
                     </h1>
                 </div>
             </div>

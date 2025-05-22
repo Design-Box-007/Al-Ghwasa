@@ -72,3 +72,13 @@ body {
 .my-button {
   @apply flex items-center gap-2 px-6 py-3 rounded-full transition-all cursor-pointer bg-[#222222] text-white capitalize;
 }
+
+/* globals.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}

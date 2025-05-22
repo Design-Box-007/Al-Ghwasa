@@ -7,8 +7,7 @@ import ScrollToTopButton from '@/components/Comman/ScrollToTop'
 
 const GastecProduct = () => {
     return (
-        <main className='bg-white px-5 py-4 space-y-10'>
-
+        <main className='pt-[140px] bg-white px-5 lg:py-4 space-y-10'>
             <ProductHero />
             <GastecDataProvider>
                 <ProductDataTable />

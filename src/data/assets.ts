@@ -6,6 +6,9 @@ const images: Assets = {
     ProductVennDiagram: "/images/product-venn-diagram.png",
 
 
+    Logo: "/images/logo2.png",
+
+
     About: "/images/About/About.png",
     Map: "/images/About/Map.png",
     Rectangle185: "/images/About/Rectangle-185.png",

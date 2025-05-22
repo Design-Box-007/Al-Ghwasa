@@ -38,7 +38,7 @@ const Mx3Main = () => {
 
 
     return (
-        <main className='p-[10px] md:p-3 lg:p-5 font-poppins space-y-10'>
+        <main className='p-[10px] pt-[100px] md:p-3 lg:pb-5 lg:px-[30px] lg:pt-10 font-poppins space-y-10'>
             <BlogHeader blog={mx3Data} />
             <Suspense fallback={<p>Loading blog...</p>}>
                 <Mx3Component />

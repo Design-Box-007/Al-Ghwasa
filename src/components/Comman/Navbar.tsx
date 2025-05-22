@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { FaBars, FaPhoneAlt, FaTimes } from 'react-icons/fa';
 import { navLinks } from '@/data/comman';
 import { NavLinksType } from '@/types';
+import Image from 'next/image';
+import images from '@/data/assets';
 
 const Navbar = () => {
     const [isMobileOpen, setIsMobileOpen] = useState(false);
@@ -19,8 +21,14 @@ const Navbar = () => {
             <div className="w-[95%] mx-auto rounded-[40px] backdrop-blur-md bg-black/30 border-b border-white/10">
                 <div className="max-w-full flex items-center justify-between mx-auto py-c-10 px-c-20 font-medium">
                     {/* Brand */}
-                    <Link href="/" className="text-white text-3xl font-semibold font-radjdhani">
-                        AL Ghwasa
+                    <Link href="/" className="w-[100px] text-white text-3xl font-semibold font-radjdhani">
+                        <Image
+                            src={images.Logo}
+                            alt='al-ghwasa'
+                            width={204}
+                            height={136}
+                            className='w-full h-full object-contain'
+                        />
                     </Link>
 
                     {/* Desktop Menu */}
@@ -114,7 +122,7 @@ const Navbar = () => {
                 {/* Mobile Menu */}
                 {isMobileOpen && (
                     <div className="lg:hidden flex flex-col px-6 pb-6 bg-black/50 backdrop-blur-md text-white space-y-4">
-                        {navLinks.map((navlink:NavLinksType, i:number) => (
+                        {navLinks.map((navlink: NavLinksType, i: number) => (
                             <div key={i} className="w-full">
                                 {navlink.subLinks ? (
                                     <>
@@ -127,7 +135,7 @@ const Navbar = () => {
                                         </button>
                                         {mobileDropdown[i] && (
                                             <div className="ml-4 mt-2 space-y-2">
-                                                {navlink.subLinks.map((sublink:NavLinksType, j:number) => (
+                                                {navlink.subLinks.map((sublink: NavLinksType, j: number) => (
                                                     <div key={j}>
                                                         {sublink.subLinks ? (
                                                             <>
@@ -140,11 +148,12 @@ const Navbar = () => {
                                                                 </button>
                                                                 {mobileDropdown[`${i}-${j}`] && (
                                                                     <div className="ml-4 mt-1">
-                                                                        {sublink.subLinks.map((item:NavLinksType, k:number) => (
+                                                                        {sublink.subLinks.map((item: NavLinksType, k: number) => (
                                                                             <Link
                                                                                 key={k}
                                                                                 href={item.navHref || '#'}
                                                                                 className="block py-1"
+                                                                                onClick={() => setIsMobileOpen(false)}
                                                                             >
                                                                                 {item.navTitle}
                                                                             </Link>
@@ -153,7 +162,7 @@ const Navbar = () => {
                                                                 )}
                                                             </>
                                                         ) : (
-                                                            <Link href={sublink.navHref || '#'} className="block py-1">
+                                                            <Link href={sublink.navHref || '#'} className="block py-1" onClick={() => setIsMobileOpen(false)}>
                                                                 {sublink.navTitle}
                                                             </Link>
                                                         )}
@@ -163,7 +172,7 @@ const Navbar = () => {
                                         )}
                                     </>
                                 ) : (
-                                    <Link href={navlink.navHref || '#'} className="block py-2">
+                                    <Link href={navlink.navHref || '#'} className="block py-2" onClick={() => setIsMobileOpen(false)}>
                                         {navlink.navTitle}
                                     </Link>
                                 )}

@@ -44,6 +44,7 @@ export interface Category {
 export interface ProductSectionData {
     number: string;
     title: string;
+    link:string;
     categories: Category[];
 }
 

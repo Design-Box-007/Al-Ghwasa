@@ -139,56 +139,56 @@ const safetyProducts: ProductsCategory[] = [
         ]
     }
 ];
-const marineProducts: ProductsCategory[] = [{
-    title: "Pumps & Fluid Handling Systems",
-    products: [
-        "Centrifugal Pumps",
-        "Diaphragm Pumps",
-        "Oil Transfer & Fuel Pumps",
-    ]
-}, {
-    title: "Environmental & Water Quality Monitoring",
-    products: [
-        "Dissolved Oxygen Meters",
-        "pH & Conductivity Meters",
-        "Turbidity Sensors",
-    ]
-}, {
-    title: "Pressure & Temperature Gauges",
-    products: [
-        "Digital & Analog Pressure Gauges",
-        "Temperature Sensors & Thermocouples",
-        "Multi-Parameter Process Monitors",
-    ]
-}, {
-    title: "Industrial Gas Detection & Air Quality Monitoring",
-    products: [
-        "Fixed & Portable Gas Detectors",
-        "Confined Space Entry Monitors",
-        "VOC (Volatile Organic Compound) Detectors",
-    ]
-}, {
-    title: "Marine Navigation & Safety Equipment",
-    products: [
-        "Marine Radars & GPS Systems",
-        "AIS (Automatic Identification Systems)",
-        "Lifeboats & Safety Equipment",
-    ]
-}, {
-    title: "Industrial Valves & Pipeline Components",
-    products: [
-        "Ball Valves & Butterfly Valves",
-        "Check Valves & Safety Relief Valves",
-        "Actuated Valves & Remote Monitoring Systems",
-    ]
-}, {
-    title: "Industrial & Marine Electrical Systems",
-    products: [
-        "Marine-Grade Circuit Breakers",
-        "Industrial Control Panels & PLC Systems",
-        "Explosion-Proof Electrical Equipmen",
-    ]
-},];
+// const marineProducts: ProductsCategory[] = [{
+//     title: "Pumps & Fluid Handling Systems",
+//     products: [
+//         "Centrifugal Pumps",
+//         "Diaphragm Pumps",
+//         "Oil Transfer & Fuel Pumps",
+//     ]
+// }, {
+//     title: "Environmental & Water Quality Monitoring",
+//     products: [
+//         "Dissolved Oxygen Meters",
+//         "pH & Conductivity Meters",
+//         "Turbidity Sensors",
+//     ]
+// }, {
+//     title: "Pressure & Temperature Gauges",
+//     products: [
+//         "Digital & Analog Pressure Gauges",
+//         "Temperature Sensors & Thermocouples",
+//         "Multi-Parameter Process Monitors",
+//     ]
+// }, {
+//     title: "Industrial Gas Detection & Air Quality Monitoring",
+//     products: [
+//         "Fixed & Portable Gas Detectors",
+//         "Confined Space Entry Monitors",
+//         "VOC (Volatile Organic Compound) Detectors",
+//     ]
+// }, {
+//     title: "Marine Navigation & Safety Equipment",
+//     products: [
+//         "Marine Radars & GPS Systems",
+//         "AIS (Automatic Identification Systems)",
+//         "Lifeboats & Safety Equipment",
+//     ]
+// }, {
+//     title: "Industrial Valves & Pipeline Components",
+//     products: [
+//         "Ball Valves & Butterfly Valves",
+//         "Check Valves & Safety Relief Valves",
+//         "Actuated Valves & Remote Monitoring Systems",
+//     ]
+// }, {
+//     title: "Industrial & Marine Electrical Systems",
+//     products: [
+//         "Marine-Grade Circuit Breakers",
+//         "Industrial Control Panels & PLC Systems",
+//         "Explosion-Proof Electrical Equipmen",
+//     ]
+// },];
 
 export const productData: ProductDataType[] = [
     {
@@ -208,12 +208,6 @@ export const productData: ProductDataType[] = [
         icon: FaShieldAlt,
         color: "bg-[#00897B]",
         productCategoryList: safetyProducts,
-    },
-    {
-        title: "Marine & Industrial",
-        icon: FaWater,
-        color: "bg-[#6881FB]",
-        productCategoryList: marineProducts,
     },
 ];
 

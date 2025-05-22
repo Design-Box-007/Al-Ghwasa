@@ -69,16 +69,19 @@ const FilterProducts: React.FC<FilterProps> = ({
                 <div className="bg-[#0277BD] h-[2px] w-full"></div>
 
                 {/* Category Filter */}
-                <div className="flex gap-3 flex-wrap">
-                    {["All", ...categoriesList].map((cat) => (
-                        <ProductFilterBtn
-                            key={cat}
-                            title={cat}
-                            isActive={cat === selectedCategory}
-                            onClick={() => setSelectedCategory(cat)}
-                        />
-                    ))}
+                <div className="mt-4 overflow-x-auto scrollbar-hide">
+                    <div className="flex gap-4 pb-2 whitespace-nowrap scrollbar-hide">
+                        {["All", ...categoriesList].map((cat) => (
+                            <ProductFilterBtn
+                                key={cat}
+                                title={cat}
+                                isActive={cat === selectedCategory}
+                                onClick={() => setSelectedCategory(cat)}
+                            />
+                        ))}
+                    </div>
                 </div>
+
             </div>
         </div>
     );
@@ -137,7 +140,7 @@ const ProductDataTable: React.FC = () => {
 
 
     return (
-        <section className='relative w-full bg-[#F1F1F1] rounded-[20px] p-9 pt-50'>
+        <section className='relative w-full bg-[#F1F1F1] rounded-[20px] p-9 pt-20'>
             <FilterProducts
                 selectedCategory={selectedCategory}
                 setSelectedCategory={setSelectedCategory}

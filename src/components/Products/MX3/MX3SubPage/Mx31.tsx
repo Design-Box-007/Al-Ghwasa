@@ -57,7 +57,7 @@ const Mx31 = () => {
         most effective for replenishment.
       </p>
 
-      <div className="h-[700px] overflow-hidden rounded-lg">
+      <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
         <img src={images.Athletic2} alt={"Atheletic"} className="rounded-lg object-top object-cover h-full w-full" />
       </div>
 

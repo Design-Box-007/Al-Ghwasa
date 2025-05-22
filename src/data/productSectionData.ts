@@ -5,6 +5,7 @@ const productsData: ProductSectionData[] = [
     {
         number: "01",
         title: "Hospitality Equipment",
+        link: "/frying-oil-tester",
         categories: [
             {
                 title: "Thermometer",
@@ -15,7 +16,7 @@ const productsData: ProductSectionData[] = [
                 ],
             },
             {
-                title: "Alia Oil Tester",
+                title: "Food Oil Tester",
                 products: [
                     { imgSrc: images.Thermometer, name: "Basic Oil Tester" },
                     { imgSrc: images.Thermometer, name: "Advanced Oil Tester" },
@@ -35,9 +36,10 @@ const productsData: ProductSectionData[] = [
     {
         number: "02",
         title: "Hydration Measurement",
+        link: "/mx-3",
         categories: [
             {
-                title: "Water Quality Testers",
+                title: "Sweat Test",
                 products: [
                     { imgSrc: images.Thermometer, name: "Basic Water Tester" },
                     { imgSrc: images.Thermometer, name: "Advanced Water Tester" },
@@ -45,7 +47,7 @@ const productsData: ProductSectionData[] = [
                 ],
             },
             {
-                title: "Smart Bottles",
+                title: "Saliva Test",
                 products: [
                     { imgSrc: images.Thermometer, name: "Temperature Bottle" },
                     { imgSrc: images.Thermometer, name: "Hydration Reminder Bottle" },
@@ -57,6 +59,7 @@ const productsData: ProductSectionData[] = [
     {
         number: "03",
         title: "Safety Solutions",
+        link: "/gastec",
         categories: [
             {
                 title: "Sanitization",

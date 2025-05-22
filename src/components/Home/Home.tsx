@@ -10,7 +10,7 @@ import BlogSection from '../Comman/BlogSection'
 
 const Home = () => {
   return (
-    <main className='mt-[100px] lg:mt-0'>
+    <main className='mt-[120px] lg:mt-4'>
       <Hero />
       <HomeOurProducts />
       <HomeAbout />
@@ -18,8 +18,8 @@ const Home = () => {
       <BlogSection
         title='Featured Articles'
         ctaBtn='View All'
-        ctaBtnClassName='py-c-10 px-6 bg-custom-green-1 text-white font-medium text-xl flex justify-between items-center rounded-lg'
-        titleClassName='text-[56px] font-normal font-inter text-custom-red-light'
+        ctaBtnClassName='px-4 py-2 sm:px-6 sm:py-c-10 bg-custom-green-1 text-white font-medium text-base sm:text-xl flex justify-between items-center rounded-lg'
+        titleClassName='text-3xl lg:text-[56px] font-normal font-inter text-custom-red-light'
       />
       <FAQAccordion faqs={homePagefaqs} />
       <Contact />

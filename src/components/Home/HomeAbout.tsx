@@ -5,7 +5,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import images from '@/data/assets'
 import { FaArrowRight, FaLightbulb } from 'react-icons/fa'
-import TrustedPartners from '../Comman/TrustedPartners'
+import Link from 'next/link'
+// import TrustedPartners from '../Comman/TrustedPartners'
 
 const aboutUsVariant = {
     hidden: { opacity: 0, y: -20 },
@@ -52,7 +53,7 @@ const HomeAbout = () => {
             </motion.div>
             <div className="flex flex-col lg:flex-row gap-2">
                 <motion.h1
-                    className="font-medium text-[56px] flex-1"
+                    className="font-medium text-3xl lg:text-[56px] flex-1"
                     variants={headingVariant}
                     initial="hidden"
                     whileInView="visible"
@@ -61,7 +62,7 @@ const HomeAbout = () => {
                 >
                     Over 30 Years of <br />Excellence in Industrial &<br /> Marine Equipment
                 </motion.h1>
-                <div className="flex flex-col gap-14 justify-around flex-1 px-2">
+                <div className="flex flex-col gap-14 justify-around flex-1 lg:px-2">
                     <motion.div
                         className="space-y-5"
                         variants={paragraphVariant}
@@ -73,11 +74,11 @@ const HomeAbout = () => {
                         <p className='text-xl font-light text-black'>
                             {"Established in 1990 in Dubai, AL Ghwasa is a trusted leader in providing cutting-edge solutions in marine, industrial automation, and safety equipment."}
                         </p>
-                        <div className='flex items-center gap-5 font-medium text-base'>
+                        {/* <div className='flex items-center gap-5 font-medium text-base'>
                             <div className='py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-2xl'>Reliablity</div>
                             <div className='py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-2xl'>Innovation</div>
                             <div className='py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-2xl'>Customer Satisfaction</div>
-                        </div>
+                        </div> */}
                     </motion.div>
                     <motion.div
                         className="flex flex-row justify-between py-2 border-b border-b-custom-red-light"
@@ -87,7 +88,7 @@ const HomeAbout = () => {
                         viewport={{ once: true, amount: 0.5 }}
                         transition={{ duration: 1, delay: 0.9 }}
                     >
-                        <p className="text-sm sm:text-base md:text-2xl font-medium text-custom-red-light">Learn More About us</p>
+                        <Link href="/about" passHref className="text-sm sm:text-base md:text-2xl font-medium text-custom-red-light">Learn More About us</Link>
                         <span className="bg-transparent rounded-full p-1 sm:p-2">
                             <FaArrowRight size={14} className="text-custom-red-light" />
                         </span>
@@ -113,7 +114,7 @@ const HomeAbout = () => {
                 />
             </div>
 
-            <TrustedPartners />
+            {/* <TrustedPartners /> */}
         </section>
     )
 }

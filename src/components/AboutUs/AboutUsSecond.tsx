@@ -44,7 +44,7 @@ const AboutUsSecond = () => {
         <section className="space-y-4 py-5 px-c-20">
             <div className="flex flex-col lg:flex-row gap-2">
                 <motion.h1
-                    className="font-medium text-[60px] flex-1"
+                    className="font-medium text-4xl lg:text-[60px] flex-1"
                     variants={headingVariant}
                     initial="hidden"
                     whileInView="visible"
@@ -67,7 +67,7 @@ const AboutUsSecond = () => {
                 </div>
             </div>
             {/* Image Reveal Animation using an overlay */}
-            <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-2xl overflow-hidden flex items-end p-4">
+            <div className="relative w-full h-auto md:h-[500px] rounded-2xl overflow-hidden flex items-end p-4">
                 <Image
                     loading="lazy"
                     src={images.HomeHero1}
@@ -77,12 +77,14 @@ const AboutUsSecond = () => {
                     className="absolute inset-0 z-10 w-full h-full object-cover"
                 />
 
-                <div className='flex flex-row gap-4 h-[200px] relative z-30'>
+                <div className='flex flex-col md:flex-row gap-4 w-full h-auto relative z-30'>
                     {
                         aboutUsSecondContent.map((data, index) => (
-                            <div className={`space-y-4 bg-white px-4 py-6 rounded-2xl`} style={{ color: data.color }} key={index}>
-                                <h5 className='text-5xl'>{data.title}</h5>
-                                <p className='text-[28px] font-inter'>{data.content}</p>
+                            <div className={`flex-1 space-y-4 bg-white px-4 py-6 rounded-2xl`} style={{ color: data.color }} key={index}>
+                                <h5 className="text-3xl sm:text-4xl font-bold">{data.title}</h5>
+                                <p className="text-lg sm:text-xl font-light mt-2">
+                                    {data.content}
+                                </p>
                             </div>
                         ))
                     }

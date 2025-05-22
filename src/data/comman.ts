@@ -19,7 +19,7 @@ export const navLinks: NavLinksType[] = [
       },
       { navTitle: "Gastec", navHref: "/gastec/product-data" },
       // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
-      { navTitle: "Products", navHref: "/our-product" },
+      // { navTitle: "Products", navHref: "/our-product" },
     ],
   },
   { navTitle: "Experience Center", navHref: "/gallery" },

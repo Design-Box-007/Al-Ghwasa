@@ -17,7 +17,7 @@ const Mx33 = () => {
           MX3 offers a cost-effective, noninvasive solution for managing heat-related health risks. Through the integrated <strong className="font-semibold text-black">MX3 App and Dashboard</strong>, each hydration test is securely stored in an employee profile. Managers can monitor hydration trends in real time and make informed decisions to improve safety protocols and team performance.
         </p>
 
-        <div className="h-[700px] overflow-hidden rounded-lg">
+        <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
           <img src={images.WorkSpaceSafety2} alt={"workspace safety"} className="rounded-lg object-top object-cover h-full w-full" />
         </div>
 

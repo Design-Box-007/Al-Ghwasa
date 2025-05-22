@@ -22,18 +22,20 @@ const FilterSection: React.FC = () => {
     return (
         <div className="space-y-8">
             {/* Filter Buttons */}
-            <div className="flex items-center gap-3">
-                {filters.map((filter, index) => (
-                    <div key={index} className="flex items-center gap-3">
-                        <ProductFilterBtn
-                            title={filter.title}
-                            icon={filter.icon}
-                            isActive={activeFilter === filter.title}
-                            onClick={() => setActiveFilter(filter.title)}
-                        />
-                        {index !== filters.length - 1 && <span className="mx-2 text-gray-500 text-[32px] font-medium">/</span>}
-                    </div>
-                ))}
+            <div className="mt-4 overflow-x-auto scrollbar-hide">
+                <div className="flex gap-4 pb-2 whitespace-nowrap scrollbar-hide">
+                    {filters.map((filter, index) => (
+                        <div key={index} className="flex items-center gap-3">
+                            <ProductFilterBtn
+                                title={filter.title}
+                                icon={filter.icon}
+                                isActive={activeFilter === filter.title}
+                                onClick={() => setActiveFilter(filter.title)}
+                            />
+                            {index !== filters.length - 1 && <span className="mx-2 text-gray-500 text-[32px] font-medium">/</span>}
+                        </div>
+                    ))}
+                </div>
             </div>
 
             {/* Dynamic Image Grid */}
@@ -79,9 +81,9 @@ const FilterSection: React.FC = () => {
 
 const GallerySection = () => {
     return (
-        <section className='p-6'>
-            <h1 className="font-semibold text-[120px]">
-                Our Experience <br />Center
+        <section className='p-6 space-y-10'>
+            <h1 className="font-semibold text-[50px] lg:text-[70px]">
+                Our Experience Center
             </h1>
             <FilterSection />
         </section>

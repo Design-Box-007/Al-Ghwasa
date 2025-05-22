@@ -19,66 +19,92 @@ interface ProductSectionProps {
     title: string;
     categories: Category[];
     isOpen: boolean;
+    link: string;
     onClick: () => void;
 }
 
-const ProductSection: React.FC<ProductSectionProps> = ({ number, title, categories, isOpen, onClick }) => {
+const ProductSection: React.FC<ProductSectionProps> = ({ number, title, categories, isOpen, onClick, link }) => {
     const [selectedCategory, setSelectedCategory] = useState(categories[0]?.title || "");
 
     return (
         <div className="py-4">
-            <div className="flex justify-between items-center cursor-pointer py-4 border-b border-b-custom-gray" onClick={onClick}>
-                <h2 className="text-xl font-semibold text-[54px] flex gap-8 items-center pb-2">
-                    <span className="text-gray-500 mr-2 text-[32px]">{number}</span>
-                    <span>{title}</span>
-                </h2>
-                {isOpen ?
-                    <div className="bg-custom-red-light flex items-center justify-center size-11 rounded-full">
-                        <FaXmark size={20} className="text-white" />
-                    </div>
-                    :
-                    <div className="bg-custom-blue-1 flex items-center justify-center size-11 rounded-full">
-                        <FaArrowRight size={20} className="text-white rotate-45" />
-                    </div>
-                }
+            <div className="flex flex-col md:flex-row justify-between md:items-center gap-4 cursor-pointer py-4 border-b border-b-custom-gray" onClick={onClick}>
+                {/* Title and number */}
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-6 flex-1">
+                    <h2 className="text-2xl md:text-3xl lg:text-[40px] font-semibold flex items-center gap-4">
+                        <span className="text-gray-500 text-xl md:text-2xl">{number}</span>
+                        <span>{title}</span>
+                    </h2>
+
+                    {/* Explore More button */}
+                    {link && (
+                        <Link href={link}>
+                            <button className="hidden lg:flex py-2 px-4 border border-[#4A4A4A] items-center gap-2 rounded-3xl text-sm sm:text-base">
+                                <MdExplore />
+                                <span>Explore More</span>
+                            </button>
+                        </Link>
+                    )}
+                </div>
+
+                {/* Toggle Icon */}
+                <div className="flex justify-between items-center md:self-auto">
+                    {link && (
+                        <Link href={link}>
+                            <button className="flex lg:hidden py-2 px-4 border border-[#4A4A4A] items-center gap-2 rounded-3xl text-sm sm:text-base">
+                                <MdExplore />
+                                <span>Explore More</span>
+                            </button>
+                        </Link>
+                    )}
+                    {isOpen ? (
+                        <div className="bg-custom-red-light flex items-center justify-center size-11 rounded-full">
+                            <FaXmark size={20} className="text-white" />
+                        </div>
+                    ) : (
+                        <div className="bg-custom-blue-1 flex items-center justify-center size-11 rounded-full">
+                            <FaArrowRight size={20} className="text-white rotate-45" />
+                        </div>
+                    )}
+                </div>
             </div>
 
             {isOpen && (
                 <div className="mt-4">
                     {/* Filter Bar */}
-                    <div className="w-full flex justify-between items-center">
-                        <div className="flex justify-evenly items-center gap-4">
+                    <div className="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
+                        {/* Filter buttons */}
+                        <div className="flex flex-wrap gap-2">
                             {categories.map((category) => (
                                 <button
                                     key={category.title}
-                                    className={`py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-3xl cursor-pointer
-                                        ${selectedCategory === category.title ? "bg-custom-green-1 text-white" : ""}`}
+                                    className={`py-2 px-3 border border-[#4A4A4A] flex items-center gap-2 rounded-3xl text-sm sm:text-base
+          ${selectedCategory === category.title ? "bg-custom-green-1 text-white" : ""}`}
                                     onClick={() => setSelectedCategory(category.title)}
                                 >
-                                    <BsThermometerHalf width={12} height={16} />
+                                    <BsThermometerHalf />
                                     <span>{category.title}</span>
                                 </button>
                             ))}
                         </div>
 
-                        <div>
-                            <Link href={'/'}>
-                                <button className="py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-3xl">
-                                    <MdExplore width={12} height={16} />
-                                    <span>Explore More</span>
-                                </button>
-                            </Link>
+                        {/* Explore More */}
+                    </div>
+
+
+                    {/* Products Grid */}
+                    <div className="mt-4 overflow-x-auto">
+                        <div className="flex md:justify-between gap-4 pb-2 no-scrollbar">
+                            {categories
+                                .find((category) => category.title === selectedCategory)
+                                ?.products.map((product, index) => (
+                                    <div key={index} className="flex-shrink-0">
+                                        <ProductCard imgSrc={product.imgSrc} name={product.name} />
+                                    </div>
+                                ))}
                         </div>
                     </div>
 
-                    {/* Products Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-                        {categories
-                            .find((category) => category.title === selectedCategory)
-                            ?.products.map((product, index) => (
-                                <ProductCard key={index} imgSrc={product.imgSrc} name={product.name} />
-                            ))}
-                    </div>
                 </div>
             )}
         </div>
@@ -93,18 +119,24 @@ const HomeOurProducts = () => {
     };
 
     return (
-        <div className="p-6 bg-background">
-            <div className="flex gap-2 items-center">
-                <FaLightbulb className="text-custom-red-light" />
-                <p className="font-inter text-xl">
+        <div className="px-8 py-8 bg-background">
+            {/* Heading */}
+            <div className="flex flex-wrap gap-2 items-center mb-4">
+                <FaLightbulb className="text-custom-red-light text-xl sm:text-2xl" />
+                <p className="font-inter text-base sm:text-lg md:text-xl">
                     Explore Our Industry-Leading Solutions
                 </p>
             </div>
-            <h1 className="text-[176px] font-semibold text-custom-blue-1 font-dm-sans mb-6">Our Products</h1>
 
+            <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-custom-blue-1 font-dm-sans leading-tight mb-8">
+                Our Products
+            </h1>
+
+            {/* Product Sections */}
             {productsData.map((section, index) => (
                 <ProductSection
                     key={index}
+                    link={section.link}
                     number={section.number}
                     title={section.title}
                     categories={section.categories}
@@ -113,6 +145,7 @@ const HomeOurProducts = () => {
                 />
             ))}
         </div>
+
     );
 };
 

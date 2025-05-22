@@ -10,7 +10,7 @@ export const navLinks: NavLinksType[] = [
     navHref: "/our-products",
     subLinks: [
       {
-        navTitle: "mx3",
+        navTitle: "MX3",
         subLinks: [
           { navTitle: "Athletics", navHref: "/mx-3/athletics" },
           { navTitle: "Military", navHref: "/mx-3/military" },

@@ -13,7 +13,7 @@ export const navLinks: NavLinksType[] = [
         navTitle: "MX3",
         navHref: "/mx-3"
       },
-      { navTitle: "Gastec", navHref: "/gastec/product-data" },
+      { navTitle: "Gastec", navHref: "/gastec" },
       // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
       // { navTitle: "Products", navHref: "/our-product" },
     ],

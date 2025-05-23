@@ -9,6 +9,8 @@ import images from '@/data/assets'
 import FAQAccordion from '@/components/Comman/FAQAccordion'
 import { homePagefaqs } from '@/data/comman'
 import GastecMain from './GastecMain'
+import ProductPageCTA from '@/components/Comman/ProductPageCTA'
+import { gasetecSubLinks } from '@/data/products/mx3Data'
 
 const Gastec = () => {
     return (
@@ -18,6 +20,7 @@ const Gastec = () => {
             <GastecSecondSection />
             <HowItWorksSlider data={gastecSliderData} />
             <WhyChooseGastec />
+            <ProductPageCTA items={gasetecSubLinks} />
             <FAQAccordion faqs={homePagefaqs} />
             <TestimonialCard
                 testimonial={{

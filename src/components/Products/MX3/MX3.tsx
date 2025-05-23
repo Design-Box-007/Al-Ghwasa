@@ -14,14 +14,15 @@ import FAQAccordion from '@/components/Comman/FAQAccordion'
 import { homePagefaqs } from '@/data/comman'
 import TestimonialCard from '@/components/Comman/TestimonialCard'
 import images from '@/data/assets'
-import MX3SubPageLinks from './MX3SubPageLinks'
+import ProductPageCTA from '@/components/Comman/ProductPageCTA'
+import { mx3SubLinks } from '@/data/products/mx3Data'
 
 const MX3 = () => {
     return (
         <main className='px-4 pt-[150px] bg-white space-y-10'>
             <MX3Hero />
             <MX3About />
-            <MX3SubPageLinks />
+            <ProductPageCTA items={mx3SubLinks}/>
             <MX3Features />
             <MX3TrackingSlider />
             <MX3LeaderLines />

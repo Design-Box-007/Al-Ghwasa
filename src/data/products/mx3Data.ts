@@ -20,4 +20,13 @@ export const mx3subData: mx3DataType[] = [
         linkName: "workplace-safety",
         component: "Mx33",
     }
+];
+export const mx3SubLinks = [
+    { title: "Athletics", link: "/mx-3/athletics", color: "#00897B" },
+    { title: "Workplace safety", link: "/mx-3/workplace-safety", color: "#FF6B6B" },
+]
+
+
+export const gasetecSubLinks = [
+    { title: "Find the right Gastec Product", link: "/gastec/product-data", color: "#0277BD" }
 ]

@@ -4,20 +4,23 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { FaArrowRight } from 'react-icons/fa'
 
-const MX3SubPageLinks = () => {
+interface CTAItem {
+    title: string
+    link: string
+    color: string
+}
 
-    const mx3SubLinks = [
-        { title: "Athletics", link: "/mx-3/athletics", color: "#00897B" },
-        { title: "Military", link: "/mx-3/military", color: "#0277BD" },
-        { title: "Workplace safety", link: "/mx-3/workplace-safety", color: "#FF6B6B" },
-    ]
+interface ProductPageCTAProps {
+    items: CTAItem[]
+}
 
+const ProductPageCTA: React.FC<ProductPageCTAProps> = ({ items }) => {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
     return (
         <section>
-            <div className='flex flex-col md:flex-row gap-4 w-full h-auto relative z-30'>
-                {mx3SubLinks.map((data, index) => {
+            <div className="flex flex-col md:flex-row gap-4 w-full h-auto relative z-30">
+                {items.map((data, index) => {
                     const isHovered = hoveredIndex === index
                     return (
                         <Link
@@ -45,4 +48,4 @@ const MX3SubPageLinks = () => {
     )
 }
 
-export default MX3SubPageLinks
+export default ProductPageCTA

@@ -8,6 +8,7 @@ import TestimonialCard from '@/components/Comman/TestimonialCard'
 import images from '@/data/assets'
 import FAQAccordion from '@/components/Comman/FAQAccordion'
 import { homePagefaqs } from '@/data/comman'
+import GastecMain from './GastecMain'
 
 const Gastec = () => {
     return (
@@ -16,6 +17,7 @@ const Gastec = () => {
             <GastecSecondSection />
             <HowItWorksSlider data={gastecSliderData} />
             <WhyChooseGastec />
+            <GastecMain />
             <FAQAccordion faqs={homePagefaqs} />
             <TestimonialCard
                 testimonial={{

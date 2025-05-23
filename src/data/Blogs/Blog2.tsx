@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog2 = () => {
   return (
-    <section className="blog-content space-y-6 text-[11pt] font-sans">
+    <section className="blog-content space-y-6 text-base font-sans">
       <p>
         <span className="font-bold">
           {"Dehydration is a silent threat on job sites, especially in hot, demanding environments."}

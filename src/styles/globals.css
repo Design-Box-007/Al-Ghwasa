@@ -59,6 +59,7 @@ body {
   background: linear-gradient(180deg, #FFFFFF 0%, #F0F0F0 100%);
 }
 
+
 .custom-translate-center {
   /* top: 0; */
   left: 50%;
@@ -79,6 +80,8 @@ body {
 }
 
 .scrollbar-hide {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none;    /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }

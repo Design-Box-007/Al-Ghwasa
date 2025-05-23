@@ -14,10 +14,10 @@ const Gastec = () => {
     return (
         <main className='px-4 pt-[150px] lg:pt-[22px] bg-white space-y-10'>
             <GastecHero />
+            <GastecMain />
             <GastecSecondSection />
             <HowItWorksSlider data={gastecSliderData} />
             <WhyChooseGastec />
-            <GastecMain />
             <FAQAccordion faqs={homePagefaqs} />
             <TestimonialCard
                 testimonial={{

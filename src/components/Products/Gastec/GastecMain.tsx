@@ -52,7 +52,7 @@ const GastecMain = () => {
 
     return (
         <section className='bg-[#F1F1F1] rounded-[20px] px-4 lg:px-[30px] py-[40px]'>
-            <h2 className='font-medium text-[54px] text-black capitalize'>
+            <h2 className='font-medium text-3xl lg:text-[54px] text-black capitalize'>
                 All About Gastec Devices
             </h2>
 

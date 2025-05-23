@@ -6,7 +6,7 @@ import React from 'react'
 const WhyChooseGastec = () => {
   return (
     <section className='space-y-4'>
-      <p className="font-medium text-xl sm:text-2xl md:text-3xl lg:text-[34px]">
+      <p className="font-medium  text-3xl sm:text-5xl md:text-6xl lg:text-[34px]">
         Why choose gastec
       </p>
       <h2 className="font-medium text-3xl sm:text-5xl md:text-6xl lg:text-[80px] xl:text-[100px] text-custom-blue-1">

@@ -52,7 +52,7 @@ const GastecHero = () => {
                         alt="gastec-hero-obj"
                         width={1000}
                         height={238}
-                        className="block lg:hidden z-[15] rotate-0 lg:-rotate-45 w-full object-contain object-center"
+                        className="block lg:hidden z-[15] rotate-180 w-full object-contain object-center"
                     />
                 </div>
             </div>

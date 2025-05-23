@@ -10,7 +10,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
   return (
     <section className="w-full py-5">
       <h2 className="text-[64px] font-medium">
-        Client Testimonial
+        {"Client's Testimonial"}
       </h2>
       <div className="flex flex-col md:flex-row bg-white overflow-hidden w-full gap-4">
         {/* Device Image */}

@@ -8,10 +8,11 @@ const ContactHero = () => {
             <div className="h-full flex flex-col lg:flex-row justify-end items-end p-6 md:p-c-20 relative overflow-hidden rounded-[20px]">
                 {/* Background Image */}
                 <Image
-                    src={images.HomeHero1}
+                    src={images.ContactUsHero}
                     alt="home-hero"
-                    fill
-                    className="absolute inset-0 z-10 object-cover object-center rounded-[20px]"
+                    width={1024}
+                    height={768}
+                    className="absolute brightness-75 w-full h-full inset-0 z-10 object-cover object-center rounded-[20px]"
                 />
 
                 {/* Hero Content */}

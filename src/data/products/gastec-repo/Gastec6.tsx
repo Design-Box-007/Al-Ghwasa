@@ -1,3 +1,4 @@
+import images from '@/data/assets'
 import React from 'react'
 
 const Gastec6 = () => {
@@ -41,6 +42,56 @@ const Gastec6 = () => {
           substances in the sample simultaneously. Polytec tubes offer the flexibility
           to detect a range of gases using a single pump.
         </p>
+        <div className="space-y-6">
+
+          <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
+            <img
+              src={images.Gastec_21}
+              alt="Polytec-1"
+              className={`rounded-lg object-cover h-full w-full brightness-90 object-center`}
+            />
+          </div>
+
+          <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
+            <img
+              src={images.Gastec_22}
+              alt="Polytec-2"
+              className={`rounded-lg object-cover h-full w-full brightness-90 object-center`}
+            />
+          </div>
+
+          <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
+            <img
+              src={images.Gastec_23}
+              alt="Polytec-3"
+              className={`rounded-lg object-cover h-full w-full brightness-90 object-center`}
+            />
+          </div>
+
+          <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
+            <img
+              src={images.Gastec_20}
+              alt="Polytec-0"
+              className={`rounded-lg object-cover h-full w-full brightness-90 object-center`}
+            />
+          </div>
+
+          <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
+            <img
+              src={images.Gastec_24}
+              alt="Polytec-4"
+              className={`rounded-lg object-cover h-full w-full brightness-90 object-center`}
+            />
+          </div>
+          <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
+            <img
+              src={images.Gastec_25}
+              alt="Polytec-4"
+              className={`rounded-lg object-cover h-full w-full brightness-90 object-center`}
+            />
+          </div>
+        </div>
+
       </>
     </section>
   )

@@ -109,6 +109,7 @@ const images: Assets = {
     BlogImg9: "/images/Blog/Blog-Img-9.png",
 
     Contact: "/images/Contact/Contact.png",
+    ContactUsHero: "/images/Contact/Header.png",
 
     Frame1171277077: "/images/Experience-Center/Frame-1171277077.png",
     Rectangle180: "/images/Experience-Center/Rectangle-180.png",
@@ -128,6 +129,20 @@ const images: Assets = {
     GastecStep2: "/images/Gastec/gastec-step-2.jpg",
     GastecStep3: "/images/Gastec/gastec-step-3.jpg",
     GasetecProductHero: "/images/Gastec/gastec-product-hero.jpg",
+
+    Gastec_AboutGastecImage: "/images/Gastec/gastec-repo-assets/About-Gastec-Image.png",
+    Gastec_DetectorTubeImage1: "/images/Gastec/gastec-repo-assets/Detector-tube-image_1.jpg",
+    Gastec_351A5GV100: "/images/Gastec/gastec-repo-assets/351A_5_GV_100.jpg",
+    Gastec_GHS8ATEX4コピー: "/images/Gastec/gastec-repo-assets/GHS_8AT_EX_4---コピー.jpg",
+    Gastec_GV100S: "/images/Gastec/gastec-repo-assets/GV_100S.jpg",
+
+    Gastec_No107PolytecTube: "/images/Gastec/gastec-repo-assets/No107-Polytec-Tube.png",
+    Gastec_20: "/images/Gastec/gastec-repo-assets/Gastec_20.png",
+    Gastec_21: "/images/Gastec/gastec-repo-assets/Gastec_21.png",
+    Gastec_22: "/images/Gastec/gastec-repo-assets/Gastec_22.png",
+    Gastec_23: "/images/Gastec/gastec-repo-assets/Gastec_23.png",
+    Gastec_24: "/images/Gastec/gastec-repo-assets/Gastec_24.png",
+    Gastec_25: "/images/Gastec/gastec-repo-assets/Gastec_25.png",
 
     AboutUs: "/images/Home/About-us.png",
     Article1: "/images/Home/Article-1.png",

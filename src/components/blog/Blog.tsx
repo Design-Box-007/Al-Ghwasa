@@ -32,7 +32,7 @@ const Blog = () => {
 
     return (
         <main className='p-[10px] px-4 pt-[50px] md:p-3 lg:p-5 font-poppins space-y-10'>
-            <BlogHeader blog={blogData} />
+            <BlogHeader blog={blogData} imageClassName="object-top" />
             <Suspense fallback={<p>Loading blog...</p>}>
                 <BlogComponent />
             </Suspense>

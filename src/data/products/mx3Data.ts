@@ -23,6 +23,7 @@ export const mx3subData: mx3DataType[] = [
 ];
 export const mx3SubLinks = [
     { title: "Athletics", link: "/mx-3/athletics", color: "#00897B" },
+    { title: "Military", link: "/mx-3/military", color: "#0277BD" },
     { title: "Workplace safety", link: "/mx-3/workplace-safety", color: "#FF6B6B" },
 ]
 

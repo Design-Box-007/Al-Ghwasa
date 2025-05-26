@@ -7,6 +7,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { ContactForm as ContactFormType } from "@/types";
+import { toast } from "react-toastify";
+import { sendFormData } from "@/api/sendFormData";
 
 // Validation schema
 const formSchema = z.object({
@@ -24,26 +26,32 @@ const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
         register,
         handleSubmit,
         formState: { errors },
+        reset, // <-- Add this
     } = useForm({
         resolver: zodResolver(formSchema),
     });
 
+
     const onSubmit = async (formData: ContactFormType) => {
+        console.log("Form Submitted!");
+        console.log("Form Data:", formData);
         setLoading(true);
 
-        // const res = await sendEmail(formData);
+        const payload = { ...formData, sheetName: "ContactForm1" };
 
-        // if (res.success) {
-        //     toast.success("Message sent successfully!");
-        //     setTimeout(() => window.location.reload(), 2000);
-        // } else {
-        //     toast.error("Failed to send email. Try again.");
-        // }
-
-        console.log(formData)
-
-        setLoading(false);
+        try {
+            await sendFormData(payload);
+            toast.success("Thanks for Submitting!");
+            reset(); // <-- Clear the form here
+        } catch (err) {
+            console.error("Submission failed", err);
+            toast.error("Submission failed. Please try again.");
+        } finally {
+            setLoading(false);
+        }
     };
+
+
 
     return (
         <div className={`text-white p-8 rounded-xl ${className}`}>
@@ -100,7 +108,7 @@ const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
                         {errors.mobile && <p className="text-yellow-300 text-xs">{errors.mobile.message}</p>}
                     </div>
 
-                    {/* Location */}
+                    {/* Product */}
                     <div className="relative z-0 w-full">
                         <select
                             {...register("product")}
@@ -151,7 +159,7 @@ const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
                 <div>
                     <button
                         type="submit"
-                        className="w-full bg-white text-red-600 font-semibold py-3 rounded-lg hover:bg-gray-200 transition"
+                        className="w-full cursor-pointer bg-white text-red-600 font-semibold py-3 rounded-lg hover:bg-gray-200 transition"
                         disabled={loading}
                     >
                         {loading ? "Sending..." : "Submit"}

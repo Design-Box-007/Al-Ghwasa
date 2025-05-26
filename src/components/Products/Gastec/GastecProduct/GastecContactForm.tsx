@@ -8,6 +8,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { GastecContactForm as ContactFormType } from "@/types";
 import { useGastecData } from "@/context/GastecDataContext";
+import { sendFormData } from "@/api/sendFormData";
+import { toast } from "react-toastify";
 
 // Validation schema
 const formSchema = z.object({
@@ -25,9 +27,7 @@ const formSchema = z.object({
 
 const GastecContactForm: React.FC<{ className: string, btnClassName: string }> = ({ className = "", btnClassName = "" }) => {
     const [loading, setLoading] = useState(false);
-
     const { selectedItem } = useGastecData();
-
 
 
 
@@ -36,6 +36,7 @@ const GastecContactForm: React.FC<{ className: string, btnClassName: string }> =
         handleSubmit,
         setValue,
         formState: { errors },
+        reset
     } = useForm({
         resolver: zodResolver(formSchema),
         defaultValues: {
@@ -59,21 +60,24 @@ const GastecContactForm: React.FC<{ className: string, btnClassName: string }> =
 
 
     const onSubmit = async (formData: ContactFormType) => {
+        console.log("Form Submitted!");
+        console.log("Form Data:", formData);
         setLoading(true);
 
-        // const res = await sendEmail(formData);
+        const payload = { ...formData, sheetName: "ContactForm3" };
 
-        // if (res.success) {
-        //     toast.success("Message sent successfully!");
-        //     setTimeout(() => window.location.reload(), 2000);
-        // } else {
-        //     toast.error("Failed to send email. Try again.");
-        // }
-
-        console.log(formData)
-
-        setLoading(false);
+        try {
+            await sendFormData(payload);
+            toast.success("Thanks for Submitting!");
+            reset(); // <-- Clear the form here
+        } catch (err) {
+            console.error("Submission failed", err);
+            toast.error("Submission failed. Please try again.");
+        } finally {
+            setLoading(false);
+        }
     };
+
 
     return (
         <div id="gastecid" className={`text-white p-8 rounded-xl ${className}`}>
@@ -169,7 +173,7 @@ const GastecContactForm: React.FC<{ className: string, btnClassName: string }> =
                 <div>
                     <button
                         type="submit"
-                        className={`w-full bg-white font-semibold py-3 rounded-lg hover:bg-gray-200 transition ${btnClassName}`}
+                        className={`w-full cursor-pointer bg-white font-semibold py-3 rounded-lg hover:bg-gray-200 transition ${btnClassName}`}
                         disabled={loading}
                     >
                         {loading ? "Sending..." : "Submit"}

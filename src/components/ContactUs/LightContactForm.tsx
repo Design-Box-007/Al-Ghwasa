@@ -7,6 +7,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { ContactForm as LightContactFromType } from "@/types";
+import { sendFormData } from "@/api/sendFormData";
+import { toast } from "react-toastify";
 
 // Validation schema
 const formSchema = z.object({
@@ -24,26 +26,31 @@ const LightContactFrom = () => {
         register,
         handleSubmit,
         formState: { errors },
+        reset, // <-- Add this
     } = useForm({
         resolver: zodResolver(formSchema),
     });
 
+
     const onSubmit = async (formData: LightContactFromType) => {
+        console.log("Form Submitted!");
+        console.log("Form Data:", formData);
         setLoading(true);
 
-        // const res = await sendEmail(formData);
+        const payload = { ...formData, sheetName: "ContactForm2" };
 
-        // if (res.success) {
-        //     toast.success("Message sent successfully!");
-        //     setTimeout(() => window.location.reload(), 2000);
-        // } else {
-        //     toast.error("Failed to send email. Try again.");
-        // }
-
-        console.log(formData)
-
-        setLoading(false);
+        try {
+            await sendFormData(payload);
+            toast.success("Thanks for Submitting!");
+            reset(); // <-- Clear the form here
+        } catch (err) {
+            console.error("Submission failed", err);
+            toast.error("Submission failed. Please try again.");
+        } finally {
+            setLoading(false);
+        }
     };
+
 
     return (
         <div className={`text-custom-blue-1 p-8 rounded-xl bg-white`}>
@@ -60,7 +67,7 @@ const LightContactFrom = () => {
                         <input
                             type="text"
                             {...register("name")}
-                            className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1"
+                            className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 rounded-b-md border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1"
                             placeholder=" "
                         />
                         <label className="absolute text-sm text-custom-blue-1 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
@@ -74,7 +81,7 @@ const LightContactFrom = () => {
                         <input
                             type="email"
                             {...register("email")}
-                            className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1"
+                            className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 rounded-b-md border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1"
                             placeholder=" "
                         />
                         <label className="absolute text-sm text-custom-blue-1 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
@@ -91,7 +98,7 @@ const LightContactFrom = () => {
                         <input
                             type="text"
                             {...register("mobile")}
-                            className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1"
+                            className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 rounded-b-md border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1"
                             placeholder=" "
                         />
                         <label className="absolute text-sm text-custom-blue-1 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
@@ -102,16 +109,33 @@ const LightContactFrom = () => {
 
                     {/* Location */}
                     <div className="relative z-0 w-full">
-                        <input
-                            type="text"
+                        <select
                             {...register("product")}
-                            className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1"
-                            placeholder=" "
-                        />
-                        <label className="absolute text-sm text-custom-blue-1 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
-                            Location
-                        </label>
-                        {errors.product && <p className="text-yellow-300 text-xs">{errors.product.message}</p>}
+                            className="peer block py-2.5 px-0 w-full text-sm text-black bg-transparent border-0 border-b-2 rounded-b-md border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1 appearance-none"
+                            defaultValue=""
+                            style={{
+                                colorScheme: 'dark',
+                                backgroundColor: 'transparent',
+                                color: '#0277BD',
+                            }}
+                        >
+                            <option value="" disabled>
+                                Select a product
+                            </option>
+                            <option className="text-black" value="gastec">Gastec</option>
+                            <option className="text-black" value="mx3">MX3</option>
+                            <option className="text-black" value="oiltester">Oil Tester</option>
+                        </select>
+
+                        {/* <label className="absolute text-lg text-custom-blue-1 duration-300 transform -translate-y-6 scale-75 top-[36px] -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                            Product
+                        </label> */}
+
+                        {errors.product && (
+                            <p className="text-yellow-300 text-xs mt-1">
+                                {errors.product.message}
+                            </p>
+                        )}
                     </div>
                 </div>
 
@@ -119,7 +143,7 @@ const LightContactFrom = () => {
                 <div className="relative z-0 w-full">
                     <textarea
                         {...register("message")}
-                        className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1 resize-none"
+                        className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 rounded-b-md border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1 resize-none"
                         rows={3}
                         placeholder=" "
                     ></textarea>
@@ -133,7 +157,7 @@ const LightContactFrom = () => {
                 <div>
                     <button
                         type="submit"
-                        className="w-full bg-custom-blue-1 text-white font-semibold py-3 rounded-lg hover:bg-gray-200 transition"
+                        className="w-full cursor-pointer bg-custom-blue-1 text-white font-semibold py-3 rounded-lg hover:bg-gray-200 transition"
                         disabled={loading}
                     >
                         {loading ? "Sending..." : "Submit"}

@@ -14,11 +14,11 @@ const ProductCard: React.FC<ProuductCardProps> = ({ imgSrc, name, className }) =
             <Image
                 src={imgSrc}
                 alt={name}
-                width={357}
-                height={308}
-                className="w-full h-[80%] object-cover object-center rounded-2xl"
+                width={1360}
+                height={700}
+                className="w-full h-[85%] object-cover object-center rounded-2xl"
             />
-            <div className="flex items-center justify-between mt-4">
+            <div className="flex h-[10%] items-center justify-between mt-4">
                 <span>{name}</span>
                 <span className="border border-custom-green-1 rounded-full p-1">
                     <FaArrowRight />

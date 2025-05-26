@@ -69,7 +69,7 @@ const Hero = () => {
                         {/* Product Card */}
                         <div
                             key={productCardId}
-                            className="w-full max-w-sm lg:w-1/3 flex justify-center lg:justify-end transition-opacity duration-700 ease-in-out"
+                            className="w-full max-w-sm lg:w-1/3 h-[400px] flex justify-center lg:justify-end transition-opacity duration-700 ease-in-out"
                             style={{ opacity: 1 }}
                         >
                             <ProductCard

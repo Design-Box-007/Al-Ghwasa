@@ -4,7 +4,7 @@ import React from 'react'
 
 const BlogHero = () => {
     return (
-        <header className="w-full bg-white p-c-20 relative">
+        <header className="w-full bg-white pt-[140px] px-c-20 pb-c-20 lg:p-c-20 relative">
             <div className="relative overflow-hidden rounded-[20px] h-screen lg:min-h-[700px] lg:h-[800px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row justify-center lg:justify-start items-end gap-8">
                 {/* Background Image */}
                 <Image

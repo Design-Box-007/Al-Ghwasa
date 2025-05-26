@@ -6,7 +6,7 @@ import MapComponent from '../Comman/MapComponent'
 
 const AboutUs = () => {
     return (
-        <main className='pt-[120px] space-y-20'>
+        <main className='pt-[120px] pb-[40px] space-y-20'>
             <AboutUsHeader />
             <AboutUsSecond />
             <MapComponent />

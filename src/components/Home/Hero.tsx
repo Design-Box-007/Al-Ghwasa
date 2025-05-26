@@ -41,7 +41,7 @@ const Hero = () => {
     const productCtaIds = productIds.filter((id) => id !== productCardId)
 
     return (
-        <header className="w-full bg-white p-c-20 relative">
+        <header className="w-full bg-white pt-[150px] px-c-20 lg:p-c-20 relative">
             <div className="relative overflow-hidden rounded-[20px] min-h-screen lg:min-h-[700px] lg:h-[800px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row items-end gap-8">
                 {/* Background Image */}
                 <Image

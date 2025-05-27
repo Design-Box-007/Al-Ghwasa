@@ -4,12 +4,11 @@ import FOTAbout from './FOTAbout'
 import FOTProduct from './FOTProduct'
 import HowItWorksSlider from '@/components/Comman/HowItWorksSlider'
 import { fryingOilTesterSliderData } from '@/data/sliderData'
-import CustomTable from '@/components/Comman/CustomTable'
-import { fryingOilTesterTableData, genralColumns } from '@/data/tableData'
 import TestimonialCard from '@/components/Comman/TestimonialCard'
 import images from '@/data/assets'
 import { homePagefaqs } from '@/data/comman'
 import FAQAccordion from '@/components/Comman/FAQAccordion'
+import FOTCustomTable from './FOTCustomTable'
 
 const FryingOilTester = () => {
   return (
@@ -18,12 +17,7 @@ const FryingOilTester = () => {
       <FOTAbout />
       <FOTProduct />
       <HowItWorksSlider data={fryingOilTesterSliderData} />
-      <CustomTable
-        data={fryingOilTesterTableData}
-        columns={genralColumns}
-        title='Engineered for Accuracy, Built for Durability'
-        headerBgColor='bg-[#EC3D3D]'
-      />
+      <FOTCustomTable/>
       <FAQAccordion faqs={homePagefaqs} />
       <TestimonialCard
         testimonial={{

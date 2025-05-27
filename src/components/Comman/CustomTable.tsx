@@ -21,21 +21,27 @@ interface CustomTableProps<T = any> {
 
 interface ProjectDownloadButtonProps {
   bgColor: string;
+  name?: string;
   downloadLink: string;
 }
 
-const ProductDownloadButton: React.FC<ProjectDownloadButtonProps> = ({ downloadLink, bgColor }) => {
+export const ProductDownloadButton: React.FC<ProjectDownloadButtonProps> = ({
+  downloadLink,
+  bgColor,
+  name = "Project Documentation",
+}) => {
   return (
     <a
       href={downloadLink}
       download
-      className={`flex-1 w-auto h-auto inline-flex items-center px-6 py-3 text-white rounded-md ${bgColor} hover:opacity-90 transition-colors`}
+      className={`flex w-full sm:w-auto h-auto items-center justify-center px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base text-white rounded-md ${bgColor} hover:opacity-90 transition-colors`}
     >
-      <AiOutlineDownload className="w-5 h-5 mr-2" />
-      Product Documentation
+      <AiOutlineDownload className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
+      {name}
     </a>
   );
 };
+
 
 const CustomTable = <T extends { [key: string]: any }>({
   columns,

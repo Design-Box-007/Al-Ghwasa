@@ -14,6 +14,7 @@ export const navLinks: NavLinksType[] = [
         navHref: "/mx-3"
       },
       { navTitle: "Gastec", navHref: "/gastec" },
+      { navTitle: "Alla France", navHref: "/frying-oil-tester" },
       // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
       // { navTitle: "Products", navHref: "/our-product" },
     ],

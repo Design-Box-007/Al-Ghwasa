@@ -2,37 +2,10 @@
 
 import Image from 'next/image'
 import React from 'react'
-import { motion } from 'framer-motion'
 import images from '@/data/assets'
 import { FaArrowRight, FaLightbulb } from 'react-icons/fa'
 import Link from 'next/link'
 import RevealComponent from '../Comman/RevealComponent'
-// import TrustedPartners from '../Comman/TrustedPartners'
-
-const aboutUsVariant = {
-    hidden: { opacity: 0, y: -20 },
-    visible: { opacity: 1, y: 0 },
-}
-
-const headingVariant = {
-    hidden: { opacity: 0, x: -20 },
-    visible: { opacity: 1, x: 0 },
-}
-
-const paragraphVariant = {
-    hidden: { opacity: 0, y: -20 },
-    visible: { opacity: 1, y: 0 },
-}
-
-const learnMoreVariant = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-}
-
-
-
-
-
 
 const HomeAbout = () => {
     return (

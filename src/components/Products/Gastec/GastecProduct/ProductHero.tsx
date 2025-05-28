@@ -18,12 +18,6 @@ const ProductHero = () => {
                     className="absolute inset-0 brightness-50 w-full h-full z-10 object-cover object-center rounded-[20px]"
                 />
 
-                {/* Hero Content */}
-                'use client'
-
-
-
-
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}

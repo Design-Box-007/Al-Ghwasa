@@ -6,6 +6,7 @@ import React from 'react'
 import ProductCTA from './ProductCTA'
 import images from '@/data/assets'
 import Image from 'next/image'
+import RevealComponent from './RevealComponent'
 
 const Footer = () => {
 
@@ -72,11 +73,25 @@ const Footer = () => {
 
                 {/* products  */}
                 <div className='w-full py- flex flex-col lg:flex-row lg:items-center justify-between gap-4 capitalize'>
-                    <h2 className='text-4xl lg:text-7xl capitalize text-white font-semibold'>Lot more to Explore</h2>
+                    <RevealComponent
+                        backgroundClass="bg-custom-blue-1"  // Also fix: missing `bg-` prefix
+                        outerClass="relative inline-block overflow-hidden"
+                    >
+                        <h2 className="text-4xl lg:text-7xl capitalize text-white font-semibold">
+                            Lot more to Explore
+                        </h2>
+                    </RevealComponent>
+
                     <div className="flex flex-wrap gap-3 font-semibold">
-                        <ProductCTA link="/gastec" name="Gastec" imgSrc={images.gastecSmall} className="text-custom-green-1" />
-                        <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
-                        <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" />
+                        <RevealComponent backgroundClass='bg-custom-blue-1'>
+                            <ProductCTA link="/gastec" name="Gastec" imgSrc={images.gastecSmall} className="text-custom-green-1" />
+                        </RevealComponent>
+                        <RevealComponent backgroundClass='bg-custom-blue-1'>
+                            <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
+                        </RevealComponent>
+                        <RevealComponent backgroundClass='bg-custom-blue-1'>
+                            <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" />
+                        </RevealComponent>
                     </div>
                 </div>
 

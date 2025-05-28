@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import images from '@/data/assets'
 import { FaArrowRight, FaLightbulb } from 'react-icons/fa'
 import Link from 'next/link'
+import RevealComponent from '../Comman/RevealComponent'
 // import TrustedPartners from '../Comman/TrustedPartners'
 
 const aboutUsVariant = {
@@ -36,13 +37,11 @@ const learnMoreVariant = {
 const HomeAbout = () => {
     return (
         <section className="space-y-4 p-6">
-            <motion.div
-                className="text-lg sm:text-xl font-medium text-secondary w-full flex flex-row justify-between"
-                variants={aboutUsVariant}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, amount: 0.5 }}
-                transition={{ duration: 1 }}
+
+            <RevealComponent
+                backgroundClass="bg-background"
+                outerClass="text-lg sm:text-xl font-medium text-secondary w-full flex flex-row justify-between"
+                direction="right"
             >
                 <div className="flex gap-2 items-center">
                     <FaLightbulb className="text-custom-red-light" />
@@ -50,26 +49,20 @@ const HomeAbout = () => {
                         About Al Ghwasa
                     </p>
                 </div>
-            </motion.div>
+            </RevealComponent>
+
             <div className="flex flex-col lg:flex-row gap-2">
-                <motion.h1
-                    className="font-medium text-3xl lg:text-[56px] flex-1 capitalize"
-                    variants={headingVariant}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}
-                    transition={{ duration: 1, delay: 0.3 }}
+                <RevealComponent
+                    outerClass="font-medium text-3xl lg:text-[56px] flex-1 capitalize"
+                    backgroundClass='bg-background'
+                    direction='right'
                 >
                     Over 30 Years of <br />Excellence in industrial and marine
-                </motion.h1>
+                </RevealComponent>
                 <div className="flex flex-col gap-14 justify-around flex-1 lg:px-2">
-                    <motion.div
-                        className="space-y-5"
-                        variants={paragraphVariant}
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.5 }}
-                        transition={{ duration: 1, delay: 0.6 }}
+                    <RevealComponent
+                        outerClass="space-y-5"
+                        direction='bottom'
                     >
                         <p className='text-xl font-light text-black'>
                             {"With over 30 years of excellence in supplying high-quality industrial and marine equipment, Al Ghwasa has earned a trusted reputation across the Middle East for reliability, innovation, and technical expertise."}
@@ -79,24 +72,24 @@ const HomeAbout = () => {
                             <div className='py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-2xl'>Innovation</div>
                             <div className='py-2.5 px-4 border border-[#4A4A4A] flex items-center gap-1.5 rounded-2xl'>Customer Satisfaction</div>
                         </div> */}
-                    </motion.div>
-                    <motion.div
-                        className="flex flex-row justify-between py-2 border-b border-b-custom-red-light"
-                        variants={learnMoreVariant}
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.5 }}
-                        transition={{ duration: 1, delay: 0.9 }}
+                    </RevealComponent>
+                    <RevealComponent
+                        outerClass="flex flex-row justify-between py-2 border-b border-b-custom-red-light"
+
                     >
                         <Link href="/about" passHref className="text-sm sm:text-base md:text-2xl font-medium text-custom-red-light">Learn More About us</Link>
                         <span className="bg-transparent rounded-full p-1 sm:p-2">
                             <FaArrowRight className="text-custom-red-light" />
                         </span>
-                    </motion.div>
+                    </RevealComponent>
                 </div>
             </div>
             {/* Image Reveal Animation using an overlay */}
-            <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-2xl overflow-hidden">
+            <RevealComponent
+                backgroundClass="bg-background"
+                outerClass="w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-2xl"
+                direction="right"
+            >
                 <Image
                     loading="lazy"
                     src={images.HomeAbout}
@@ -105,14 +98,7 @@ const HomeAbout = () => {
                     height={641}
                     className="w-full h-full object-cover"
                 />
-                <motion.div
-                    className="absolute top-0 right-0 h-full w-full bg-white"
-                    initial={{ width: "100%" }}
-                    whileInView={{ width: 0 }}
-                    viewport={{ once: true, amount: 0.5 }}
-                    transition={{ duration: 1.5, ease: "easeOut" }}
-                />
-            </div>
+            </RevealComponent>
 
             {/* <TrustedPartners /> */}
         </section>

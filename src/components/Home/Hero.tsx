@@ -5,6 +5,7 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import ProductCTA from '../Comman/ProductCTA'
 import ProductCard from '../Comman/ProductCard'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const productIds = [1, 2, 3]
 
@@ -24,20 +25,16 @@ const products: Record<number, ProductInfo> = {
 }
 
 const Hero = () => {
-    const [activeIndex, setActiveIndex] = useState(0) // index in productIds (0,1,2)
+    const [activeIndex, setActiveIndex] = useState(0)
 
     useEffect(() => {
         const interval = setInterval(() => {
             setActiveIndex((prev) => (prev + 1) % productIds.length)
-        }, 7000) // every 7 seconds
+        }, 7000)
         return () => clearInterval(interval)
     }, [])
 
-    // Compute product for ProductCard and ProductCTA based on activeIndex
-    // ProductCard shows the active product
     const productCardId = productIds[activeIndex]
-
-    // ProductCTA shows the other two products in order
     const productCtaIds = productIds.filter((id) => id !== productCardId)
 
     return (
@@ -54,34 +51,43 @@ const Hero = () => {
 
                 {/* Content Layer */}
                 <div className="relative z-20 w-full text-white space-y-10">
-                    {/* Heading + Product */}
                     <div className="flex flex-col lg:flex-row justify-between items-center gap-8 border-b border-white pb-6 md:pb-10">
-                        {/* Text Section */}
-                        <div className="w-full lg:w-2/3 flex flex-col gap-4 text-center lg:text-left">
+                        {/* Animated Text Section */}
+                        <motion.div
+                            initial={{ opacity: 0, y: -30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1 }}
+                            className="w-full lg:w-2/3 flex flex-col gap-4 text-center lg:text-left"
+                        >
                             <h1 className="text-3xl md:text-5xl lg:text-[64px] font-medium leading-tight tracking-wide">
                                 Innovative Solutions for Hospitality, Hydration & Safety
                             </h1>
                             <p className="text-base md:text-xl lg:text-2xl font-normal">
                                 Advanced Equipment for Precision, Performance & Protection.
                             </p>
-                        </div>
+                        </motion.div>
 
-                        {/* Product Card */}
-                        <div
-                            key={productCardId}
-                            className="w-full max-w-sm lg:w-1/3 h-[400px] flex justify-center lg:justify-end transition-opacity duration-700 ease-in-out"
-                            style={{ opacity: 1 }}
-                        >
-                            <ProductCard
-                                imgSrc={products[productCardId].imgSrc}
-                                name={products[productCardId].name}
-                                className={products[productCardId].className}
-                            />
-                        </div>
+                        {/* Animated ProductCard Section */}
+                        <AnimatePresence mode="wait">
+                            <motion.div
+                                key={productCardId}
+                                initial={{ opacity: 0, y: 30 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                exit={{ opacity: 0, y: 30 }}
+                                transition={{ duration: 0.6 }}
+                                className="w-full max-w-sm lg:w-1/3 h-[400px] flex justify-center lg:justify-end"
+                            >
+                                <ProductCard
+                                    imgSrc={products[productCardId].imgSrc}
+                                    name={products[productCardId].name}
+                                    className={products[productCardId].className}
+                                />
+                            </motion.div>
+                        </AnimatePresence>
                     </div>
+
                     {/* Navigation Links */}
                     <div className="flex flex-col md:flex-row justify-end items-center gap-6">
-                        {/* Product CTA Buttons */}
                         <div className="flex flex-wrap justify-center md:justify-start gap-4 font-semibold text-center">
                             {productCtaIds.map((id: number) => (
                                 <ProductCTA

@@ -11,7 +11,7 @@ interface ProductCTAProps {
 const ProductCTA: React.FC<ProductCTAProps> = ({ link, name, imgSrc, className }) => {
     return (
         <Link href={link}>
-            <div className={`flex items-center gap-2 p-1 bg-background rounded-lg w-fit h-[50px] ${className}`}>
+            <div className={`flex items-center gap-2 p-1 bg-background rounded-lg w-fit h-[50px] pr-4 ${className}`}>
                 <Image
                     src={imgSrc}
                     alt={name.toLowerCase()}

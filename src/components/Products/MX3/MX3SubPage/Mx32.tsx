@@ -1,3 +1,4 @@
+import RevealComponent from '@/components/Comman/RevealComponent'
 import images from '@/data/assets'
 import React from 'react'
 
@@ -17,9 +18,9 @@ const Mx32 = () => {
           {"Operating in extreme conditions requires peak physical readiness and safety. MX3 provides the only comprehensive system designed to measure critical hydration metrics in real time. It's a vital resource for any branch committed to protecting its people while maximizing capability in the field."}
         </p>
 
-        <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
+        <RevealComponent direction='bottom' outerClass="h-auto lg:h-[700px] overflow-hidden rounded-lg">
           <img src={images.Military2} alt={"Military"} className="rounded-lg object-top object-cover h-full w-full" />
-        </div>
+        </RevealComponent>
         <p className="text-xl font-semibold text-black">MX3: Lab-Quality Data, Deployed Anywhere</p>
         <p>
           With MX3, hydration levels can be assessed on demand and tracked over time. Leaders gain visibility into the dehydration risk and electrolyte loss of individual soldiers and units, enabling informed, timely interventions. Over time, data insights can help refine mission prep and improve performance outcomes.

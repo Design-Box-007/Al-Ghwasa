@@ -1,4 +1,6 @@
+import RevealComponent from '@/components/Comman/RevealComponent';
 import images from '@/data/assets';
+import Link from 'next/link';
 import React from 'react';
 
 const Mx31 = () => {
@@ -57,9 +59,9 @@ const Mx31 = () => {
         most effective for replenishment.
       </p>
 
-      <div className="h-auto lg:h-[700px] overflow-hidden rounded-lg">
+      <RevealComponent direction="bottom" outerClass="h-auto lg:h-[700px] overflow-hidden rounded-lg">
         <img src={images.Athletic2} alt={"Atheletic"} className="rounded-lg object-top object-cover h-full w-full" />
-      </div>
+      </RevealComponent>
 
       <p className="text-xl font-bold text-gray-900">
         Personalized Hydration Strategies for Elite Athletes
@@ -115,14 +117,12 @@ const Mx31 = () => {
           Ready to improve hydration and performance for your athletes?
         </strong>
         <br />
-        <a
-          href="https://chatgpt.com/"
+        <Link
+          href="/contact"
           className="text-teal-600 underline hover:text-teal-800"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           Contact us today
-        </a>{' '}
+        </Link>{' '}
         to learn more about MX3’s hydration testing solutions.
       </p>
     </section>

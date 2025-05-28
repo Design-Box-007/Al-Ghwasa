@@ -17,7 +17,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed top-[40px] w-full z-50">
+        <nav className="fixed top-[40px] w-full z-[9999]">
             <div className="w-[95%] mx-auto rounded-[40px] backdrop-blur-md bg-black/30 border-b border-white/10">
                 <div className="max-w-full flex items-center justify-between mx-auto py-c-10 px-c-20 font-medium">
                     {/* Brand */}

@@ -48,7 +48,7 @@ const RevealComponent: React.FC<RevealComponentProps> = ({
         <div className={`relative overflow-hidden ${outerClass}`}>
             {children}
             <motion.div
-                className={`absolute z-10 ${backgroundClass}`}
+                className={`absolute z-[90] ${backgroundClass}`}
                 style={getInitialStyle(direction)}
                 initial={getInitialStyle(direction)}
                 whileInView={getAnimateStyle(direction)}

@@ -1,24 +1,31 @@
 import Image from 'next/image'
 import React from 'react'
+import RevealComponent from './RevealComponent'
 // import TrustedPartners from './TrustedPartners'
 
 const MapComponent = () => {
     return (
         <section className='space-y-20 py-4 sm:py-6 md:py-8 lg:py-12 custom-linear-gradient-gray rounded-2xl'>
             <div className='w-3/4 mx-auto space-y-10 text-center'>
-                <h1 className='font-medium text-3xl lg:text-[54px]'>
-                    Trusted by Industry Leaders <br /> Worldwide
-                </h1>
-                <p className='font-normal text-lg'>
-                    {'We collaborate with renowned international brands, offering our clients access to global expertise and cutting-edge technology.'}
-                </p>
+                    <RevealComponent backgroundClass='bg-[#fcfcfc]'>
+                    <h1 className='font-medium text-3xl lg:text-[54px]'>
+                        Trusted by Industry Leaders <br /> Worldwide
+                    </h1>
+                </RevealComponent>
+                    <RevealComponent backgroundClass='bg-[#fcfcfc]'>
+                    <p className='font-normal text-lg'>
+                        {'We collaborate with renowned international brands, offering our clients access to global expertise and cutting-edge technology.'}
+                    </p>
+                </RevealComponent>
             </div>
-            <Image
-                src={"/images/Map.png"}
-                alt='map-image'
-                width={1440}
-                height={565}
-            />
+            <RevealComponent direction='bottom' backgroundClass='bg-[#f2f2f2]'>
+                <Image
+                    src={"/images/Map.png"}
+                    alt='map-image'
+                    width={1440}
+                    height={565}
+                />
+            </RevealComponent>
             {/* <TrustedPartners /> */}
         </section>
     )

@@ -1,3 +1,6 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import images from '@/data/assets'
 import Image from 'next/image'
 import React from 'react'
@@ -16,14 +19,29 @@ const ContactHero = () => {
                 />
 
                 {/* Hero Content */}
+
                 <div className="relative z-20 text-white w-full space-y-1">
-                    <p className='text-20px lg:text-[50px] font-medium'>
+                    <motion.p
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8, ease: 'easeOut' }}
+                        viewport={{ once: true }}
+                        className="text-[20px] lg:text-[50px] font-medium"
+                    >
                         Connect with
-                    </p>
-                    <h1 className='font-medium text-[68px] md:text-[100px] lg:text-[250px] text-white leading-[1]'>
+                    </motion.p>
+
+                    <motion.h1
+                        initial={{ opacity: 0, y: 40 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
+                        viewport={{ once: true }}
+                        className="font-medium text-[68px] md:text-[100px] lg:text-[250px] text-white leading-[1]"
+                    >
                         Al Ghwasa
-                    </h1>
+                    </motion.h1>
                 </div>
+
             </div>
         </header>
     )

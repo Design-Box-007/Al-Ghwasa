@@ -24,7 +24,7 @@ const FAQAccordion: React.FC<{ faqs: FAQItem[] }> = ({ faqs }) => {
             key={index}
             outerClass="overflow-hidden" // Removed border and rounding from here
             backgroundClass="bg-white"
-            direction="right"
+            direction="bottom"
           >
             <div className="border rounded-2xl overflow-hidden"> {/* Moved border here */}
               <button

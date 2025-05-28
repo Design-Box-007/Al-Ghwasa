@@ -1,6 +1,9 @@
+'use client'
+
 import images from '@/data/assets'
 import Image from 'next/image'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const ProductHero = () => {
     return (
@@ -16,16 +19,28 @@ const ProductHero = () => {
                 />
 
                 {/* Hero Content */}
-                <div className="relative z-20 text-white w-full space-y-6">
+                'use client'
+
+
+
+
+                <motion.div
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, ease: 'easeOut' }}
+                    viewport={{ once: true }}
+                    className="relative z-20 text-white w-full space-y-6"
+                >
                     <div className="flex flex-col lg:flex-row justify-between w-full items-center h-auto pb-6 md:pb-8 gap-6">
                         {/* Text Content */}
                         <div className="flex flex-col gap-4 w-full">
-                            <h1 className="font-semibold  text-center tracking-wide text-4xl md:text-6xl lg:text-[74px] leading-tight">
+                            <h1 className="font-semibold text-center tracking-wide text-4xl md:text-6xl lg:text-[74px] leading-tight">
                                 {"Discover High-Performance Solutions for Every Industry"}
                             </h1>
                         </div>
                     </div>
-                </div>
+                </motion.div>
+
             </div>
         </header>
     )

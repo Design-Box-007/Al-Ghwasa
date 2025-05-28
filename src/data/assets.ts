@@ -243,7 +243,7 @@ const images: Assets = {
     MX38: "/images/MX3/MX3-8.png",
     MX39: "/images/MX3/MX3-9.png",
     OilTester01: "/images/Oil-Tester/Oil-Tester-01.png",
-    OilTester02: "/images/Oil-Tester/Oil-Tester-02.png",
+    OilTester02: "/images/Oil-Tester/Oil-Tester-02D.png",
     OilTester03: "/images/Oil-Tester/Oil-Tester-03.png",
     OilTester04: "/images/Oil-Tester/Oil-Tester-04.png",
     OilTester05: "/images/Oil-Tester/Oil-Tester-05.png",

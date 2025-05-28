@@ -6,6 +6,7 @@ import ProductFilterBtn from "../Comman/ProductFilterBtn";
 import { ProductFilterBtnProps } from "@/types";
 import images from "@/data/assets";
 import Image from "next/image";
+import RevealComponent from "../Comman/RevealComponent";
 
 
 const filters: ProductFilterBtnProps[] = [
@@ -64,7 +65,7 @@ const FilterSection: React.FC = () => {
                 {activeImages.length > 0 && (
                     <>
                         {/* Large Image */}
-                        <div className="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl md:col-span-2">
+                        <RevealComponent outerClass="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl md:col-span-2">
                             <Image
                                 src={activeImages[0]}
                                 alt="active-image-1"
@@ -72,10 +73,10 @@ const FilterSection: React.FC = () => {
                                 height={600}
                                 className="object-center object-cover w-full h-full"
                             />
-                        </div>
+                        </RevealComponent>
 
                         {/* Two Smaller Images */}
-                        <div className="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl">
+                        <RevealComponent direction="bottom" outerClass="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl">
                             <Image
                                 src={activeImages[1]}
                                 alt="active-image-2"
@@ -83,8 +84,8 @@ const FilterSection: React.FC = () => {
                                 height={600}
                                 className="object-center object-cover w-full h-full"
                             />
-                        </div>
-                        <div className="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl">
+                        </RevealComponent>
+                        <RevealComponent direction="bottom" outerClass="h-[300px] lg:h-[400px] overflow-hidden rounded-2xl">
                             <Image
                                 src={activeImages[2]}
                                 alt="active-image-3"
@@ -92,7 +93,7 @@ const FilterSection: React.FC = () => {
                                 height={600}
                                 className="object-center object-cover w-full h-full"
                             />
-                        </div>
+                        </RevealComponent>
                     </>
                 )}
             </div>
@@ -103,9 +104,11 @@ const FilterSection: React.FC = () => {
 const GallerySection = () => {
     return (
         <section className='p-6 space-y-10'>
-            <h1 className="font-semibold text-[50px] lg:text-[70px]">
-                Our Experience Center
-            </h1>
+            <RevealComponent>
+                <h1 className="font-semibold text-[50px] lg:text-[70px]">
+                    Our Experience Center
+                </h1>
+            </RevealComponent>
             <FilterSection />
         </section>
     )

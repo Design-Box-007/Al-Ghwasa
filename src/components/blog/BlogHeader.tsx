@@ -6,7 +6,7 @@ type BlogHeaderProps = Pick<Blog, "imgSrc" | "title">; // Only includes imgSrc a
 
 const BlogHeader: React.FC<{ blog: BlogHeaderProps, imageClassName?: string }> = ({ blog, imageClassName }) => {
     return (
-        <header className={`flex w-full flex-col gap-10 space-y-4 h-auto lg:h-[700px]`}>
+        <header className={`flex w-full flex-col gap-10 space-y-6 h-auto`}>
             <RevealComponent>
                 <h1 className="text-4xl font-medium">{blog.title}</h1>
             </RevealComponent>

@@ -73,7 +73,7 @@ const CustomTable = <T extends { [key: string]: any }>({
         }
       </div>
 
-      <RevealComponent direction='bottom' backgroundClass='bg-white' outerClass="overflow-x-auto rounded-lg shadow-md">
+      <div className="overflow-x-auto rounded-lg shadow-md">
         <table className="min-w-full text-left">
           <thead className={`${headerBgColor} text-white`}>
             <tr>
@@ -102,7 +102,7 @@ const CustomTable = <T extends { [key: string]: any }>({
             ))}
           </tbody>
         </table>
-      </RevealComponent>
+      </div>
 
       {projectDocumentation && projectDocumentation?.length > 0 && (
         <div className="flex gap-3.5 w-full flex-wrap">

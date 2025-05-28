@@ -1,11 +1,14 @@
+'use client'
+
 import images from '@/data/assets'
 import Image from 'next/image'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const BlogHero = () => {
     return (
         <header className="w-full bg-white pt-[140px] px-c-20 pb-c-20 lg:p-c-20 relative">
-            <div className="relative overflow-hidden rounded-[20px] h-screen lg:min-h-[700px] lg:h-[800px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row justify-center lg:justify-start items-end gap-8">
+            <div className="relative overflow-hidden rounded-[20px] h-screen px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row justify-center lg:justify-start items-end gap-8">
                 {/* Background Image */}
                 <Image
                     src={images.gastecL}
@@ -16,7 +19,13 @@ const BlogHero = () => {
                 />
 
                 {/* Content Layer */}
-                <div className="relative z-20 w-full text-white space-y-10">
+                <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.2, ease: 'easeOut' }}
+                    viewport={{ once: true }}
+                    className="relative z-20 w-full text-white space-y-10"
+                >
                     {/* Heading + Product */}
                     <div className="flex flex-col lg:flex-row justify-between items-center gap-8 border-b border-white pb-6 md:pb-10">
                         {/* Text Section */}
@@ -28,13 +37,9 @@ const BlogHero = () => {
                                 Advanced Equipment for Precision, Performance & Protection.
                             </p>
                         </div>
-
-
-
                     </div>
+                </motion.div>
 
-
-                </div>
             </div>
         </header>
     );

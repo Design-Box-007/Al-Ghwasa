@@ -1,6 +1,7 @@
 // components/TestimonialCard.tsx
 import { TestimonialCard as TestimonialCardType } from "@/types";
 import Image from "next/image";
+import RevealComponent from "./RevealComponent";
 
 interface TestimonialCardProps {
   testimonial: TestimonialCardType;
@@ -9,12 +10,14 @@ interface TestimonialCardProps {
 const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
   return (
     <section className="w-full py-5">
-      <h2 className="text-[64px] font-medium">
-        {"Client's Testimonial"}
-      </h2>
+      <RevealComponent backgroundClass="bg-white">
+        <h2 className="text-[64px] font-medium">
+          {"Client's Testimonial"}
+        </h2>
+      </RevealComponent>
       <div className="flex flex-col md:flex-row bg-white overflow-hidden w-full gap-4">
         {/* Device Image */}
-        <div className="w-full md:w-2/3 bg-gray-100 overflow-hidden rounded-xl">
+        <RevealComponent backgroundClass="bg-white" outerClass="w-full md:w-2/3 bg-gray-100 overflow-hidden rounded-xl">
           <Image
             src={testimonial.imageSrc}
             alt="Gas Detection Tool"
@@ -22,10 +25,10 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
             height={600}
             className="object-cover w-full h-full"
           />
-        </div>
+        </RevealComponent>
 
         {/* Testimonial Section */}
-        <div className="w-full md:w-1/3 p-6 flex bg-[#F9F9F9] flex-col justify-between rounded-2xl">
+        <RevealComponent backgroundClass="bg-white" direction="left" outerClass="w-full md:w-1/3 p-6 flex bg-[#F9F9F9] flex-col justify-between rounded-2xl">
           <div>
             <p className="text-lg text-gray-800 mb-6">
               {testimonial.testimonial}
@@ -44,7 +47,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
               <p className="text-gray-600 text-sm">{testimonial.userRole}</p>
             </div>
           </div>
-        </div>
+        </RevealComponent>
       </div>
     </section>
   );

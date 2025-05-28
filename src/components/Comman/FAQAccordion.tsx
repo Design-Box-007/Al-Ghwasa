@@ -14,8 +14,8 @@ const FAQAccordion: React.FC<{ faqs: FAQItem[] }> = ({ faqs }) => {
   };
 
   return (
-    <div className="p-4 w-full space-y-16 my-5">
-      <RevealComponent>
+    <div className="p-4 w-full space-y-16 my-5 bg-white">
+      <RevealComponent backgroundClass="bg-white">
         <h2 className="text-5xl font-medium text-black">Frequently Asked Questions</h2>
       </RevealComponent>
       <div className="space-y-5">
@@ -23,7 +23,7 @@ const FAQAccordion: React.FC<{ faqs: FAQItem[] }> = ({ faqs }) => {
           <RevealComponent
             key={index}
             outerClass="overflow-hidden" // Removed border and rounding from here
-            backgroundClass="bg-background"
+            backgroundClass="bg-white"
             direction="right"
           >
             <div className="border rounded-2xl overflow-hidden"> {/* Moved border here */}

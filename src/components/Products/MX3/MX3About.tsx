@@ -1,4 +1,5 @@
 import Feature from '@/components/Comman/Feature';
+import RevealComponent from '@/components/Comman/RevealComponent';
 import images from '@/data/assets';
 import { mx3Features } from '@/data/features';
 import { FeatureClassName, IFeature } from '@/types';
@@ -20,16 +21,22 @@ const MX3About = () => {
         <section className='bg-white px-4 space-y-8'>
             <div className='space-y-6'>
                 <div className='flex flex-col lg:flex-row justify-between items-start gap-6'>
-                    <h4 className='text-[36px] sm:text-[48px] md:text-[60px] lg:text-[76px] font-medium flex-1 leading-tight'>
-                        {"Market’s Leading"}
-                    </h4>
-                    <p className='text-base sm:text-lg md:text-xl lg:text-xl font-light flex-1'>
-                        {"The MX3 Hydration Testing System delivers real-time, non-invasive hydration analysis, providing fast, lab-quality results for professionals in sports, industrial environments, and healthcare."}
-                    </p>
+                    <RevealComponent backgroundClass='bg-white' outerClass='flex-1'>
+                        <h4 className='text-[36px] sm:text-[48px] md:text-[60px] lg:text-[76px] font-medium leading-tight'>
+                            {"Market’s Leading"}
+                        </h4>
+                    </RevealComponent>
+                    <RevealComponent direction='bottom' backgroundClass='bg-white' outerClass='flex-1'>
+                        <p className='text-base sm:text-lg md:text-xl lg:text-xl font-light'>
+                            {"The MX3 Hydration Testing System delivers real-time, non-invasive hydration analysis, providing fast, lab-quality results for professionals in sports, industrial environments, and healthcare."}
+                        </p>
+                    </RevealComponent>
                 </div>
-                <h3 className='text-[36px] sm:text-[48px] md:text-[60px] lg:text-[76px] font-medium flex-1 leading-tight'>
-                    {"Sweat & Saliva Hydration Tester"}
-                </h3>
+                <RevealComponent direction="bottom" backgroundClass='bg-white' outerClass='flex-1'>
+                    <h3 className='text-[36px] sm:text-[48px] md:text-[60px] lg:text-[76px] font-medium flex-1 leading-tight'>
+                        {"Sweat & Saliva Hydration Tester"}
+                    </h3>
+                </RevealComponent>
             </div>
 
             <div className='bg-[#EA721B] h-[2px] w-full'></div>
@@ -37,21 +44,25 @@ const MX3About = () => {
             <div className='flex flex-col lg:flex-row gap-8 lg:gap-[67px] py-8 items-center lg:items-stretch'>
                 <div className='space-y-[26px] w-full flex flex-col items-center'>
                     {features1.map((feature, index) => (
-                        <Feature key={index} feature={feature} featureClassName={mx3FeatureClass} />
+                        <RevealComponent key={index} direction='bottom' backgroundClass='bg-white' outerClass='flex-1'>
+                            <Feature feature={feature} featureClassName={mx3FeatureClass} />
+                        </RevealComponent>
                     ))}
                 </div>
-
-                <Image
-                    src={images.MX35}
-                    alt='mx-3-thermometer'
-                    width={230}
-                    height={949}
-                    className='object-contain w-[336px] h-full'
-                />
-
+                <RevealComponent direction='bottom' backgroundClass='bg-white' outerClass='w-[336px] h-screen'>
+                    <Image
+                        src={images.MX35}
+                        alt='mx-3-thermometer'
+                        width={230}
+                        height={949}
+                        className='object-cover w-full h-full'
+                    />
+                </RevealComponent>
                 <div className='space-y-[26px] w-full flex flex-col items-center'>
                     {features2.map((feature, index) => (
-                        <Feature key={index} feature={feature} featureClassName={mx3FeatureClass} />
+                        <RevealComponent key={index} direction='bottom' backgroundClass='bg-white' outerClass='flex-1'>
+                            <Feature feature={feature} featureClassName={mx3FeatureClass} />
+                        </RevealComponent>
                     ))}
                 </div>
             </div>

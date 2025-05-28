@@ -1,6 +1,9 @@
+'use client'
+
 import images from '@/data/assets'
 import Image from 'next/image'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const MX3Hero = () => {
     return (
@@ -16,12 +19,18 @@ const MX3Hero = () => {
                 />
 
                 {/* Hero Content */}
-                <div className="relative z-20 text-white w-full space-y-6">
+                <motion.div
+                    className="relative z-20 text-white w-full space-y-6"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: 1 }}
+                >
                     <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-[84px] font-medium text-center">
                         {"Advanced Hydration Testing"} <br />
                         {"for Precision and Performance"}
                     </h1>
-                </div>
+                </motion.div>
             </div>
         </header>
     )

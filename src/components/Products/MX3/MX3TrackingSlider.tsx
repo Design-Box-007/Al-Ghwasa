@@ -8,6 +8,7 @@ import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import RevealComponent from '@/components/Comman/RevealComponent';
 
 const trackingSliderImages: string[] = [
     images.MX33,
@@ -20,12 +21,16 @@ const MX3TrackingSlider = () => {
     return (
         <section className="bg-white px-3 sm:px-4 md:px-6 space-y-6 sm:space-y-8 py-10 sm:py-12">
             <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-5 sm:gap-8">
-                <h4 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[70px] font-medium flex-2 leading-tight">
-                    Track Hydration Trends <br className="hidden sm:block" /> with Smart Data
-                </h4>
-                <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal flex-1">
-                    Syncs effortlessly with the MX3 mobile app, allowing users to monitor hydration levels over time, track trends, and optimize performance.
-                </p>
+                <RevealComponent outerClass='flex-2' backgroundClass='bg-white'>
+                    <h4 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[70px] font-medium flex-2 leading-tight">
+                        Track Hydration Trends <br className="hidden sm:block" /> with Smart Data
+                    </h4>
+                </RevealComponent>
+                <RevealComponent direction='bottom' outerClass='flex-1' backgroundClass='bg-white'>
+                    <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal flex-1">
+                        Syncs effortlessly with the MX3 mobile app, allowing users to monitor hydration levels over time, track trends, and optimize performance.
+                    </p>
+                </RevealComponent>
             </div>
 
             <div className="w-full mx-auto overflow-hidden pl-0 sm:pl-4 md:pl-6 lg:pl-8">

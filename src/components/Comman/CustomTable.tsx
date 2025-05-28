@@ -3,6 +3,7 @@
 'use client';
 import { AiOutlineDownload } from 'react-icons/ai';
 import React from 'react';
+import RevealComponent from './RevealComponent';
 
 export interface Column<T> {
   key: keyof T | string;
@@ -56,11 +57,23 @@ const CustomTable = <T extends { [key: string]: any }>({
   return (
     <section className="space-y-[54px]">
       <div className="space-y-6">
-        {title && <h4 className="text-[60px] font-medium">{title}</h4>}
-        {description && <p className="text-[40px] font-light">{description}</p>}
+
+        {title &&
+          <RevealComponent backgroundClass='bg-white'>
+            <h4 className="text-[60px] font-medium">{title}</h4>
+          </RevealComponent>
+
+        }
+
+        {description &&
+          <RevealComponent backgroundClass='bg-white'>
+            <p className="text-[40px] font-light">{description}</p>
+          </RevealComponent>
+
+        }
       </div>
 
-      <div className="overflow-x-auto rounded-lg shadow-md">
+      <RevealComponent direction='bottom' backgroundClass='bg-white' outerClass="overflow-x-auto rounded-lg shadow-md">
         <table className="min-w-full text-left">
           <thead className={`${headerBgColor} text-white`}>
             <tr>
@@ -89,7 +102,7 @@ const CustomTable = <T extends { [key: string]: any }>({
             ))}
           </tbody>
         </table>
-      </div>
+      </RevealComponent>
 
       {projectDocumentation && projectDocumentation?.length > 0 && (
         <div className="flex gap-3.5 w-full flex-wrap">

@@ -1,4 +1,5 @@
 import Feature from "@/components/Comman/Feature";
+import RevealComponent from "@/components/Comman/RevealComponent";
 import images from "@/data/assets";
 import { IFeature } from "@/types";
 import Image from "next/image";
@@ -31,11 +32,13 @@ const MX3Osha = () => {
     return (
         <section className="bg-white py-12 px-4 sm:px-6 lg:px-6 space-y-14 sm:space-y-[56px]">
             <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 lg:gap-0">
-                <h2 className="text-[42px] sm:text-[56px] lg:text-[74px] font-medium mb-4 max-w-full lg:max-w-[60%]">
-                    OSHA’s New National Emphasis Program
-                </h2>
+                <RevealComponent outerClass="mb-4 max-w-full lg:max-w-[60%]" backgroundClass="bg-white">
+                    <h2 className="text-[42px] sm:text-[56px] lg:text-[74px] font-medium">
+                        OSHA’s New National Emphasis Program
+                    </h2>
+                </RevealComponent>
 
-                <div className="w-full sm:w-auto lg:w-auto flex justify-center lg:justify-end">
+                <RevealComponent direction="bottom" backgroundClass="bg-white" outerClass="w-full sm:w-auto lg:w-auto flex justify-center lg:justify-end">
                     <Image
                         src={images.MX314}
                         alt="osha"
@@ -43,22 +46,24 @@ const MX3Osha = () => {
                         height={184}
                         className="object-contain max-w-full h-auto"
                     />
-                </div>
+                </RevealComponent>
             </div>
 
             <div className="bg-black h-[2px] w-full"></div>
-
-            <p className="text-lg sm:text-xl lg:text-2xl font-light max-w-full mx-auto">
-                {"With OSHA’s National Emphasis Program (NEP) focusing on heat-related hazards, proper hydration monitoring is critical for workplace safety. The MX3 Hydration Testing System helps businesses comply with OSHA guidelines by providing real-time hydration assessments, reducing the risk of heat stress, dehydration, and compliance penalties."}
-            </p>
+            <RevealComponent direction="bottom" backgroundClass="bg-white">
+                <p className="text-lg sm:text-xl lg:text-2xl font-light max-w-full mx-auto">
+                    {"With OSHA’s National Emphasis Program (NEP) focusing on heat-related hazards, proper hydration monitoring is critical for workplace safety. The MX3 Hydration Testing System helps businesses comply with OSHA guidelines by providing real-time hydration assessments, reducing the risk of heat stress, dehydration, and compliance penalties."}
+                </p>
+            </RevealComponent>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
                 {oshaCards.map((card: IFeature, index) => (
-                    <Feature
-                        feature={card}
-                        key={index}
-                        featureClassName={{ featureClass: "rounded-2xl text-white px-4 py-6 bg-[#007DFC]" }}
-                    />
+                    <RevealComponent key={index} direction="bottom" backgroundClass="bg-white">
+                        <Feature
+                            feature={card}
+                            featureClassName={{ featureClass: "rounded-2xl w-full text-white px-4 py-6 bg-[#007DFC]" }}
+                        />
+                    </RevealComponent>
                 ))}
             </div>
         </section>

@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { IHowItWorks } from '@/types';
 import Image from 'next/image';
+import RevealComponent from './RevealComponent';
 
 interface HowItWorksSliderProps {
     data: IHowItWorks;
@@ -39,12 +40,16 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
         <div className="bg-[#333333] text-white rounded-lg overflow-hidden p-4 sm:p-6 relative flex flex-col gap-8">
             {/* Title and Description */}
             <div className="space-y-4 self-start">
-                <h2 className="text-4xl sm:text-6xl md:text-[80px] lg:text-[100px] xl:text-[140px] font-medium leading-tight">
-                    How It Works
-                </h2>
-                <p className="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-[40px] text-gray-300 font-medium">
-                    {data.description}
-                </p>
+                <RevealComponent backgroundClass='bg-[#333333]'>
+                    <h2 className="text-4xl sm:text-6xl md:text-[80px] lg:text-[100px] xl:text-[140px] font-medium leading-tight">
+                        How It Works
+                    </h2>
+                </RevealComponent>
+                <RevealComponent backgroundClass='bg-[#333333]'>
+                    <p className="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-[40px] text-gray-300 font-medium">
+                        {data.description}
+                    </p>
+                </RevealComponent>
             </div>
 
             {/* Swiper Slider */}
@@ -64,7 +69,7 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
                 >
                     {data.sliderData.map((item, index) => (
                         <SwiperSlide key={index}>
-                            <div className="relative w-full h-full flex items-end justify-end px-2 sm:px-6">
+                            <RevealComponent direction='bottom' backgroundClass='bg-[#333333]' outerClass="relative w-full h-full flex items-end justify-end px-2 sm:px-6">
                                 <Image
                                     src={item.imgSrc}
                                     alt={item?.content || "content"}
@@ -86,7 +91,7 @@ const HowItWorksSlider: React.FC<HowItWorksSliderProps> = ({ data, autoPlayInter
                                 <div className="absolute -rotate-90 md:top-1/2 md:-translate-y-1/2 md:left-1 text-[100px] sm:text-[200px] md:text-[280px] lg:text-[340px] text-white z-[10] text-opacity-10 font-medium">
                                     {"0" + (slideIndex + 1)}
                                 </div>
-                            </div>
+                            </RevealComponent>
                         </SwiperSlide>
                     ))}
                 </Swiper>

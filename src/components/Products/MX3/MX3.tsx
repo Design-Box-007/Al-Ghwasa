@@ -7,7 +7,7 @@ import MX3LeaderLines from './MX3LeaderLines'
 import HowItWorksSlider from '@/components/Comman/HowItWorksSlider'
 import { mx3SliderData } from '@/data/sliderData'
 import CustomTable from '@/components/Comman/CustomTable'
-import {mx3Columns, mx3TableData } from '@/data/tableData'
+import { mx3Columns, mx3TableData } from '@/data/tableData'
 import MX3Osha from './MX3Osha'
 import MapComponent from '@/components/Comman/MapComponent'
 import FAQAccordion from '@/components/Comman/FAQAccordion'
@@ -22,7 +22,7 @@ const MX3 = () => {
         <main className='px-4 pt-[150px] bg-white space-y-10'>
             <MX3Hero />
             <MX3About />
-            <ProductPageCTA items={mx3SubLinks}/>
+            <ProductPageCTA items={mx3SubLinks} />
             <MX3Features />
             <MX3TrackingSlider />
             <MX3LeaderLines />

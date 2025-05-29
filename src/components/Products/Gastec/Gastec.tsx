@@ -14,7 +14,7 @@ import { gasetecSubLinks } from '@/data/products/mx3Data'
 
 const Gastec = () => {
     return (
-        <main className='px-4 pt-[180px] lg:pt-[22px] bg-white space-y-10'>
+        <main className='px-4 pt-[150px] lg:pt-[22px] bg-white space-y-10'>
             <GastecHero />
             <GastecMain />
             <GastecSecondSection />

@@ -128,9 +128,7 @@ const GastecHero = () => {
 
                     <RevealComponent outerClass="self-start md:self-end w-full md:w-[70%] lg:w-[40%] space-y-6">
                         <p className="text-base md:text-lg font-normal">
-                            Designed for industrial safety, environmental monitoring, and compliance testing,
-                            Gastec's advanced gas detection tubes offer quick and accurate measurements with no need
-                            for complex equipment.
+                            {"Designed for industrial safety, environmental monitoring, and compliance testing, Gastec's advanced gas detection tubes offer quick and accurate measurements with no need for complex equipment."}
                         </p>
                     </RevealComponent>
 

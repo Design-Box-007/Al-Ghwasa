@@ -32,15 +32,17 @@ const GastecHero = () => {
     return (
         <header className="relative rounded-3xl custom-linear-gradient-white px-4 sm:px-6 overflow-hidden md:px-10 pt-[20px] md:pt-28 lg:pt-32 pb-20 md:pb-32">
             <div className="relative z-20 flex flex-col overflow-hidden gap-6 md:gap-8">
-
+                {/* top-left content */}
                 <RevealComponent direction='bottom' outerClass='w-full md:w-3/4 lg:w-1/2'>
-                    <h1 className="text-4xl sm:text-6xl lg:text-8xl font-semibold leading-tight md:leading-[1.4] lg:leading-[1.5] w-full">
-                        Gastec Gas Detector Tubes
+                    <h1 className="text-4xl sm:text-6xl font-semibold leading-tight md:leading-[1.4] lg:leading-[1.5] w-full">
+                        Gastec Gas <br /> Detector Tubes
                     </h1>
                 </RevealComponent>
 
+                {/* center right to left text content */}
                 <GlideText />
 
+                {/* bottom right content */}
                 <RevealComponent outerClass="self-start md:self-end w-full md:w-[70%] lg:w-[40%] space-y-6">
                     <p className="text-base md:text-lg font-normal">
                         {" Designed for industrial safety, environmental monitoring, and compliance testing, Gastec's advanced gas detection tubes offer quick and accurate measurements with no need for complex equipment."}
@@ -50,6 +52,8 @@ const GastecHero = () => {
                         <FaArrowRight />
                     </button> */}
                 </RevealComponent>
+
+                {/* gastec tube (visible only in mobile*/}
                 <RevealComponent>
                     <Image
                         src={images.Gastec2}
@@ -59,19 +63,21 @@ const GastecHero = () => {
                         className="block lg:hidden z-[15] rotate-180 w-full object-contain object-center"
                     />
                 </RevealComponent>
-            </div>
 
-            <div className='hidden lg:block absolute z-[20] rotate-0 lg:-rotate-45 w-[90%] sm:w-[100%] md:w-4/5 lg:w-3/4 custom-translate-center-2 bottom-2 lg:top-[25%] lg:left-[70%]'>
-                <RevealComponent direction='left' outerClass='w-full'>
+            </div>
+            {/* gastec tube visible only in desktop mode */}
+            <div className="hidden lg:block absolute z-[20] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="rotate-45 origin-center w-[225px] h-[999px] h-fit">
                     <Image
-                        src={images.Gastec2}
+                        src={images.Gastec2A}
                         alt="gastec-hero-obj"
                         width={1000}
                         height={238}
-                        className="w-full object-contain object-center"
+                        className="object-contain w-full h-full"
                     />
-                </RevealComponent>
+                </div>
             </div>
+
         </header>
     )
 }

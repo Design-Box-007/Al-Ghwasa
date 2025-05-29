@@ -121,6 +121,7 @@ const images: Assets = {
 
     Gastec1: "/images/Gastec/Gastec-1.png",
     Gastec2: "/images/Gastec/Gastec-2.png",
+    Gastec2A: "/images/Gastec/Gastec-2A.png",
     Gastec3: "/images/Gastec/Gastec-3.png",
     Gastec4: "/images/Gastec/Gastec-4.png",
     Gastec5: "/images/Gastec/Gastec-5.png",

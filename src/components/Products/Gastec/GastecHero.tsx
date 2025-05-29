@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import RevealComponent from '@/components/Comman/RevealComponent';
+import { useWindowWidth } from '@/hooks/useWindowSize';
 
 // GastecText: Reveal → Fade Out
 const GastecText = () => {
@@ -18,7 +19,7 @@ const GastecText = () => {
     }, []);
 
     return (
-        <div className='absolute w-fit top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+        <div className='hidden lg:block absolute w-fit top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
             <RevealComponent direction='left' outerClass='w-fit h-fit'>
                 <motion.h2
                     className='w-fit uppercase text-9xl font-medium text-custom-blue-1'
@@ -85,9 +86,16 @@ const GlideText = () => (
 // Final Hero Section
 const GastecHero = () => {
     const [milestone, setMilestone] = useState(0);
+    const width = useWindowWidth();
+    const [isClient, setIsClient] = useState(false);
 
     useEffect(() => {
-        const timings = [2.5, 1, 2.5, 1]; // each step in seconds
+        setIsClient(true);
+    }, []);
+
+    useEffect(() => {
+        if (!isClient) return;
+        const timings = [2.5, 1, 2.5, 1, 2.5];
         let index = 0;
 
         const advance = () => {
@@ -100,24 +108,27 @@ const GastecHero = () => {
         };
 
         advance();
+    }, [isClient]);
 
-        return () => {
-            // No clearTimeout needed — fire-and-forget style
-        };
-    }, []);
+    // 🔐 Prevent rendering anything width-dependent until we're on the client
+    if (!isClient) return null;
 
+    const renderContent = width < 768 || (milestone >= 4 && width >= 768);
     return (
         <header className={`relative rounded-3xl lg:h-[750px] custom-linear-gradient-white transition-all duration-500 ease-linear px-4 sm:px-6 overflow-hidden md:px-10 pt-[20px] md:pt-11 md:pt-1`}>
 
             {/* ✅ Step 0: Reveal GASTEC */}
-            {milestone >= 0 && <GastecText />}
+            {milestone >= 0 && width > 768 && <GastecText />}
 
             {/* ✅ Step 2: Reveal Tube Image */}
-            {milestone >= 2 && <TubeImageComponent />}
+            {milestone >= 2 && width > 768 && <TubeImageComponent />}
 
             {/* ✅ Step 4: Show final content */}
-            {milestone >= 4 && (
-                <div className="relative z-10 flex flex-col overflow-hidden gap-6 md:gap-8 mt-16">
+
+            {renderContent && (
+                // your content for small screen
+                <div className={`relative ${milestone >= 5 ? 'z-[21]' : 'z-[19]'} flex flex-col overflow-hidden gap-6 md:gap-8 mt-16`}>
+
                     <RevealComponent direction="bottom" outerClass="w-full md:w-3/4 lg:w-1/2">
                         <h1 className="text-4xl sm:text-6xl font-semibold leading-tight md:leading-[1.4] lg:leading-[1.5] w-full">
                             Gastec Gas <br /> Detector Tubes

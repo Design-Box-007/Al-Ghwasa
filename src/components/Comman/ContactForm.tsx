@@ -124,8 +124,8 @@ const ContactForm: React.FC<{ className: string }> = ({ className = "" }) => {
                                 Select a product
                             </option>
                             <option className="text-black" value="gastec">Gastec</option>
-                            <option className="text-black" value="mx3">MX3</option>
-                            <option className="text-black" value="oiltester">Oil Tester</option>
+                            {/* <option className="text-black" value="mx3">MX3</option>
+                            <option className="text-black" value="oiltester">Oil Tester</option> */}
                         </select>
 
                         {/* <label className="absolute text-lg text-white duration-300 transform -translate-y-6 scale-75 top-[36px] -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">

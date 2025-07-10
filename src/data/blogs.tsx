@@ -9,18 +9,18 @@ export const blogListData: Blog[] = [
         imgSrc: images.gastecL,
         component: "Blog1"
     },
-    {
-        title: "Hydration Testing with MX3: A Game-Changer for Workforce Health & Safety",
-        description: "Dehydration is a silent threat on job sites, especially in hot, demanding environments.The MX3 Hydration Testing System offers a revolutionary, science-backed solution to monitor",
-        imgSrc: images.mx3T,
-        component: "Blog2"
-    },
-    {
-        title: "Improve Food Quality and Safety with Alla France Frying Oil Testers",
-        description: "Oil quality plays a major role in food flavor, safety, and customer satisfaction.",
-        imgSrc: images.oilTesterL,
-        component: "Blog3"
-    },
+    // {
+    //     title: "Hydration Testing with MX3: A Game-Changer for Workforce Health & Safety",
+    //     description: "Dehydration is a silent threat on job sites, especially in hot, demanding environments.The MX3 Hydration Testing System offers a revolutionary, science-backed solution to monitor",
+    //     imgSrc: images.mx3T,
+    //     component: "Blog2"
+    // },
+    // {
+    //     title: "Improve Food Quality and Safety with Alla France Frying Oil Testers",
+    //     description: "Oil quality plays a major role in food flavor, safety, and customer satisfaction.",
+    //     imgSrc: images.oilTesterL,
+    //     component: "Blog3"
+    // },
     // {
     //     title: "Smart Furniture for Small Apartments",
     //     description: "Explore space-saving furniture solutions designed for compact living areas.",

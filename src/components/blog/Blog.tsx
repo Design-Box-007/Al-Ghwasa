@@ -11,8 +11,8 @@ import BlogHeader from "./BlogHeader";
 const componentMap = {
     DummyBlog: dynamic(() => import("@/data/Blogs/DummyBlog")),
     Blog1: dynamic(() => import("@/data/Blogs/Blog1")),
-    Blog2: dynamic(() => import("@/data/Blogs/Blog2")),
-    Blog3: dynamic(() => import("@/data/Blogs/Blog3")),
+    // Blog2: dynamic(() => import("@/data/Blogs/Blog2")),
+    // Blog3: dynamic(() => import("@/data/Blogs/Blog3")),
     // Add other blog components here...
 };
 

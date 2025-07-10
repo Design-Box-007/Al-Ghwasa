@@ -9,12 +9,12 @@ export const navLinks: NavLinksType[] = [
     navTitle: "Products",
     navHref: "/our-products",
     subLinks: [
-      {
-        navTitle: "MX3",
-        navHref: "/mx-3"
-      },
+      // {
+      //   navTitle: "MX3",
+      //   navHref: "/mx-3"
+      // },
       { navTitle: "Gastec", navHref: "/gastec" },
-      { navTitle: "Alla France", navHref: "/frying-oil-tester" },
+      // { navTitle: "Alla France", navHref: "/frying-oil-tester" },
       // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
       // { navTitle: "Products", navHref: "/our-product" },
     ],

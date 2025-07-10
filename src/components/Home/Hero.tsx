@@ -19,20 +19,20 @@ type ProductInfo = {
 }
 
 const products: Record<number, ProductInfo> = {
-    1: { imgSrc: images.oilTesterT, link: "/frying-oil-tester", bgSrc: images.oilTesterL, name: 'Frying Oil Tester', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
-    2: { imgSrc: images.mx3T, link: "/mx-3", bgSrc: images.mx3L, name: 'Hydration Measurement', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
-    3: { imgSrc: images.gastecT, link: "/gastec", bgSrc: images.gastecL, name: 'Gas Detection', className: 'bg-custom-red-light', textClass: 'text-custom-red-light' },
+    // 1: { imgSrc: images.oilTesterT, link: "/frying-oil-tester", bgSrc: images.oilTesterL, name: 'Frying Oil Tester', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
+    // 2: { imgSrc: images.mx3T, link: "/mx-3", bgSrc: images.mx3L, name: 'Hydration Measurement', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
+    1: { imgSrc: images.gastecT, link: "/gastec", bgSrc: images.gastecL, name: 'Gas Detection', className: 'bg-custom-red-light', textClass: 'text-custom-red-light' },
 }
 
 const Hero = () => {
     const [activeIndex, setActiveIndex] = useState(0)
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setActiveIndex((prev) => (prev + 1) % productIds.length)
-        }, 7000)
-        return () => clearInterval(interval)
-    }, [])
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         setActiveIndex((prev) => (prev + 1) % productIds.length)
+    //     }, 7000)
+    //     return () => clearInterval(interval)
+    // }, [])
 
     const productCardId = productIds[activeIndex]
     const productCtaIds = productIds.filter((id) => id !== productCardId)
@@ -87,7 +87,7 @@ const Hero = () => {
                     </div>
 
                     {/* Navigation Links */}
-                    <div className="flex flex-col md:flex-row justify-end items-center gap-6">
+                    {/* <div className="flex flex-col md:flex-row justify-end items-center gap-6">
                         <div className="flex flex-wrap justify-center md:justify-start gap-4 font-semibold text-center">
                             {productCtaIds.map((id: number) => (
                                 <ProductCTA
@@ -99,7 +99,7 @@ const Hero = () => {
                                 />
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>

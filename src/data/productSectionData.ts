@@ -2,28 +2,28 @@ import { ProductSectionData } from "@/types";
 import images from "./assets";
 
 const productsData: ProductSectionData[] = [
+    // {
+    //     number: "01",
+    //     title: "Hospitality Equipment",
+    //     link: "/frying-oil-tester",
+    //     images: [
+    //         { imgSrc: images.oilTesterHp, name: "Digital Food Oil Tester" },
+    //         { imgSrc: images.oilTesterStraws, name: "Straws" },
+    //         { imgSrc: images.oilTesterKit, name: "Device Kit" },
+    //     ]
+    // },
+    // {
+    //     number: "02",
+    //     title: "Hydration Measurement",
+    //     link: "/mx-3",
+    //     images: [
+    //         { imgSrc: images.mx3DeviceHp, name: "Hydration device" },
+    //         { imgSrc: images.mx3Device2, name: "Hydration Kit" },
+    //         { imgSrc: images.mx3DeviceKit, name: "Hydration Test Strip" },
+    //     ]
+    // },
     {
         number: "01",
-        title: "Hospitality Equipment",
-        link: "/frying-oil-tester",
-        images: [
-            { imgSrc: images.oilTesterHp, name: "Digital Food Oil Tester" },
-            { imgSrc: images.oilTesterStraws, name: "Straws" },
-            { imgSrc: images.oilTesterKit, name: "Device Kit" },
-        ]
-    },
-    {
-        number: "02",
-        title: "Hydration Measurement",
-        link: "/mx-3",
-        images: [
-            { imgSrc: images.mx3DeviceHp, name: "Hydration device" },
-            { imgSrc: images.mx3Device2, name: "Hydration Kit" },
-            { imgSrc: images.mx3DeviceKit, name: "Hydration Test Strip" },
-        ]
-    },
-    {
-        number: "03",
         title: "Safety Solutions",
         link: "/gastec",
         images: [

@@ -39,8 +39,8 @@ const GalleryHero = () => {
                 {/* Product Categories */}
                 <RevealComponent outerClass="flex flex-wrap gap-3 font-semibold">
                     <ProductCTA link="/gastec" name="Gastec" imgSrc={images.gastecSmall} className="text-custom-green-1" />
-                    <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
-                    <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" />
+                    {/* <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
+                    <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" /> */}
                 </RevealComponent>
             </div>
 

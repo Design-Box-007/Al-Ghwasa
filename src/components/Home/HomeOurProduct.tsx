@@ -130,7 +130,7 @@ const HomeOurProducts = () => {
                 direction="right"
             >
                 <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-custom-blue-1 font-dm-sans leading-tight mb-8">
-                    Our Products
+                    Our Product
                 </h1>
             </RevealComponent>
 

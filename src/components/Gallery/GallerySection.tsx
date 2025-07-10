@@ -10,22 +10,22 @@ import RevealComponent from "../Comman/RevealComponent";
 
 
 const filters: ProductFilterBtnProps[] = [
-    {
-        title: "Hydration", icon: FaTint, images: [
+    // {
+    //     title: "Hydration", icon: FaTint, images: [
 
-            images.mx3DeviceHp,
-            images.mx3Device2,
-            images.mx3DeviceKit,
-        ]
-    },
-    {
-        title: "Hospitality", icon: FaConciergeBell, images: [
-            images.oilTesterHp,
-            images.oilTesterStraws,
-            images.oilTesterKit,
+    //         images.mx3DeviceHp,
+    //         images.mx3Device2,
+    //         images.mx3DeviceKit,
+    //     ]
+    // },
+    // {
+    //     title: "Hospitality", icon: FaConciergeBell, images: [
+    //         images.oilTesterHp,
+    //         images.oilTesterStraws,
+    //         images.oilTesterKit,
 
-        ]
-    },
+    //     ]
+    // },
     {
         title: "Safety", icon: FaShieldAlt, images: [
 
@@ -37,7 +37,7 @@ const filters: ProductFilterBtnProps[] = [
 ];
 
 const FilterSection: React.FC = () => {
-    const [activeFilter, setActiveFilter] = useState<string>("Hydration");
+    const [activeFilter, setActiveFilter] = useState<string>("Safety");
 
     const activeImages = filters.find(filter => filter.title === activeFilter)?.images || [];
 

@@ -3,7 +3,7 @@
 import images from '@/data/assets'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
-import ProductCTA from '../Comman/ProductCTA'
+// import ProductCTA from '../Comman/ProductCTA'
 import ProductCard from '../Comman/ProductCard'
 import { motion, AnimatePresence } from 'framer-motion'
 
@@ -25,7 +25,7 @@ const products: Record<number, ProductInfo> = {
 }
 
 const Hero = () => {
-    const [activeIndex, setActiveIndex] = useState(0)
+    // const [activeIndex, setActiveIndex] = useState(0)
 
     // useEffect(() => {
     //     const interval = setInterval(() => {
@@ -34,8 +34,8 @@ const Hero = () => {
     //     return () => clearInterval(interval)
     // }, [])
 
-    const productCardId = productIds[activeIndex]
-    const productCtaIds = productIds.filter((id) => id !== productCardId)
+    const productCardId = productIds[0]
+    // const productCtaIds = productIds.filter((id) => id !== productCardId)
 
     return (
         <header className="w-full bg-white pt-[150px] px-c-20 lg:p-c-20 relative">

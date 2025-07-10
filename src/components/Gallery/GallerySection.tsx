@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from "react";
-import { FaTint, FaConciergeBell, FaShieldAlt } from "react-icons/fa";
+import { FaShieldAlt } from "react-icons/fa";
 import ProductFilterBtn from "../Comman/ProductFilterBtn";
 import { ProductFilterBtnProps } from "@/types";
 import images from "@/data/assets";

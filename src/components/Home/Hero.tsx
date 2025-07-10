@@ -2,7 +2,7 @@
 
 import images from '@/data/assets'
 import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 // import ProductCTA from '../Comman/ProductCTA'
 import ProductCard from '../Comman/ProductCard'
 import { motion, AnimatePresence } from 'framer-motion'

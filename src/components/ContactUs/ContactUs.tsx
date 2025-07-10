@@ -1,9 +1,12 @@
+"use client"
+
 import React from 'react'
 import ContactHero from './ContactHero'
 import LightContactFrom from './LightContactForm';
 import GoogleMapComponent from '../Comman/GoogleMapComponent';
 import { address, contactUsEmail, googleMapLink, phoneNumber } from '@/data/comman';
-
+import ProductPageCTA from '../Comman/ProductPageCTA';
+import { gasetecSubLinks } from '@/data/products/mx3Data';
 const ContactSection = () => {
     return (
         <section className="flex flex-col lg:flex-row justify-between bg-custom-blue-1 p-4 text-white rounded-lg overflow-hidden">
@@ -41,6 +44,7 @@ const ContactUs = () => {
         <main id='contact' className='px-c-20 pb-20 space-y-[56px] bg-white'>
             <ContactHero />
             <ContactSection />
+            <ProductPageCTA items={gasetecSubLinks} />
             <GoogleMapComponent />
         </main>
     )

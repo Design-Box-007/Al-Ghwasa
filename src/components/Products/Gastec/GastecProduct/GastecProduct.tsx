@@ -3,7 +3,6 @@ import ProductHero from './ProductHero'
 import ProductDataTable from './ProductDataTable'
 import GastecContactForm from './GastecContactForm'
 import { GastecDataProvider } from '@/context/GastecDataContext'
-import ScrollToTopButton from '@/components/Comman/ScrollToTop'
 
 const GastecProduct = () => {
     return (
@@ -13,7 +12,6 @@ const GastecProduct = () => {
                 <ProductDataTable />
                 <GastecContactForm className='bg-[#00897B]' btnClassName='text-[#00897B]' />
             </GastecDataProvider>
-            <ScrollToTopButton/>
         </main>
     )
 }

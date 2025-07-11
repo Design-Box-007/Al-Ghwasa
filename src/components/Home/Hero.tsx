@@ -2,7 +2,7 @@
 
 import images from '@/data/assets'
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 // import ProductCTA from '../Comman/ProductCTA'
 import ProductCard from '../Comman/ProductCard'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -16,25 +16,64 @@ type ProductInfo = {
     className: string
     textClass: string
     link: string;
+    contentData: {
+        title: string;
+        subtitle: string;
+    };
 }
 
 const products: Record<number, ProductInfo> = {
     // 1: { imgSrc: images.oilTesterT, link: "/frying-oil-tester", bgSrc: images.oilTesterL, name: 'Frying Oil Tester', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
     // 2: { imgSrc: images.mx3T, link: "/mx-3", bgSrc: images.mx3L, name: 'Hydration Measurement', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
-    1: { imgSrc: images.gastecT, link: "/gastec", bgSrc: images.gastecL, name: 'Gas Detection', className: 'bg-custom-red-light', textClass: 'text-custom-red-light' },
+    1: { 
+        imgSrc: images.gastecT, 
+        link: "/gastec", 
+        bgSrc: images.gastecL, 
+        name: 'Gas Detection', 
+        className: 'bg-custom-red-light', 
+        textClass: 'text-custom-red-light',
+        contentData: {
+            title: "Ensure Safety from Toxic Gases with Accurate Gas Detection Systems",
+            subtitle: "Protect your workforce from hazardous gases and vapours using reliable, on-site gas detection solutions."
+        }
+    },
+    2: { 
+        imgSrc: images.gastecT, 
+        link: "/gastec", 
+        bgSrc: images.gastecL, 
+        name: 'Gas Detection', 
+        className: 'bg-custom-red-light', 
+        textClass: 'text-custom-red-light',
+        contentData: {
+            title: "Gastec Gas Detection Tubes – Fast, Precise & Easy-to-Use Monitoring",
+            subtitle: "Detect a wide range of gases and vapours with Gastec's world-class gas detection tubes and devices."
+        }
+    },
+    3: { 
+        imgSrc: images.gastecT, 
+        link: "/gastec", 
+        bgSrc: images.gastecL, 
+        name: 'Gas Detection', 
+        className: 'bg-custom-red-light', 
+        textClass: 'text-custom-red-light',
+        contentData: {
+            title: "Now Available Across UAE & Gulf – Trusted by Industry Professionals",
+            subtitle: "Serving the Middle East with certified Gastec gas detection equipment for industrial, laboratory, and field use."
+        }
+    },
 }
 
 const Hero = () => {
-    // const [activeIndex, setActiveIndex] = useState(0)
+    const [activeIndex, setActiveIndex] = useState(0)
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setActiveIndex((prev) => (prev + 1) % productIds.length)
-    //     }, 7000)
-    //     return () => clearInterval(interval)
-    // }, [])
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setActiveIndex((prev) => (prev + 1) % productIds.length)
+        }, 7000)
+        return () => clearInterval(interval)
+    }, [])
 
-    const productCardId = productIds[0]
+    const productCardId = productIds[activeIndex]
     // const productCtaIds = productIds.filter((id) => id !== productCardId)
 
     return (
@@ -59,12 +98,22 @@ const Hero = () => {
                             transition={{ duration: 1 }}
                             className="w-full lg:w-2/3 flex flex-col gap-4 text-center lg:text-left"
                         >
-                            <h1 className="text-3xl md:text-5xl lg:text-[64px] font-medium leading-tight tracking-wide">
-                                Innovative Solutions for Hospitality, Hydration & Safety
-                            </h1>
-                            <p className="text-base md:text-xl lg:text-2xl font-normal">
-                                Advanced Equipment for Precision, Performance & Protection.
-                            </p>
+                            <AnimatePresence mode="wait">
+                                <motion.div
+                                    key={activeIndex}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    exit={{ opacity: 0, y: -20 }}
+                                    transition={{ duration: 0.5 }}
+                                >
+                                    <h1 className="text-3xl md:text-5xl lg:text-[64px] font-medium leading-tight tracking-wide">
+                                        {products[productCardId].contentData.title}
+                                    </h1>
+                                    <p className="text-base md:text-xl lg:text-2xl font-normal">
+                                        {products[productCardId].contentData.subtitle}
+                                    </p>
+                                </motion.div>
+                            </AnimatePresence>
                         </motion.div>
 
                         {/* Animated ProductCard Section */}

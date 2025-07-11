@@ -1,12 +1,14 @@
 import React from 'react'
 import Hero from './Hero'
-import Contact from '../Comman/Contact'
 import FAQAccordion from '../Comman/FAQAccordion'
 import { homePagefaqs } from '@/data/comman'
 import HomeOurProducts from './HomeOurProduct'
 import HomeAbout from './HomeAbout'
 import HomeProductApplication from './HomeProductApplications'
 import BlogSection from '../Comman/BlogSection'
+import ProductCTA from '../Comman/ProductCTA'
+import ProductPageCTA from '../Comman/ProductPageCTA'
+import { gasetecSubLinks } from '@/data/products/mx3Data'
 
 const Home = () => {
   return (
@@ -22,7 +24,9 @@ const Home = () => {
         titleClassName='text-3xl lg:text-[56px] font-normal font-inter text-custom-red-light'
       />
       <FAQAccordion faqs={homePagefaqs} />
-      <Contact />
+      <div className='px-4'>
+      <ProductPageCTA items={gasetecSubLinks} />
+      </div>
     </main>
   )
 }

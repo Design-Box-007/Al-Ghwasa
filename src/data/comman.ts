@@ -34,24 +34,24 @@ export const socialMedia: SocialMediaLinks[] = [
 
 export const homePagefaqs: FAQItem[] = [
   {
-    question: "What makes Gastec gas detection systems different from electronic gas detectors?",
-    answer: "Gastec gas detection systems use manual pumps and chemical detector tubes that provide instant visual results without electricity or calibration. They’re cost-effective, maintenance-free, and ideal for fieldwork in hazardous or remote environments. The GHS-8AT-EX model even allows safe use in explosion-prone zones."
+    question: "Who is the official distributor of GASTEC in the Middle East and Africa?",
+    answer: "Al Ghwasa is the authorized distributor for GASTEC across the Middle East and Africa."
   },
   {
-    question: "How accurate is the MX3 Hydration Testing System for workforce monitoring?",
-    answer: "MX3 uses saliva-based analysis, providing highly accurate hydration status within minutes. It’s trusted by health and safety managers across industries for its scientific backing, digital integration, and ability to prevent dehydration-related incidents on-site."
+    question: "Do you offer training for using GASTEC equipment?",
+    answer: "Yes, we provide product training, demonstrations, and technical support."
   },
   {
-    question: "How often should cooking oil be tested using Alla France Frying Oil Testers?",
-    answer: "It’s recommended to test frying oil at least once per day in commercial kitchens, or more frequently depending on usage volume. Regular monitoring with Alla France testers ensures food safety, flavor consistency, and compliance with HACCP standards."
+    question: "Can I buy GASTEC products directly online?",
+    answer: "No, GASTEC devices are not sold online. You can send us an inquiry by selecting the device and tubes you need—our team will contact you with pricing and assistance."
   },
   {
-    question: "Can Gastec detector tubes measure multiple types of gases?",
-    answer: "Yes. Gastec offers a wide range of pre-calibrated tubes designed to measure over 500 different gases and vapors, including toxic, flammable, and corrosive compounds. Each tube is specific to a target gas and concentration range."
+    question: "How can I request a quote?",
+    answer: "Visit our website, choose the products you’re interested in, and submit an inquiry. Our team will respond promptly."
   },
   {
-    question: "Is the MX3 Hydration Testing System suitable for industries outside construction or oil & gas?",
-    answer: "Absolutely. MX3 is widely used in sports, military, firefighting, and industrial environments—anywhere hydration impacts performance and safety. It’s portable, easy to use, and scalable for teams of all sizes."
+    question: "Do you provide calibration services?",
+    answer: "Yes, we offer calibration and maintenance support for GASTEC sampling pumps and accessories."
   }
 ];
 

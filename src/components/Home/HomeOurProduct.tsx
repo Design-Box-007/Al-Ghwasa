@@ -26,7 +26,7 @@ interface ProductSectionProps {
 const ProductSection: React.FC<ProductSectionProps> = ({ number, title, images, isOpen, onClick, link }) => {
 
     return (
-        <div className="py-4">
+        <div className="py-2">
             <RevealComponent
                 backgroundClass="bg-background"
                 outerClass=""

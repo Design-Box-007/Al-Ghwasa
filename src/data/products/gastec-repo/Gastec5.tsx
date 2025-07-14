@@ -1,61 +1,33 @@
-import React from 'react';
-
-const Gastec5 = () => {
+export default function Gastec5() {
   return (
     <section className="blog-content py-6 px-4 space-y-6 text-base font-sans">
-      <>
-        <p className="font-bold text-left mb-4">Gastec Extension Pole - 350BP-2</p>
+      <p className="text-justify font-bold">GHS-8AT-EX</p>
 
-        <p className="text-left mb-4">
-          When safety, convenience, and efficiency are your top priorities, the{' '}
-          <strong>Gastec Extension Pole – 350BP-2</strong> is a game-changer for gas
-          sampling in hard-to-reach or hazardous areas. Designed to be used with {"Gastec’s"}
-          trusted Gas Sampling Pump, this extension pole ensures {"you're"} always ready for
-          remote sampling—anytime, anywhere.
-        </p>
+      <p className="text-justify">
+        Monitoring hydrogen sulfide (H₂S) in sewer systems is now easier and more reliable with the GHS-8AT-EX data logger. H₂S gas, if left undetected, can cause serious corrosion in sewage pipelines, emit strong underground odors, and lead to damage in nearby buildings and infrastructure. This device offers 24/7 continuous monitoring, helping you track gas concentration, identify odor sources, and detect early signs of corrosion.
+      </p>
 
+      {/* ADD GHS8AT IMAGE */}
 
-        <p className="font-bold text-left mb-4">Key Features That Make a Difference</p>
+      <p className="text-justify">
+        The large, easy-to-read display shows real-time H₂S levels, temperature, and battery status, while a built-in alert reminds you when sensor calibration is needed. Energy efficiency is enhanced with a power-saving function and programmable start/stop recording options.
+      </p>
 
+      <p className="text-justify font-bold">Key Features:</p>
+      <ul className="list-disc list-inside space-y-2 text-justify">
+        <li>Compact, lightweight, and easy to maintain — outer case can be quickly removed for sensor replacement</li>
+        <li>Waterproof and corrosion-resistant design (IP66/67) — floats on water for added protection in harsh environments</li>
+        <li>Long-term data logging — even at 1-minute intervals, stores up to one month of gas and temperature readings</li>
+        <li>Custom sensor options — designed to support a wide range of measurement applications and locations</li>
+      </ul>
 
-        <ul className="list-disc list-inside space-y-2">
-          <li className="text-left">
-            <strong>Easy Remote Sampling:</strong> Keep a safe distance from
-            potentially dangerous environments while still collecting accurate
-            samples with ease.
-          </li>
-          <li className="text-left">
-            <strong>Impressive Reach:</strong> The pole extends up to{' '}
-            <strong>2.8 meters (9.2 feet)</strong>, allowing workers to sample air from
-            elevated or confined spaces without putting themselves at risk.
-          </li>
-          <li className="text-left">
-            <strong>Compact and Portable:</strong> When not in use, the pole conveniently
-            contracts to just <strong>25 inches (63.5 cm)</strong>—perfect for easy
-            transport and storage on the go.
-          </li>
-          <li className="text-left">
-            <strong>Built for the Field:</strong> Constructed from{' '}
-            <strong>corrosion-resistant fiberglass</strong>, the pole offers excellent
-            durability and performance even in harsh industrial conditions.
-          </li>
-          <li className="text-left">
-            <strong>Lightweight and Strong:</strong> Its smart design ensures the pole is
-            tough enough for daily use, yet light enough to handle comfortably over
-            extended periods.
-          </li>
-        </ul>
+      <p className="text-justify">
+        Ideal for sewer gas monitoring, corrosion detection, and odor control, the GHS-8AT-EX is a trusted solution for municipal systems, industrial sites, and environmental monitoring.
+      </p>
 
-        <p className="text-left mb-4">
-          Whether {"you're"} sampling in tight industrial spaces or navigating challenging
-          outdoor environments, the Gastec 350BP-2 Extension Pole offers a practical
-          solution that keeps safety and efficiency in focus.
-        </p>
-
-        <p className="text-left mb-4">&nbsp;</p>
-      </>
+      <p className="text-justify font-bold">Sample Visual:</p>
+      <p className="text-justify">Image of GHS 8AT used for sewer monitoring in busy downtown areas with high-rise buildings</p>
+      {/* ADD IMAGE GHSIMAGESEWERMONITORING */}
     </section>
   );
-};
-
-export default Gastec5;
+}

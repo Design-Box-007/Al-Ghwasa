@@ -1,67 +1,45 @@
-import React from 'react';
 
-const Gastec3 = () => {
+export default function Gastec3() {
   return (
     <section className="blog-content py-6 px-4 space-y-6 text-base font-sans">
-      <div className="font-bold">
-        GASTEC GV-100 / GV-110S Gas Sampling Pumps
-      </div>
+      <p className="text-justify font-bold">Gas Detector Tubes</p>
 
-      <p className="bg-white text-left ">
-        The GASTEC GV-100 and GV-110S are high-quality manual gas sampling pumps
-        designed for use with GASTEC detector tubes. These pumps are widely used
-        across industries such as oil and gas, manufacturing, construction,
-        environmental testing, and hazardous materials handling. They enable fast,
-        accurate, and on-site gas detection of over 600 gases and vapors.
+      <p className="text-justify">
+        GASTEC Detector Tubes provide direct concentration readings via a calibrated scale printed on each tube. At GASTEC, we are committed to delivering the highest quality detector tubes for accurate analysis of airborne gases, vapors, and contaminants in soil and water. Backed by cutting-edge research and development, our products have earned a trusted reputation across a wide range of industries, commercial sectors, and communities. Today, GASTEC offers detector tubes for over 500 unique applications.
       </p>
 
-      <p className="bg-white text-left font-bold ">Key Features</p>
-      <ul className="list-disc pl-6 space-y-2">
-        <li className="bg-white text-left ">
-          Manual piston-style design for consistent and accurate gas sampling
-        </li>
-        <li className="bg-white text-left ">
-          Easy one-hand operation for convenient field use
-        </li>
-        <li className="bg-white text-left ">
-          Compatible with all GASTEC detector tubes for wide application range
-        </li>
-        <li className="bg-white text-left ">
-          GV-110S includes a built-in stroke counter for precise multi-stroke readings
-        </li>
-        <li className="bg-white text-left ">
-          Lightweight, compact, and durable construction for rugged environments
-        </li>
-        <li className="bg-white text-left ">
-          Requires no batteries or external power, ensuring 100% manual functionality
-        </li>
-        <li className="bg-white text-left ">
-          Maintenance-free with a long operational life
-        </li>
+      {/* ADD IMAGE (IMAGE NUMBER – TUBE1) */}
+
+      <p className="text-justify font-bold">Features:</p>
+      <ul className="list-disc list-inside space-y-2 text-justify">
+        <li>Perform accurate gas measurements anytime, anywhere, with ease—no specialized training required.</li>
+        <li>GASTEC detector tubes feature a calibrated scale printed directly on each tube, enabling quick and reliable direct readings on-site.</li>
+        <li>Benefit from a wide measurement range by adjusting the sampling volume to suit your specific application.</li>
+        <li>To ensure superior accuracy, every production batch undergoes independent testing and calibration, with a unique quality control number printed on each tube for traceability.</li>
+        <li>Enjoy long shelf life and outstanding stability, making GASTEC detector tubes the trusted choice for precise gas and vapor detection across diverse industries.</li>
       </ul>
 
-      <p className="bg-white text-left font-bold ">Applications</p>
-      <ul className="list-disc pl-6 space-y-2">
-        <li className="bg-white text-left ">
-          Toxic and flammable gas detection in industrial environments
-        </li>
-        <li className="bg-white text-left ">
-          Confined space air quality monitoring
-        </li>
-        <li className="bg-white text-left ">
-          Workplace safety and indoor air assessments
-        </li>
-        <li className="bg-white text-left ">
-          Emission and environmental compliance testing
-        </li>
-        <li className="bg-white text-left ">
-          Soil and groundwater gas analysis
-        </li>
+      <p className="text-justify font-bold">About Pump:</p>
+      {/* ADD IMAGE – PUMP 1 */}
+
+      <ul className="list-disc list-inside space-y-2 text-justify">
+        <li>The built-in tip breaker features a durable diamond edge designed to effortlessly cut the detector tube tip. This ensures tip breaking is safer, easier, and more convenient. Used tips are safely collected in an integrated storage bin for hassle-free disposal.</li>
+        <li>The GASTEC pump piston is designed with a reduced diameter, allowing the handle to be pulled out with minimal effort—making operation easy for any user. Both the GV-110 and GV-100 models comply with the EN1231 standard for workplace atmospheres, specifically section 4.2.2 on leakage.</li>
+        <li>For added assurance, the GASTEC pump shaft features a red line indicator that visually displays leakage levels for easy verification.</li>
+        <li>The pump body is coated with a soft elastomer and features a tapered middle section for a secure, ergonomic grip during use. All external surfaces are constructed from non-sparking ABS resin for added safety, except for the tube tip cutter opening, which is made of durable, chrome-plated stainless steel.</li>
+        <li>The pump shaft features clear red line markers indicating the full-stroke (100mL) and half-stroke (50mL) positions, with the handle locking precisely at each point for accurate sampling. An integrated flow finish indicator provides a visual cue—when the white disk pops out, it signals that the sampling is complete.</li>
+        <li>The automatic stroke counter built in model GV-110 (in Model GV-110S) gas sampling pump can track up to ten pump strokes automatically so there is no chance of miscounting.</li>
       </ul>
 
-      <p className=" text-left">&nbsp;</p>
+      <p className="text-justify font-bold">Operation Procedure:</p>
+      <p className="text-justify">
+        Need to add a Video: Sample Link <a className="text-blue-600 underline" href="https://www.youtube.com/watch?v=2InsaZcmMgI" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=2InsaZcmMgI</a>
+      </p>
+
+      <p className="text-justify font-bold">Air Tightness:</p>
+      <p className="text-justify">
+        Attach this video: <a className="text-blue-600 underline" href="https://www.youtube.com/watch?v=3w7br4KDxPg" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=3w7br4KDxPg</a>
+      </p>
     </section>
   );
-};
-
-export default Gastec3;
+}

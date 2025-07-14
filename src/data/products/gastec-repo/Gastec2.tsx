@@ -1,43 +1,78 @@
-const Gastec2 = () => {
+
+export default function Gastec2() {
   return (
     <section className="blog-content py-6 px-4 space-y-6 text-base font-sans">
-      <p className="text-justify font-bold">
-        GHS-8AT-EX – Explosion-Proof Gas Sampling Pump
-      </p>
+      <p className="text-justify font-bold">WHY GASTEC</p>
 
+      <p className="text-justify font-bold">Industrial Safety & Hazard Monitoring</p>
       <p className="text-justify">
-        The <strong>GASTEC GHS-8AT-EX</strong> is a precision-engineered,
-        explosion-proof gas sampling pump designed for reliable use in hazardous and
-        flammable environments. Built to meet strict EX-rated (explosion protection)
-        standards, it is ideal for safety-critical operations across industries such
-        as oil &amp; gas, petrochemicals, mining, and confined space entry.
+        In industries like oil refining, chemical manufacturing, steel production,
+        and energy utilities, precise gas measurement is essential to prevent toxic
+        exposure, fires, and explosions. Gastec provides lightweight and portable gas
+        detectors that ensure accurate detection of hazardous and flammable gases in
+        real time.
       </p>
 
-      <p className="font-bold">Key Features:</p>
-      <ul className="list-disc list-inside space-y-2">
-        <li>
-          Certified <strong>intrinsically safe</strong> for use in explosive gas atmospheres.
-        </li>
-        <li>
-          Compatible with <strong>GASTEC standard detector tubes</strong> for real-time, on-site gas detection.
-        </li>
-        <li>
-          Provides <strong>quick and accurate measurements</strong> with minimal pump strokes.
-        </li>
-        <li>
-          Constructed with a <strong>rugged and durable</strong> body for tough industrial environments.
-        </li>
-        <li>
-          Suitable for measuring <strong>toxic gases, combustible gases, and oxygen levels</strong> in high-risk areas.
-        </li>
-      </ul>
+      <p className="text-justify font-bold">Environmental Monitoring & Air Quality Control</p>
+      <p className="text-justify">
+        With rising environmental concerns, there’s a growing demand for hazardous air
+        pollutant detection. Gastec has developed high-performance air sampling pumps
+        and detector tubes to monitor ambient air quality and support pollution
+        control efforts.
+      </p>
 
-      <p>
-        <strong>Applications:</strong><br />
-        Commonly deployed in <strong>refineries, chemical processing facilities, shipyards, tunnels, and ATEX-zoned areas</strong>, where the presence of flammable gases requires constant monitoring to ensure operational safety and compliance.
+      <p className="text-justify font-bold">Research & Laboratory Testing</p>
+      <p className="text-justify">
+        Research institutions rely on Gastec devices for analyzing gases in lab
+        settings. Their user-friendly and high-precision systems make them ideal for
+        R&D in chemical, biological, and environmental sciences.
+      </p>
+
+      <p className="text-justify font-bold">Emergency Response & Firefighting</p>
+      <p className="text-justify">
+        In critical emergencies involving toxic gas leaks or chemical spills, first
+        responders need fast and accurate gas identification tools. Gastec’s devices
+        offer instant, reliable readings without the need for technical
+        training—making them essential for firefighters and HAZMAT teams.
+      </p>
+
+      <p className="text-justify font-bold">Soil & Water Contamination Testing</p>
+      <p className="text-justify">
+        Gastec’s gas detector tubes are also adapted for soil gas and groundwater
+        contamination analysis. These tools help environmental teams perform initial
+        pollution checks quickly and cost-effectively.
+      </p>
+
+      <p className="text-justify font-bold">Construction & Sewer System Monitoring</p>
+      <p className="text-justify">
+        Hydrogen sulfide and other corrosive gases pose a major threat to sewer
+        pipelines and underground infrastructure. Gastec’s continuous monitoring
+        solutions help prevent corrosion, control odors, and ensure the long-term
+        safety of urban sewage systems.
+      </p>
+
+      <p className="text-justify font-bold">Maritime Safety & Tank Monitoring</p>
+      <p className="text-justify">
+        In shipping and marine industries, Gastec’s long-reach detector tubes and
+        oxygen sensors are used to measure gas concentrations in tanks, helping
+        prevent explosions or toxicity-related incidents aboard oil and chemical
+        tankers.
+      </p>
+
+      <p className="text-justify font-bold">Indoor Air Quality & Building Safety</p>
+      <p className="text-justify">
+        Gastec provides advanced CO and CO₂ detectors for schools, offices, and
+        public facilities. Their digital, lightweight monitors ensure that indoor
+        environments remain safe and comfortable for occupants.
+      </p>
+
+      <p className="text-justify font-bold">STEM Education & School Science Labs</p>
+      <p className="text-justify">
+        Gastec’s easy-to-use gas detector tubes are also integrated into science
+        curriculums around the world. They’re a valuable tool for teaching students
+        about environmental science, chemistry, and air quality through hands-on
+        experiments.
       </p>
     </section>
   );
-};
-
-export default Gastec2;
+}

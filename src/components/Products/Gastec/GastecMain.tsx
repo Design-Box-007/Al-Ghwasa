@@ -9,10 +9,10 @@ import Gastec3 from '../../../data/products/gastec-repo/Gastec3'
 import Gastec4 from '../../../data/products/gastec-repo/Gastec4'
 import Gastec5 from '../../../data/products/gastec-repo/Gastec5'
 import Gastec6 from '../../../data/products/gastec-repo/Gastec6'
-// import Gastec7 from '../../../data/products/gastec-repo/Gastec7'
-// import Gastec8 from '../../../data/products/gastec-repo/Gastec8'
-// import Gastec9 from '../../../data/products/gastec-repo/Gastec9'
-// import Gastec10 from '../../../data/products/gastec-repo/Gastec10'
+import Gastec7 from '../../../data/products/gastec-repo/Gastec7'
+import Gastec8 from '../../../data/products/gastec-repo/Gastec8'
+import Gastec9 from '../../../data/products/gastec-repo/Gastec9'
+import Gastec10 from '../../../data/products/gastec-repo/Gastec10'
 import images from '@/data/assets'
 import BlogHeader from '@/components/blog/BlogHeader'
 import RevealComponent from '@/components/Comman/RevealComponent'
@@ -100,24 +100,22 @@ const productData: GastecDataType[] = [
 const gastecComponentMap: Record<string,
     React.ElementType> = {
     Gastec1,
-
     Gastec2,
-
     Gastec3,
-
     Gastec4,
-
     Gastec5,
-
     Gastec6,
-
+    Gastec7,
+    Gastec8,
+    Gastec9,
+    Gastec10,
 }
 
 const GastecMain = () => {
     const [selectedProductData,
         setSelectedProductData] = useState<GastecDataType>(productData[0])
 
-    const SelectedComponent = gastecComponentMap[selectedProductData.gastec]
+    const SelectedComponent = gastecComponentMap[selectedProductData.gastec] || (() => <p>Component not found.</p>)
 
     return (
         <section className='bg-[#F1F1F1] rounded-[20px] px-4 lg:px-[30px] py-[40px]'>

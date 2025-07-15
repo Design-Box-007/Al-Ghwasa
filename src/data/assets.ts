@@ -262,7 +262,7 @@ const images: Assets = {
     Rectangle193: "/images/Product/Rectangle-193.png",
     // Gastec Section Images (gastec-repo-assets-2)
     Gastec_AboutGastecFolder: "/images/Gastec/gastec-repo-assets-2/ABOUT GASTEC/", // Folder reference for About Gastec images
-    Gastec_Tube1: "/images/Gastec/gastec-repo-assets-2/Section3/Tube1.jpg",
+    Gastec_Tube1: "/images/Gastec/gastec-repo-assets-2/Tube1.jpg",
     Gastec_Pump1: "/images/Gastec/gastec-repo-assets-2/Section3/Pump1.jpg",
     Gastec_PD1C: "/images/Gastec/gastec-repo-assets-2/PD1C.jpg",
     Gastec_GHS8AT: "/images/Gastec/gastec-repo-assets-2/GHS_8AT_EX_4---コピー.jpg",

@@ -11,6 +11,7 @@ const images: Assets = {
 
 
     About: "/images/About/About.png",
+    AboutSliderHero: "/images/About/About-Slider-Hero.jpg",
     AboutSliderHero1: "/images/About/About-Slider-Hero1.jpg",
     AboutSliderHero2: "/images/About/About-Slider-Hero2.jpg",
     AboutSliderHero3: "/images/About/About-Slider-Hero3.jpg",

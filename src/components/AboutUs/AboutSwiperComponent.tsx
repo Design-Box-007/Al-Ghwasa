@@ -26,6 +26,9 @@ const AboutSwiperComponent: React.FC = () => {
                 className="w-full h-full"
             >
                 <SwiperSlide className="overflow-hidden rounded-xl">
+                    <Image width={1360} height={700} className='w-full h-full object-cover' src={images.AboutSliderHero} alt={"hero"} />
+                </SwiperSlide>
+                <SwiperSlide className="overflow-hidden rounded-xl">
                     <Image width={1360} height={700} className='w-full h-full object-cover' src={images.AboutSliderHero1} alt={"hero"} />
                 </SwiperSlide>
                 <SwiperSlide className="overflow-hidden rounded-xl">

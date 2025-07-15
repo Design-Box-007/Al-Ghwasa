@@ -4,7 +4,7 @@ import Navbar from "@/components/Comman/Navbar";
 import Footer from "@/components/Comman/Footer";
 import { ToastContainer } from "react-toastify";
 import ScrollToTopButton from "@/components/Comman/ScrollToTop";
-import { FloatingWhatsApp } from "react-floating-whatsapp";
+// import { FloatingWhatsApp } from "react-floating-whatsapp";
 import FloatingWhatsapp from "@/components/Comman/FloatingWhatsapp";
 
 

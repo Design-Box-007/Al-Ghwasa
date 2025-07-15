@@ -15,7 +15,7 @@ export default function Gastec1() {
         measurement—even in emergency situations.
       </p>
       <p className="text-justify">
-        At the core of Gastec's technology is simplicity combined with scientific
+        At the core of Gastec&apos;s technology is simplicity combined with scientific
         precision. These devices play a critical role in ensuring workplace safety,
         supporting research and development, and promoting environmental awareness.
         Whether it’s monitoring gas leaks in industrial facilities or detecting

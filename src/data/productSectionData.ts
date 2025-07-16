@@ -24,14 +24,14 @@ const productsData: ProductSectionData[] = [
     // },
     {
         number: "01",
-        title: "Safety Solutions",
+        title: "Explore the Full Range of Gastec Gas Detection Devices and Tubes",
         link: "/gastec",
         images: [
-            { imgSrc: images.gastec860_2, name: "860_2" },
-            { imgSrc: images.gastecGHS_501FT_1, name: "GHS_501FT_1" },
+            { imgSrc: images.gastec860_2, name: "GHS_8AT_EX" },
+            { imgSrc: images.gastecGHS_501FT_1, name: "GHS_501FT" },
             { imgSrc: images.gastecGHS_8AT_EX_1, name: "GHS_8AT_EX_1" },
         ]
-    },
+    },   
 ];
 
 export default productsData;

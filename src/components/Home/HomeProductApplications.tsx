@@ -44,7 +44,7 @@ const HomeProductApplications = () => {
             </div>
           </RevealComponent>
 
-          <RevealComponent
+          {/* <RevealComponent
             direction="bottom"
             outerClass="lg:w-[40%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
@@ -64,11 +64,11 @@ const HomeProductApplications = () => {
                 <span className="capitalize">Full Experience Center</span>
               </button>
             </div>
-          </RevealComponent>
+          </RevealComponent> */}
         </div>
 
         {/* Second Row (Reversed) */}
-        <div className="flex flex-col lg:flex-row-reverse gap-4 h-auto lg:h-[50vh]">
+        {/* <div className="flex flex-col lg:flex-row-reverse gap-4 h-auto lg:h-[50vh]">
           <RevealComponent
             direction="left"
             outerClass="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
@@ -112,7 +112,7 @@ const HomeProductApplications = () => {
               </button>
             </div>
           </RevealComponent>
-        </div>
+        </div> */}
       </div>
     </section>
   );

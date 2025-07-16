@@ -138,24 +138,12 @@ const HomeOurProducts = () => {
 
       <RevealComponent
         backgroundClass="bg-background"
-        outerClass="mb-6"
+        outerClass="mb-0"
         direction="right"
       >
-        <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-custom-blue-1 font-dm-sans leading-tight">
+        <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-custom-blue-1 font-dm-sans leading-tight mb-0">
           Our Product
         </h1>
-      </RevealComponent>
-
-      <RevealComponent
-        direction="right"
-        backgroundClass="bg-background"
-        outerClass="mb-4"
-      >
-        <Link href="/gastec#about" passHref>
-          <h2 className="text-2xl sm:text-3xl font-semibold text-custom-red-light">
-            Explore the Full Range of Gastec Gas Detection Devices and Tubes
-          </h2>
-        </Link>
       </RevealComponent>
 
       {/* Product Sections */}

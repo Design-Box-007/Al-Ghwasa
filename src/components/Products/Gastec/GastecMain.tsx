@@ -119,37 +119,41 @@ const GastecMain = () => {
 
     return (
         <section className='bg-[#F1F1F1] rounded-[20px] px-4 lg:px-[30px] py-[40px]'>
-            <RevealComponent>
-                <h2 className='font-medium text-3xl lg:text-[54px] text-black capitalize'>
-                    All About Gastec Devices
-                </h2>
-            </RevealComponent>
+  <RevealComponent>
+    <h2 className='font-medium text-3xl lg:text-[54px] text-black capitalize'>
+      All About Gastec Devices
+    </h2>
+  </RevealComponent>
 
-            <div className="w-full mt-10 grid grid-cols-1 lg:grid-cols-7 gap-2.5">
-                <div className='lg:col-span-2 bg-white rounded-3xl p-4 space-y-4'>
-                    <RevealComponent backgroundClass='bg-white' direction='bottom'>
-                        <ul className='space-y-1'>
-                            {productData.map((item,
-                                index) => (
-                                <li
-                                    key={index}
-                                    className={`cursor-pointer px-3 py-2 rounded-lg text-sm font-medium 
-                                    ${item.title === selectedProductData.title ? 'bg-gray-200 text-black' : 'text-gray-600 hover:bg-gray-100'}`}
-                                    onClick={() => setSelectedProductData(item)}
-                                >
-                                    {item.title}
-                                </li>
-                            ))}
-                        </ul>
-                    </RevealComponent>
-                </div>
+  {/* Tabs on top */}
+  <div className="w-full mt-10">
+    <div className="bg-white rounded-2xl p-4 overflow-x-auto">
+      <ul className="flex flex-wrap gap-3 min-w-max">
+        {productData.map((item, index) => (
+          <li
+            key={index}
+            className={`cursor-pointer whitespace-nowrap px-4 py-2 rounded-md text-sm font-medium border 
+              ${item.title === selectedProductData.title
+                ? 'bg-gray-200 text-black border-gray-400'
+                : 'text-gray-600 hover:bg-gray-100 border-transparent'}`}
+            onClick={() => setSelectedProductData(item)}
+          >
+            {item.title}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
 
-                <div className='lg:col-span-5 bg-white rounded-3xl flex flex-col justify-center items-start p-4'>
-                    <BlogHeader blog={selectedProductData} imageClassName='brightness-75 object-center object-contain' />
-                    <SelectedComponent />
-                </div>
-            </div>
-        </section>
+  {/* Content in center */}
+  <div className="w-full mt-6 flex flex-col justify-center items-center">
+    <div className='bg-white w-full rounded-3xl p-4 max-w-[1200px]'>
+      <BlogHeader blog={selectedProductData} imageClassName='brightness-75 object-center object-contain' />
+      <SelectedComponent />
+    </div>
+  </div>
+</section>
+
     )
 }
 

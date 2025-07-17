@@ -26,10 +26,10 @@ const products: Record<number, ProductInfo> = {
   // 1: { imgSrc: images.oilTesterT, link: "/frying-oil-tester", bgSrc: images.oilTesterL, name: 'Frying Oil Tester', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
   // 2: { imgSrc: images.mx3T, link: "/mx-3", bgSrc: images.mx3L, name: 'Hydration Measurement', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
   1: {
-    imgSrc: images.gastecT,
+    imgSrc: images.gastec860_2,
     link: "/gastec",
     bgSrc: images.gastecL,
-    name: "Gas Detection",
+    name: "GHS_8AT_EX",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -40,10 +40,10 @@ const products: Record<number, ProductInfo> = {
     },
   },
   2: {
-    imgSrc: images.gastecT,
+    imgSrc: images.gastecGHS_501FT_1,
     link: "/gastec",
     bgSrc: images.gastecL,
-    name: "Gas Detection",
+    name: "GHS_501FT",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -54,10 +54,10 @@ const products: Record<number, ProductInfo> = {
     },
   },
   3: {
-    imgSrc: images.gastecT,
+    imgSrc: images.gastecGHS_8AT_EX_1,
     link: "/gastec",
     bgSrc: images.gastecL,
-    name: "Gas Detection",
+    name: "GHS_8AT_EX_1",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {

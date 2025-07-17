@@ -25,7 +25,7 @@ const HomeProductApplications = () => {
       <div className="mt-10 space-y-6">
         {/* First Row */}
         <div className="flex flex-col lg:flex-row gap-4 h-auto lg:h-[50vh]">
-          <RevealComponent outerClass="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]">
+          <RevealComponent outerClass="w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]">
             <Image
               src={images.gastecL}
               alt="grid-image"

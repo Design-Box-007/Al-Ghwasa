@@ -7,7 +7,6 @@ import ProductCTA from "./ProductCTA";
 import images from "@/data/assets";
 import Image from "next/image";
 import RevealComponent from "./RevealComponent";
-import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   const newNavLinks: NavLinksType[] = navLinks.filter(

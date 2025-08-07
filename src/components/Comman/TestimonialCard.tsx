@@ -5,14 +5,15 @@ import RevealComponent from "./RevealComponent";
 
 interface TestimonialCardProps {
   testimonial: TestimonialCardType;
+  customHeading?: string;
 }
 
-const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
+const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial, customHeading }) => {
   return (
     <section className="w-full py-5">
       <RevealComponent backgroundClass="bg-white">
         <h2 className="text-[64px] font-medium">
-          {"Client's Testimonial"}
+          {customHeading || "Client's Testimonial"}
         </h2>
       </RevealComponent>
       <div className="flex flex-col md:flex-row bg-white overflow-hidden w-full gap-4">

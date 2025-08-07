@@ -129,14 +129,11 @@ const images: Assets = {
   GastecStep3: "/images/Gastec/How it works 3.jpg",
   GasetecProductHero: "/images/Gastec/gastec-product-hero.jpg",
 
-  Gastec_AboutGastecImage:
-    "/images/Gastec/gastec-repo-assets/About-Gastec-Image.png",
-  Gastec_DetectorTubeImage1:
-    "/images/Gastec/gastec-repo-assets/Detector-tube-image_1.jpg",
-  Gastec_351A5GV100: "/images/Gastec/gastec-repo-assets/351A_5_GV_100.jpg",
-  Gastec_GHS8ATEX4コピー:
-    "/images/Gastec/gastec-repo-assets/GHS_8AT_EX_4---コピー.jpg",
-  Gastec_GV100S: "/images/Gastec/gastec-repo-assets/GV_100S.jpg",
+    Gastec_AboutGastecImage: "/images/Gastec/gastec-repo-assets/About-Gastec-Image.png",
+    Gastec_DetectorTubeImage1: "/images/Gastec/gastec-repo-assets/Detector-tube-image_1.jpg",
+    Gastec_351A5GV100: "/images/Gastec/gastec-repo-assets/351A_5_GV_100.jpg",
+    Gastec_GHS8ATEX4コピー: "/images/Gastec/gastec-repo-assets/GHS_8AT_EX_4---コピー.jpg",
+    Gastec_GV100S: "/images/Gastec/gastec-repo-assets/GV_100S.jpg",
 
   Gastec_No107PolytecTube:
     "/images/Gastec/gastec-repo-assets/No107-Polytec-Tube.png",

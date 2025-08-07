@@ -1,6 +1,7 @@
 import RevealComponent from '@/components/Comman/RevealComponent';
 import images from '@/data/assets';
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 
 const Mx31 = () => {
@@ -60,7 +61,7 @@ const Mx31 = () => {
       </p>
 
       <RevealComponent direction="bottom" outerClass="h-auto lg:h-[700px] overflow-hidden rounded-lg">
-        <img src={images.Athletic2} alt={"Atheletic"} className="rounded-lg object-top object-cover h-full w-full" />
+        <Image src={images.Athletic2} alt={"Atheletic"} className="rounded-lg object-top object-cover h-full w-full" width={700} height={700} />
       </RevealComponent>
 
       <p className="text-xl font-bold text-gray-900">

@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import ProductCard from '../../Comman/ProductCard'
+import Image from 'next/image'
 
 // GASTEC Product Data based on the image
 const gastecProducts = [
@@ -70,10 +70,12 @@ const ProductGridCol3: React.FC = () => {
                     {gastecProducts.map((product, index) => (
                         <div key={index} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6">
                             <div className="aspect-square mb-4 overflow-hidden rounded-lg">
-                                <img 
+                                <Image 
                                     src={product.imgSrc} 
                                     alt={product.name}
                                     className="w-full h-full object-cover"
+                                    width={300}
+                                    height={300}
                                 />
                             </div>
                             <div className="flex justify-between items-start">

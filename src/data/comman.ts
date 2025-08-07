@@ -20,12 +20,8 @@ export const navLinks: NavLinksType[] = [
       //   navHref: "/mx-3"
       // },
       { navTitle: "Gastec", navHref: "/gastec" },
-<<<<<<< HEAD
-      // { navTitle: "Alla France", navHref: "/frying-oil-tester" },
-=======
       { navTitle: "Gastec-2", navHref: "/gastec-2" },
-      { navTitle: "Alla France", navHref: "/frying-oil-tester" },
->>>>>>> 72bd7b2 (feat: Completed Gastec page UI as per Figma)
+      // { navTitle: "Alla France", navHref: "/frying-oil-tester" },
       // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
       // { navTitle: "Products", navHref: "/our-product" },
     ],

@@ -21,6 +21,7 @@ export const navLinks: NavLinksType[] = [
       // },
       { navTitle: "Gastec", navHref: "/gastec" },
       { navTitle: "Gastec-2", navHref: "/gastec-2" },
+      { navTitle: "Product Overview", navHref: "/product-overview" },
       // { navTitle: "Alla France", navHref: "/frying-oil-tester" },
       // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
       // { navTitle: "Products", navHref: "/our-product" },

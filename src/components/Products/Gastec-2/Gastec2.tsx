@@ -68,7 +68,7 @@ const Gastec2 = () => {
                         ),
                         description: (
                             <span className="text-lg md:text-xl text-gray-600 block mx-auto max-w-xl">
-                                Our team understands your industry's needs — from lab safety to field detection.
+                                Our team understands your industry&rsquo;s needs — from lab safety to field detection.
                             </span>
                         ),
                     },

@@ -87,6 +87,9 @@ const images: Assets = {
   ProductOverview34: "/images/All-Product-Assets/Product-Overview-34.png",
   ProductOverview9: "/images/All-Product-Assets/Product-Overview-9.png",
 
+  // Detection Tube hero image
+  DetectionTubeHero: "/images/All-Product-Assets/Detection-Tube.png",
+
   ProductOverview17: "/images/All-Product-Assets/Product-Overview-17.png",
   ProductOverview26: "/images/All-Product-Assets/Product-Overview-26.png",
   ProductOverview35: "/images/All-Product-Assets/Product-Overview-35.png",
@@ -294,6 +297,7 @@ const images: Assets = {
   Gastec_Section9InjectionStep2:
     "/images/Gastec/gastec-repo-assets-2/Section9-Injectionstep2.png",
   Gastec_GHS501FT3: "/images/Gastec/gastec-repo-assets-2/GHS_501FT_3.jpg",
+  
 };
 
 export default images;

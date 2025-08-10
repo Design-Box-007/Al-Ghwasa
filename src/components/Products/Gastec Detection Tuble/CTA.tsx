@@ -11,7 +11,7 @@ const CTA: React.FC = () => {
               Ready to Improve Your Gas Detection Accuracy?
             </h1>
             <p className="text-lg text-white/90 leading-relaxed">
-              From product guidance to pricing — we're just one message away.
+              From product guidance to pricing — we&apos;re just one message away.
             </p>
           </div>
 

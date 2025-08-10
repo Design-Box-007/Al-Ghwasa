@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react'
 import { FiSearch, FiSend } from "react-icons/fi"
-import ProductFilterBtn from '@/components/Comman/ProductFilterBtn'
 import CustomTable from '@/components/Comman/CustomTable'
 
 interface FilterProps {
@@ -10,9 +9,6 @@ interface FilterProps {
     setSelectedCategory: (category: string) => void;
     searchTerm: string;
     setSearchTerm: (term: string) => void;
-    searchBy: string;
-    setSearchBy: (field: string) => void;
-    searchFields: string[];
     categories: string[];
 }
 
@@ -21,9 +17,6 @@ const FilterProducts: React.FC<FilterProps> = ({
     setSelectedCategory,
     searchTerm,
     setSearchTerm,
-    searchBy,
-    setSearchBy,
-    searchFields,
     categories,
 }) => {
     return (
@@ -82,13 +75,22 @@ const FilterProducts: React.FC<FilterProps> = ({
     );
 };
 
+interface TableRow {
+    [key: string]: unknown;
+}
+
+interface TableColumn {
+    key: keyof TableRow | string;
+    header: string;
+    render?: (row: TableRow) => React.ReactNode;
+}
+
 interface ReusableTableProps {
-    data: any[];
-    columns: any[];
+    data: TableRow[];
+    columns: TableColumn[];
     searchFields: string[];
     categoryField?: string;
     initialSearchBy?: string;
-    onRowAction?: (item: any) => void;
 }
 
 const ReusableTable: React.FC<ReusableTableProps> = ({
@@ -97,16 +99,15 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
     searchFields,
     categoryField = 'category',
     initialSearchBy,
-    onRowAction
 }) => {
     const [selectedCategory, setSelectedCategory] = useState("All");
     const [searchTerm, setSearchTerm] = useState("");
-    const [searchBy, setSearchBy] = useState(initialSearchBy || searchFields[0] || "");
+    const [searchBy] = useState(initialSearchBy || searchFields[0] || "");
 
     // Extract unique categories from data
     const categoriesList: string[] = Array.from(
         new Set(
-            data.map((item: any) =>
+            data.map((item: TableRow) =>
                 item[categoryField]?.toString().trim().toLowerCase() || ''
             ).filter(Boolean)
         )
@@ -137,9 +138,6 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                 setSelectedCategory={setSelectedCategory}
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
-                searchBy={searchBy}
-                setSearchBy={setSearchBy}
-                searchFields={searchFields}
                 categories={categoriesList}
             />
 

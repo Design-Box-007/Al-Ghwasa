@@ -9,27 +9,30 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 
 export const navLinks: NavLinksType[] = [
-  { navTitle: "Home", navHref: "/" },
-  { navTitle: "About Us", navHref: "/about" },
-  {
-    navTitle: "Products",
-    navHref: "/our-products",
-    subLinks: [
-      // {
-      //   navTitle: "MX3",
-      //   navHref: "/mx-3"
-      // },
-      { navTitle: "Gastec", navHref: "/gastec" },
-      { navTitle: "Gastec-2", navHref: "/gastec-2" },
-      { navTitle: "Product Overview", navHref: "/product-overview" },
-      { navTitle: "Detection Table", navHref: "/Detection-table" },
-      // { navTitle: "Alla France", navHref: "/frying-oil-tester" },
-      // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
-      // { navTitle: "Products", navHref: "/our-product" },
-    ],
-  },
-  { navTitle: "Experience Center", navHref: "/gallery" },
-  { navTitle: "Blogs", navHref: "/blogs" },
+  { navTitle: "Home", navHref: "/gastec-2" },
+  { navTitle: "Gastec", navHref: "/product-overview" },
+  { navTitle: "Gastec Tube Detection Table", navHref: "/Detection-table" },
+  // { navTitle: "Home", navHref: "/" },
+  // { navTitle: "About Us", navHref: "/about" },
+  // {
+  //   navTitle: "Products",
+  //   navHref: "/our-products",
+  //   subLinks: [
+  //     // {
+  //     //   navTitle: "MX3",
+  //     //   navHref: "/mx-3"
+  //     // },
+  //     { navTitle: "Gastec", navHref: "/gastec" },
+  //     { navTitle: "Home", navHref: "/gastec-2" },
+  //     { navTitle: "Gastec", navHref: "/product-overview" },
+  //     { navTitle: "Gastec Tube Detection Table", navHref: "/Detection-table" },
+  //     // { navTitle: "Alla France", navHref: "/frying-oil-tester" },
+  //     // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
+  //     // { navTitle: "Products", navHref: "/our-product" },
+  //   ],
+  // },
+  // { navTitle: "Experience Center", navHref: "/gallery" },
+  // { navTitle: "Blogs", navHref: "/blogs" },
 ];
 
 export const socialMedia: SocialMediaLinks[] = [

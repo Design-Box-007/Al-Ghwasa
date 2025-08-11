@@ -1,0 +1,5418 @@
+[
+  {
+    "tube_no": "92",
+    "tube_name": "Acetaldehyde",
+    "measuring_range": "5-750",
+    "scale_range": "10-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "92M",
+    "tube_name": "Acetaldehyde",
+    "measuring_range": "2.5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "92L",
+    "tube_name": "Acetaldehyde",
+    "measuring_range": "1-20",
+    "scale_range": "1-20",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "92LA",
+    "tube_name": "Acetaldehyde",
+    "measuring_range": "0.3-30",
+    "scale_range": "1-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "151D",
+    "tube_name": "Acetone",
+    "measuring_range": "4-1200",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "152D",
+    "tube_name": "Methyl ethyl ketone",
+    "measuring_range": "1.2-360",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "91D",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.1-20",
+    "scale_range": "1-20ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "81",
+    "tube_name": "Acetic acid",
+    "measuring_range": "1-100",
+    "scale_range": "2-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.125-23.0",
+    "scale_range": "(0.25)-10.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81D",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.5-100",
+    "scale_range": "5-100ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "81",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.6-15",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.15-6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81D",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.3-60",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "151",
+    "tube_name": "Acetone",
+    "measuring_range": "0.05-2.0%",
+    "scale_range": "0.05-0.8%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "151L",
+    "tube_name": "Acetone",
+    "measuring_range": "50-12000",
+    "scale_range": "50-4000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "151D",
+    "tube_name": "Acetone",
+    "measuring_range": "5-1500",
+    "scale_range": "50-1500ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "152D",
+    "tube_name": "Methyl ethyl ketone",
+    "measuring_range": "1.4-420",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "151TP",
+    "tube_name": "Acetone",
+    "measuring_range": "25-800",
+    "scale_range": "(25)-800",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "12L",
+    "tube_name": "Hydrogen cyanide",
+    "measuring_range": "2.5-60",
+    "scale_range": "2.5-60",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "52",
+    "tube_name": "Nitro compounds",
+    "measuring_range": "3-180",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "171",
+    "tube_name": "Acetylene",
+    "measuring_range": "0.05-4.0%",
+    "scale_range": "(0.1)-2.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.075-3.6%",
+    "scale_range": "",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "172",
+    "tube_name": "Ethylene",
+    "measuring_range": "32.5-1040",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "80",
+    "tube_name": "Acid gases",
+    "measuring_range": "1-80",
+    "scale_range": "2-40",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "93",
+    "tube_name": "Acrolein",
+    "measuring_range": "3.3-800",
+    "scale_range": "10-800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81",
+    "tube_name": "Acetic acid",
+    "measuring_range": "2-50",
+    "scale_range": "2-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.45-18",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102L",
+    "tube_name": "Hexane",
+    "measuring_range": "600-14400",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "191",
+    "tube_name": "Acrylonitrile",
+    "measuring_range": "2-384",
+    "scale_range": "5-120",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "191L",
+    "tube_name": "Acrylonitrile",
+    "measuring_range": "0.1-18.0",
+    "scale_range": "0.2-6.0",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "191TP",
+    "tube_name": "Acrylonitrile",
+    "measuring_range": "0.2-12.6",
+    "scale_range": "0.2-3.0",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "140",
+    "tube_name": "Aliphatic hydrocarbons",
+    "measuring_range": "6-3000",
+    "scale_range": "20-1000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "101L",
+    "tube_name": "Gasoline",
+    "measuring_range": "0.1-3.4%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131L",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "3.2-48",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "149",
+    "tube_name": "Methyl methacrylate",
+    "measuring_range": "4.4-88",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "6-120",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.4-8",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.5-10",
+    "scale_range": "(0.5)-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3H",
+    "tube_name": "Ammonia",
+    "measuring_range": "0.2-32%",
+    "scale_range": "1-16%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3HM",
+    "tube_name": "Ammonia",
+    "measuring_range": "0.05-3.52%",
+    "scale_range": "0.05-1.6%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3M",
+    "tube_name": "Ammonia",
+    "measuring_range": "7-1000",
+    "scale_range": "50-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3La",
+    "tube_name": "Ammonia",
+    "measuring_range": "2.5-220",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3L",
+    "tube_name": "Ammonia",
+    "measuring_range": "0.5-78",
+    "scale_range": "(1)-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "1.5-30",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3D",
+    "tube_name": "Ammonia",
+    "measuring_range": "2.5-1000",
+    "scale_range": "25-500ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "3DL",
+    "tube_name": "Ammonia",
+    "measuring_range": "0.1-10",
+    "scale_range": "1-10ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "3S",
+    "tube_name": "Ammonia",
+    "measuring_range": "0.5-5",
+    "scale_range": "0.5-5",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "147",
+    "tube_name": "Amyl acetate",
+    "measuring_range": "10-200",
+    "scale_range": "10-200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "181",
+    "tube_name": "Aniline",
+    "measuring_range": "1.25-60",
+    "scale_range": "2.5-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "120",
+    "tube_name": "Aromatic hydrocarbons",
+    "measuring_range": "0.4-200",
+    "scale_range": "2-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "19LA",
+    "tube_name": "Arsine",
+    "measuring_range": "0.04-10",
+    "scale_range": "(0.1)-1.5",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91L",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "4-92",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "171",
+    "tube_name": "Acetylene",
+    "measuring_range": "0.03-0.6%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "121S",
+    "tube_name": "Benzene",
+    "measuring_range": "2-312",
+    "scale_range": "5-120",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "121",
+    "tube_name": "Benzene",
+    "measuring_range": "2.5-120",
+    "scale_range": "5-60",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "121SL",
+    "tube_name": "Benzene",
+    "measuring_range": "1-100",
+    "scale_range": "1-20",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "121SP",
+    "tube_name": "Benzene",
+    "measuring_range": "0.2-66",
+    "scale_range": "0.2-20",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "121L",
+    "tube_name": "Benzene",
+    "measuring_range": "0.1-65",
+    "scale_range": "0.1-10",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122DL",
+    "tube_name": "Toluene",
+    "measuring_range": "2.4-600",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "121TP",
+    "tube_name": "Benzene",
+    "measuring_range": "0.1-14.5",
+    "scale_range": "0.1-5",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "121P",
+    "tube_name": "Benzene",
+    "measuring_range": "250-3000µg/m<sup>3</sup>",
+    "scale_range": "(250)-3000µg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "11-100",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132L",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "1.6-20",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "12L",
+    "tube_name": "Hydrogen cyanide",
+    "measuring_range": "2.25-54",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "221L",
+    "tube_name": "Chloride ion",
+    "measuring_range": "55-2200mg/l",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "221LL",
+    "tube_name": "Chloride ion",
+    "measuring_range": "24-480mg/l",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "8La",
+    "tube_name": "Chlorine",
+    "measuring_range": "0.05-0.8",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "1-50",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "50-800",
+    "scale_range": "50-800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174L",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "2.5-100",
+    "scale_range": "(5)-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174LL",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "0.5-5",
+    "scale_range": "0.5-5",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174D",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "1.3-200",
+    "scale_range": "10-200ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.035-1.68%",
+    "scale_range": "",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "104",
+    "tube_name": "Butane",
+    "measuring_range": "25-1400",
+    "scale_range": "(25)-1400",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "114",
+    "tube_name": "1-Butanol",
+    "measuring_range": "10-150",
+    "scale_range": "10-150",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "115",
+    "tube_name": "2-Butanol",
+    "measuring_range": "5-150",
+    "scale_range": "(5)-150",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "142",
+    "tube_name": "Butyl acetate",
+    "measuring_range": "0.05-0.8%",
+    "scale_range": "0.05-0.8%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "142L",
+    "tube_name": "Butyl acetate",
+    "measuring_range": "10-300",
+    "scale_range": "10-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "142L",
+    "tube_name": "Butyl acetate",
+    "measuring_range": "7-210",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102L",
+    "tube_name": "Hexane",
+    "measuring_range": "500-12000",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136H",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "24-360",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "10-100",
+    "scale_range": "10-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136LA",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "1-43.2",
+    "scale_range": "(1)-18",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70L",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.16-12.8",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70LN",
+    "tube_name": "Mercaptans (Mercury-free)",
+    "measuring_range": "1-40",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70L",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.1-8",
+    "scale_range": "0.5-4",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "75",
+    "tube_name": "tert-Butyl mercaptan",
+    "measuring_range": "2.5-150mg/m<sup>3</sup>",
+    "scale_range": "2.5-30mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "75N",
+    "tube_name": "tert-Butyl mercaptan (Mercury-free)",
+    "measuring_range": "1.25-250mg/m<sup>3</sup>",
+    "scale_range": "2.5-50mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "75LN",
+    "tube_name": "tert-Butyl mercaptan (Mercury-free)",
+    "measuring_range": "0.5-39mg/m<sup>3</sup>",
+    "scale_range": "1-15mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "75L",
+    "tube_name": "tert-Butyl mercaptan",
+    "measuring_range": "0.5-30mg/m<sup>3</sup>",
+    "scale_range": "1-15mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "77",
+    "tube_name": "TBM and DMS",
+    "measuring_range": "1-15mg/m<sup>3</sup>",
+    "scale_range": "1-15mg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5.5-110",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "8-160",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.55-11",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.325-13",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "191L",
+    "tube_name": "Acrylonitrile",
+    "measuring_range": "6-180",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "2HH",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "2.5-40%",
+    "scale_range": "5-40%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "2H",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "0.5-20%",
+    "scale_range": "1-10%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "2L",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "0.13-6.0%",
+    "scale_range": "0.25-3.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "2LL",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "300-5000",
+    "scale_range": "300-5000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "2LC",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "100-4000",
+    "scale_range": "100-2000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "2D",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "0.02-12%",
+    "scale_range": "0.2-6.0%･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "2A",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "250-3000",
+    "scale_range": "250-3000",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "2Ag",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "200-3000",
+    "scale_range": "200-3000",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "2HT",
+    "tube_name": "Carbon dioxide",
+    "measuring_range": "10-100%",
+    "scale_range": "(10)-100%",
+    "no_test_per_box": "10",
+    "tube_type": "Injection type"
+  },
+  {
+    "tube_no": "13M",
+    "tube_name": "Carbon disulphide",
+    "measuring_range": "15-5120",
+    "scale_range": "50-1600",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "13",
+    "tube_name": "Carbon disulphide",
+    "measuring_range": "0.63-100",
+    "scale_range": "(2.5)-50",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "13L",
+    "tube_name": "Carbon disulphide",
+    "measuring_range": "0.1-8.1",
+    "scale_range": "0.1-3.0",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "13TP",
+    "tube_name": "Carbon disulphide",
+    "measuring_range": "0.05-2.4",
+    "scale_range": "(0.05)-1.00",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "1HH",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "1-50%",
+    "scale_range": "2-50%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1H",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "0.1-10.0%",
+    "scale_range": "0.2-5.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1M",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "0.05-4.0%",
+    "scale_range": "0.1-2.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1LM",
+    "tube_name": "Carbon monoxide (in Hydrogen)",
+    "measuring_range": "25-2000",
+    "scale_range": "50-1000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1L",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "2.5-2000",
+    "scale_range": "(25)-1000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1La",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "8-1000",
+    "scale_range": "25-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1LK",
+    "tube_name": "Carbon monoxide (in Hydrogen)",
+    "measuring_range": "5-600",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1LKC",
+    "tube_name": "Carbon monoxide (in Hydrogen with Hydrocarbons)",
+    "measuring_range": "5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1LL",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "5-50",
+    "scale_range": "5-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1LC",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "1-30",
+    "scale_range": "1-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "1D",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "1.04-2000",
+    "scale_range": "50-1000ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "1DL",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "0.4-400",
+    "scale_range": "10-200ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "1A",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "5-50",
+    "scale_range": "5-50",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "134",
+    "tube_name": "Carbon tetrachloride",
+    "measuring_range": "0.5-60",
+    "scale_range": "(2.5)-60",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "134L",
+    "tube_name": "Carbon tetrachloride",
+    "measuring_range": "0.25-11",
+    "scale_range": "0.25-5",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "21",
+    "tube_name": "Carbonyl sulphide",
+    "measuring_range": "5-200",
+    "scale_range": "10-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "21LA",
+    "tube_name": "Carbonyl sulphide",
+    "measuring_range": "2-125",
+    "scale_range": "5-50",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "221L",
+    "tube_name": "Chloride ion",
+    "measuring_range": "25-1000mg/l",
+    "scale_range": "(25)-1000mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "221LL",
+    "tube_name": "Chloride ion",
+    "measuring_range": "10-200mg/l",
+    "scale_range": "10-200mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "8HH",
+    "tube_name": "Chlorine",
+    "measuring_range": "0.25-10%",
+    "scale_range": "0.5-10%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "8H",
+    "tube_name": "Chlorine",
+    "measuring_range": "25-1000",
+    "scale_range": "50-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "8La",
+    "tube_name": "Chlorine",
+    "measuring_range": "0.1-16",
+    "scale_range": "0.5-8",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "80",
+    "tube_name": "Acid gases",
+    "measuring_range": "0.7-14",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "8LL",
+    "tube_name": "Chlorine",
+    "measuring_range": "0.025-2.0",
+    "scale_range": "(0.05)-1.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132D",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "2.4-240",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "8D",
+    "tube_name": "Chlorine",
+    "measuring_range": "0.08-100",
+    "scale_range": "2-50ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "8TP",
+    "tube_name": "Chlorine",
+    "measuring_range": "0.05-0.6",
+    "scale_range": "0.05-0.6",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "8H",
+    "tube_name": "Chlorine",
+    "measuring_range": "45-450",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "23M",
+    "tube_name": "Chlorine dioxide",
+    "measuring_range": "0.1-10",
+    "scale_range": "0.5-5",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "8La",
+    "tube_name": "Chlorine",
+    "measuring_range": "0.3-4.8",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "23L",
+    "tube_name": "Chlorine dioxide",
+    "measuring_range": "0.025-1.2",
+    "scale_range": "(0.05)-0.6",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "126",
+    "tube_name": "Chlorobenzene",
+    "measuring_range": "2-500",
+    "scale_range": "(5)-200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "126L",
+    "tube_name": "Chlorobenzene",
+    "measuring_range": "0.5-57",
+    "scale_range": "(0.5)-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "135",
+    "tube_name": "1,1,1-Trichloroethane(Methyl chloroform)",
+    "measuring_range": "22-110",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136H",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "18-270",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "11-110",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136LA",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "0.7-12.6",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102L",
+    "tube_name": "Hexane",
+    "measuring_range": "50-1200",
+    "scale_range": "50-1200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51H",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1000-24000",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "25-1000",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "2.5-135",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "137",
+    "tube_name": "Chloroform",
+    "measuring_range": "4-400",
+    "scale_range": "10-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "137LA",
+    "tube_name": "Chloroform",
+    "measuring_range": "0.5-30",
+    "scale_range": "2-12",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "137LL",
+    "tube_name": "Chloroform",
+    "measuring_range": "0.3-4.5",
+    "scale_range": "0.3-4.5",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "134",
+    "tube_name": "Carbon tetrachloride",
+    "measuring_range": "2.5-60",
+    "scale_range": "(2.5)-60",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "134L",
+    "tube_name": "Carbon tetrachloride",
+    "measuring_range": "0.28-5.5",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "233",
+    "tube_name": "Chloropicrin",
+    "measuring_range": "0.045-22",
+    "scale_range": "(0.1)-10",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "45-1800",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "273",
+    "tube_name": "Chromium (VI)",
+    "measuring_range": "0.5-50mg/l",
+    "scale_range": "(0.5)-50mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "284",
+    "tube_name": "Copper",
+    "measuring_range": "1-20mg/l",
+    "scale_range": "1-20mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "61",
+    "tube_name": "o-Cresol",
+    "measuring_range": "1-25",
+    "scale_range": "1-25",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "61",
+    "tube_name": "o-Cresol",
+    "measuring_range": "0.35-67.5",
+    "scale_range": "1-25",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "61",
+    "tube_name": "o-Cresol",
+    "measuring_range": "1-25",
+    "scale_range": "1-25",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122L",
+    "tube_name": "Toluene",
+    "measuring_range": "2-100",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122DL",
+    "tube_name": "Toluene",
+    "measuring_range": "3.4-850",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "102H",
+    "tube_name": "Hexane",
+    "measuring_range": "0.015-1.2%",
+    "scale_range": "0.03-0.6%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102L",
+    "tube_name": "Hexane",
+    "measuring_range": "60-1440",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "118",
+    "tube_name": "Cyclohexanol",
+    "measuring_range": "5-100",
+    "scale_range": "(5)-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91L",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "10-470",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "154",
+    "tube_name": "Cyclohexanone",
+    "measuring_range": "2-72",
+    "scale_range": "2-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "151",
+    "tube_name": "Acetone",
+    "measuring_range": "0.05-0.8%",
+    "scale_range": "0.05-0.8%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "7-140",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.5-10",
+    "scale_range": "(0.5)-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "2.4-96",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "105",
+    "tube_name": "Hydrocarbons(Higher class)",
+    "measuring_range": "200-6000",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "154",
+    "tube_name": "Cyclohexanone",
+    "measuring_range": "2-100",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "92",
+    "tube_name": "Acetaldehyde",
+    "measuring_range": "25-1500",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "22",
+    "tube_name": "Diborane",
+    "measuring_range": "0.02-5.0",
+    "scale_range": "(0.05)-2.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "7-70",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "5-50",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.4-8",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "127",
+    "tube_name": "o-Dichlorobenzene",
+    "measuring_range": "2.5-300",
+    "scale_range": "2.5-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "127",
+    "tube_name": "o-Dichlorobenzene",
+    "measuring_range": "2.5-300",
+    "scale_range": "2.5-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "127",
+    "tube_name": "o-Dichlorobenzene",
+    "measuring_range": "2.5-300",
+    "scale_range": "2.5-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "127P",
+    "tube_name": "p-Dichlorobenzene",
+    "measuring_range": "100-3000µg/m<sup>3</sup>",
+    "scale_range": "100-3000µg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "51H",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "325-7800",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "11-440",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1.8-97.2",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "135",
+    "tube_name": "1,1,1-Trichloroethane",
+    "measuring_range": "90-450",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174D",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "3.8-600",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "132HA",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "80-800",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "139",
+    "tube_name": "1,2-Dichloroethylene",
+    "measuring_range": "5-250",
+    "scale_range": "10-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132LL",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "0.375-6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132D",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "6-600",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "10-1000",
+    "scale_range": "10-400",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1.1-22",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "20-800",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1.4-28",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "132HA",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "45-450",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131La",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "0.5-10",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51H",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "475-11400",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "20-800",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1.8-97.2",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "14-1600",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1.4-28",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "132LL",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "0.11-1.8",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122L",
+    "tube_name": "Toluene",
+    "measuring_range": "2-150",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "142L",
+    "tube_name": "Butyl acetate",
+    "measuring_range": "5-513",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5.5-110",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.45-9",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "6-120",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.6-12",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.95-19",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102L",
+    "tube_name": "Hexane",
+    "measuring_range": "0.2-1%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91L",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.58-29",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "121",
+    "tube_name": "Benzene",
+    "measuring_range": "45-540",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "16-108",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.3-6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "114",
+    "tube_name": "1-Butanol",
+    "measuring_range": "100-1030",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "53",
+    "tube_name": "Dimethyl sulphide",
+    "measuring_range": "0.3-6",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "77",
+    "tube_name": "TBM and DMS",
+    "measuring_range": "1-15mg/m<sup>3</sup>",
+    "scale_range": "1-15mg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "53",
+    "tube_name": "Dimethyl sulphide",
+    "measuring_range": "0.15-10",
+    "scale_range": "(0.5)-10",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "184",
+    "tube_name": "N,N-Dimethylacetamide",
+    "measuring_range": "1.5-174",
+    "scale_range": "5-60",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "183TP",
+    "tube_name": "N,N-Dimethylformamide",
+    "measuring_range": "3.0-57.5",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "3H",
+    "tube_name": "Ammonia",
+    "measuring_range": "1.2-19.2%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5.5-110",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.45-9",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3D",
+    "tube_name": "Ammonia",
+    "measuring_range": "1.9-750",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "3DL",
+    "tube_name": "Ammonia",
+    "measuring_range": "0.29-29",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "6.5-130",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.65-13",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "8-160",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.6-12",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "181",
+    "tube_name": "Aniline",
+    "measuring_range": "2.5-30",
+    "scale_range": "2.5-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "4-80",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.3-6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3D",
+    "tube_name": "Ammonia",
+    "measuring_range": "4-1600",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "183",
+    "tube_name": "N,N-Dimethylformamide",
+    "measuring_range": "0.8-90",
+    "scale_range": "2-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "183TP",
+    "tube_name": "N,N-Dimethylformamide",
+    "measuring_range": "0.5-30",
+    "scale_range": "(0.5)-15",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "185",
+    "tube_name": "Hydrazine",
+    "measuring_range": "0.1-2",
+    "scale_range": "0.1-2",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "3.7-74",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.465-9.3",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "163",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "0.1-6.0%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "159",
+    "tube_name": "Tetrahydrofuran",
+    "measuring_range": "25-144",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "4-80",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.35-7",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "124L",
+    "tube_name": "Styrene",
+    "measuring_range": "1-15",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "110-1230",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "25-145",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "163L",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "1.2-120",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "112",
+    "tube_name": "Ethanol",
+    "measuring_range": "0.01-7.5%",
+    "scale_range": "(0.05)-2.5%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "112L",
+    "tube_name": "Ethanol",
+    "measuring_range": "50-2000",
+    "scale_range": "100-2000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "112D",
+    "tube_name": "Ethanol",
+    "measuring_range": "100-25000",
+    "scale_range": "1000-25000ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "7-140",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "1.95-39",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "0.1-1.5%",
+    "scale_range": "0.1-1.5%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "20-800",
+    "scale_range": "20-800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "8.4-336",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122",
+    "tube_name": "Toluene",
+    "measuring_range": "11-330",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122L",
+    "tube_name": "Toluene",
+    "measuring_range": "1-70",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122DL",
+    "tube_name": "Toluene",
+    "measuring_range": "2.8-700",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "122P",
+    "tube_name": "Toluene",
+    "measuring_range": "110-2750µg/m<sup>3</sup>",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "131La",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "2.5-50",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "2.5-200",
+    "scale_range": "10-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "138",
+    "tube_name": "Methylene chloride",
+    "measuring_range": "15-150",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131La",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "7-140",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "161",
+    "tube_name": "Ethyl ether",
+    "measuring_range": "0.04-1.0%",
+    "scale_range": "0.04-1.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "161L",
+    "tube_name": "Ethyl ether",
+    "measuring_range": "10-1120",
+    "scale_range": "10-400",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "71H",
+    "tube_name": "Methyl mercaptan",
+    "measuring_range": "100-3800",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "72",
+    "tube_name": "Ethyl mercaptan",
+    "measuring_range": "0.5-120",
+    "scale_range": "5-120",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.5-120",
+    "scale_range": "5-120",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "72L",
+    "tube_name": "Ethyl mercaptan",
+    "measuring_range": "0.2-75",
+    "scale_range": "(0.5)-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "72LN",
+    "tube_name": "Ethyl mercaptan (Mercury-free)",
+    "measuring_range": "0.15-57.5",
+    "scale_range": "(0.5)-25",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70LN",
+    "tube_name": "Mmercaptans (Mercury-free)",
+    "measuring_range": "0.13-10.4",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70L",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.1-8",
+    "scale_range": "0.5-4",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.3-6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.45-9",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.35-16.8%",
+    "scale_range": "",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "171",
+    "tube_name": "Acetylene",
+    "measuring_range": "0.1-2.0%",
+    "scale_range": "(0.1)-2.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "172",
+    "tube_name": "Ethylene",
+    "measuring_range": "25-1680",
+    "scale_range": "(25)-800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "172L",
+    "tube_name": "Ethylene",
+    "measuring_range": "0.2-100",
+    "scale_range": "0.2-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174D",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "1.5-240",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "111L",
+    "tube_name": "Methanol",
+    "measuring_range": "80-200",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136H",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "14-210",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "8-80",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "135",
+    "tube_name": "1,1,1-Trichloroethane",
+    "measuring_range": "400-2000",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "135L",
+    "tube_name": "1,1,1-Trichloroethane",
+    "measuring_range": "104-1040",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "232",
+    "tube_name": "1,2-Dichloroethane",
+    "measuring_range": "1-39",
+    "scale_range": "1-15",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "165L",
+    "tube_name": "Ethylene glycol",
+    "measuring_range": "10-100mg/m<sup>3</sup>",
+    "scale_range": "10-100mg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113L",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "200-1000",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113LL",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "60-400",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113L",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "110-1000",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113LL",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "46-460",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113L",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "75-760",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113LL",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "44-440",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113L",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "17.5-430",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "163",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "0.05-3.0%",
+    "scale_range": "(0.05)-3.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "163L",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "0.4-550",
+    "scale_range": "1-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "163LL",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "0.1-10",
+    "scale_range": "0.1-5",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "163TPM",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "1-50",
+    "scale_range": "1-50",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "163TP",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "0.1-5",
+    "scale_range": "0.1-5",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "14-280",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.9-18",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "17",
+    "tube_name": "Hydrogen fluoride",
+    "measuring_range": "0.5-50",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91M",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "8-6400",
+    "scale_range": "20-2000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "2-100",
+    "scale_range": "2-20",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91L",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.1-45.0",
+    "scale_range": "(0.1)-5.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91LL",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.05-1.0",
+    "scale_range": "0.05-1.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91D",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.1-20",
+    "scale_range": "1-20ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "91P",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.02-1.44",
+    "scale_range": "0.02-0.4",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "91PL",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.01-0.80",
+    "scale_range": "(0.01)-0.20",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "91TP",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.01-1.75",
+    "scale_range": "0.01-0.50",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "81",
+    "tube_name": "Acetic acid",
+    "measuring_range": "5.2-130",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.5-20",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81D",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.55-110",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "222",
+    "tube_name": "Free residual chlorine",
+    "measuring_range": "0.1-10mg/l",
+    "scale_range": "0.1-10mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "154",
+    "tube_name": "Cyclohexanone",
+    "measuring_range": "2-30",
+    "scale_range": "2-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91D",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.3-60",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "1M",
+    "tube_name": "Carbon monoxide",
+    "measuring_range": "0.1-2.0%",
+    "scale_range": "0.1-2.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "101",
+    "tube_name": "Gasoline",
+    "measuring_range": "0.015-1.2%",
+    "scale_range": "0.03-0.6%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "101L",
+    "tube_name": "Gasoline",
+    "measuring_range": "30-2000",
+    "scale_range": "30-1000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51H",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "800-6400",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "24-960",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "3-60",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.035-1.68%",
+    "scale_range": "",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "101",
+    "tube_name": "Gasoline",
+    "measuring_range": "0.015-1.2%",
+    "scale_range": "0.03-0.6%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "105",
+    "tube_name": "Hydrocarbons(Higher class)",
+    "measuring_range": "90-2700",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "101L",
+    "tube_name": "Gasoline",
+    "measuring_range": "30-2000",
+    "scale_range": "30-1000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "1.55-31",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.025-1.2%",
+    "scale_range": "",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102H",
+    "tube_name": "Hexane",
+    "measuring_range": "0.015-1.2%",
+    "scale_range": "0.03-0.6%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "105",
+    "tube_name": "Hydrocarbons(Higher class)",
+    "measuring_range": "80-2400",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102L",
+    "tube_name": "Hexane",
+    "measuring_range": "3.5-1200",
+    "scale_range": "50-1200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102TP",
+    "tube_name": "Hexane",
+    "measuring_range": "2-80",
+    "scale_range": "2-80",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "168-1680",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "9-180",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.65-13",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "185",
+    "tube_name": "Hydrazine",
+    "measuring_range": "0.04-2.0",
+    "scale_range": "0.1-2.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3D",
+    "tube_name": "Ammonia",
+    "measuring_range": "1.6-650",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "105",
+    "tube_name": "Hydrocarbons(Higher class)",
+    "measuring_range": "100-3000",
+    "scale_range": "200-3000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.05-2.4%",
+    "scale_range": "0.1-1.2%",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "30",
+    "tube_name": "Hydrogen",
+    "measuring_range": "0.5-2.0%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "15L",
+    "tube_name": "Nitric acid",
+    "measuring_range": "0.8-16",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "8HH",
+    "tube_name": "Chlorine",
+    "measuring_range": "1.5-30%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "14R",
+    "tube_name": "Hydrogen chloride(for Low humidity)",
+    "measuring_range": "50-5000",
+    "scale_range": "200-5000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "14M",
+    "tube_name": "Hydrogen chloride",
+    "measuring_range": "10-1000",
+    "scale_range": "20-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "80",
+    "tube_name": "Acid gases",
+    "measuring_range": "8-160",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "14L",
+    "tube_name": "Hydrogen chloride",
+    "measuring_range": "0.2-76",
+    "scale_range": "1-20",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132D",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "1.8-180",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "14D",
+    "tube_name": "Hydrogen chloride",
+    "measuring_range": "1-100",
+    "scale_range": "10-100ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "17D",
+    "tube_name": "Hydrogen fluoride",
+    "measuring_range": "0.4-40",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "12H",
+    "tube_name": "Hydrogen cyanide",
+    "measuring_range": "0.05-1.6%",
+    "scale_range": "0.05-1.6%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "12M",
+    "tube_name": "Hydrogen cyanide",
+    "measuring_range": "17-2400",
+    "scale_range": "50-800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "12L",
+    "tube_name": "Hydrogen cyanide",
+    "measuring_range": "0.5-150",
+    "scale_range": "2.5-60",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "12LL",
+    "tube_name": "Hydrogen cyanide",
+    "measuring_range": "0.2-10",
+    "scale_range": "0.2-5",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "12D",
+    "tube_name": "Hydrogen cyanide",
+    "measuring_range": "1-200",
+    "scale_range": "10-200ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "12TP",
+    "tube_name": "Hydrogen cyanide",
+    "measuring_range": "0.3-9.0",
+    "scale_range": "0.3-4.5",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "17",
+    "tube_name": "Hydrogen fluoride",
+    "measuring_range": "0.25-100",
+    "scale_range": "0.5-20",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "17L",
+    "tube_name": "Hydrogen fluoride",
+    "measuring_range": "0.09-72",
+    "scale_range": "0.2-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "17LL",
+    "tube_name": "Hydrogen fluoride",
+    "measuring_range": "0.05-24",
+    "scale_range": "(0.05)-3.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "14D",
+    "tube_name": "Hydrogen chloride",
+    "measuring_range": "2.5-250",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "17D",
+    "tube_name": "Hydrogen fluoride",
+    "measuring_range": "1-100",
+    "scale_range": "10-100ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "17TP",
+    "tube_name": "Hydrogen fluoride",
+    "measuring_range": "0.05-9.0",
+    "scale_range": "0.05-3.0",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "32",
+    "tube_name": "Hydrogen peroxide",
+    "measuring_range": "0.5-10",
+    "scale_range": "(0.5)-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "32D",
+    "tube_name": "Hydrogen peroxide",
+    "measuring_range": "0.5-40",
+    "scale_range": "5-40ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "4HT",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "1-40%",
+    "scale_range": "2-20%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4HP",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "0.25-20%",
+    "scale_range": "(0.5)-10%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4HH",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "0.1-4.0%",
+    "scale_range": "0.1-2.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "45H",
+    "tube_name": "Hydrogen sulphide+ Sulphur dioxide(total quantification)",
+    "measuring_range": "0.02-8.0%",
+    "scale_range": "0.2-4.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4HM",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "25-1600",
+    "scale_range": "50-800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4M",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "12.5-500",
+    "scale_range": "25-250",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4H",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "10-4000",
+    "scale_range": "100-2000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "45S",
+    "tube_name": "Hydrogen sulphide,Sulphur dioxide(Separate quantification)",
+    "measuring_range": "1.25-120",
+    "scale_range": "(2.5)-60",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4L",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "1-240",
+    "scale_range": "10-120",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4LK",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "1-40",
+    "scale_range": "2-20",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4LB",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "0.5-12",
+    "scale_range": "1-6",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4LL",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "0.25-120",
+    "scale_range": "(2.5)-60",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4LT",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "0.05-4.0",
+    "scale_range": "(0.1)-2.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "4D",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "0.2-200",
+    "scale_range": "10-200ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "4S",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "10-200ppb",
+    "scale_range": "10-200ppb",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "4TP",
+    "tube_name": "Hydrogen sulphide",
+    "measuring_range": "0.1-2.88",
+    "scale_range": "0.1-1.6",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "9L",
+    "tube_name": "Nitrogen dioxide",
+    "measuring_range": "0.2-12",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "80",
+    "tube_name": "Acid gases",
+    "measuring_range": "0.12-2.4",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "281",
+    "tube_name": "Iron (II)",
+    "measuring_range": "5-50mg/l",
+    "scale_range": "(5)-50mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "148",
+    "tube_name": "Isoamyl acetate",
+    "measuring_range": "10-200",
+    "scale_range": "10-200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "117",
+    "tube_name": "Isoamyl alcohol",
+    "measuring_range": "5-300",
+    "scale_range": "(5)-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.035-1.68%",
+    "scale_range": "",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "104",
+    "tube_name": "Butane",
+    "measuring_range": "55-3080",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "101L",
+    "tube_name": "Gasoline",
+    "measuring_range": "0.07-2.2%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "144",
+    "tube_name": "Isobutyl acetate",
+    "measuring_range": "10-300",
+    "scale_range": "10-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "142L",
+    "tube_name": "Butyl acetate",
+    "measuring_range": "5.5-165",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "116",
+    "tube_name": "Isobutyl alcohol",
+    "measuring_range": "3.7-150",
+    "scale_range": "10-150",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "101",
+    "tube_name": "Gasoline",
+    "measuring_range": "0.027-0.54%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.045-2.16%",
+    "scale_range": "",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "154",
+    "tube_name": "Cyclohexanone",
+    "measuring_range": "2-30",
+    "scale_range": "2-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174D",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "2.5-400",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "146",
+    "tube_name": "Isopropyl acetate",
+    "measuring_range": "10-500",
+    "scale_range": "10-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "0.02-5.0%",
+    "scale_range": "0.04-2.5%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113L",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "20-800",
+    "scale_range": "(50)-800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113LL",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "20-460",
+    "scale_range": "20-200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113TP",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "20-400",
+    "scale_range": "20-200",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5.5-110",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.45-9",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "161",
+    "tube_name": "Ethyl ether",
+    "measuring_range": "0.018-0.45%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "17.6-704",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70",
+    "tube_name": "Mercaptans",
+    "measuring_range": "10-240",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81",
+    "tube_name": "Acetic acid",
+    "measuring_range": "2-50",
+    "scale_range": "2-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.38-15",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "100A",
+    "tube_name": "LPG",
+    "measuring_range": "0.02-0.8%",
+    "scale_range": "0.02-0.8%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.8-20",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.5-120",
+    "scale_range": "5-120",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70L",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.1-8",
+    "scale_range": "0.5-4",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70LN",
+    "tube_name": "Mercaptans (Mercury-free)",
+    "measuring_range": "0.1-8",
+    "scale_range": "0.5-4",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "75L",
+    "tube_name": "tert-Butyl mercaptan",
+    "measuring_range": "0.5-7.5",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "271",
+    "tube_name": "Mercury",
+    "measuring_range": "1-20mg/l",
+    "scale_range": "1-20mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "40",
+    "tube_name": "Mercury vapour",
+    "measuring_range": "0.05-13.2mg/m<sup>3</sup>",
+    "scale_range": "0.25-6.0mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "72-1080",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91L",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.065-3.25",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81",
+    "tube_name": "Acetic acid",
+    "measuring_range": "1.8-45",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.35-14",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "192",
+    "tube_name": "Methacrylonitrile",
+    "measuring_range": "0.2-32",
+    "scale_range": "0.5-10",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "111",
+    "tube_name": "Methanol",
+    "measuring_range": "0.002-6.0%",
+    "scale_range": "0.02-1.5%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "111L",
+    "tube_name": "Methanol",
+    "measuring_range": "20-1000",
+    "scale_range": "40-1000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "111LL",
+    "tube_name": "Methanol",
+    "measuring_range": "2-62",
+    "scale_range": "2-20",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "111TP",
+    "tube_name": "Methanol",
+    "measuring_range": "20-300",
+    "scale_range": "20-300",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "113LL",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "26-260",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "7.2-288",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131La",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "2.8-55",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "181",
+    "tube_name": "Aniline",
+    "measuring_range": "3.5-42",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136H",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "10-600",
+    "scale_range": "20-300",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136L",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "2.5-200",
+    "scale_range": "10-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136LA",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "1-36",
+    "scale_range": "(1)-18",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136LL",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "0.1-3.0",
+    "scale_range": "0.1-1.2",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "166",
+    "tube_name": "Methyl tert-butyl ether",
+    "measuring_range": "10-660",
+    "scale_range": "10-200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "12-480",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1.6-86.4",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "131La",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "58-1160",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "161",
+    "tube_name": "Ethyl ether",
+    "measuring_range": "0.034-0.85%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "152",
+    "tube_name": "Methyl ethyl ketone",
+    "measuring_range": "0.02-0.6%",
+    "scale_range": "0.02-0.6%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "151L",
+    "tube_name": "Acetone",
+    "measuring_range": "21-1680",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "152L",
+    "tube_name": "Methyl ethyl ketone",
+    "measuring_range": "10-384",
+    "scale_range": "10-120",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "151D",
+    "tube_name": "Acetone",
+    "measuring_range": "6.5-1950",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "152D",
+    "tube_name": "Methyl ethyl ketone",
+    "measuring_range": "2-600",
+    "scale_range": "20-600ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "91D",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.125-25",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "152TP",
+    "tube_name": "Methyl ethyl ketone",
+    "measuring_range": "20-300",
+    "scale_range": "20-300",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "185",
+    "tube_name": "hydrazine",
+    "measuring_range": "0.6-12",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "230H",
+    "tube_name": "Methyl iodide",
+    "measuring_range": "100-34800",
+    "scale_range": "100-6000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "230",
+    "tube_name": "Methyl iodide",
+    "measuring_range": "0.5-108",
+    "scale_range": "(1)-20",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "121L",
+    "tube_name": "Benzene",
+    "measuring_range": "0.32-32",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "153",
+    "tube_name": "Methyl isobutyl ketone",
+    "measuring_range": "0.05-0.6%",
+    "scale_range": "0.05-0.6%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "153L",
+    "tube_name": "Methyl isobutyl ketone",
+    "measuring_range": "2.5-130",
+    "scale_range": "(2.5)-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "151D",
+    "tube_name": "Acetone",
+    "measuring_range": "11.5-3450",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "152D",
+    "tube_name": "Methyl ethyl ketone",
+    "measuring_range": "4-1200",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "166",
+    "tube_name": "Methy tert-butyl ether",
+    "measuring_range": "39.8-1766",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141L",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "5.4-216",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "234L",
+    "tube_name": "Methyl isothiocyanate",
+    "measuring_range": "0.07-25",
+    "scale_range": "(0.3)-10",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "71H",
+    "tube_name": "Methyl mercaptan",
+    "measuring_range": "20-2700",
+    "scale_range": "50-1000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.35-84",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "71",
+    "tube_name": "Methyl mercaptan",
+    "measuring_range": "0.25-140",
+    "scale_range": "(2.5)-70",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70L",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.1-8",
+    "scale_range": "0.5-4",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70LN",
+    "tube_name": "Mercaptans (Mercury-free)",
+    "measuring_range": "0.1-8",
+    "scale_range": "0.5-4",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "149",
+    "tube_name": "Methyl methacrylate",
+    "measuring_range": "10-500",
+    "scale_range": "10-200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.3-6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "182",
+    "tube_name": "Pyridine",
+    "measuring_range": "0.38-10.5",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "30-270",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5-100",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.5-10",
+    "scale_range": "(0.5)-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3DL",
+    "tube_name": "Ammonia",
+    "measuring_range": "0.19-19",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "191L",
+    "tube_name": "Acrylonitrile",
+    "measuring_range": "0.4-12.0",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "102H",
+    "tube_name": "hexane",
+    "measuring_range": "0.04-0.84%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "119",
+    "tube_name": "Methylcyclohexanol",
+    "measuring_range": "5-100",
+    "scale_range": "(5)-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "155",
+    "tube_name": "Methylcyclohexanone",
+    "measuring_range": "2-80",
+    "scale_range": "2-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "138",
+    "tube_name": "Methylene chloride",
+    "measuring_range": "30-500",
+    "scale_range": "50-500",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "138L",
+    "tube_name": "Methylene chloride",
+    "measuring_range": "4-150",
+    "scale_range": "10-60",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1-54",
+    "scale_range": "1-20",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "121L",
+    "tube_name": "Benzene",
+    "measuring_range": "0.22-22",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "9-180",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.5-10",
+    "scale_range": "(0.5)-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "60",
+    "tube_name": "Phenol",
+    "measuring_range": "0.5-14",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "291",
+    "tube_name": "Nickel",
+    "measuring_range": "5-50mg/l",
+    "scale_range": "(5)-50mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "80",
+    "tube_name": "Acid gases",
+    "measuring_range": "5-100",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "15L",
+    "tube_name": "Nitric acid",
+    "measuring_range": "0.1-40",
+    "scale_range": "1-20",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "14D",
+    "tube_name": "Hydrogen chloride",
+    "measuring_range": "0.8-80",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "17D",
+    "tube_name": "Hydrogen fluoride",
+    "measuring_range": "0.32-32",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "52",
+    "tube_name": "Nitro compounds",
+    "measuring_range": "4-240",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "10",
+    "tube_name": "NO & NO<sub>2</sub>(Separate quantification)",
+    "measuring_range": "2.5-200",
+    "scale_range": "2.5-200",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "9L",
+    "tube_name": "Nitrogen dioxide",
+    "measuring_range": "0.5-125",
+    "scale_range": "0.5-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "80",
+    "tube_name": "Acid gases",
+    "measuring_range": "0.2-4",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "9D",
+    "tube_name": "Nitrogen dioxide",
+    "measuring_range": "0.1-30",
+    "scale_range": "1-30ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "9DL",
+    "tube_name": "Nitrogen dioxide",
+    "measuring_range": "0.01-3.0",
+    "scale_range": "(0.1)-3.0ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "9P",
+    "tube_name": "Nitrogen dioxide",
+    "measuring_range": "0.02-0.20",
+    "scale_range": "0.02-0.20",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "52",
+    "tube_name": "Nitro compounds",
+    "measuring_range": "0.5-30",
+    "scale_range": "0.5-30",
+    "no_test_per_box": "10",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "10",
+    "tube_name": "NO & NO<sub>2</sub>(Separate quantification)",
+    "measuring_range": "2.5-200",
+    "scale_range": "5-200",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "11HA",
+    "tube_name": "Nitrogen oxides",
+    "measuring_range": "50-2500",
+    "scale_range": "(50)-2500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "11S",
+    "tube_name": "Nitrogen oxides",
+    "measuring_range": "5-625",
+    "scale_range": "(10)-250",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "11L",
+    "tube_name": "Nitrogen oxides",
+    "measuring_range": "0.03-14",
+    "scale_range": "0.2-5.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "11A",
+    "tube_name": "Nitrogen oxides",
+    "measuring_range": "0.02-2",
+    "scale_range": "0.02-0.7",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "52",
+    "tube_name": "Nitro compounds",
+    "measuring_range": "5-300",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "52",
+    "tube_name": "Nitro compounds",
+    "measuring_range": "4.2-252",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "52",
+    "tube_name": "Nitro compounds",
+    "measuring_range": "3.7-222",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "105",
+    "tube_name": "Hydrocarbons(Higher class)",
+    "measuring_range": "130-3900",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "101",
+    "tube_name": "Gasoline",
+    "measuring_range": "0.036-0.72%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "105",
+    "tube_name": "Hydrocarbons(Higher class)",
+    "measuring_range": "100-3000",
+    "scale_range": "200-3000",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "109A",
+    "tube_name": "Oil mist",
+    "measuring_range": "0.3-1.5mg/m<sup>3</sup>",
+    "scale_range": "0.3-1.5mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "109AD",
+    "tube_name": "Oil mist",
+    "measuring_range": "0.1-5.0mg/m<sup>3</sup>",
+    "scale_range": "0.2-5.0mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "31B",
+    "tube_name": "Oxygen",
+    "measuring_range": "3-24%",
+    "scale_range": "6-24%",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "218",
+    "tube_name": "Ozone",
+    "measuring_range": "1-10mg/l",
+    "scale_range": "(1)-10mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "18M",
+    "tube_name": "Ozone",
+    "measuring_range": "4-400",
+    "scale_range": "20-200",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "18L",
+    "tube_name": "Ozone",
+    "measuring_range": "0.025-6",
+    "scale_range": "(0.05)-0.6",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "133L",
+    "tube_name": "Tetrachloroethylene",
+    "measuring_range": "40-500",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "250-4000",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174L",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "42.5-850",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.75-15",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.0375-1.8%",
+    "scale_range": "",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "104",
+    "tube_name": "Butane",
+    "measuring_range": "30-1680",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "191L",
+    "tube_name": "Acrylonitrile",
+    "measuring_range": "0.4-12.0",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "193",
+    "tube_name": "2-Pentenenitrile",
+    "measuring_range": "0.5-15.0",
+    "scale_range": "0.5-6.0",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "191L",
+    "tube_name": "Acrylonitrile",
+    "measuring_range": "0.24-7.2",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "106",
+    "tube_name": "Petroleum naphtha",
+    "measuring_range": "0.5-28mg/l",
+    "scale_range": "1-14mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "106",
+    "tube_name": "Petroleum naphtha",
+    "measuring_range": "0.5-28mg/l",
+    "scale_range": "1-14mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "106",
+    "tube_name": "Petroleum naphtha",
+    "measuring_range": "0.5-28mg/l",
+    "scale_range": "1-14mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "60",
+    "tube_name": "Phenol",
+    "measuring_range": "0.12-183",
+    "scale_range": "1-25",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "16",
+    "tube_name": "Phosgene",
+    "measuring_range": "0.05-20",
+    "scale_range": "0.1-5",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "7H",
+    "tube_name": "Phosphine",
+    "measuring_range": "200-5500",
+    "scale_range": "200-2500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "7J",
+    "tube_name": "Phosphine",
+    "measuring_range": "2.5-1000",
+    "scale_range": "(25)-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "7",
+    "tube_name": "Phosphine",
+    "measuring_range": "2.5-100",
+    "scale_range": "5-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "7L",
+    "tube_name": "Phosphine",
+    "measuring_range": "0.15-5",
+    "scale_range": "0.3-5",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "7LA",
+    "tube_name": "Phosphine",
+    "measuring_range": "0.05-9.8",
+    "scale_range": "(0.1)-1.5",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "7LAN",
+    "tube_name": "Phosphine (Mercury-free)",
+    "measuring_range": "0.04-8.4",
+    "scale_range": "0.1-2.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "121",
+    "tube_name": "Benzene",
+    "measuring_range": "140-1680",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "103",
+    "tube_name": "Hydrocarbons (Lower class)",
+    "measuring_range": "0.05-2.4%",
+    "scale_range": "0.1-1.2%",
+    "no_test_per_box": "9",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "100B",
+    "tube_name": "Propane",
+    "measuring_range": "0.1-2.0%",
+    "scale_range": "0.1-2.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Injection type"
+  },
+  {
+    "tube_no": "151L",
+    "tube_name": "Acetone",
+    "measuring_range": "24-1880",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "91L",
+    "tube_name": "Formaldehyde",
+    "measuring_range": "0.76-38",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81",
+    "tube_name": "Acetic acid",
+    "measuring_range": "3-75",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.25-10",
+    "scale_range": "(0.25)-10.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "191",
+    "tube_name": "Acrylonitrile",
+    "measuring_range": "50-1200",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "145",
+    "tube_name": "Propyl acetate",
+    "measuring_range": "20-500",
+    "scale_range": "20-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "0.04-2.5%",
+    "scale_range": "0.04-2.5%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113L",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "130-560",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "113LL",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "55-170",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "136LA",
+    "tube_name": "Methyl bromide",
+    "measuring_range": "1-18",
+    "scale_range": "(1)-18",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70",
+    "tube_name": "Mercaptans",
+    "measuring_range": "22.5-540",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70LN",
+    "tube_name": "Mercaptans (Mercury-free)",
+    "measuring_range": "1-25",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "70L",
+    "tube_name": "Mercaptans",
+    "measuring_range": "0.12-9.6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "6-120",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.5-10",
+    "scale_range": "(0.5)-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "100A",
+    "tube_name": "LPG",
+    "measuring_range": "0.02-0.8%",
+    "scale_range": "0.02-0.8%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131La",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "40-800",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "5.5-110",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.35-7",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "163",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "0.065-3.9%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "163L",
+    "tube_name": "Ethylene oxide",
+    "measuring_range": "1-100",
+    "scale_range": "1-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "182",
+    "tube_name": "Pyridine",
+    "measuring_range": "0.2-36.4",
+    "scale_range": "(0.5)-14",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "107",
+    "tube_name": "Polytec tube-1",
+    "measuring_range": "Qualitative analysis",
+    "scale_range": "Qualitative analysis",
+    "no_test_per_box": "10",
+    "tube_type": "Polytec"
+  },
+  {
+    "tube_no": "25",
+    "tube_name": "Polytec tube-2",
+    "measuring_range": "Qualitative analysis",
+    "scale_range": "Qualitative analysis",
+    "no_test_per_box": "10",
+    "tube_type": "Polytec"
+  },
+  {
+    "tube_no": "26",
+    "tube_name": "Polytec tube-3",
+    "measuring_range": "Qualitative analysis",
+    "scale_range": "Qualitative analysis",
+    "no_test_per_box": "10",
+    "tube_type": "Polytec"
+  },
+  {
+    "tube_no": "27",
+    "tube_name": "Polytec tube-4",
+    "measuring_range": "Qualitative analysis",
+    "scale_range": "Qualitative analysis",
+    "no_test_per_box": "10",
+    "tube_type": "Polytec"
+  },
+  {
+    "tube_no": "28",
+    "tube_name": "Polytec tube-5",
+    "measuring_range": "Qualitative analysis",
+    "scale_range": "Qualitative analysis",
+    "no_test_per_box": "10",
+    "tube_type": "Polytec"
+  },
+  {
+    "tube_no": "108",
+    "tube_name": "Qualitative analysis tube for fire investigation",
+    "measuring_range": "Qualitative analysis",
+    "scale_range": "Qualitative analysis",
+    "no_test_per_box": "10",
+    "tube_type": "Polytec"
+  },
+  {
+    "tube_no": "128",
+    "tube_name": "Stoddard solvent",
+    "measuring_range": "50-8000mg/m<sup>3</sup>",
+    "scale_range": "50-8000mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "153",
+    "tube_name": "Methyl isobutyl ketone",
+    "measuring_range": "0.15-2.3%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "124",
+    "tube_name": "Styrene",
+    "measuring_range": "10-1500",
+    "scale_range": "20-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "124L",
+    "tube_name": "Styrene",
+    "measuring_range": "2-100",
+    "scale_range": "2-25",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122DL",
+    "tube_name": "Toluene",
+    "measuring_range": "26-6500",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "124S",
+    "tube_name": "Styrene",
+    "measuring_range": "0.2-4.0",
+    "scale_range": "0.2-4.0",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "211H",
+    "tube_name": "Sulphide ion",
+    "measuring_range": "10-1000",
+    "scale_range": "10-1000",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "211M",
+    "tube_name": "Sulphide ion",
+    "measuring_range": "2-300",
+    "scale_range": "2-300",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "211",
+    "tube_name": "Sulphide ion",
+    "measuring_range": "1-100",
+    "scale_range": "1-100",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "211LL",
+    "tube_name": "Sulphide ion",
+    "measuring_range": "0.5-20",
+    "scale_range": "0.5-20",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  },
+  {
+    "tube_no": "5H",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "0.05-8.0%",
+    "scale_range": "0.5-4.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "5M",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "20-3600",
+    "scale_range": "100-1800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "80",
+    "tube_name": "Acid gases",
+    "measuring_range": "1.5-30",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "5L",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "1.25-200",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "5La",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "0.5-60",
+    "scale_range": "2-30",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "5LC",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "0.1-22",
+    "scale_range": "(0.25)-10",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "45S",
+    "tube_name": "Hydrogen sulphide,Sulphur dioxide(Separate quantification)",
+    "measuring_range": "0.25-20.0",
+    "scale_range": "0.5-10.0",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "5Lb",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "0.05-10.0",
+    "scale_range": "0.2-5.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "45H",
+    "tube_name": "Hydrogen sulphide+ Sulphur dioxide(total quantification)",
+    "measuring_range": "0.02-8.0%",
+    "scale_range": "0.2-4.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "5DH",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "10-600",
+    "scale_range": "50-600ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "5D",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "0.2-100",
+    "scale_range": "2-100ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "35",
+    "tube_name": "Sulphuric acid",
+    "measuring_range": "0.5-5mg/m<sup>3</sup>",
+    "scale_range": "0.5-5mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "231",
+    "tube_name": "Sulphuryl fluoride",
+    "measuring_range": "1-20",
+    "scale_range": "1-20",
+    "no_test_per_box": "4",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "135L",
+    "tube_name": "1,1,1-Trichloroethane(Methyl chloroform)",
+    "measuring_range": "0.92-9.2",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51H",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "125-3000",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "7-280",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1-54",
+    "scale_range": "1-20",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "131L",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "2-30",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132HH",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "0.075-1.5%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "133HA",
+    "tube_name": "Tetrachloroethylene",
+    "measuring_range": "7.4-900",
+    "scale_range": "20-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "133M",
+    "tube_name": "Tetrachloroethylene",
+    "measuring_range": "2-220",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "133L",
+    "tube_name": "Tetrachloroethylene",
+    "measuring_range": "1-75",
+    "scale_range": "2-25",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "133LL",
+    "tube_name": "Tetrachloroethylene",
+    "measuring_range": "0.1-6.6",
+    "scale_range": "0.2-3.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "133D",
+    "tube_name": "Tetrachloroethylene",
+    "measuring_range": "3-150",
+    "scale_range": "25-150ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "132D",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "1.5-150",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "133TP",
+    "tube_name": "Tetrachloroethylene",
+    "measuring_range": "2.5-84",
+    "scale_range": "2.5-40",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "133P",
+    "tube_name": "Tetrachloroethylene",
+    "measuring_range": "20-720µg/m<sup>3</sup>",
+    "scale_range": "20-300µg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "161",
+    "tube_name": "Ethyl ether",
+    "measuring_range": "0.056-1.4%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "159",
+    "tube_name": "Tetrahydrofuran",
+    "measuring_range": "25-800",
+    "scale_range": "50-800",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "159L",
+    "tube_name": "Tetrahydrofuran",
+    "measuring_range": "5-232",
+    "scale_range": "5-80",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "76H",
+    "tube_name": "Tetrahydrothiophene",
+    "measuring_range": "10-200",
+    "scale_range": "10-200",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "76",
+    "tube_name": "Tetrahydrothiophene",
+    "measuring_range": "1-10",
+    "scale_range": "1-10",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "76M",
+    "tube_name": "Tetrahydrothiophene",
+    "measuring_range": "10-100mg/m<sup>3</sup>",
+    "scale_range": "10-100mg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "8.5-170",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.8-16",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "5La",
+    "tube_name": "Sulphur dioxide",
+    "measuring_range": "1.44-21.6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "161",
+    "tube_name": "Ethyl ether",
+    "measuring_range": "0.02-0.8%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122",
+    "tube_name": "Toluene",
+    "measuring_range": "4-600",
+    "scale_range": "(10)-300",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122L",
+    "tube_name": "Toluene",
+    "measuring_range": "0.82-100",
+    "scale_range": "2-50",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122DL",
+    "tube_name": "Toluene",
+    "measuring_range": "2-500",
+    "scale_range": "20-500ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "122TP",
+    "tube_name": "Toluene",
+    "measuring_range": "2-80",
+    "scale_range": "2-80",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "122P",
+    "tube_name": "Toluene",
+    "measuring_range": "100-7000µg/m<sup>3</sup>",
+    "scale_range": "100-2500µg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "181",
+    "tube_name": "Aniline",
+    "measuring_range": "5-60",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "15L",
+    "tube_name": "Nitric acid",
+    "measuring_range": "1-37",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131La",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "0.65-13",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "135",
+    "tube_name": "1,1,1-Trichloroethane(Methyl chloroform)",
+    "measuring_range": "220-750",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "171",
+    "tube_name": "Acetylene",
+    "measuring_range": "0.06-1.2%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "135",
+    "tube_name": "1,1,1-Trichloroethane(Methyl chloroform)",
+    "measuring_range": "100-2000",
+    "scale_range": "100-500",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "135L",
+    "tube_name": "1,1,1-Trichloroethane(Methyl chloroform)",
+    "measuring_range": "6-900",
+    "scale_range": "20-200",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132HH",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "0.05-2.5%",
+    "scale_range": "0.05-1.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132HA",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "20-1300",
+    "scale_range": "50-500",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132M",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "2-270",
+    "scale_range": "5-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132L",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "0.8-90",
+    "scale_range": "2-25",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132LL",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "0.125-8.8",
+    "scale_range": "(0.25)-4.0",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "132D",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "3-300",
+    "scale_range": "25-300ppm･hr",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "132TP",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "1-33",
+    "scale_range": "1-15",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "132P",
+    "tube_name": "Trichloroethylene",
+    "measuring_range": "20-1200µg/m<sup>3</sup>",
+    "scale_range": "20-500µg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "51H",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "275-6600",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "8-320",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "0.8-43.2",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "135L",
+    "tube_name": "1,1,1-Trichloroethane(Methyl chloroform)",
+    "measuring_range": "36-360",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "51H",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "200-4800",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "10-400",
+    "scale_range": "10-400",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "0.8-43.2",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51H",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "250-6000",
+    "scale_range": "250-2000",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "10-400",
+    "scale_range": "10-400",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "51L",
+    "tube_name": "Fluorochlorocarbons",
+    "measuring_range": "1-54",
+    "scale_range": "1-20",
+    "no_test_per_box": "5",
+    "tube_type": "PYROTEC"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "4.5-90",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.3-6",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3D",
+    "tube_name": "Ammonia",
+    "measuring_range": "5.3-2100",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "3M",
+    "tube_name": "Ammonia",
+    "measuring_range": "25-250",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180",
+    "tube_name": "Amines",
+    "measuring_range": "3.5-70",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "180L",
+    "tube_name": "Amines",
+    "measuring_range": "0.25-5",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "3DL",
+    "tube_name": "Ammonia",
+    "measuring_range": "0.23-23",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "123",
+    "tube_name": "Xylene",
+    "measuring_range": "10-300",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "81L",
+    "tube_name": "Acetic acid",
+    "measuring_range": "0.38-15",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "141",
+    "tube_name": "Ethyl acetate",
+    "measuring_range": "0.06-0.9%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "143",
+    "tube_name": "Vinyl acetate",
+    "measuring_range": "5-250",
+    "scale_range": "10-100",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "0.025-2.0%",
+    "scale_range": "0.05-1.0%",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131LB",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "0.4-70",
+    "scale_range": "1-20",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131La",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "0.25-54",
+    "scale_range": "1-20",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "131L",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "0.1-6.9",
+    "scale_range": "0.2-3.0",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "174D",
+    "tube_name": "1,3-Butadiene",
+    "measuring_range": "1.5-240",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "131TP",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "0.2-9.6",
+    "scale_range": "0.2-3.0",
+    "no_test_per_box": "10",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "131P",
+    "tube_name": "Vinyl chloride",
+    "measuring_range": "50-1500µg/m<sup>3</sup>",
+    "scale_range": "50-1500µg/m<sup>3</sup>",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "113L",
+    "tube_name": "Isopropyl alcohol",
+    "measuring_range": "6.5-25.0",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "130L",
+    "tube_name": "Vinylidene chloride",
+    "measuring_range": "0.4-40.6",
+    "scale_range": "1-14",
+    "no_test_per_box": "5",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "6",
+    "tube_name": "Water vapour",
+    "measuring_range": "0.5-32mg/l",
+    "scale_range": "1-18mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "6L",
+    "tube_name": "Water vapour",
+    "measuring_range": "0.05-2.0mg/l",
+    "scale_range": "(0.05)-1.0mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "6LP",
+    "tube_name": "Water vapour (Pipeline Dew Point Tube)",
+    "measuring_range": "3-100LB/MMCF",
+    "scale_range": "3-40LB/MMCF",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "6LLP",
+    "tube_name": "Water vapour (Pipeline Dew Point Tube)",
+    "measuring_range": "2-10LB/MMCF",
+    "scale_range": "2-10LB/MMCF",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "6AH",
+    "tube_name": "Water vapour",
+    "measuring_range": "500-5000",
+    "scale_range": "500-5000",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "6Ag",
+    "tube_name": "Water vapour",
+    "measuring_range": "150-3000mg/m<sup>3</sup>",
+    "scale_range": "150-3000mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "6A",
+    "tube_name": "Water vapour",
+    "measuring_range": "10-80mg/m<sup>3</sup>",
+    "scale_range": "10-80mg/m<sup>3</sup>",
+    "no_test_per_box": "10",
+    "tube_type": "Airtec"
+  },
+  {
+    "tube_no": "100A",
+    "tube_name": "LPG",
+    "measuring_range": "0.1-1.2%",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "123",
+    "tube_name": "Xylene",
+    "measuring_range": "4-900",
+    "scale_range": "(10)-250",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122L",
+    "tube_name": "Toluene",
+    "measuring_range": "2-200",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "123L",
+    "tube_name": "Xylene",
+    "measuring_range": "2-220",
+    "scale_range": "2-100",
+    "no_test_per_box": "10",
+    "tube_type": "Short-term measurement"
+  },
+  {
+    "tube_no": "122DL",
+    "tube_name": "Toluene",
+    "measuring_range": "3.4-850",
+    "scale_range": "",
+    "no_test_per_box": "10",
+    "tube_type": "Long-term measurement"
+  },
+  {
+    "tube_no": "123TP",
+    "tube_name": "Xylene",
+    "measuring_range": "2-80",
+    "scale_range": "2-80",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "122P",
+    "tube_name": "Toluene",
+    "measuring_range": "540-13500µg/m<sup>3</sup>",
+    "scale_range": "",
+    "no_test_per_box": "5",
+    "tube_type": "Automatic air sampling pump"
+  },
+  {
+    "tube_no": "285",
+    "tube_name": "Zinc",
+    "measuring_range": "3-20mg/l",
+    "scale_range": "3-20mg/l",
+    "no_test_per_box": "10",
+    "tube_type": "Dissolved substances in solution"
+  }
+]

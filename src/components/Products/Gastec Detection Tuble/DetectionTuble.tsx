@@ -4,13 +4,23 @@ import React from 'react';
 import HeroSection from './HeroSection';
 import ReusableTable from './table';
 import CTA from './CTA';
-import gastecData from '../../../data/products/gastec.json';
+import gastecData from '../../../data/products/gastec-v2.json';
 
 interface GastecItem {
   tubeId: string;
   name: string;
   category: string;
 }
+
+export interface TubeData {
+  tube_no: string;
+  tube_name: string;
+  measuring_range: string;
+  scale_range: string;
+  no_test_per_box: string;
+  tube_type: string;
+}
+
 
 interface DetectionTubeItem {
   chemical: string;
@@ -159,17 +169,56 @@ const DetectionTuble: React.FC = () => {
     return 'Other';
   };
 
+  const chemicalFormulas: { [key: string]: string } = {
+  "Acetaldehyde": "C2H4O",
+  "Acetone": "C3H6O",
+  "Methyl ethyl ketone": "C4H8O",
+  "Formaldehyde": "CH2O",
+  "Acetic acid": "C2H4O2",
+  "Hydrogen cyanide": "HCN",
+  "Nitro compounds": "R-NO2",
+  "Acetylene": "C2H2",
+  "Ethylene": "C2H4",
+  "Hexane": "C6H14",
+  "Acrylonitrile": "C3H3N",
+  "Ammonia": "NH3",
+  "Amyl acetate": "C7H14O2",
+  "Aniline": "C6H5NH2",
+  "Arsine": "AsH3",
+  "Benzene": "C6H6",
+  "Toluene": "C7H8",
+  "Methyl bromide": "CH3Br",
+  "Trichloroethylene": "C2HCl3",
+  "Chloride ion": "Cl⁻",
+  "Chlorine": "Cl2",
+  "1,3-Butadiene": "C4H6",
+  "Butane": "C4H10",
+  "1-Butanol": "C4H10O",
+  "2-Butanol": "C4H10O",
+  "Butyl acetate": "C6H12O2",
+  "Mercaptans": "R-SH",
+  "tert-Butyl mercaptan": "C4H10S",
+  "TBM and DMS": "C4H10S & C2H6S",
+  "Carbon dioxide": "CO2",
+  "Carbon disulphide": "CS2",
+  "Carbon monoxide": "CO",
+  "Carbon tetrachloride": "CCl4",
+  "Carbonyl sulphide": "COS",
+  "Chlorine dioxide": "ClO2",
+  "Chlorobenzene": "C6H5Cl"
+};
+
+
   // Transform gastec data to detection tube format
-  const detectionTubeData: DetectionTubeItem[] = (gastecData as GastecItem[]).map((item) => {
-    const type = simplifyType(item.category);
+  const detectionTubeData: DetectionTubeItem[] = (gastecData as TubeData[]).map((item) => {
     return {
-      chemical: item.name,
-      range: generateRange(item.name),
-      tubeName: generateTubeName(item.name),
-      partNo: item.tubeId,
-      qtyBox: generateQtyBox(type),
-      type: type,
-      category: categorizeForFiltering(item.category)
+      chemical: item.tube_name,
+      range: item.measuring_range,
+      tubeName: chemicalFormulas[item.tube_name],
+      partNo: item.tube_no,
+      qtyBox: generateQtyBox(item.tube_type),
+      type: item.tube_type,
+      category: categorizeForFiltering(item.tube_type)
     };
   });
 

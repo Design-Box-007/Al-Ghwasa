@@ -169,7 +169,7 @@ const DetectionTuble: React.FC = () => {
     return 'Other';
   };
 
-const chemicalFormulas = {
+const chemicalFormulas:{ [key: string]: string } = {
   "Acetaldehyde": "C2H4O",
   "Acetone": "C3H6O",
   "Methyl ethyl ketone": "C4H8O",

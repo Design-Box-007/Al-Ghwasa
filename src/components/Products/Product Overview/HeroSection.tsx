@@ -36,7 +36,7 @@ const ProductOverviewHero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src={images.ProductOverview36}
+          src={images.product860}
           alt="Product Overview Background"
           fill
           className="object-cover"

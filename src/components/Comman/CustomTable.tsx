@@ -87,7 +87,7 @@ const Pagination: React.FC<PaginationProps> = ({
   };
 
   return (
-    <div className="flex items-center justify-between mt-6 px-4">
+    <div className="flex items-center justify-between mt-6 mb-6 px-4">
       {/* Left side - Previous button and page numbers */}
       <div className="flex items-center space-x-2">
         <button

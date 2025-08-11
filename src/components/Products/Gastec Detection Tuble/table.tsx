@@ -37,39 +37,20 @@ const FilterProducts: React.FC<FilterProps> = ({
             </div>
 
             {/* Filter Buttons */}
-            <div className="space-y-3">
-                <div className="flex gap-3 flex-wrap">
-                    {["All", ...categories].slice(0, 7).map((cat) => (
-                        <button
-                            key={cat}
-                            onClick={() => setSelectedCategory(cat)}
-                            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                                cat === selectedCategory
-                                    ? 'bg-blue-500 text-white shadow-md'
-                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
-                            }`}
-                        >
-                            {cat}
-                        </button>
-                    ))}
-                </div>
-                
-                {/* Second row of filter buttons */}
-                <div className="flex gap-3 flex-wrap">
-                    {["All", ...categories].slice(7).map((cat) => (
-                        <button
-                            key={cat}
-                            onClick={() => setSelectedCategory(cat)}
-                            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                                cat === selectedCategory
-                                    ? 'bg-blue-500 text-white shadow-md'
-                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
-                            }`}
-                        >
-                            {cat}
-                        </button>
-                    ))}
-                </div>
+            <div className="flex gap-3 flex-wrap items-center">
+                {["All", ...categories].map((cat) => (
+                    <button
+                        key={cat}
+                        onClick={() => setSelectedCategory(cat)}
+                        className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                            cat === selectedCategory
+                                ? 'bg-blue-500 text-white shadow-md'
+                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 border border-gray-200'
+                        }`}
+                    >
+                        {cat}
+                    </button>
+                ))}
             </div>
         </div>
     );

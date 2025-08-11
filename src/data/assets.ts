@@ -47,6 +47,12 @@ const images: Assets = {
   oilTesterStraws: "/images/Product-Images/straws-hp.jpg",
   oilTesterKit: "/images/Product-Images/oil-tester-kit-hp.jpg",
 
+  // 860-1 product image
+  product860: "/images/Product-Images/860-1.jpg",
+  
+  // Gastec-2 Hero Image
+  Gastec2Hero: "/images/Product-Images/GV100.jpg",
+
   ProductOverview1: "/images/All-Product-Assets/Product-Overview-1.png",
   ProductOverview19: "/images/All-Product-Assets/Product-Overview-19.png",
   ProductOverview28: "/images/All-Product-Assets/Product-Overview-28.png",

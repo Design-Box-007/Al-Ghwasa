@@ -1,5 +1,6 @@
 import RevealComponent from '@/components/Comman/RevealComponent'
 import images from '@/data/assets'
+import Image from 'next/image'
 import React from 'react'
 
 const Mx32 = () => {
@@ -19,7 +20,7 @@ const Mx32 = () => {
         </p>
 
         <RevealComponent direction='bottom' outerClass="h-auto lg:h-[700px] overflow-hidden rounded-lg">
-          <img src={images.Military2} alt={"Military"} className="rounded-lg object-top object-cover h-full w-full" />
+          <Image src={images.Military2} alt={"Military"} className="rounded-lg object-top object-cover h-full w-full" />
         </RevealComponent>
         <p className="text-xl font-semibold text-black">MX3: Lab-Quality Data, Deployed Anywhere</p>
         <p>

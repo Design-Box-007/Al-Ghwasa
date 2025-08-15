@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import ProductGrid, { ProductGridItem } from "@/components/Comman/ProductGrid";
+import ProductGrid from "@/components/Comman/ProductGrid";
 import data from "@/data/products/gastec3.json"
 
 // const accessories: ProductGridItem[] = [

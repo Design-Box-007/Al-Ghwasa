@@ -1,0 +1,102 @@
+{
+ "gas-detection-specialized-samplingkits": [
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+      "name": "GHS 8 AT EX",
+      "description": "If corrosive hydrogen sulphide is generated in the sewer system, it makes rust in the sewer and generates odours from underground."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg",
+      "name": "GSP 501 FT",
+      "description": "Compact, lightweight, and reliable automatic air sampling pump for GASTEC detector tubes and sorbent tubes."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/TG_1_EN.jpg",
+      "name": "TG-1",
+      "description": "The primary step towards being able to prevent hazardous gas generation at the workplace, as part of occupational hygiene and pollution control, is to acquire accurate data regarding the emitted gas types and their concentration levels."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
+      "name": "CG-1",
+      "description": "Gastec CG-1 system can simply, quickly, and simultaneously measure 4 kinds of harmful contaminants (CO, CO2, Water vapour, and Oil mist) contained in compressed breathing air (cylinder or compressor)."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100LS.jpg",
+      "name": "GV 100LS",
+      "description": "The Gas sampling pump GV-100, pump accessories (3 rubber inlets and lubricant), as well as the instruction sheet are provided in a convenient shoulder bag."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100S.jpg",
+      "name": "GV 100 S",
+      "description": "GASTEC Detector Tubes indicate concentrations directly by way of a calibrated scale printed on the tubes. At GASTEC, we endeavour to achieve highest quality detector tubes for analysing airborne gases/vapours, as well as pollutants in soil and water through our advanced state-of-the-art research and development."
+    }
+  ],
+  "gas-generator-solutions": [
+    {
+      "imgSrc": "/images/Gastec3/gas-generator-solutions/PD_1C_1.jpg",
+      "name": "PD-1C",
+      "description": "The Permeater is a gas generator for calibration purposes that utilises permeation and diffusion tubes to generate the calibration gas."
+    }
+  ],
+  "gas-detection-passive-monitoring": [
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg",
+      "name": "Gas Detector 1",
+      "description": "Description for Gas Detector 1."
+    }
+  ],
+  "gas-detection-accessories": [
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/351A_5_GV_100.jpg",
+      "name": "351A",
+      "description": "Extension hoses are available to be attached to the inlet of the gas sampling pump (Model GV-100 or GV-110) and used for remote downward measurement in confined spaces, such as manholes, tanks, etc."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/351A_5_GV_100.jpg",
+      "name": "351A_5_GV 100",
+      "description": "Extension hoses are available to be attached to the inlet of the gas sampling pump (Model GV-100 or GV-110) and used for remote downward measurement in confined spaces, such as manholes, tanks, etc."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/351A_10.jpg",
+      "name": "351A_10",
+      "description": "Extension hoses are available to be attached to the inlet of the gas sampling pump (Model GV-100 or GV-110) and used for remote downward measurement in confined spaces, such as manholes, tanks, etc."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/351A_30_1.jpg",
+      "name": "351A_30_1",
+      "description": "Extension hoses are available to be attached to the inlet of the gas sampling pump (Model GV-100 or GV-110) and used for remote downward measurement in confined spaces, such as manholes, tanks, etc."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/380_1.jpg",
+      "name": "380_1",
+      "description": "The GASTEC Fumigation Probe is connected to the Gas Detector Tube and inserted through the rubber seal of the closed container to measure residual fumigants."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/860_1.jpg",
+      "name": "860_1",
+      "description": "GASTEC developed the Pyrotec Pyrolyzer system to enable precise and easy detection of Sulphuryl Fluoride. It converts Sulphuryl Fluoride (using process known as thermal cracking) into an easily measurable gas."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/Extension Pole 350BP-2.jpeg",
+      "name": "Extension Pole 350BP-2",
+      "description": "Made of lightweight fiberglass and weighing only 590g, the extension sampling pole has a compact body (62.5 cm) for easy portability and can be extended to a maximum length of 2.8m."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/GV500_1.jpg",
+      "name": "GV500_1",
+      "description": "Made of lightweight fiberglass and weighing only 590g, the extension sampling pole has a compact body (62.5 cm) for easy portability and can be extended to a maximum length of 2.8m."
+    }
+  ],
+  "gas-detection-active-sampling-tubes": [
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-active-sampling-tubes/Detector tube image_1.jpg",
+      "name": "Tube 1",
+      "description": "Description for Tube 1."
+    },
+    {
+      "imgSrc": "/images/Gastec3/gas-detection-active-sampling-tubes/Detector tube image_2.jpg",
+      "name": "Tube 2",
+      "description": "Description for Tube 2."
+    }
+  ]
+}

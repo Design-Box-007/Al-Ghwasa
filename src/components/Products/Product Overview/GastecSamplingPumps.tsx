@@ -2,6 +2,7 @@
 
 import React from "react";
 import ProductGrid, { ProductGridItem } from "@/components/Comman/ProductGrid";
+import data from "@/data/products/gastec3.json"
 
 const pumps: ProductGridItem[] = [
   {
@@ -26,7 +27,7 @@ const GastecSamplingPumps: React.FC = () => {
     <ProductGrid
       title="GASTEC Sampling Pumps"
       subtitle="Precision hand pumps engineered for seamless compatibility with GASTEC tubes. Lightweight, durable, and easy to operate."
-      items={pumps}
+      items={data["gas-detection-accessories"]}
       ctaLabel="View Pumps"
       ctaHref="#"
       actionVariant="dot"

@@ -12,8 +12,9 @@ export default function IndustryCard({
   icon: Icon,
 }: IndustryCardProps) {
   return (
-    <div className="bg-gray-200 border border-[#C5C5C5] rounded-2xl p-6 flex flex-col items-center justify-center gap-5 w-[429px] h-[318px] ">
-      <div className="flex flex-col items-center justify-center gap-5 w-full">
+    <div className="bg-gray-200 border border-[#C5C5C5] rounded-2xl p-6 flex flex-col items-center justify-center gap-5">
+
+      <div className="flex flex-col items-center justify-center gap-5 w-full py-7">
         {/* Icon Container */}
         <Icon className="text-5xl text-primary text-[#0F2E53]" />{" "}
         {/* ✅ Render as JSX */}
@@ -26,6 +27,7 @@ export default function IndustryCard({
           {description}
         </p>
       </div>
+      
     </div>
-  );
+  )
 }

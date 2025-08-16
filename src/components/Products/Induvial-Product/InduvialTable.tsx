@@ -48,18 +48,18 @@ export default function InduvialTable() {
         </div>
 
         {/* Content */}
-        <div className="flex flex-col gap-10 mb-6">
-          <div className="flex justify-between items-center gap-6">
-            <h2 className="font-poppins font-medium text-5xl w-2xl text-black leading-relaxed mb-4">
-              GASTEC Detector Tube Product Range
-            </h2>
-            <p className="font-poppins font-normal text-xl text-black leading-relaxed w-2xl">
-              GASTEC offers a complete line of detector tubes to measure over
-              600 gases and vapors with accuracy and ease. Below is an overview
-              of our most popular tube categories.
-            </p>
-          </div>
-        </div>
+    <div className="flex flex-col gap-10 mb-6">
+  <div className="flex flex-col md:flex-row md:justify-between md:items-center items-center gap-6">
+    <h2 className="font-poppins font-medium text-3xl md:text-4xl lg:text-5xl text-black leading-snug md:leading-relaxed mb-4 md:mb-0 md:w-1/2">
+      GASTEC Detector Tube Product Range
+    </h2>
+    <p className="font-poppins font-normal text-base md:text-lg lg:text-xl text-black leading-relaxed md:w-1/2">
+      GASTEC offers a complete line of detector tubes to measure over
+      600 gases and vapors with accuracy and ease. Below is an overview
+      of our most popular tube categories.
+    </p>
+  </div>
+</div>
 
         <div className="overflow-x-auto">
           <table className="w-full border-2 border-[#0F2E53] text-left">

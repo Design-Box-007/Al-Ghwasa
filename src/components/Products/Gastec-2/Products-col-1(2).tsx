@@ -45,7 +45,7 @@ const ProductsCol12 = () => {
                                 {/* Call to Action Button */}
                                 <motion.button
                                     className="flex items-center gap-3 bg-white border border-gray-300 text-gray-900 px-8 py-2 rounded-full font-medium hover:bg-gray-50 transition-all duration-200 shadow-sm"
-                                    whileHover={{ scale: 1.02, shadow: "0 4px 12px rgba(0,0,0,0.1)" }}
+                                    whileHover={{ scale: 1.02 }}
                                     whileTap={{ scale: 0.98 }}
                                 >
                                     <span className="text-base">View GV-110S Pump</span>

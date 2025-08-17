@@ -48,7 +48,7 @@ const FeatureGridSection: React.FC<FeatureGridSectionProps> = ({
   titleClassName,
   descriptionClassName,
 }) => {
-  const sectionClasses = sectionClassName ?? 'py-16 bg-white w-full'
+  const sectionClasses = sectionClassName ?? 'py-16 w-full'
   const containerClasses = containerClassName ?? 'w-full px-4 md:px-8 lg:px-16'
   const gridClasses = gridClassName ?? `grid ${getGridColsClass(columns)} gap-8 w-full`
   const cardClasses =
@@ -64,7 +64,7 @@ const FeatureGridSection: React.FC<FeatureGridSectionProps> = ({
         {(heading || subheading) && (
           <div className="text-center mb-12">
             {heading && (
-              <h2 className="text-5xl md:text-6xl font-bold text-black mb-4">{heading}</h2>
+              <h2 className="text-4xl lg:text-6xl font-bold text-black mb-4">{heading}</h2>
             )}
             {subheading && <p className="text-xl text-gray-600 max-w-5xl mx-auto">{subheading}</p>}
           </div>

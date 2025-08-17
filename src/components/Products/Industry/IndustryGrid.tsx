@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function IndustryGrid() {
   return (
     <main>
-      <div className="mx-20 py-16 mt-5.5">
+      <div className="lg:mx-20 mx-10 py-16 mt-5.5">
         {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}

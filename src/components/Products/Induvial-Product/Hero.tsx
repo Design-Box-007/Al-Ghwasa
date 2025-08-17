@@ -6,48 +6,48 @@ import { motion } from "framer-motion";
 export default function InduvialHero() {
   return (
     <header className="w-full bg-white pt-[150px] px-c-20 lg:p-c-20 relative">
-        <div className="relative overflow-hidden rounded-[20px] min-h-screen lg:min-h-[700px] lg:h-[800px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row items-center gap-8">
-          {/* Background Image */}
-          <Image
-            src="/images/Gastec3/gas-detection-accessories/351A_5_GV_100.jpg"
-            alt="Hero Background"
-            className="absolute inset-0 brightness-[.6] z-10 object-cover object-center w-full h-full rounded-[20px]"
-            fill
-          />
+      <div className="relative overflow-hidden rounded-[20px] min-h-screen lg:min-h-[700px] lg:h-[800px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row items-center gap-8">
+        {/* Background Image */}
+        <Image
+          src="/images/Gastec3/gas-detection-accessories/351A_5_GV_100.jpg"
+          alt="Hero Background"
+          className="absolute inset-0 brightness-[.6] z-10 object-cover object-center w-full h-full rounded-[20px]"
+          fill
+        />
 
-          {/* Content */}
-          <div className="relative z-10 text-center max-w-4xl mx-auto px-5">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease: "easeOut" }}
-              viewport={{ once: true }}
-            >
-              <h1 className="text-white font-dm-sans font-semibold text-7xl leading-tight mb-6">
-                GASTEC Detector Tube & Pump System
-              </h1>
-            </motion.div>
+        {/* Content */}
+        <div className="relative z-10 text-center max-w-4xl mx-auto px-5">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
+            <h1 className="text-white font-dm-sans font-semibold text-7xl leading-tight mb-6">
+              GASTEC Detector Tube & Pump System
+            </h1>
+          </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 }}
-              viewport={{ once: true }}
-            >
-              <p className="text-white font-poppins font-medium text-base leading-relaxed mb-6 max-w-3xl mx-auto">
-                Experience precision gas measurement with GASTEC trusted manual
-                sampling pumps and over 500 compatible detector tubes. Reliable,
-                portable, and built for the toughest field environments.
-              </p>
-            </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 }}
+            viewport={{ once: true }}
+          >
+            <p className="text-white font-poppins font-medium text-base leading-relaxed mb-6 max-w-3xl mx-auto">
+              Experience precision gas measurement with GASTEC trusted manual
+              sampling pumps and over 500 compatible detector tubes. Reliable,
+              portable, and built for the toughest field environments.
+            </p>
+          </motion.div>
 
-            {/* CTA Button */}
-             <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, ease: "easeOut", delay: 1 }}
-              viewport={{ once: true }}
-            >
+          {/* CTA Button */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut", delay: 1 }}
+            viewport={{ once: true }}
+          >
             <div className="inline-flex items-center space-x-2 bg-white text-secondary px-5 py-2 rounded-3xl border border-gray-300 cursor-pointer hover:bg-gray-100 hover:border-gray-700 hover:scale-[1.03] hover:gap-2 transition-all duration-300">
               <span className="font-poppins font-medium text-base">
                 Browse Detector Tubes
@@ -66,11 +66,9 @@ export default function InduvialHero() {
                 </svg>
               </div>
             </div>
-            </motion.div>
-
-          </div>
+          </motion.div>
         </div>
-      
+      </div>
     </header>
   );
 }

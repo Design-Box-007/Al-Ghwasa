@@ -98,5 +98,34 @@
       "name": "Tube 2",
       "description": "Description for Tube 2."
     }
-  ]
+  ],
+
+  "step-1":[
+   {
+    "imgSrc": "/images/Gastec3/gas-detection-passive-monitoring/Dositube holder.jpg",
+    "name": "Single-component diffusion tubes"
+  },
+  {
+    "imgSrc": "/images/Gastec3/gas-detection-passive-monitoring/Dositube holder.jpg",
+    "name": "Multi-component diffusion tubes"
+  },
+  {
+    "imgSrc": "/images/Gastec3/gas-detection-passive-monitoring/Dositube holder.jpg",
+    "name": "Gas mixers and samplers"
+  }
+],
+
+
+  "step-2":[
+   {
+    "imgSrc": "/images/Gastec3/gas-detection-passive-monitoring/Dositube holder.jpg",
+    "name": "Dosi-Tube Holders"
+  },
+  {
+    "imgSrc": "/images/Gastec3/gas-detection-passive-monitoring/Dositube holder.jpg",
+    "name": "Clip Sets & Backup Holders"
+ 
+  }
+]
+
 }

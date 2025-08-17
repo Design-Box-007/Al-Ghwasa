@@ -98,7 +98,7 @@ export default function Datasheet() {
           {excels.map((item, idx) => (
             <div
               key={idx}
-              className="p-6 bg-white shadow rounded-xl flex flex-col items-start space-y-3 gap-9 "
+              className="p-6 bg-white shadow rounded-xl flex flex-col lg:items-start items-center space-y-3 gap-9 "
             >
               {item.icon}
               <p className="text-[#0F2E53]">{item.text}</p>

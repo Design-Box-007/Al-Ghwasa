@@ -3,36 +3,33 @@ import React from "react";
 import { motion } from "framer-motion";
 import StepCard from "@/components/Comman/Steps";
 
-const Steps = () => {
+const PassiveSteps = () => {
   const steps = [
     {
       image:
-        "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100LS.jpg",
+        "/images/Gastec3/gas-detection-passive-monitoring/Dositube holder.jpg",
       caption: "Tube insertion",
-      title: "Insert the Detector Tube",
-      description:
-        "Select the appropriate tube for your target gas and break off the tips",
-    },
+      title: "Prepare the Dosimeter Tube",
+      description: "Remove the tube from its pack and clip it near your breathing zone."
+     },
     {
       image:
-        "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100LS.jpg",
+        "/images/Gastec3/gas-detection-passive-monitoring/Dositube holder.jpg",
       caption: "Pump handle action",
-      title: "Draw the Sample",
-      description:
-        "Use the hand pump to pull the exact volume of air required.",
-    },
+      title: "Wear During Work",
+      description:"Wear the tube throughout the work shift or the specified monitoring period."
+     },
     {
       image:
-        "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100LS.jpg",
+        "/images/Gastec3/gas-detection-passive-monitoring/Dositube holder.jpg",
       caption: "Scale reading",
-      title: "Read the Result",
-      description:
-        "Compare the color change against the printed scale for an immediate measurement.",
-    },
+      title: "Read Results",
+      description:"Compare the color change to the reference scale and record the reading."
+     },
   ];
 
   return (
-    <section className="py-10 px-6 lg:px-10">
+    <section className="py-30 px-6 lg:px-10">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -40,12 +37,12 @@ const Steps = () => {
         viewport={{ once: true }}
       >
         <h2 className="text-center text-2xl lg:text-5xl font-semibold mb-10">
-          Three Simple Steps to Accurate Gas Detection
+          Simple 3-Step Usage Guide
         </h2>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {steps.map((step, index) => (
+        {steps.map((step, index) => (
           <StepCard
             key={index}
             title={step.title}
@@ -59,4 +56,4 @@ const Steps = () => {
   );
 };
 
-export default Steps;
+export default PassiveSteps;

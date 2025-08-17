@@ -4,11 +4,11 @@ import React from "react";
 import ProductGrid from "@/components/Comman/ProductGrid";
 import data from "@/data/products/gastec3.json";
 
-const GastecExplore: React.FC = () => {
+const PassiveExplore: React.FC = () => {
   return (
     <ProductGrid
       title="Explore More of our GASTEC Products"
-      items={data["step-1"]}
+      items={data["step-2"]}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="dot"
@@ -19,4 +19,4 @@ const GastecExplore: React.FC = () => {
   );
 };
 
-export default GastecExplore;
+export default PassiveExplore;

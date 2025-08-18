@@ -26,7 +26,7 @@ export const navLinks: NavLinksType[] = [
       { navTitle: "Gastec-2", navHref: "/gastec-2" },
       { navTitle: "Product", navHref: "/product-overview" },
       { navTitle: "Gastec Tube Detection Table", navHref: "/Detection-table" },
-      { navTitle: "Industry", navHref: "/industry" },
+      { navTitle: "Industry", navHref: "/Industry" },
       { navTitle: "Induvial Product", navHref: "/induvial-product" },
       { navTitle: "Gastec Generator Solutions", navHref: "/gastec-generator" },
       { navTitle: "Passive Dosimeter Monitoring", navHref: "/passive-dosimeter" },

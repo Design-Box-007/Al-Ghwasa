@@ -14,6 +14,7 @@ export const navLinks: NavLinksType[] = [
   // { navTitle: "Gastec Tube Detection Table", navHref: "/Detection-table" },
   { navTitle: "Home", navHref: "/" },
   { navTitle: "About Us", navHref: "/about" },
+  { navTitle: "Categories", navHref: "/categories" },
   {
     navTitle: "Products",
     navHref: "/our-products",

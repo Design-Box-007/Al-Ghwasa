@@ -1,0 +1,75 @@
+{
+  "calibration-regulators": [
+    {
+      "name": "GASTEC Calibration Kit",
+      "description": "Complete calibration set for accurate measurements.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg"
+    },
+    {
+      "name": "GASTEC Flow Regulator",
+      "description": "Ensures stable gas flow during sampling.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg"
+    },
+    {
+      "name": "Pressure Regulator",
+      "description": "Maintains consistent pressure for reliable results.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg"
+    },
+    {
+      "name": "High-Precision Flow Regulator",
+      "description": "Designed for precise gas flow control.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg"
+    },
+    {
+      "name": "Adaptor / Connector",
+      "description": "Compatible connector for multi-device integration.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg"
+    }
+  ],
+  "digital-monitors": [
+    {
+      "name": "GHS-8AT EX Monitor",
+      "description": "Portable monitor for hazardous gas detection.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg"
+    },
+    {
+      "name": "GHS-8AT EX with Accessories",
+      "description": "Enhanced version with extended accessories.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg"
+    },
+    {
+      "name": "GHS-8AT EX Starter Kit",
+      "description": "Maintains consistent pressure for reliable results.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg"
+    },
+    {
+      "name": "GHS-501FT Fit Tester",
+      "description": "Fit testing unit for respiratory equipment.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg"
+    }
+  ],
+  "gas-sampling": [
+    {
+      "name": "GV-100S Hand Pump",
+      "description": "Compact gas sampling pump with carrying case.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100S.jpg"
+    },
+    {
+      "name": "GV-110S Hand Pump",
+      "description": "Advanced model with extra durability.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_110S.jpg"
+    },
+    {
+      "name": "GV-100LS Leather Case Pump Kit",
+      "description": "Pump set with leather case & accessories.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100LS.jpg"
+    }
+  ],
+  "specialized-kits": [
+    {
+      "name": "TG-1EN Gas Sampling Kit",
+      "description": "Complete field sampling kit for multiple gases.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/TG_1_EN.jpg"
+    }
+  ]
+}

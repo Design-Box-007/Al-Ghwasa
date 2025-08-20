@@ -1,0 +1,109 @@
+"use client";
+
+import React, { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
+interface ProductHeroProps {
+  name: string;
+  images: string[];
+  category: string;
+  subName: string;
+}
+
+const ProductHero: React.FC<ProductHeroProps> = ({
+  name,
+  images,
+  category,
+  subName
+}) => {
+  const [current, setCurrent] = useState(0);
+
+  const prevImage = () => {
+    setCurrent((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+  };
+
+  const nextImage = () => {
+    setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+
+  return (
+    <section className="px-15 py-10 mt-30">
+      {/* Breadcrumb */}
+      <div className="text-lg text-gray-500 mb-4 space-x-1">
+        <Link href="/" className="hover:underline">
+          Home
+        </Link>
+        <span>{">"}</span>
+        <Link href="/products" className="hover:underline">
+          Products
+        </Link>
+        <span>{">"}</span>
+        <Link href={`/products/${category}`} className="hover:underline">
+          {category}
+        </Link>
+        <span>{">"}</span>
+        <span className="text-[#143C66] font-bold">{name}</span>
+      </div>
+
+      {/* Title */}
+      <div className="flex justify-between mb-6 items-end">
+        <h1 className="text-5xl">{name}</h1>
+        <p className="text-[26px]">{subName}</p>
+      </div>
+
+      <div className="relative flex flex-col items-center">
+        {/* Main Image */}
+        <div className="relative w-full h-full">
+          <Image
+            src={images[current]}
+            alt={name}
+            width={2000}
+            height={700}
+            className="rounded-[30px] shadow-lg object-contain mx-auto w-full h-full"
+          />
+
+          {/* Left Arrow */}
+          <button
+            onClick={prevImage}
+            className="absolute top-245 left-0 -translate-y-1/2 hover:bg-gray-100 cursor-pointer"
+          >
+            <ChevronLeft size={40}/>
+          </button>
+
+          {/* Right Arrow */}
+          <button
+            onClick={nextImage}
+            className="absolute top-245 right-0 -translate-y-1/2  hover:bg-gray-100 cursor-pointer"
+          >
+            <ChevronRight size={40}/>
+          </button>
+        </div>
+
+        {/* Thumbnails */}
+        <div className="flex gap-4 mt-4 overflow-x-auto">
+          {images.map((img, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrent(index)}
+              className={`border-2 rounded-md p-1 ${
+                index === current ? "border-blue-500" : "border-transparent"
+              }`}
+            >
+              <Image
+                src={img}
+                alt={`${name} ${index + 1}`}
+                width={80}
+                height={80}
+                className="object-contain rounded"
+              />
+            </button>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ProductHero;

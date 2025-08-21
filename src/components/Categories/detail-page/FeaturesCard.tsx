@@ -17,7 +17,7 @@ const Table: React.FC<KeyFeaturesProps> = ({
   features,
 }) => {
   return (
-    <section className="px-6 lg:px-20 py-10">
+    <section className="px-6 lg:px-20 pt-15">
       <h2 className="text-5xl font-semibold text-[#143C66] mb-6">{title}</h2>
       <div className="overflow-hidden rounded-lg border-2 border-gray-400">
         <table className="w-full">
@@ -25,7 +25,7 @@ const Table: React.FC<KeyFeaturesProps> = ({
             {features.map((feature, index) => (
               <tr
                 key={index}
-                className="border-b last:border-b-0 hover:bg-gray-50 transition"
+                className="border-b last:border-b-0 hover:bg-gray-200 transition"
               >
                 <td className="px-4 py-6 font-medium text-[20px] text-gray-800 w-1/3">
                   {feature.title}

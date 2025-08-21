@@ -10,6 +10,7 @@ export interface ProductGridItem {
   description?: string;
   href?: string;
   metaRight?: string;
+  slug?: string;
 }
 
 export type ProductGridActionVariant = "arrow" | "dot" | "none";
@@ -56,6 +57,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
           {ctaLabel ? (
             <div className="flex-shrink-0 ml-8">
               {ctaHref ? (
+                
                 <Link
                   href={ctaHref}
                   className="inline-flex items-center gap-3 bg-gray-800 text-white px-6 py-2 rounded-full hover:bg-gray-900 transition-colors"
@@ -134,9 +136,9 @@ const ProductGrid: React.FC<ProductGridProps> = ({
 
               {actionVariant === "arrow" ? (
                 <div className="absolute right-4 sm:right-6 bottom-4 sm:bottom-6">
-                  {product.href ? (
+                  {product.slug ? (
                     <Link
-                      href={product.href}
+                      href={`categories/${product.slug}`}
                       className="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors"
                     >
                       <svg

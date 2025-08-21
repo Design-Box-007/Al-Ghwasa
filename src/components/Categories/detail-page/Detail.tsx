@@ -33,6 +33,7 @@ const Detail = () => {
       <Overview
         description="The GHS-8AT EX Monitor is a portable hazardous gas detection device designed for high precision and reliability in industrial and field environments. It ensures worker safety and compliance by detecting a wide range of gases with quick response times."
         catalogUrl="/pdf/2148_ext_14_en_0.pdf"
+        catalogName="download"
       />
       <Table features={features} />;
       <Table features={specifications} title="Technical Specifications" />

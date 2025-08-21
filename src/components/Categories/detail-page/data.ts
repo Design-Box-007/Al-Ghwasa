@@ -159,8 +159,8 @@ export const howToUseSteps = [
 ];
 
 export const software = [
-  { label: "ANASYS Software Download", link: "/downloads/anasys" },
-  { label: "ANASYS Software Download", link: "/downloads/anasys" },
+  { label: "ANASYS Software Download", link: "https://gastec-software.com/anasys" },
+  { label: "ANASYS Software Download", link: "https://gastec-software.com/anasys" },
 ];
 
 export const packageContent = [

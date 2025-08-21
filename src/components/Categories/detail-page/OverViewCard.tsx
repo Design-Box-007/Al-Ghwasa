@@ -8,12 +8,14 @@ interface OverviewProps {
   title?: string;
   description: string;
   catalogUrl: string;
+  catalogName: React.ReactNode;
 }
 
 const Overview: React.FC<OverviewProps> = ({
   title = "Overview",
   description,
   catalogUrl,
+  catalogName,
 }) => {
   return (
     <section className="px-6 lg:px-20 py-10">
@@ -28,7 +30,7 @@ const Overview: React.FC<OverviewProps> = ({
         download
         className="inline-flex items-center gap-2 bg-white border border-gray-300 text-[#143C66] font-medium px-4 py-2 rounded-full shadow-sm hover:bg-gray-100 transition"
       >
-        Download Catalog <ArrowRight size={16} />
+        {catalogName} <ArrowRight size={16} />
       </Link>
     </section>
   );

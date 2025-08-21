@@ -6,19 +6,20 @@ interface Step {
   step: string;
   title: string;
   details: string[];
-  image?: string; // optional image support
+  image?: string;
 }
 
 interface StepsGridProps {
   steps?: Step[];
-  heading: string;
+  heading?: React.ReactNode;
 }
 
 const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
   return (
     <div className="px-20 py-10">
       {/* Heading */}
-      <h2 className="text-4xl font-bold mb-6">{heading}</h2>
+
+      <h2 className="text-4xl font-bold mb-6 text-[#143C66]">{heading}</h2>
 
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

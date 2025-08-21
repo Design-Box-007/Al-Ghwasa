@@ -4,7 +4,6 @@ import React from "react";
 import ProductGrid from "@/components/Comman/ProductGrid";
 import data from "@/data/products/category-gastec.json"
 
-
 const GasSampling: React.FC = () => {
   return (
     <ProductGrid
@@ -19,4 +18,4 @@ const GasSampling: React.FC = () => {
   );
 };
 
-export default  GasSampling;
+export default GasSampling;

@@ -5,15 +5,20 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 interface OverviewProps {
-  title?: string;
-  description: string;
   catalogUrl: string;
+  catalogName: string;
 }
 
-const Overview: React.FC<OverviewProps> = ({
+interface KeyOverViewProps {
+  title?: string;
+  description?: string;
+  overViewcategory?: OverviewProps[]
+}
+
+const Overview: React.FC<KeyOverViewProps> = ({
   title = "Overview",
   description,
-  catalogUrl,
+  overViewcategory,
 }) => {
   return (
     <section className="px-6 lg:px-20 py-10">
@@ -22,14 +27,22 @@ const Overview: React.FC<OverviewProps> = ({
         {description}
       </p>
 
-      <Link
-        href={catalogUrl}
+      {
+        overViewcategory?.map((category, index) => (
+        
+        <Link
+        key={index}
+        href={category.catalogUrl}
         target="_blank"
         download
-        className="inline-flex items-center gap-2 bg-white border border-gray-300 text-[#143C66] font-medium px-4 py-2 rounded-full shadow-sm hover:bg-gray-100 transition"
+        className="inline-flex items-center gap-2 bg-white border border-gray-300 text-[#143C66] font-medium px-4 py-2 rounded-full shadow-sm hover:bg-gray-100 transition mr-5"
       >
-        Download Catalog <ArrowRight size={16} />
+        {category.catalogName} <ArrowRight size={16} />
       </Link>
+    
+        ))
+      }
+     
     </section>
   );
 };

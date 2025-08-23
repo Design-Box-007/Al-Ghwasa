@@ -1,73 +1,125 @@
-import React from "react";
-import ProductHero from "./HeroCard";
-import Overview from "./OverViewCard";
-import {
-  features,
-  howToUseSteps,
-  packageContent,
-  relatedProduct,
-  software,
-  specifications,
-} from "./data";
-import Table from "./FeaturesCard";
-import StepsGrid from "./HowToUseCard";
-import SoftwareCard from "./SoftwareCard";
-import PackageContentsCard from "./PackageContentsCard";
+"use client";
+import { useParams } from "next/navigation";
+import NotFound from "@/app/not-found";
+import Table from "@/components/Categories/detail-page/FeaturesCard";
+import ProductHero from "@/components/Categories/detail-page/HeroCard";
+import StepsGrid from "@/components/Categories/detail-page/HowToUseCard";
+import Overview from "@/components/Categories/detail-page/OverViewCard";
+import PackageContentsCard from "@/components/Categories/detail-page/PackageContentsCard";
+import SoftwareCard from "@/components/Categories/detail-page/SoftwareCard";
 import CTA from "@/components/Comman/CTA";
+import CustomTable from "@/components/Comman/CustomTable";
 import ProductGrid from "@/components/Comman/ProductGrid";
+import { products } from "@/data/detail-product/product";
+import formatToHyphenated from "@/utils/formatPathName";
+import KeyFeatureCard2 from "./KeyFeaturesCard2";
 
-const Detail = () => {
+const ProductDetailPage = () => {
+  const params = useParams();
+  const product = products.find(
+    (p) => formatToHyphenated(p.name) === params.slug
+  );
+
+  if (!product) return <NotFound />;
+
   return (
     <div>
+      {/* Hero Section */}
       <ProductHero
-        name="GHS-8AT EX Monitor"
-        category="Gas Detection Monitors"
-        subName="GHS_8AT_EX_1"
-        images={[
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_2.jpg",
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_3.jpg",
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-        ]}
+        name={product.name}
+        category={product.category}
+        subName={product.subName}
+        images={product.images}
       />
-      <Overview
-        description="The GHS-8AT EX Monitor is a portable hazardous gas detection device designed for high precision and reliability in industrial and field environments. It ensures worker safety and compliance by detecting a wide range of gases with quick response times."
-        catalogUrl="/pdf/2148_ext_14_en_0.pdf"
-      />
-      <Table features={features} />;
-      <Table features={specifications} title="Technical Specifications" />
-      <StepsGrid
-        heading="How to Use – GHS-8AT EX Monitor"
-        steps={howToUseSteps}
-      />
-      <SoftwareCard title="Software" downloads={software} />
-      <PackageContentsCard title="Package Contents" items={packageContent} />
-      <CTA
-        title={
-          <span className="text-7xl font-light leading-[80px]">
-            Interested in this product?
-          </span>
-        }
-        rightDescription={
-          <span className="text-3xl">
-            Get in touch with us to know more or request a quote.
-          </span>
-        }
-        buttonText="Make an Enquiry"
-        buttonHref="/contact"
-      />
-      <ProductGrid
-        title="Related Products"
-        items={relatedProduct}
-        ctaLabel="View Accessories"
-        ctaHref="#"
-        actionVariant="arrow"
-        topDivider
-        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-        className="px-10"
-      />
+
+      {/* Overview */}
+      {(product.description || product.overViewcategory?.length) && (
+        <Overview
+          description={product.description}
+          overViewcategory={product.overViewcategory}
+        />
+      )}
+
+      {/* Features Table */}
+      {!!product.features?.length && <Table features={product.features} />}
+
+      {!!product.featureCard2?.length && <KeyFeatureCard2 title="Key Features" items={product.featureCard2} />}
+
+      {/* Technical Specs */}
+      {!!product.specifications?.length && (
+        <Table
+          features={product.specifications}
+          title="Technical Specifications"
+          showHeader={true}
+        />
+      )}
+
+      {/* Custom Table */}
+      {!!product.columns?.length && !!product.data?.length && (
+        <div className="px-20 py-10">
+          <CustomTable
+            columns={product.columns}
+            data={product.data}
+            title="Sorbent tubes"
+          />
+        </div>
+      )}
+
+      {/* Steps Grid */}
+      {!!product.howToUseSteps?.length && (
+        <StepsGrid
+          heading={`How to Use ${product.name}`}
+          steps={product.howToUseSteps}
+        />
+      )}
+
+      {/* Software Card */}
+      { !!product.software?.length && (
+        <SoftwareCard
+          title="Software"
+          downloads={product.software}
+        />
+      )}
+
+      {/* Package Contents */}
+      {!!product.packageContent?.length && (
+        <PackageContentsCard
+          title="Package Contents"
+          items={product.packageContent}
+        />
+      )}
+
+      {/* CTA Section */}
+      {product.cta && (
+        <CTA
+          title={
+            <span className="text-7xl font-light leading-[80px]">
+              {product.cta.title}
+            </span>
+          }
+          rightDescription={
+            <span className="text-3xl">{product.cta.rightDescription}</span>
+          }
+          buttonText={product.cta.buttonText}
+          buttonHref={product.cta.buttonHref}
+        />
+      )}
+
+      {/* Related Products */}
+      {!!product.relatedProduct?.length && (
+        <ProductGrid
+          title="Related Products"
+          items={product.relatedProduct}
+          ctaLabel="View Accessories"
+          ctaHref="#"
+          actionVariant="arrow"
+          topDivider
+          gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          className="px-10"
+        />
+      )}
     </div>
   );
 };
 
-export default Detail;
+export default ProductDetailPage;

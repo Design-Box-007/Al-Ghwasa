@@ -4,7 +4,6 @@ import React from "react";
 import ProductGrid from "@/components/Comman/ProductGrid";
 import data from "@/data/products/category-gastec.json"
 
-
 const DigitalMonitors: React.FC = () => {
   return (
     <ProductGrid

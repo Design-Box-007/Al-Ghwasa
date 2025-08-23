@@ -13,8 +13,8 @@ export interface Column<T> {
 }
 
 interface CustomTableProps<T = any> {
-  columns: Column<T>[];
-  data: T[];
+  columns?: Column<T>[];
+  data?: T[];
   headerBgColor?: string; // Tailwind class
   projectDocumentation?: string[];
   title?: string;
@@ -156,7 +156,7 @@ const CustomTable = <T extends { [key: string]: any }>({
   const [currentPage, setCurrentPage] = useState(1);
   const [currentRowsPerPage, setCurrentRowsPerPage] = useState(rowsPerPage);
 
-  if (!data.length || !columns.length) return null;
+  if (!data?.length || !columns?.length) return null;
 
   // Calculate pagination
   const totalPages = Math.ceil(data.length / currentRowsPerPage);

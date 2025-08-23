@@ -8,15 +8,15 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 interface ProductHeroProps {
   name: string;
   images: string[];
-  category: string;
-  subName: string;
+  category?: string;
+  subName?: string;
 }
 
 const ProductHero: React.FC<ProductHeroProps> = ({
   name,
   images,
   category,
-  subName
+  subName,
 }) => {
   const [current, setCurrent] = useState(0);
 
@@ -64,43 +64,48 @@ const ProductHero: React.FC<ProductHeroProps> = ({
             className="rounded-[30px] shadow-lg object-contain mx-auto w-full h-full"
           />
 
-          {/* Left Arrow */}
-          <button
-            onClick={prevImage}
-            className="absolute top-245 left-0 -translate-y-1/2 hover:bg-gray-100 cursor-pointer"
-          >
-            <ChevronLeft size={40}/>
-          </button>
+          {/* ✅ Only show arrows if multiple images */}
+          {images.length > 1 && (
+            <>
+              <button
+                onClick={prevImage}
+                className="absolute top-1/2 left-0 -translate-y-1/2 hover:bg-gray-100 cursor-pointer"
+              >
+                <ChevronLeft size={40} />
+              </button>
 
-          {/* Right Arrow */}
-          <button
-            onClick={nextImage}
-            className="absolute top-245 right-0 -translate-y-1/2  hover:bg-gray-100 cursor-pointer"
-          >
-            <ChevronRight size={40}/>
-          </button>
+              <button
+                onClick={nextImage}
+                className="absolute top-1/2 right-0 -translate-y-1/2 hover:bg-gray-100 cursor-pointer"
+              >
+                <ChevronRight size={40} />
+              </button>
+            </>
+          )}
         </div>
 
-        {/* Thumbnails */}
-        <div className="flex gap-4 mt-4 overflow-x-auto">
-          {images.map((img, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrent(index)}
-              className={`border-2 rounded-md p-1 ${
-                index === current ? "border-blue-500" : "border-transparent"
-              }`}
-            >
-              <Image
-                src={img}
-                alt={`${name} ${index + 1}`}
-                width={80}
-                height={80}
-                className="object-contain rounded"
-              />
-            </button>
-          ))}
-        </div>
+        {/* ✅ Show thumbnails only if multiple images */}
+        {images.length > 1 && (
+          <div className="flex gap-4 mt-4 overflow-x-auto">
+            {images.map((img, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrent(index)}
+                className={`border-2 rounded-md p-1 ${
+                  index === current ? "border-blue-500" : "border-transparent"
+                }`}
+              >
+                <Image
+                  src={img}
+                  alt={`${name} ${index + 1}`}
+                  width={80}
+                  height={80}
+                  className="object-contain rounded"
+                />
+              </button>
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );

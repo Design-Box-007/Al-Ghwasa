@@ -4,9 +4,9 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <ProductDetailPage/>
+      <ProductDetailPage />
     </div>
   )
 }
 
-export default page
+export default page 

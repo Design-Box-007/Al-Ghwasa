@@ -14,28 +14,52 @@ export const navLinks: NavLinksType[] = [
   // { navTitle: "Gastec Tube Detection Table", navHref: "/Detection-table" },
   { navTitle: "Home", navHref: "/" },
   { navTitle: "About Us", navHref: "/about" },
-  { navTitle: "Categories", navHref: "/categories" },
-  {
-    navTitle: "Products",
-    navHref: "/our-products",
-    subLinks: [
-      // {
-      //   navTitle: "MX3",
-      //   navHref: "/mx-3"
-      // },
-      { navTitle: "Gastec", navHref: "/gastec" },
-      { navTitle: "Gastec-2", navHref: "/gastec-2" },
-      { navTitle: "Product", navHref: "/product-overview" },
-      { navTitle: "Gastec Tube Detection Table", navHref: "/Detection-table" },
-      { navTitle: "Industry", navHref: "/Industry" },
-      { navTitle: "Induvial Product", navHref: "/induvial-product" },
-      { navTitle: "Gastec Generator Solutions", navHref: "/gastec-generator" },
-      { navTitle: "Passive Dosimeter Monitoring", navHref: "/passive-dosimeter" },
-      // { navTitle: "Alla France", navHref: "/frying-oil-tester" },
-      // { navTitle: "Frying Oil Tester", navHref: "/products/frying-oil-tester" },
-      // { navTitle: "Products", navHref: "/our-product" },
-    ],
-  },
+{
+  navTitle: "Our Products",
+  subLinks: [
+    {
+      navTitle: "Calibration & Regulators",
+      subLinks: [
+        { navTitle: "GASTEC Calibration Kit"},
+        { navTitle: "Adaptor / Connector"},
+        { navTitle: "Pressure Regulator" },
+      ],
+    },
+    {
+      navTitle: "Gas Detection – Hand Pumps",
+      subLinks: [
+        { navTitle: "GV-100S Hand Pump"},
+        { navTitle: "GV-110S Hand Pump"},
+      ],
+    },
+    {
+      navTitle: "Gas Detection – Passive Monitoring",
+      subLinks: [
+        { navTitle: "Dosimeter Tubes – TWA"},
+      ],
+    },
+    {
+      navTitle: "Calibration Equipment & Accessories",
+      subLinks: [
+        { navTitle: "Permeater PD-1C"},
+        { navTitle: "351A Extension Hoses"},
+        { navTitle: "Fumigation Probe 380"},
+        { navTitle: "Pyrotec Pyrolyzer 860" },
+        { navTitle: "Extension Pole 350BP-2"},
+        { navTitle: "Twin Tube Holder GV500"},
+      ],
+    },
+    {
+      navTitle: "Support Materials",
+      subLinks: [
+        { navTitle: "Product Manuals"},
+        { navTitle: "Safety Datasheets"},
+      ],
+    },
+  ],
+},
+
+
   { navTitle: "Experience Center", navHref: "/gallery" },
   { navTitle: "Blogs", navHref: "/blogs" },
 ];

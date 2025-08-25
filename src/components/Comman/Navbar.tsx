@@ -1,43 +1,60 @@
 "use client";
 
 import React, { useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { FaBars, FaPhoneAlt, FaTimes } from "react-icons/fa";
 import { navLinks } from "@/data/comman";
 import { NavLinksType } from "@/types";
-import Image from "next/image";
-import images from "@/data/assets";
+import formatToHyphenated from "@/utils/formatPathName";
+// import Image from "next/image";
+// import images from "@/data/assets";
 
 const Navbar = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [mobileDropdown, setMobileDropdown] = useState<{
     [key: string]: boolean;
   }>({});
-
+  const pathname = usePathname();
+  // const [open, setOpen] = useState<string | null>(null);
+  const isHome = pathname === "/";
+  const isBlog = pathname === "/blogs";
   const toggleMobileDropdown = (key: string) => {
     setMobileDropdown((prev) => ({ ...prev, [key]: !prev[key] }));
   };
 
   return (
-    <nav className="absolute top-[40px] w-full z-[9999]">
-      <div className="w-[95%] mx-auto rounded-[40px] backdrop-blur-md bg-black/30 border-b border-white/10">
+    <nav className={`absolute top-[40px] w-full z-[9999]`}>
+      <div className="w-[95%] mx-auto rounded-[40px]">
         <div className="max-w-full flex items-center justify-between mx-auto py-c-10 px-c-20 font-medium">
           {/* Brand */}
           <Link
             href="/"
-            className="w-[100px] text-white text-3xl font-semibold font-radjdhani"
+            className=" text-black text-3xl font-semibold font-radjdhani"
           >
-            <Image
+            {/* <Image
               src={images.Logo}
               alt="al-ghwasa"
               width={204}
               height={136}
               className="w-full h-full object-contain"
-            />
+            /> */}
+
+            <h1
+              className={`text-[#0F2E53] text-4xl font-sans ${
+                isHome || isBlog ? "text-white" : "text-[#0F2E53]"
+              }`}
+            >
+              Al Ghwasa
+            </h1>
           </Link>
 
           {/* Desktop Menu */}
-          <ul className="hidden lg:flex text-white items-center gap-6">
+          <ul
+            className={`hidden lg:flex items-center gap-6 ${
+              isHome || isBlog ? "text-white" : "text-[#0F2E53]"
+            }`}
+          >
             {navLinks.map((navlink: NavLinksType, index: number) => (
               <li key={index} className="relative group">
                 {navlink.subLinks ? (
@@ -46,49 +63,53 @@ const Navbar = () => {
                       {navlink.navTitle}
                     </span>
 
-                    {/* First-level dropdown */}
-                    <div className="absolute top-full left-0 mt-2 min-w-[200px] backdrop-blur-md bg-black/30 border-b border-white/10 text-white shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10">
-                      <ul>
-                        {navlink.subLinks.map((sublink, i) => (
-                          <li key={i} className="relative group/sub ">
-                            {sublink.subLinks ? (
-                              <>
-                                <div className="flex justify-between items-center px-4 py-2 cursor-pointer">
-                                  {sublink.navTitle}
-                                  <span className="ml-2 ">{">"}</span>
-                                </div>
-
-                                {/* Second-level dropdown */}
-                                <div
-                                  className="absolute top-0 left-full ml-1 min-w-[200px] backdrop-blur-md bg-black/30 border-b border-white/10 text-white shadow-lg rounded-lg 
-                invisible opacity-0 group-hover/sub:visible group-hover/sub:opacity-100 transition-all z-20"
-                                >
-                                  <ul>
-                                    {sublink.subLinks.map((item, j) => (
-                                      <li key={j}>
-                                        <Link
-                                          href={item.navHref || "#"}
-                                          className="block px-4 py-2"
-                                        >
-                                          {item.navTitle}
-                                        </Link>
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              </>
-                            ) : (
+                    {/* Mega Menu only for Our Products */}
+                    {navlink.navTitle === "Our Products" ? (
+                      <div className="absolute top-full left-1/2 -translate-x-1/4 mt-4 w-[950px] bg-white text-black shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10 p-6">
+                        <div className="grid grid-cols-3 gap-8">
+                          {navlink.subLinks.map((sublink, i) => (
+                            <div key={i}>
+                              <h4 className="font-semibold text-[#0a2c61] mb-3">
+                                {sublink.navTitle}
+                              </h4>
+                              <ul className="space-y-2">
+                                {sublink.subLinks?.map((item, j) => (
+                                  <li key={j}>
+                                    <Link
+                                      href={
+                                        item.navHref ||
+                                        `/categories/${formatToHyphenated(
+                                          item.navTitle
+                                        )}`
+                                      }
+                                      className="text-gray-800 hover:text-[#0a2c61] transition"
+                                    >
+                                      {item.navTitle}
+                                    </Link>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ) : (
+                      /* Normal small dropdown */
+                      <div className="absolute top-full left-0 mt-2 min-w-[200px] bg-black/70 text-white shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10">
+                        <ul>
+                          {navlink.subLinks.map((sublink, i) => (
+                            <li key={i}>
                               <Link
                                 href={sublink.navHref || "#"}
-                                className="block px-4 py-2"
+                                className="block px-4 py-2 hover:bg-white/10"
                               >
                                 {sublink.navTitle}
                               </Link>
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </>
                 ) : (
                   <Link
@@ -118,7 +139,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <button
               onClick={() => setIsMobileOpen((prev) => !prev)}
-              className="text-white focus:outline-none"
+              className="text-black focus:outline-none"
             >
               {isMobileOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
             </button>

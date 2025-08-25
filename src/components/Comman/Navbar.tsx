@@ -50,12 +50,12 @@ const Navbar = () => {
                     <div className="absolute top-full left-0 mt-2 min-w-[200px] backdrop-blur-md bg-black/30 border-b border-white/10 text-white shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10">
                       <ul>
                         {navlink.subLinks.map((sublink, i) => (
-                          <li key={i} className="relative group/sub">
+                          <li key={i} className="relative group/sub ">
                             {sublink.subLinks ? (
                               <>
                                 <div className="flex justify-between items-center px-4 py-2 cursor-pointer">
                                   {sublink.navTitle}
-                                  <span className="ml-2">{">"}</span>
+                                  <span className="ml-2 ">{">"}</span>
                                 </div>
 
                                 {/* Second-level dropdown */}

@@ -8,11 +8,11 @@ import Overview from "@/components/Categories/detail-page/OverViewCard";
 import PackageContentsCard from "@/components/Categories/detail-page/PackageContentsCard";
 import SoftwareCard from "@/components/Categories/detail-page/SoftwareCard";
 import CTA from "@/components/Comman/CTA";
-import CustomTable from "@/components/Comman/CustomTable";
 import ProductGrid from "@/components/Comman/ProductGrid";
 import { products } from "@/data/detail-product/product";
 import formatToHyphenated from "@/utils/formatPathName";
 import KeyFeatureCard2 from "./KeyFeaturesCard2";
+import KeyFeaturesCard3 from "./KeyFeaturesCard3";
 
 const ProductDetailPage = () => {
   const params = useParams();
@@ -41,28 +41,53 @@ const ProductDetailPage = () => {
       )}
 
       {/* Features Table */}
-      {!!product.features?.length && <Table features={product.features} />}
+      {!!product.features?.length && <Table title={product.tableTitle || "Key Features"} data={product.features} />}
 
-      {!!product.featureCard2?.length && <KeyFeatureCard2 title="Key Features" items={product.featureCard2} />}
+
+      {!!product.featureCard2?.length && (
+        <KeyFeatureCard2 title={product.KeyFeatureCard2Heading || "Key Feature"}  items={product.featureCard2} />
+      )}
+
+      {!!product.featureCard3?.length && (
+        <KeyFeaturesCard3
+          title="Key Features"
+          features={product.featureCard3}
+        />
+      )}
 
       {/* Technical Specs */}
       {!!product.specifications?.length && (
         <Table
-          features={product.specifications}
           title="Technical Specifications"
           showHeader={true}
+          columns={product.columns}
+          data={product.specifications}
         />
       )}
 
-      {/* Custom Table */}
-      {!!product.columns?.length && !!product.data?.length && (
-        <div className="px-20 py-10">
-          <CustomTable
-            columns={product.columns}
-            data={product.data}
-            title="Sorbent tubes"
-          />
-        </div>
+      {/* Applicable tubes */}
+      {!!product.specifications2?.length && (
+        <Table
+          title="Applicable Detector Tubes"
+          showHeader={true}
+          columns={product.columns2}
+          data={product.specifications2}
+        />
+      )}
+
+      {/* Notes */}
+      {!!product.featureCard3_2?.length && (
+        <KeyFeaturesCard3 title="Notes" features={product.featureCard3_2} />
+      )}
+
+      {/* Sorbent tubes */}
+      {!!product.data2?.length && (
+        <Table
+          title="Sorbent tubes"
+          showHeader={true}
+          columns={product.columns2}
+          data={product.data2}
+        />
       )}
 
       {/* Steps Grid */}
@@ -74,11 +99,8 @@ const ProductDetailPage = () => {
       )}
 
       {/* Software Card */}
-      { !!product.software?.length && (
-        <SoftwareCard
-          title="Software"
-          downloads={product.software}
-        />
+      {!!product.software?.length && (
+        <SoftwareCard title="Software" downloads={product.software} />
       )}
 
       {/* Package Contents */}

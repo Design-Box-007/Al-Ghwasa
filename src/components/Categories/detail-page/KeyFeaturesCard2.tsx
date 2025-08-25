@@ -9,7 +9,7 @@ interface FeatureChipsProps {
 
 const KeyFeatureCard2: React.FC<FeatureChipsProps> = ({ title, items }) => {
   return (
-    <section className="px-20">
+    <section className="px-20 py-10">
       {title && (
         <h2 className="text-5xl font-semibold mb-6 text-[#143C66]">{title}</h2>
       )}

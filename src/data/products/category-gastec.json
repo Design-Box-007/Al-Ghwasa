@@ -66,5 +66,52 @@
       "description": "Complete field sampling kit for multiple gases.",
       "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/TG_1_EN.jpg"
     }
+  ],
+
+  "Calibration-Equipment": [
+    {
+      "name": "351A Extension Hoses",
+      "description": "For remote sampling in confined spaces, connects to GV-100 / GV-110 pumps.",
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/351A_5.jpg"
+    },
+    {
+      "name": "Fumigation Probe 380",
+      "description": "For sampling residual fumigants through container seals.",
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/380_1.jpg"
+    },
+    {
+      "name": "Pyrotec Pyrolyzer 860",
+      "description": "Converts sulfuryl fluoride for detection with tubes.",
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/860_1.jpg"
+    },
+    {
+      "name": "Extension Pole 350BP-2",
+      "description": "Lightweight 2.8 m pole for extended reach sampling.",
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/Extension Pole 350BP-2.jpeg"
+    },
+    {
+      "name": "Twin Tube Holder GV500",
+      "description": "Protects twin tubes during sampling.",
+      "imgSrc": "/images/Gastec3/gas-detection-accessories/GV500_1.jpg"
+    }
+  ],
+
+  "gas-detection-passive": [
+    {
+      "name": "Dosimeter Tubes – TWA",
+      "description": "Effortlessly measure time-weighted average",
+      "imgSrc": "/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg"
+    }
+    
+  ],
+
+    "gas-detection-passive-2": [
+    {
+      "name": "Permeater PD-1C",
+      "description": "Effortlessly measure time-weighted average",
+      "imgSrc": "/images/Gastec3/gas-generator-solutions/PD_1C_2.jpg"
+    }
+    
   ]
+
 }

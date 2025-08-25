@@ -49,15 +49,22 @@ export interface DetailProduct {
   images: string[];
   description?: string;
   overViewcategory?: OverviewCategory[];
-  features?: Array<{ title: string; description: string }>;
-  specifications?: Array<{ title: string; description: string }>;
-  columns?: any[];
-  data?: any[];
+  features?: Array<(string | number)[]>;
+  specifications?: Array<(string | number)[]>;
+  columns?: string[];
+  specifications2?: Array<(string | number)[]>;
+  columns2?: string[];
+  data?: string[];
+  data2?: Array<(string | number)[]>;
+  tableTitle?: string
   howToUseSteps?: HowToUseStep[];
   softwareName?: string;
   software?: Array<{ label: string; link: string }>;
   packageContent?: string[];
   featureCard2?: string[];
+  KeyFeatureCard2Heading?: string;
+  featureCard3?: string[];
+  featureCard3_2?: string[];
   relatedProduct?: RelatedProduct[];
   /** If provided -> show CTA. If omitted -> hide CTA for this product */
   cta?: CTAData;

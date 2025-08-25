@@ -2,51 +2,58 @@
 
 import React from "react";
 
-interface Feature {
-  title: string;
-  description: string;
-}
-
-interface KeyFeaturesProps {
+interface TableProps {
   title?: string;
-  features: Feature[];
-  showHeader?: boolean; // ✅ optional heading toggle
+  showHeader?: boolean;
+  columns?: string[];
+  data?: (string | number)[][];
+  headerClassName?: string;
+  rowClassName?: string;
+  colClassName?: string;
 }
 
-const Table: React.FC<KeyFeaturesProps> = ({
+const Table: React.FC<TableProps> = ({
   title = "Key Features",
-  features,
-  showHeader = false, // default off
+  showHeader = false,
+  columns,
+  data,
+  headerClassName = "bg-gray-100",
+  rowClassName = "hover:bg-gray-200",
+  colClassName = "text-left text-[20px]",
 }) => {
   return (
     <section className="px-6 lg:px-20 pt-15">
       <h2 className="text-5xl font-semibold text-[#143C66] mb-6">{title}</h2>
       <div className="overflow-hidden rounded-lg border-2 border-gray-400">
         <table className="w-full">
-          {showHeader && ( // ✅ only show if true
+          {showHeader && (
             <thead>
-              <tr className="border-b border-gray-400">
-                <th className="px-4 py-5 text-left text-[20px] font-semibold text-gray-800 w-1/3">
-                  Category
-                </th>
-                <th className="px-4 py-5 text-left text-[20px] font-semibold text-gray-800">
-                  Details
-                </th>
+              <tr className={`border-b border-gray-400 ${headerClassName}`}>
+                {columns?.map((col, idx) => (
+                  <th
+                    key={idx}
+                    className={`px-4 py-5 font-semibold text-gray-800 ${colClassName}`}
+                  >
+                    {col}
+                  </th>
+                ))}
               </tr>
             </thead>
           )}
           <tbody>
-            {features.map((feature, index) => (
+            {data?.map((row, rowIndex) => (
               <tr
-                key={index}
-                className="border-b last:border-b-0 hover:bg-gray-200 transition"
+                key={rowIndex}
+                className={`border-b last:border-b-0 transition ${rowClassName}`}
               >
-                <td className="px-4 py-6 font-medium text-[20px] text-gray-800 w-1/3">
-                  {feature.title}
-                </td>
-                <td className="px-4 py-3 text-gray-600 text-[20px]">
-                  {feature.description}
-                </td>
+                {row.map((cell, colIndex) => (
+                  <td
+                    key={colIndex}
+                    className={`px-4 py-3 text-gray-600 ${colClassName}`}
+                  >
+                    {cell}
+                  </td>
+                ))}
               </tr>
             ))}
           </tbody>

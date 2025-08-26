@@ -36,6 +36,8 @@
 }
 
 
+
+
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -52,7 +54,7 @@ body {
 }
 
 .custom-linear-gradient-blue {
-  background: linear-gradient(360deg, #0277BD 0%, #0277BD 100%);
+  background: #0F2E53;
 }
 
 .custom-linear-gradient-white {

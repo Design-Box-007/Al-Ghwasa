@@ -17,9 +17,10 @@ const Navbar = () => {
   }>({});
   const pathname = usePathname();
   // const [open, setOpen] = useState<string | null>(null);
-  const isHome = pathname === "/";
-  const isBlog = pathname === "/blogs";
-  const isContact = pathname === "/contact";
+  const whitePages = ["/", "/blog", "/contact", "/product-page", "/gastec-2", "/induvial-product", "/product-overview", "/product-page", "/blogs"];
+
+  const isWhite = whitePages.includes(pathname);
+
   const toggleMobileDropdown = (key: string) => {
     setMobileDropdown((prev) => ({ ...prev, [key]: !prev[key] }));
   };
@@ -43,7 +44,7 @@ const Navbar = () => {
 
             <h1
               className={`text-heading text-4xl font-sans ${
-                isHome || isBlog || isContact
+                 isWhite
                   ? "lg:text-white text-heading"
                   : "text-heading"
               }`}
@@ -55,7 +56,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <ul
             className={`hidden lg:flex items-center gap-6 ${
-              isHome || isBlog || isContact ? "text-white" : "text-[#0F2E53]"
+              isWhite? "text-white" : "text-[#0F2E53]"
             }`}
           >
             {navLinks.map((navlink: NavLinksType, index: number) => (
@@ -73,9 +74,9 @@ const Navbar = () => {
                           {navlink.subLinks.map((sublink, i) => (
                             <div key={i}>
                               <Link href={`/categories`}>
-                              <h4 className="font-semibold text-[#0a2c61] mb-3">
-                                {sublink.navTitle}
-                              </h4>
+                                <h4 className="font-semibold text-[#0a2c61] mb-3">
+                                  {sublink.navTitle}
+                                </h4>
                               </Link>
                               <ul className="space-y-2">
                                 {sublink.subLinks?.map((item, j) => (
@@ -207,7 +208,12 @@ const Navbar = () => {
                                         (item: NavLinksType, k: number) => (
                                           <Link
                                             key={k}
-                                            href={item.navHref || `/categories/${formatToHyphenated(item.navTitle)}`}
+                                            href={
+                                              item.navHref ||
+                                              `/categories/${formatToHyphenated(
+                                                item.navTitle
+                                              )}`
+                                            }
                                             className="block py-1"
                                             onClick={() =>
                                               setIsMobileOpen(false)

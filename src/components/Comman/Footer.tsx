@@ -82,7 +82,7 @@ const Footer = () => {
         {/* products  */}
         <div className="w-full py- flex flex-col lg:flex-row lg:items-center justify-between gap-4 capitalize">
           <RevealComponent
-            backgroundClass="bg-custom-blue-1" // Also fix: missing `bg-` prefix
+            backgroundClass="custom-linear-gradient-blue" // Also fix: missing `bg-` prefix
             outerClass="relative inline-block overflow-hidden"
           >
             <h2 className="text-4xl lg:text-7xl capitalize text-white font-semibold">
@@ -91,7 +91,7 @@ const Footer = () => {
           </RevealComponent>
 
           <div className="flex flex-wrap gap-3 font-semibold">
-            <RevealComponent backgroundClass="bg-custom-blue-1">
+            <RevealComponent backgroundClass="custom-linear-gradient-blue">
               <ProductCTA
                 link="/gastec"
                 name="Gastec"

@@ -115,7 +115,7 @@ const ProductDetailPage = () => {
       {product.cta && (
         <CTA
           title={
-            <span className="text-7xl font-light leading-[80px]">
+            <span className="lg:text-7xl text-3xl md:text-5xl font-light lg:leading-[80px] md:leading-[50px]">
               {product.cta.title}
             </span>
           }
@@ -137,7 +137,7 @@ const ProductDetailPage = () => {
           actionVariant="arrow"
           topDivider
           gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-          className="px-10"
+          className="lg:px-10 px-5"
         />
       )}
     </div>

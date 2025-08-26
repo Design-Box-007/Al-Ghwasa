@@ -13,6 +13,7 @@
   --custom-blue-1: #0277BD;
   --custom-red-light: #FF6B6B;
   --custom-blue-2: #007DFC;
+  --heading: #143C66;
 }
 
 @theme inline {
@@ -27,6 +28,7 @@
   --font-radjdhani: var(--rajdhani);
   --font-inter: var(--inter);
   --font-poppins: var(--poppins);
+  --color-heading: var(--heading);
   --spacing-c-10: 10px;
   --spacing-c-20: 20px;
   --spacing-c-30: 30px;
@@ -40,6 +42,8 @@
     --foreground: #ededed;
   }
 } */
+
+
 
 body {
   background: var(--background);

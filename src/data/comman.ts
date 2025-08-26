@@ -14,53 +14,51 @@ export const navLinks: NavLinksType[] = [
   // { navTitle: "Gastec Tube Detection Table", navHref: "/Detection-table" },
   { navTitle: "Home", navHref: "/" },
   { navTitle: "About Us", navHref: "/about" },
-{
-  navTitle: "Our Products",
-  subLinks: [
-    {
-      navTitle: "Calibration & Regulators",
-      subLinks: [
-        { navTitle: "GASTEC Calibration Kit"},
-        { navTitle: "Adaptor / Connector"},
-        { navTitle: "Pressure Regulator" },
-      ],
-    },
-    {
-      navTitle: "Gas Detection – Hand Pumps",
-      subLinks: [
-        { navTitle: "GV-100S Hand Pump"},
-        { navTitle: "GV-110S Hand Pump"},
-      ],
-    },
-    {
-      navTitle: "Gas Detection – Passive Monitoring",
-      subLinks: [
-        { navTitle: "Dosimeter Tubes – TWA"},
-      ],
-    },
-    {
-      navTitle: "Calibration Equipment & Accessories",
-      subLinks: [
-        { navTitle: "Permeater PD-1C"},
-        { navTitle: "351A Extension Hoses"},
-        { navTitle: "Fumigation Probe 380"},
-        { navTitle: "Pyrotec Pyrolyzer 860" },
-        { navTitle: "Extension Pole 350BP-2"},
-        { navTitle: "Twin Tube Holder GV500"},
-      ],
-    },
-    {
-      navTitle: "Support Materials",
-      subLinks: [
-        { navTitle: "Product Manuals"},
-        { navTitle: "Safety Datasheets"},
-      ],
-    },
-  ],
-},
+  {
+    navTitle: "Our Products",
+    subLinks: [
+      {
+        navTitle: "Calibration & Regulators",
+        subLinks: [
+          { navTitle: "GASTEC Calibration Kit" },
+          { navTitle: "Adaptor / Connector" },
+          { navTitle: "Pressure Regulator" },
+        ],
+      },
+      {
+        navTitle: "Gas Detection – Hand Pumps",
+        subLinks: [
+          { navTitle: "GV-100S Hand Pump" },
+          { navTitle: "GV-110S Hand Pump" },
+        ],
+      },
+      {
+        navTitle: "Gas Detection – Passive Monitoring",
+        subLinks: [{ navTitle: "Dosimeter Tubes – TWA" }],
+      },
+      {
+        navTitle: "Calibration Equipment & Accessories",
+        subLinks: [
+          { navTitle: "Permeater PD-1C" },
+          { navTitle: "351A Extension Hoses" },
+          { navTitle: "Fumigation Probe 380" },
+          { navTitle: "Pyrotec Pyrolyzer 860" },
+          { navTitle: "Extension Pole 350BP-2" },
+          { navTitle: "Twin Tube Holder GV500" },
+        ],
+      },
+      {
+        navTitle: "Support Materials",
+        subLinks: [
+          { navTitle: "Product Manuals" },
+          { navTitle: "Safety Datasheets" },
+        ],
+      },
+    ],
+  },
 
-
-  { navTitle: "Experience Center", navHref: "/gallery" },
+  { navTitle: "Industries We Serve", navHref: "/gallery" },
+  { navTitle: "Resources", navHref: "/gallery" },
   { navTitle: "Blogs", navHref: "/blogs" },
 ];
 

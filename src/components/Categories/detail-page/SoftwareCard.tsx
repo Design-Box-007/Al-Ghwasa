@@ -10,16 +10,16 @@ interface SoftwareCardProps {
 
 const SoftwareCard: React.FC<SoftwareCardProps> = ({ title, downloads }) => {
   return (
-    <section className="px-20 ">
+    <section className="lg:px-20 px-5 md:px-10">
     <div className=" rounded-2xl py-4">
-      <h3 className="text-5xl font-semibold mb-8 text-[#143C66] ">{title}</h3>
+      <h3 className="lg:text-5xl text-3xl md:text-4xl font-semibold mb-8 text-heading ">{title}</h3>
 
-      <div className="flex gap-6 w-full">
+      <div className="flex lg:flex-row flex-col gap-6 w-full">
         {downloads?.map((item, index) => (
           <Link
             key={index}
             href={item.link}
-            className="flex items-center gap-2 border rounded-full px-10 py-4 text-4xl font-medium hover:bg-gray-200 transition w-full justify-between border-gray-400 text-gray-700"
+            className="flex items-center gap-2 border rounded-full px-4 py-2 lg:px-10 lg:py-4 lg:text-3xl text-[20px]  font-medium hover:bg-gray-200 transition w-full justify-between border-gray-400 text-gray-700"
             target="_blank"
           > <div>
             {item.label} 

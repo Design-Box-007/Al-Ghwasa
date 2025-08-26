@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Calibration from "./Calibration";
 import DigitalMonitors from "./MonitorsTesters";
 import GasSampling from "./SamplingPumps";
@@ -9,10 +9,21 @@ import ProductGrid from "../Comman/ProductGrid";
 import data from "@/data/products/category-gastec.json";
 
 const SearchSection = () => {
-  const [selectedProduct, setSelectedProduct] = useState<string | null>(
-    "Smoke Tester Kit"
-  );
+  const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
+ 
+   // Load from localStorage on mount
+  useEffect(() => {
+    const saved = localStorage.getItem("selectedProduct");
+    setSelectedProduct(saved || "Smoke Tester Kit"); // default fallback
+  }, []);
 
+  // Save whenever it changes
+  useEffect(() => {
+    if (selectedProduct) {
+      localStorage.setItem("selectedProduct", selectedProduct);
+    }
+  }, [selectedProduct]);
+  
   // Dummy product details (replace with your real data)
   const productDetails: Record<string, React.ReactNode> = {
     "Smoke Tester Kit": (

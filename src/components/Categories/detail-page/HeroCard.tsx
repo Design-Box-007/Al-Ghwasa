@@ -29,9 +29,9 @@ const ProductHero: React.FC<ProductHeroProps> = ({
   };
 
   return (
-    <section className="px-15 py-10 mt-30">
+    <section className="lg:px-15 px-5 py-10 mt-30 md:px-10">
       {/* Breadcrumb */}
-      <div className="text-lg text-gray-500 mb-4 space-x-1">
+      <div className="lg:text-lg text-gray-500 mb-4 space-x-1 text-sm md:text-[15px]">
         <Link href="/" className="hover:underline">
           Home
         </Link>
@@ -49,8 +49,8 @@ const ProductHero: React.FC<ProductHeroProps> = ({
 
       {/* Title */}
       <div className="flex justify-between mb-6 items-end">
-        <h1 className="text-5xl">{name}</h1>
-        <p className="text-[26px]">{subName}</p>
+        <h1 className="lg:text-5xl text-2xl lg:font-medium font-bold md:text-3xl md:font-semibold">{name}</h1>
+        <p className="lg:text-[26px]">{subName}</p>
       </div>
 
       <div className="relative flex flex-col items-center">
@@ -69,14 +69,14 @@ const ProductHero: React.FC<ProductHeroProps> = ({
             <>
               <button
                 onClick={prevImage}
-                className="absolute top-1/2 left-0 -translate-y-1/2 hover:bg-gray-100 cursor-pointer"
+                className="absolute top-1/2 left-0 -translate-y-1/2 cursor-pointer"
               >
                 <ChevronLeft size={40} />
               </button>
 
               <button
                 onClick={nextImage}
-                className="absolute top-1/2 right-0 -translate-y-1/2 hover:bg-gray-100 cursor-pointer"
+                className="absolute top-1/2 right-0 -translate-y-1/2 cursor-pointer"
               >
                 <ChevronRight size={40} />
               </button>

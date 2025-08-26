@@ -21,9 +21,9 @@ const Overview: React.FC<KeyOverViewProps> = ({
   overViewcategory,
 }) => {
   return (
-    <section className="px-6 lg:px-20 py-10">
-      <h2 className="text-5xl font-semibold text-[#143C66] mb-4">{title}</h2>
-      <p className="text-gray-700 leading-relaxed text-3xl mb-6">
+    <section className="px-6 lg:px-20 py-5">
+      <h2 className="lg:text-5xl text-3xl md:text-4xl font-semibold text-heading mb-4">{title}</h2>
+      <p className="text-gray-700 leading-relaxed lg:text-3xl md:text-2xl mb-6">
         {description}
       </p>
 
@@ -35,7 +35,7 @@ const Overview: React.FC<KeyOverViewProps> = ({
         href={category.catalogUrl}
         target="_blank"
         download
-        className="inline-flex items-center gap-2 bg-white border border-gray-300 text-[#143C66] font-medium px-4 py-2 rounded-full shadow-sm hover:bg-gray-100 transition mr-5"
+        className="inline-flex items-center gap-2 bg-white border border-gray-300 text-[#143C66] lg:font-medium px-4 py-2 rounded-full shadow-sm hover:bg-gray-100 transition mr-5"
       >
         {category.catalogName} <ArrowRight size={16} />
       </Link>

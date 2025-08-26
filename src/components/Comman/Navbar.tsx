@@ -19,6 +19,7 @@ const Navbar = () => {
   // const [open, setOpen] = useState<string | null>(null);
   const isHome = pathname === "/";
   const isBlog = pathname === "/blogs";
+  const isContact = pathname === "/contact";
   const toggleMobileDropdown = (key: string) => {
     setMobileDropdown((prev) => ({ ...prev, [key]: !prev[key] }));
   };
@@ -41,8 +42,10 @@ const Navbar = () => {
             /> */}
 
             <h1
-              className={`text-[#0F2E53] text-4xl font-sans ${
-                isHome || isBlog ? "text-white" : "text-[#0F2E53]"
+              className={`text-heading text-4xl font-sans ${
+                isHome || isBlog || isContact
+                  ? "lg:text-white text-heading"
+                  : "text-heading"
               }`}
             >
               Al Ghwasa
@@ -52,7 +55,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <ul
             className={`hidden lg:flex items-center gap-6 ${
-              isHome || isBlog ? "text-white" : "text-[#0F2E53]"
+              isHome || isBlog || isContact ? "text-white" : "text-[#0F2E53]"
             }`}
           >
             {navLinks.map((navlink: NavLinksType, index: number) => (
@@ -65,13 +68,15 @@ const Navbar = () => {
 
                     {/* Mega Menu only for Our Products */}
                     {navlink.navTitle === "Our Products" ? (
-                      <div className="absolute top-full left-1/2 -translate-x-1/4 mt-4 w-[950px] bg-white text-black shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10 p-6">
+                      <div className="absolute top-full left-0 -translate-x-1/4 mt-4 w-[95vw] max-w-[950px] bg-white text-black shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10 p-6">
                         <div className="grid grid-cols-3 gap-8">
                           {navlink.subLinks.map((sublink, i) => (
                             <div key={i}>
+                              <Link href={`/categories`}>
                               <h4 className="font-semibold text-[#0a2c61] mb-3">
                                 {sublink.navTitle}
                               </h4>
+                              </Link>
                               <ul className="space-y-2">
                                 {sublink.subLinks?.map((item, j) => (
                                   <li key={j}>
@@ -153,13 +158,23 @@ const Navbar = () => {
               <div key={i} className="w-full">
                 {navlink.subLinks ? (
                   <>
-                    <button
-                      onClick={() => toggleMobileDropdown(String(i))}
-                      className="flex justify-between w-full py-2"
-                    >
-                      {navlink.navTitle}
-                      <span>{mobileDropdown[i] ? "-" : "+"}</span>
-                    </button>
+                    {/* Parent link + toggle */}
+                    <div className="flex justify-between items-center w-full py-2">
+                      <Link
+                        href={navlink.navHref || "#"}
+                        className="flex-1"
+                        onClick={() => setIsMobileOpen(false)}
+                      >
+                        {navlink.navTitle}
+                      </Link>
+                      <button
+                        onClick={() => toggleMobileDropdown(String(i))}
+                        className="ml-2"
+                      >
+                        {mobileDropdown[i] ? "-" : "+"}
+                      </button>
+                    </div>
+
                     {mobileDropdown[i] && (
                       <div className="ml-4 mt-2 space-y-2">
                         {navlink.subLinks.map(
@@ -167,24 +182,32 @@ const Navbar = () => {
                             <div key={j}>
                               {sublink.subLinks ? (
                                 <>
-                                  <button
-                                    onClick={() =>
-                                      toggleMobileDropdown(`${i}-${j}`)
-                                    }
-                                    className="flex justify-between w-full py-1"
-                                  >
-                                    {sublink.navTitle}
-                                    <span>
+                                  {/* Second-level parent link + toggle */}
+                                  <div className="flex justify-between items-center w-full py-1">
+                                    <Link
+                                      href={sublink.navHref || `/categories/`}
+                                      className="flex-1"
+                                      onClick={() => setIsMobileOpen(false)}
+                                    >
+                                      {sublink.navTitle}
+                                    </Link>
+                                    <button
+                                      onClick={() =>
+                                        toggleMobileDropdown(`${i}-${j}`)
+                                      }
+                                      className="ml-2"
+                                    >
                                       {mobileDropdown[`${i}-${j}`] ? "-" : "+"}
-                                    </span>
-                                  </button>
+                                    </button>
+                                  </div>
+
                                   {mobileDropdown[`${i}-${j}`] && (
                                     <div className="ml-4 mt-1">
                                       {sublink.subLinks.map(
                                         (item: NavLinksType, k: number) => (
                                           <Link
                                             key={k}
-                                            href={item.navHref || "#"}
+                                            href={item.navHref || `/categories/${formatToHyphenated(item.navTitle)}`}
                                             className="block py-1"
                                             onClick={() =>
                                               setIsMobileOpen(false)

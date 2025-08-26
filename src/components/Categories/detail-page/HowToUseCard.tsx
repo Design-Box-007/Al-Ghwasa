@@ -16,9 +16,9 @@ interface StepsGridProps {
 
 const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
   return (
-    <div className="px-20 py-10">
+    <div className="lg:px-20 px-5 md:px-10 py-10">
       {/* Heading */}
-    <h2 className="text-4xl font-bold mb-6 text-[#143C66]">{heading}</h2>
+    <h2 className="lg:text-4xl text-2xl md:text-4xl font-bold mb-6 text-heading">{heading}</h2>
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {steps?.map((item, index) => (

@@ -42,26 +42,26 @@ const ProductGrid: React.FC<ProductGridProps> = ({
   topDivider = false,
 }) => {
   return (
-    <section className={`w-full bg-[#f5f5f5] py-16 ${className ?? ""}`}>
-      <div className="w-full px-4">
+    <section className={`w-full bg-[#f5f5f5] py-10 ${className ?? ""}`}>
+      <div className="w-full ">
         {topDivider ? <div className="w-full border-t border-gray-300 mb-8" /> : null}
-        <div className="flex justify-between items-start mb-12">
+        <div className="flex justify-between gap-3 items-start mb-4">
           <div className="flex-1">
             {titleTopLine ? (
               <div className="w-14 h-1.5 bg-gray-900 rounded-full mb-4" />
             ) : null}
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 text-left">{title}</h2>
+            <h2 className="lg:text-4xl text-2xl font-bold text-gray-900 mb-4 text-left">{title}</h2>
             {subtitle ? (
               <p className="text-lg text-gray-600 text-left max-w-2xl">{subtitle}</p>
             ) : null}
           </div>
           {ctaLabel ? (
-            <div className="flex-shrink-0 ml-8">
+            <div className="flex-shrink-0">
               {ctaHref ? (
                 
                 <Link
                   href={ctaHref}
-                  className="inline-flex items-center gap-3 bg-gray-800 text-white px-6 py-2 rounded-full hover:bg-gray-900 transition-colors"
+                  className="inline-flex items-center gap-3 bg-gray-800 text-white lg:px-6 lg:py-2 px-3 py-2 rounded-full hover:bg-gray-900 transition-colors"
                 >
                   <span>{ctaLabel}</span>
                   <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">

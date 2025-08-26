@@ -19,12 +19,12 @@ const Table: React.FC<TableProps> = ({
   data,
   headerClassName = "bg-gray-100",
   rowClassName = "hover:bg-gray-200",
-  colClassName = "text-left text-[20px]",
+  colClassName = "text-left lg:text-[20px] md:text-[15px]",
 }) => {
   return (
-    <section className="px-6 lg:px-20 pt-15">
-      <h2 className="text-5xl font-semibold text-[#143C66] mb-6">{title}</h2>
-      <div className="overflow-hidden rounded-lg border-2 border-gray-400">
+    <section className="px-5 md:px-10 lg:px-20 py-5">
+      <h2 className="lg:text-5xl text-3xl md:text-4xl font-semibold text-[#143C66] mb-6">{title}</h2>
+      <div className="overflow-x-scroll rounded-lg border-2 border-gray-400">
         <table className="w-full">
           {showHeader && (
             <thead>

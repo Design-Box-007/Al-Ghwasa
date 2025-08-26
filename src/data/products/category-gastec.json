@@ -102,16 +102,13 @@
       "description": "Effortlessly measure time-weighted average",
       "imgSrc": "/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg"
     }
-    
   ],
 
-    "gas-detection-passive-2": [
+  "gas-detection-passive-2": [
     {
       "name": "Permeater PD-1C",
       "description": "Effortlessly measure time-weighted average",
       "imgSrc": "/images/Gastec3/gas-generator-solutions/PD_1C_2.jpg"
     }
-    
   ]
-
 }

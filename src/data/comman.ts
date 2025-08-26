@@ -18,28 +18,27 @@ export const navLinks: NavLinksType[] = [
     navTitle: "Our Products",
     subLinks: [
       {
-        navTitle: "Calibration & Regulators",
+        navTitle: "Specialised Sampling Kits",
         subLinks: [
+          { navTitle: "GHS-8AT EX Monitor" },
+          { navTitle: "GHS-501FT Fit Tester" },
+          { navTitle: "TG-1EN Gas Sampling Kit" },
           { navTitle: "GASTEC Calibration Kit" },
-          { navTitle: "Adaptor / Connector" },
-          { navTitle: "Pressure Regulator" },
-        ],
-      },
-      {
-        navTitle: "Gas Detection – Hand Pumps",
-        subLinks: [
+          { navTitle: "GV-100LS Hand Pump" },
           { navTitle: "GV-100S Hand Pump" },
-          { navTitle: "GV-110S Hand Pump" },
         ],
       },
       {
-        navTitle: "Gas Detection – Passive Monitoring",
+        navTitle: "Gas Generator Solutions",
+        subLinks: [{ navTitle: "Permeater PD-1C" }],
+      },
+      {
+        navTitle: "Gas Detection Passive Monitoring",
         subLinks: [{ navTitle: "Dosimeter Tubes – TWA" }],
       },
       {
-        navTitle: "Calibration Equipment & Accessories",
+        navTitle: "Accessories",
         subLinks: [
-          { navTitle: "Permeater PD-1C" },
           { navTitle: "351A Extension Hoses" },
           { navTitle: "Fumigation Probe 380" },
           { navTitle: "Pyrotec Pyrolyzer 860" },
@@ -57,8 +56,8 @@ export const navLinks: NavLinksType[] = [
     ],
   },
 
-  { navTitle: "Industries We Serve", navHref: "/gallery" },
-  { navTitle: "Resources", navHref: "/gallery" },
+  { navTitle: "Industries We Serve", navHref: "/Industry" },
+  { navTitle: "Experience Center", navHref: "/gallery" },
   { navTitle: "Blogs", navHref: "/blogs" },
 ];
 

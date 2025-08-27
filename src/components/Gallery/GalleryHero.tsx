@@ -1,51 +1,69 @@
-'use client'
+"use client";
 
-import images from '@/data/assets'
-import Image from 'next/image'
-import React from 'react'
-import ProductCTA from '../Comman/ProductCTA'
-import { FaArrowRight } from 'react-icons/fa'
-import RevealComponent from '../Comman/RevealComponent'
+import Image from "next/image";
+import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+import RevealComponent from "../Comman/RevealComponent";
 
 const GalleryHero = () => {
-    return (
-        <header className='p-6 space-y-4'>
-            <RevealComponent direction='bottom' outerClass='flex flex-col lg:flex-row items-start justify-between lg:items-center py-4'>
-                <h1 className='text-3xl lg:text-5xl font-semibold'>
-                    Experience Innovation in Action
-                </h1>
-                <p className='text-lg font-light'>
-                    Experience the Power of Solutions in Action
-                </p>
-            </RevealComponent>
+  return (
+    <header className="py-10 px-10">
+      <RevealComponent
+        direction="bottom"
+        outerClass="flex flex-col lg:flex-row items-start justify-between lg:items-center py-4"
+      >
+        <h1 className="text-3xl lg:text-5xl font-semibold">
+          Experience Innovation in Action
+        </h1>
+        <p className="text-lg font-light">
+          Experience the Power of Solutions in Action
+        </p>
+      </RevealComponent>
 
-            <RevealComponent direction='bottom' outerClass='w-full h-[600px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start'>
-                <Image src={images.HomeHero1} alt={"hero-img"} width={1360} height={600} className='w-full h-full absolute inset-0 object-center object-cover z-10' />
-                <p className='relative z-20 font-inter text-base lg:text-xl'>
-                    Discover how our cutting-edge products and solutions are used across industrial, hospitality, safety, and hydration sectors. Browse through our Experience Center to see innovation at work.
-                </p>
-            </RevealComponent>
+      <RevealComponent
+        direction="bottom"
+        outerClass="w-full h-[600px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"
+      >
+        {/* Background Image */}
+        <Image
+          src="/images/Experience-Center/Frame-1171277077.png"
+          alt={"hero-img"}
+          width={1360}
+          height={600}
+          className="w-full h-full absolute inset-0 object-center object-cover z-10"
+        />
 
-            {/* Navigation Links */}
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4 py-4">
-                {/* Explore Products */}
-                <div className="flex items-center gap-2">
-                    <span>Explore our Products</span>
-                    <span className="border border-white rounded-full p-1">
-                        <FaArrowRight />
-                    </span>
-                </div>
+        {/* Gradient Overlay at Bottom */}
+        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#143C66] to-transparent z-20"></div>
 
-                {/* Product Categories */}
+        {/* Content */}
+        <div className="relative z-30 flex flex-col lg:flex-row justify-between items-center w-full gap-10">
+          <p className="font-inter text-base lg:text-xl text-white">
+            Discover how our cutting-edge products and solutions are used across
+            industrial, hospitality, safety, and hydration sectors. Browse
+            through our Experience Center to see innovation at work.
+          </p>
+
+          {/* Explore Products Button in One Line */}
+          <button className="flex items-center gap-2 font-bold whitespace-nowrap bg-white p-2.5 rounded-3xl">
+            <span>Explore our Products</span>
+            <span className="border border-white rounded-full p-1 flex items-center justify-center">
+              <FaArrowRight />
+            </span>
+          </button>
+        </div>
+      </RevealComponent>
+
+      {/* Navigation Links */}
+      {/* <div className="flex flex-col md:flex-row justify-between items-center gap-4 py-4">
                 <RevealComponent outerClass="flex flex-wrap gap-3 font-semibold">
                     <ProductCTA link="/gastec" name="Gastec" imgSrc={images.gastecSmall} className="text-custom-green-1" />
-                    {/* <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
-                    <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" /> */}
+                    <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
+                    <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" />
                 </RevealComponent>
-            </div>
+            </div> */}
+    </header>
+  );
+};
 
-        </header>
-    )
-}
-
-export default GalleryHero
+export default GalleryHero;

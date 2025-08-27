@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Calibration from "./Calibration";
 import DigitalMonitors from "./MonitorsTesters";
 import GasSampling from "./SamplingPumps";
@@ -9,102 +10,93 @@ import ProductGrid from "../Comman/ProductGrid";
 import data from "@/data/products/category-gastec.json";
 
 const SearchSection = () => {
+  const searchParams = useSearchParams();
   const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
- 
-   // Load from localStorage on mount
-  useEffect(() => {
-    const saved = localStorage.getItem("selectedProduct");
-    setSelectedProduct(saved || "Smoke Tester Kit"); // default fallback
-  }, []);
 
-  // Save whenever it changes
-  useEffect(() => {
-    if (selectedProduct) {
-      localStorage.setItem("selectedProduct", selectedProduct);
-    }
-  }, [selectedProduct]);
-  
-  // Dummy product details (replace with your real data)
   const productDetails: Record<string, React.ReactNode> = {
-    "Smoke Tester Kit": (
-      <>
+    "Specialized Sampling Kits": (
+      <div id="Specialized Sampling Kits">
         <Calibration />
         <DigitalMonitors />
         <GasSampling />
         <SpecializedKits />
-      </>
+      </div>
     ),
     "Gas Generator": (
-      <ProductGrid
-        title="Digital Monitors & Testers"
-        items={data["gas-detection-passive-2"]}
-        ctaLabel="View Tubes"
-        ctaHref="#"
-        actionVariant="arrow"
-        topDivider
-        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-      />
+      <div id="Gas Generator">
+        <ProductGrid
+          title="Digital Monitors & Testers"
+          items={data["gas-detection-passive-2"]}
+          ctaLabel="View Tubes"
+          ctaHref="#"
+          actionVariant="arrow"
+          topDivider
+          gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        />
+      </div>
     ),
-
     Accessories: (
-      <ProductGrid
-        title="Digital Monitors & Testers"
-        items={data["Calibration-Equipment"]}
-        ctaLabel="View Tubes"
-        ctaHref="#"
-        actionVariant="arrow"
-        topDivider
-        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-      />
+      <div id="Accessories">
+        <ProductGrid
+          title="Calibration Equipment & Accessories"
+          items={data["Calibration-Equipment"]}
+          ctaLabel="View Tubes"
+          ctaHref="#"
+          actionVariant="arrow"
+          topDivider
+          gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        />
+      </div>
     ),
-    "Passive Monitoring": (
-      <ProductGrid
-        title="Digital Monitors & Testers"
-        items={data["gas-detection-passive"]}
-        ctaLabel="View Tubes"
-        ctaHref="#"
-        actionVariant="arrow"
-        topDivider
-        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-      />
+    "Gas Detection Passive Monitoring": (
+      <div id="Gas Detection Passive Monitoring">
+        <ProductGrid
+          title="Gas Detection Passive Monitoring"
+          items={data["gas-detection-passive"]}
+          ctaLabel="View Tubes"
+          ctaHref="#"
+          actionVariant="arrow"
+          topDivider
+          gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        />
+      </div>
     ),
-    "Sampling Kits":
-      "Comprehensive kits for air and gas sampling in the field.",
   };
+
+  // Step 1: decide which product to show
+  useEffect(() => {
+    const categoryFromQuery = searchParams.get("category");
+    const saved = localStorage.getItem("selectedProduct");
+
+    if (categoryFromQuery && productDetails[categoryFromQuery]) {
+      setSelectedProduct(categoryFromQuery);
+    } else if (saved && productDetails[saved]) {
+      setSelectedProduct(saved);
+    } else {
+      setSelectedProduct("Specialized Sampling Kits");
+    }
+  }, [searchParams]);
+
+  // Step 2: scroll *after* render when selectedProduct changes
+  useEffect(() => {
+    if (selectedProduct) {
+      localStorage.setItem("selectedProduct", selectedProduct);
+
+      // give React time to render DOM
+      const timeout = setTimeout(() => {
+        const el = document.getElementById(selectedProduct);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }, 100);  
+
+      return () => clearTimeout(timeout);
+    }
+  }, [selectedProduct]);
 
   return (
     <div className="w-full mx-auto p-6 space-y-6">
-      {/* Search Bar */}
-      <div className="flex items-center w-full">
-        <input
-          type="text"
-          placeholder="Search by name, fields, inputs..."
-          className="flex-grow px-4 py-3 rounded-l-full border border-gray-300 focus:outline-none text-sm sm:text-base"
-        />
-        <button className="bg-[#0A2540] text-white px-6 py-3 rounded-r-full font-medium">
-          Search
-        </button>
-      </div>
-
-      {/* Radio Options */}
-      <div className="flex flex-wrap gap-10 text-sm sm:text-base">
-        <label className="flex items-center gap-2 cursor-pointer">
-          <input type="radio" name="searchType" className="accent-[#0A2540]" />
-          <span>Substance to be Measured</span>
-        </label>
-        <label className="flex items-center gap-2 cursor-pointer">
-          <input type="radio" name="searchType" className="accent-[#0A2540]" />
-          <span>Product Name</span>
-        </label>
-        <label className="flex items-center gap-2 cursor-pointer">
-          <input type="radio" name="searchType" className="accent-[#0A2540]" />
-          <span>Product Number</span>
-        </label>
-      </div>
-
       <hr />
-
-      {/* Trending Searches */}
       <div className="space-y-3">
         <h3 className="font-semibold text-lg">Trending Searches</h3>
         <div className="flex flex-wrap gap-3">
@@ -124,7 +116,6 @@ const SearchSection = () => {
         </div>
       </div>
 
-      {/* Product Details */}
       {selectedProduct && <div>{productDetails[selectedProduct]}</div>}
     </div>
   );

@@ -3,7 +3,6 @@ import { NavLinksType, SocialMediaLinks } from "@/types";
 import Link from "next/link";
 
 import React from "react";
-import ProductCTA from "./ProductCTA";
 import images from "@/data/assets";
 import Image from "next/image";
 import RevealComponent from "./RevealComponent";
@@ -35,7 +34,7 @@ const Footer = () => {
               </Link>
             </div>
             {/* Desktop Navigation Links */}
-            <ul className="rounded-[20px] flex flex-col lg:flex-row gap-2 text-white flex-[2] justify-center">
+            <ul className="rounded-[20px] flex flex-col lg:flex-row gap-2 text-white justify-center">
               {newNavLinks.map((navlink: NavLinksType, index: number) => (
                 <Link
                   href={navlink.navHref || "#"}
@@ -90,7 +89,7 @@ const Footer = () => {
             </h2>
           </RevealComponent>
 
-          <div className="flex flex-wrap gap-3 font-semibold">
+          {/* <div className="flex flex-wrap gap-3 font-semibold">
             <RevealComponent backgroundClass="custom-linear-gradient-blue">
               <ProductCTA
                 link="/gastec"
@@ -99,13 +98,13 @@ const Footer = () => {
                 className="text-custom-green-1"
               />
             </RevealComponent>
-            {/* <RevealComponent backgroundClass='bg-custom-blue-1'>
+            <RevealComponent backgroundClass='bg-custom-blue-1'>
                             <ProductCTA link="/mx-3" name="MX3" imgSrc={images.mx3Small} className="text-custom-green-1" />
                         </RevealComponent>
                         <RevealComponent backgroundClass='bg-custom-blue-1'>
                             <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" />
-                        </RevealComponent> */}
-          </div>
+                        </RevealComponent>
+          </div> */}
         </div>
 
         {/* bottom */}

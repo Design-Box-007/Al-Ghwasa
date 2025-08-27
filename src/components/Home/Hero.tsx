@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 // import ProductCTA from '../Comman/ProductCTA'
 import ProductCard from "../Comman/ProductCard";
 import { motion, AnimatePresence } from "framer-motion";
+import ProductCTA from "../Comman/ProductCTA";
 
 const productIds = [1, 2, 3];
 
@@ -80,7 +81,7 @@ const Hero = () => {
   }, []);
 
   const productCardId = productIds[activeIndex];
-  // const productCtaIds = productIds.filter((id) => id !== productCardId)
+  const productCtaIds = productIds.filter((id) => id !== productCardId)
 
   return (
     <header className="w-full bg-white pt-[150px] px-c-20 lg:p-c-20 relative">
@@ -112,7 +113,7 @@ const Hero = () => {
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <h1 className="text-3xl md:text-5xl lg:text-[64px] font-medium leading-tight tracking-wide">
+                  <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium leading-tight tracking-wide">
                     {products[productCardId].contentData.title}
                   </h1>
                   <p className="text-base md:text-xl lg:text-2xl font-normal">
@@ -142,7 +143,7 @@ const Hero = () => {
           </div>
 
           {/* Navigation Links */}
-          {/* <div className="flex flex-col md:flex-row justify-end items-center gap-6">
+          <div className="flex flex-col md:flex-row justify-end items-center gap-6">
                         <div className="flex flex-wrap justify-center md:justify-start gap-4 font-semibold text-center">
                             {productCtaIds.map((id: number) => (
                                 <ProductCTA
@@ -154,7 +155,7 @@ const Hero = () => {
                                 />
                             ))}
                         </div>
-                    </div> */}
+                    </div>
         </div>
       </div>
     </header>

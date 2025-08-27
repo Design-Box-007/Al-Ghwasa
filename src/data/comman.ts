@@ -1,4 +1,6 @@
+// import SpecializedKits from "@/components/Categories/SpecializedKits";
 import { FAQItem, NavLinksType, SocialMediaLinks } from "@/types";
+import formatToHyphenated from "@/utils/formatPathName";
 import {
   FaFacebook,
   FaLinkedin,
@@ -19,25 +21,53 @@ export const navLinks: NavLinksType[] = [
     subLinks: [
       {
         navTitle: "Specialised Sampling Kits",
+        navHref: "/categories?category=Specialized Sampling Kits",
         subLinks: [
-          { navTitle: "GHS-8AT EX Monitor" },
-          { navTitle: "GHS-501FT Fit Tester" },
-          { navTitle: "TG-1EN Gas Sampling Kit" },
-          { navTitle: "GASTEC Calibration Kit" },
-          { navTitle: "GV-100LS Hand Pump" },
-          { navTitle: "GV-100S Hand Pump" },
+          {
+            navTitle: "H2S Data Logger-GHS-8AT-EX",
+            navHref: `/categories/${formatToHyphenated("GHS-8AT EX Monitor")}`,
+          },
+          {
+            navTitle: "Automatic Air Sampling Pump GSP-501FT",
+            navHref: `/categories/${formatToHyphenated(
+              "GHS-501FT Fit Tester"
+            )}`,
+          },
+          {
+            navTitle: "Toxic gas detection kit TG-1",
+            navHref: `/categories/${formatToHyphenated(
+              "TG-1EN Gas Sampling Kit"
+            )}`,
+          },
+          {
+            navTitle: "GASTEC Compressed Breathing Air Measurement KitCG-1",
+            navHref: `/categories/${formatToHyphenated(
+              "GASTEC Calibration Kit"
+            )}`,
+          },
+          {
+            navTitle: "Gas sampling pump kit GV-100LS",
+            navHref: `/categories/${formatToHyphenated("GV-100S Hand Pump")}`,
+          },
+          {
+            navTitle: "Gas sampling pump kit GV-100S",
+            navHref: `/categories/${formatToHyphenated("GV-110S Hand Pump")}`,
+          },
         ],
       },
       {
         navTitle: "Gas Generator Solutions",
+        navHref: "/categories?category=Gas Generator",
         subLinks: [{ navTitle: "Permeater PD-1C" }],
       },
       {
         navTitle: "Gas Detection Passive Monitoring",
+        navHref: "/categories?category=Gas Detection Passive Monitoring",
         subLinks: [{ navTitle: "Dosimeter Tubes – TWA" }],
       },
       {
         navTitle: "Accessories",
+        navHref: "/categories?category=Accessories",
         subLinks: [
           { navTitle: "351A Extension Hoses" },
           { navTitle: "Fumigation Probe 380" },
@@ -51,6 +81,12 @@ export const navLinks: NavLinksType[] = [
         subLinks: [
           { navTitle: "Product Manuals" },
           { navTitle: "Safety Datasheets" },
+        ],
+      },
+      {
+        navTitle: "GASTEC Detector Tubes",
+        subLinks: [
+          { navTitle: "Detection Table", navHref: "/Detection-table" },
         ],
       },
     ],

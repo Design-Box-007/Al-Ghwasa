@@ -10,6 +10,8 @@ interface ProductHeroProps {
   images: string[];
   category?: string;
   subName?: string;
+  showBreadcrumb?: boolean;
+  className?: string
 }
 
 const ProductHero: React.FC<ProductHeroProps> = ({
@@ -17,6 +19,8 @@ const ProductHero: React.FC<ProductHeroProps> = ({
   images,
   category,
   subName,
+  showBreadcrumb = true,
+  className = ""
 }) => {
   const [current, setCurrent] = useState(0);
 
@@ -29,27 +33,35 @@ const ProductHero: React.FC<ProductHeroProps> = ({
   };
 
   return (
-    <section className="lg:px-15 px-5 py-10 mt-30 md:px-10">
-      {/* Breadcrumb */}
-      <div className="lg:text-lg text-gray-500 mb-4 space-x-1 text-sm md:text-[15px]">
-        <Link href="/" className="hover:underline">
-          Home
-        </Link>
-        <span>{">"}</span>
-        <Link href="/products" className="hover:underline">
-          Products
-        </Link>
-        <span>{">"}</span>
-        <Link href={`/products/${category}`} className="hover:underline">
-          {category}
-        </Link>
-        <span>{">"}</span>
-        <span className="text-[#143C66] font-bold">{name}</span>
-      </div>
+    <section className={className || `lg:px-15 px-5 py-10 lg:mt-30 mt-20 md:px-10`}>
+      {/* ✅ Breadcrumb (optional) */}
+      {showBreadcrumb && (
+        <div className="lg:text-lg text-gray-500 mb-4 space-x-1 text-sm md:text-[15px]">
+          <Link href="/" className="hover:underline">
+            Home
+          </Link>
+          <span>{">"}</span>
+          <Link href="/products" className="hover:underline">
+            Products
+          </Link>
+          {category && (
+            <>
+              <span>{">"}</span>
+              <Link href={`/products/${category}`} className="hover:underline">
+                {category}
+              </Link>
+            </>
+          )}
+          <span>{">"}</span>
+          <span className="text-[#143C66] font-bold">{name}</span>
+        </div>
+      )}
 
       {/* Title */}
       <div className="flex justify-between mb-6 items-end">
-        <h1 className="lg:text-5xl text-2xl lg:font-medium font-bold md:text-3xl md:font-semibold">{name}</h1>
+        <h1 className="lg:text-5xl text-2xl lg:font-medium font-bold md:text-3xl md:font-semibold">
+          {name}
+        </h1>
         <p className="lg:text-[26px]">{subName}</p>
       </div>
 
@@ -64,7 +76,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
             className="rounded-[30px] shadow-lg object-contain mx-auto w-full h-full"
           />
 
-          {/* ✅ Only show arrows if multiple images */}
+          {/* ✅ Arrows only if multiple images */}
           {images.length > 1 && (
             <>
               <button
@@ -84,7 +96,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
           )}
         </div>
 
-        {/* ✅ Show thumbnails only if multiple images */}
+        {/* ✅ Thumbnails only if multiple images */}
         {images.length > 1 && (
           <div className="flex gap-4 mt-4 overflow-x-auto">
             {images.map((img, index) => (

@@ -17,7 +17,18 @@ const Navbar = () => {
   }>({});
   const pathname = usePathname();
   // const [open, setOpen] = useState<string | null>(null);
-  const whitePages = ["/", "/blog", "/contact", "/product-page", "/gastec-2", "/induvial-product", "/product-overview", "/product-page", "/blogs"];
+  const whitePages = [
+    "/",
+    "/blog",
+    "/contact",
+    "/product-page",
+    "/gastec-2",
+    "/induvial-product",
+    "/product-overview",
+    "/product-page",
+    "/blogs",
+    "/gastec/product-data",
+  ];
 
   const isWhite = whitePages.includes(pathname);
 
@@ -44,9 +55,7 @@ const Navbar = () => {
 
             <h1
               className={`text-heading text-4xl font-sans ${
-                 isWhite
-                  ? "lg:text-white text-heading"
-                  : "text-heading"
+                isWhite ? "lg:text-white text-heading" : "text-heading"
               }`}
             >
               Al Ghwasa
@@ -56,7 +65,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <ul
             className={`hidden lg:flex items-center gap-6 ${
-              isWhite? "text-white" : "text-[#0F2E53]"
+              isWhite ? "text-white" : "text-[#0F2E53]"
             }`}
           >
             {navLinks.map((navlink: NavLinksType, index: number) => (
@@ -69,11 +78,11 @@ const Navbar = () => {
 
                     {/* Mega Menu only for Our Products */}
                     {navlink.navTitle === "Our Products" ? (
-                      <div className="absolute top-full left-0 -translate-x-1/4 mt-4 w-[95vw] max-w-[950px] bg-white text-black shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10 p-6">
+                      <div className="absolute top-full left-0 -translate-x-1/4 mt-4 w-[95vw] max-w-[1150px] bg-white text-black shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10 p-6">
                         <div className="grid grid-cols-3 gap-8">
                           {navlink.subLinks.map((sublink, i) => (
                             <div key={i}>
-                              <Link href={`/categories`}>
+                              <Link href={sublink.navHref || `/categories`}>
                                 <h4 className="font-semibold text-[#0a2c61] mb-3">
                                   {sublink.navTitle}
                                 </h4>
@@ -132,8 +141,20 @@ const Navbar = () => {
           {/* Contact Button */}
           <div className="hidden lg:block">
             <Link href="/contact">
-              <button className="bg-white rounded-4xl p-c-10 flex items-center gap-c-10">
-                <div className="rounded-full bg-custom-green-1 text-white size-[24px] p-0.5 flex items-center justify-center">
+              <button
+                className={`${
+                  isWhite
+                    ? "bg-white text-custom-blue-1"
+                    : "bg-custom-blue-1 text-white"
+                } rounded-4xl p-c-10 flex items-center gap-c-10`}
+              >
+                <div
+                  className={`rounded-full ${
+                    isWhite
+                      ? "bg-custom-blue-1 text-white"
+                      : "bg-white text-custom-blue-1"
+                  } size-[24px] p-0.5 flex items-center justify-center`}
+                >
                   <FaPhoneAlt size={16} />
                 </div>
                 <span>Contact Us</span>

@@ -9,64 +9,68 @@ import SpecializedKits from "./SpecializedKits";
 import ProductGrid from "../Comman/ProductGrid";
 import data from "@/data/products/category-gastec.json";
 
+// ✅ Moved outside so it's stable
+const productDetails: Record<string, React.ReactNode> = {
+  "Specialized Sampling Kits": (
+    <div id="Specialized Sampling Kits">
+      <Calibration />
+      <DigitalMonitors />
+      <GasSampling />
+      <SpecializedKits />
+    </div>
+  ),
+  "Gas Generator": (
+    <div id="Gas Generator">
+      <ProductGrid
+        title="Digital Monitors & Testers"
+        items={data["gas-detection-passive-2"]}
+        ctaLabel="View Tubes"
+        ctaHref="#"
+        actionVariant="arrow"
+        topDivider
+        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+      />
+    </div>
+  ),
+  Accessories: (
+    <div id="Accessories">
+      <ProductGrid
+        title="Calibration Equipment & Accessories"
+        items={data["Calibration-Equipment"]}
+        ctaLabel="View Tubes"
+        ctaHref="#"
+        actionVariant="arrow"
+        topDivider
+        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+      />
+    </div>
+  ),
+  "Gas Detection Passive Monitoring": (
+    <div id="Gas Detection Passive Monitoring">
+      <ProductGrid
+        title="Gas Detection Passive Monitoring"
+        items={data["gas-detection-passive"]}
+        ctaLabel="View Tubes"
+        ctaHref="#"
+        actionVariant="arrow"
+        topDivider
+        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+      />
+    </div>
+  ),
+};
+
 const SearchSection = () => {
   const searchParams = useSearchParams();
   const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
 
-  const productDetails: Record<string, React.ReactNode> = {
-    "Specialized Sampling Kits": (
-      <div id="Specialized Sampling Kits">
-        <Calibration />
-        <DigitalMonitors />
-        <GasSampling />
-        <SpecializedKits />
-      </div>
-    ),
-    "Gas Generator": (
-      <div id="Gas Generator">
-        <ProductGrid
-          title="Digital Monitors & Testers"
-          items={data["gas-detection-passive-2"]}
-          ctaLabel="View Tubes"
-          ctaHref="#"
-          actionVariant="arrow"
-          topDivider
-          gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-        />
-      </div>
-    ),
-    Accessories: (
-      <div id="Accessories">
-        <ProductGrid
-          title="Calibration Equipment & Accessories"
-          items={data["Calibration-Equipment"]}
-          ctaLabel="View Tubes"
-          ctaHref="#"
-          actionVariant="arrow"
-          topDivider
-          gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-        />
-      </div>
-    ),
-    "Gas Detection Passive Monitoring": (
-      <div id="Gas Detection Passive Monitoring">
-        <ProductGrid
-          title="Gas Detection Passive Monitoring"
-          items={data["gas-detection-passive"]}
-          ctaLabel="View Tubes"
-          ctaHref="#"
-          actionVariant="arrow"
-          topDivider
-          gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-        />
-      </div>
-    ),
-  };
-
   // Step 1: decide which product to show
   useEffect(() => {
     const categoryFromQuery = searchParams.get("category");
-    const saved = localStorage.getItem("selectedProduct");
+    const saved =
+      typeof window !== "undefined"
+        ? localStorage.getItem("selectedProduct")
+        : null;
 
     if (categoryFromQuery && productDetails[categoryFromQuery]) {
       setSelectedProduct(categoryFromQuery);
@@ -75,20 +79,19 @@ const SearchSection = () => {
     } else {
       setSelectedProduct("Specialized Sampling Kits");
     }
-  }, [searchParams]);
+  }, [searchParams]); 
 
-  // Step 2: scroll *after* render when selectedProduct changes
+  // Step 2: scroll *after* render
   useEffect(() => {
-    if (selectedProduct) {
+    if (selectedProduct && typeof window !== "undefined") {
       localStorage.setItem("selectedProduct", selectedProduct);
 
-      // give React time to render DOM
       const timeout = setTimeout(() => {
         const el = document.getElementById(selectedProduct);
         if (el) {
           el.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-      }, 100);  
+      }, 100);
 
       return () => clearTimeout(timeout);
     }

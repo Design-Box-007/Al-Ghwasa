@@ -12,51 +12,45 @@ import data from "@/data/products/category-gastec.json";
 // ✅ Moved outside so it's stable
 const productDetails: Record<string, React.ReactNode> = {
   "Specialized Sampling Kits": (
-    <div id="Specialized Sampling Kits">
+    <>
       <Calibration />
       <DigitalMonitors />
       <GasSampling />
       <SpecializedKits />
-    </div>
+    </>
   ),
-  "Gas Generator": (
-    <div id="Gas Generator">
-      <ProductGrid
-        title="Digital Monitors & Testers"
-        items={data["gas-detection-passive-2"]}
-        ctaLabel="View Tubes"
-        ctaHref="#"
-        actionVariant="arrow"
-        topDivider
-        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-      />
-    </div>
+  "Gas Generator Solutions": (
+    <ProductGrid
+      title="Digital Monitors & Testers"
+      items={data["gas-detection-passive-2"]}
+      ctaLabel="View Tubes"
+      ctaHref="#"
+      actionVariant="arrow"
+      topDivider
+      gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+    />
   ),
   Accessories: (
-    <div id="Accessories">
-      <ProductGrid
-        title="Calibration Equipment & Accessories"
-        items={data["Calibration-Equipment"]}
-        ctaLabel="View Tubes"
-        ctaHref="#"
-        actionVariant="arrow"
-        topDivider
-        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-      />
-    </div>
+    <ProductGrid
+      title="Calibration Equipment & Accessories"
+      items={data["Calibration-Equipment"]}
+      ctaLabel="View Tubes"
+      ctaHref="#"
+      actionVariant="arrow"
+      topDivider
+      gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+    />
   ),
   "Gas Detection Passive Monitoring": (
-    <div id="Gas Detection Passive Monitoring">
-      <ProductGrid
-        title="Gas Detection Passive Monitoring"
-        items={data["gas-detection-passive"]}
-        ctaLabel="View Tubes"
-        ctaHref="#"
-        actionVariant="arrow"
-        topDivider
-        gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-      />
-    </div>
+    <ProductGrid
+      title="Gas Detection Passive Monitoring"
+      items={data["gas-detection-passive"]}
+      ctaLabel="View Tubes"
+      ctaHref="#"
+      actionVariant="arrow"
+      topDivider
+      gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+    />
   ),
 };
 
@@ -79,23 +73,23 @@ const SearchSection = () => {
     } else {
       setSelectedProduct("Specialized Sampling Kits");
     }
-  }, [searchParams]); 
+  }, [searchParams]);
 
   // Step 2: scroll *after* render
-  useEffect(() => {
-    if (selectedProduct && typeof window !== "undefined") {
-      localStorage.setItem("selectedProduct", selectedProduct);
+  // useEffect(() => {
+  //   if (selectedProduct && typeof window !== "undefined") {
+  //     localStorage.setItem("selectedProduct", selectedProduct);
 
-      const timeout = setTimeout(() => {
-        const el = document.getElementById(selectedProduct);
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      }, 100);
+  //     const timeout = setTimeout(() => {
+  //       const el = document.getElementById(selectedProduct);
+  //       if (el) {
+  //         el.scrollIntoView({ behavior: "smooth", block: "start" });
+  //       }
+  //     }, 100);
 
-      return () => clearTimeout(timeout);
-    }
-  }, [selectedProduct]);
+  //     return () => clearTimeout(timeout);
+  //   }
+  // }, [selectedProduct]);
 
   return (
     <div className="w-full mx-auto p-6 space-y-6">

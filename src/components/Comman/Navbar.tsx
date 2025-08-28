@@ -77,9 +77,9 @@ const Navbar = () => {
                     </span>
 
                     {/* Mega Menu only for Our Products */}
-                    {navlink.navTitle === "Our Products" ? (
-                      <div className="absolute top-full left-0 -translate-x-1/4 mt-4 w-[95vw] max-w-[1150px] bg-white text-black shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10 p-6">
-                        <div className="grid grid-cols-3 gap-8">
+                    {navlink.navTitle === "Solutions" ? (
+                      <div className="absolute top-full left-[-30] -translate-x-1/3 mt-3 w-screen max-w-[1150px] bg-white text-black shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10 p-6 overflow-hidden">
+                        <div className="grid lg:grid-cols-3 gap-8">
                           {navlink.subLinks.map((sublink, i) => (
                             <div key={i}>
                               <Link href={sublink.navHref || `/categories`}>

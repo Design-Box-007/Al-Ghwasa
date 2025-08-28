@@ -34,6 +34,7 @@ export interface FAQItem {
 export interface Product {
     imgSrc: string;
     name: string;
+    href?: string;
 }
 
 export interface ProductSectionData {

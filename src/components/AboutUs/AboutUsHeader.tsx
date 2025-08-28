@@ -4,7 +4,7 @@ import RevealComponent from "../Comman/RevealComponent";
 
 const AboutUsHeader = () => {
   return (
-    <header className="overflow-auto space-y-6 px-4 sm:px-6 lg:space-y-9">
+    <header className="overflow-auto space-y-6 px-4 sm:px-6 lg:space-y-3">
       <RevealComponent
         outerClass="relative inline-block overflow-hidden flex items-center justify-center text-center w-full"
         direction="bottom"

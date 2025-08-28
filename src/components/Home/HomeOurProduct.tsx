@@ -12,6 +12,7 @@ import RevealComponent from "../Comman/RevealComponent";
 interface Products {
   imgSrc: string;
   name: string;
+  href?: string;
 }
 
 interface ProductSectionProps {
@@ -100,6 +101,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
                   <ProductCard
                     imgSrc={product.imgSrc}
                     name={product.name}
+                    href={product.href}
                     className="h-full"
                   />
                 </RevealComponent>

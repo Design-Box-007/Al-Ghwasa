@@ -60,7 +60,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
               {ctaHref ? (
                 
                 <Link
-                  href={ctaHref}
+                  href={"/Detection-table"}
                   className="inline-flex items-center gap-3 bg-gray-800 text-white lg:px-6 lg:py-2 px-3 py-2 rounded-full hover:bg-gray-900 transition-colors"
                 >
                   <span>{ctaLabel}</span>

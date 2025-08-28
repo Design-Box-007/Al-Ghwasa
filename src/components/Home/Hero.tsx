@@ -7,6 +7,7 @@ import React, { useEffect, useState } from "react";
 import ProductCard from "../Comman/ProductCard";
 import { motion, AnimatePresence } from "framer-motion";
 import ProductCTA from "../Comman/ProductCTA";
+import formatToHyphenated from "@/utils/formatPathName";
 
 const productIds = [1, 2, 3];
 
@@ -17,6 +18,7 @@ type ProductInfo = {
   className: string;
   textClass: string;
   link: string;
+  href: string;
   contentData: {
     title: string;
     subtitle: string;
@@ -27,10 +29,12 @@ const products: Record<number, ProductInfo> = {
   // 1: { imgSrc: images.oilTesterT, link: "/frying-oil-tester", bgSrc: images.oilTesterL, name: 'Frying Oil Tester', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
   // 2: { imgSrc: images.mx3T, link: "/mx-3", bgSrc: images.mx3L, name: 'Hydration Measurement', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
   1: {
-    imgSrc: images.gastec860_2,
-    link: "/gastec",
+    imgSrc:
+      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+    href: `/categories/${formatToHyphenated("GASTEC Calibration Kit")}`,
+    link: '/gastec',
     bgSrc: images.gastecL,
-    name: "GHS_8AT_EX",
+    name: "GASTEC Calibration Kit",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -41,10 +45,11 @@ const products: Record<number, ProductInfo> = {
     },
   },
   2: {
-    imgSrc: images.gastecGHS_501FT_1,
-    link: "/gastec",
+    imgSrc: "/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg",
+    href: `/categories/${formatToHyphenated("Permeater PD-1C")}`,
+    link: '/gastec',
     bgSrc: images.gastecL,
-    name: "GHS_501FT",
+    name: "Permeater PD-1C",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -55,10 +60,12 @@ const products: Record<number, ProductInfo> = {
     },
   },
   3: {
-    imgSrc: images.gastecGHS_8AT_EX_1,
-    link: "/gastec",
+    imgSrc:
+      "/images/Gastec3/gas-detection-specialized-sampling-kits/TG_1_EN.jpg",
+    href: `/categories/${formatToHyphenated("TG-1EN Gas Sampling Kit")}`,
+    link: '/gastec',
     bgSrc: images.gastecL,
-    name: "GHS_8AT_EX_1",
+    name: "Gastec Tube",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -81,11 +88,11 @@ const Hero = () => {
   }, []);
 
   const productCardId = productIds[activeIndex];
-  const productCtaIds = productIds.filter((id) => id !== productCardId)
+  const productCtaIds = productIds.filter((id) => id !== productCardId);
 
   return (
     <header className="w-full bg-white pt-[150px] px-c-20 lg:p-c-20 relative">
-      <div className="relative overflow-hidden rounded-[20px] min-h-screen lg:min-h-[700px] lg:h-[800px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row items-end gap-8">
+      <div className="relative overflow-hidden rounded-[20px] min-h-screen lg:min-h-[700px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row items-end gap-8">
         {/* Background Image */}
         <Image
           src={products[productCardId].bgSrc}
@@ -137,6 +144,7 @@ const Hero = () => {
                   imgSrc={products[productCardId].imgSrc}
                   name={products[productCardId].name}
                   className={products[productCardId].className}
+                  href={products[productCardId].href}
                 />
               </motion.div>
             </AnimatePresence>
@@ -144,18 +152,18 @@ const Hero = () => {
 
           {/* Navigation Links */}
           <div className="flex flex-col md:flex-row justify-end items-center gap-6">
-                        <div className="flex flex-wrap justify-center md:justify-start gap-4 font-semibold text-center">
-                            {productCtaIds.map((id: number) => (
-                                <ProductCTA
-                                    key={id}
-                                    link={products[id].link}
-                                    name={products[id].name}
-                                    imgSrc={products[id].imgSrc}
-                                    className={products[id].textClass}
-                                />
-                            ))}
-                        </div>
-                    </div>
+            <div className="flex flex-wrap justify-center md:justify-start gap-4 font-semibold text-center">
+              {productCtaIds.map((id: number) => (
+                <ProductCTA
+                  key={id}
+                  link={products[id].link}
+                  name={products[id].name}
+                  imgSrc={products[id].imgSrc}
+                  className={products[id].textClass}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </header>

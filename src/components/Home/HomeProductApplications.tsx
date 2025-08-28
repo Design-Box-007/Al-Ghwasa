@@ -44,12 +44,12 @@ const HomeProductApplications = () => {
             </div>
           </RevealComponent>
 
-          {/* <RevealComponent
+          <RevealComponent
             direction="bottom"
             outerClass="lg:w-[40%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={images.mx3T}
+              src={"/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg"}
               alt="grid-image"
               className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
               width={788}
@@ -57,24 +57,24 @@ const HomeProductApplications = () => {
             />
             <div className="flex items-center justify-between relative z-20 w-full">
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
-                MX3 Hydration Test
+                GASTEC Calibration Kit
               </h5>
               <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
                 <span className="capitalize">Full Experience Center</span>
               </button>
             </div>
-          </RevealComponent> */}
+          </RevealComponent>
         </div>
 
         {/* Second Row (Reversed) */}
-        {/* <div className="flex flex-col lg:flex-row-reverse gap-4 h-auto lg:h-[50vh]">
+        <div className="flex flex-col lg:flex-row-reverse gap-4 h-auto lg:h-[50vh]">
           <RevealComponent
             direction="left"
             outerClass="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={images.mx3L}
+              src={"/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg"}
               alt="grid-image"
               className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
               width={788}
@@ -82,7 +82,7 @@ const HomeProductApplications = () => {
             />
             <div className="flex items-center justify-between relative z-20 w-full">
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
-                Hydration monitoring in sports & workforce
+                GHS-8AT EX Monitor
               </h5>
               <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
@@ -96,7 +96,7 @@ const HomeProductApplications = () => {
             outerClass="lg:w-[40%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={images.oilTesterT}
+              src={"/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg"}
               alt="grid-image"
               className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
               width={788}
@@ -104,7 +104,7 @@ const HomeProductApplications = () => {
             />
             <div className="flex items-center justify-between relative z-20 w-full">
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
-                Food Solutions
+                GHS-501FT Fit Tester
               </h5>
               <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
@@ -112,7 +112,7 @@ const HomeProductApplications = () => {
               </button>
             </div>
           </RevealComponent>
-        </div> */}
+        </div>
       </div>
     </section>
   );

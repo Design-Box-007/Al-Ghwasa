@@ -5,7 +5,9 @@ import SearchSection from "./Search";
 const Categories = () => {
   return (
     <div>
-      <Hero />
+     <Suspense fallback={<div>Loading...</div>}>
+        <Hero />
+      </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <SearchSection />
       </Suspense>

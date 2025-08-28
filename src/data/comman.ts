@@ -17,7 +17,7 @@ export const navLinks: NavLinksType[] = [
   { navTitle: "Home", navHref: "/" },
   { navTitle: "About Us", navHref: "/about" },
   {
-    navTitle: "Our Products",
+    navTitle: "Solutions",
     subLinks: [
       {
         navTitle: "Specialised Sampling Kits",
@@ -57,7 +57,7 @@ export const navLinks: NavLinksType[] = [
       },
       {
         navTitle: "Gas Generator Solutions",
-        navHref: "/categories?category=Gas Generator",
+        navHref: "/categories?category=Gas Generator Solutions",
         subLinks: [{ navTitle: "Permeater PD-1C" }],
       },
       {
@@ -92,7 +92,7 @@ export const navLinks: NavLinksType[] = [
     ],
   },
 
-  { navTitle: "Industries We Serve", navHref: "/Industry" },
+  { navTitle: "Industries", navHref: "/Industry" },
   { navTitle: "Experience Center", navHref: "/gallery" },
   { navTitle: "Blogs", navHref: "/blogs" },
 ];

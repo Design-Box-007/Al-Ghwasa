@@ -29,5 +29,5 @@ export const mx3SubLinks = [
 
 
 export const gasetecSubLinks = [
-    { title: "Find the right Gastec Product", link: "/gastec/product-data", color: "#0277BD" }
+    { title: "Find the right Gastec Product", link: "/Detection-table", color: "#0277BD" }
 ]

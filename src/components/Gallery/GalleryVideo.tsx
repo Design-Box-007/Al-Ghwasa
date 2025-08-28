@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
+import { FaPlay } from "react-icons/fa";
 
 interface ResponsiveYoutubeProps {
   videoURL: string;
@@ -14,7 +15,7 @@ const ResponsiveYouTube: React.FC<ResponsiveYoutubeProps> = ({ videoURL }) => {
 
   // Extract video ID from YouTube URL
   const videoId = videoURL.split("/embed/")[1]?.split("?")[0] || "";
-  const thumbnailURL = `/images/Experience-Center/Rectangle-197.png`;
+  const thumbnailURL = `https://i.ytimg.com/vi_webp/${videoId}/maxresdefault.webp`;
 
   useEffect(() => {
     const handleResize = () => {
@@ -67,22 +68,11 @@ const ResponsiveYouTube: React.FC<ResponsiveYoutubeProps> = ({ videoURL }) => {
 
           <button
             onClick={handleThumbnailClick}
-            className="button is-play cursor-pointer bg-custom-gradient shadow-dou"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
+             w-[120px] h-[120px] flex items-center justify-center 
+             rounded-full bg-custom-gradient shadow-dou cursor-pointer"
           >
-            <div className="button-outer-circle has-scale-animation"></div>
-            <div className="button-outer-circle has-scale-animation has-delay-short"></div>
-            <div className="button-icon is-play">
-              <svg height="100%" width="100%" fill="#ffffff">
-                <polygon className="triangle" points="5,0 30,15 5,30"></polygon>
-                <path
-                  className="path"
-                  d="M5,0 L30,15 L5,30z"
-                  fill="none"
-                  stroke="#ffffff"
-                  strokeWidth="1"
-                ></path>
-              </svg>
-            </div>
+            <FaPlay className="text-white text-4xl" />
           </button>
 
           {isPopupOpen && (

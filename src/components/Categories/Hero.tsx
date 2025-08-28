@@ -60,7 +60,7 @@ const GalleryHero = () => {
 
         <div className="flex flex-col md:flex-row md:justify-between items-end lg:gap-110 gap-3.5 py-4 z-40">
           <p className="relative z-40 font-inter text-base lg:text-xl text-white">
-             {description}
+            {description}
           </p>
 
           {/* <Link

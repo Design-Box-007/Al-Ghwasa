@@ -109,6 +109,12 @@ const GallerySection = () => {
         images={[
           "/images/Experience-Center/Rectangle-197.png",
           "/images/Experience-Center/Frame-1171277077.png",
+          "/images/Experience-Center/Rectangle-197.png",
+          "/images/Experience-Center/Frame-1171277077.png",
+          "/images/Experience-Center/Rectangle-197.png",
+          "/images/Experience-Center/Frame-1171277077.png",
+          "/images/Experience-Center/Rectangle-197.png",
+          "/images/Experience-Center/Frame-1171277077.png",
         ]}
         showBreadcrumb={false}
         className="lg:mt-0 px-10"

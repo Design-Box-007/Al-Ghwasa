@@ -8,10 +8,7 @@ import Image from "next/image";
 import RevealComponent from "./RevealComponent";
 
 const Footer = () => {
-  const newNavLinks: NavLinksType[] = navLinks.filter(
-    (nav: NavLinksType) => nav.navTitle.toLowerCase() !== "products"
-  );
-
+  const newNavLinks: NavLinksType[] = navLinks 
   return (
     <footer className="h-auto lg:h-[395px] p-c-10">
       <div className="px-4 py-10 rounded-2xl h-full overflow-hidden custom-linear-gradient-blue flex flex-col justify-between gap-4">

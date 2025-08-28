@@ -41,13 +41,13 @@ const ProductHero: React.FC<ProductHeroProps> = ({
             Home
           </Link>
           <span>{">"}</span>
-          <Link href="/products" className="hover:underline">
+          <Link href="/categories" className="hover:underline">
             Products
           </Link>
           {category && (
             <>
               <span>{">"}</span>
-              <Link href={`/products/${category}`} className="hover:underline">
+              <Link href={`/categories`} className="hover:underline">
                 {category}
               </Link>
             </>

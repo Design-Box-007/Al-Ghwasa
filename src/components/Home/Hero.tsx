@@ -7,7 +7,6 @@ import React, { useEffect, useState } from "react";
 import ProductCard from "../Comman/ProductCard";
 import { motion, AnimatePresence } from "framer-motion";
 import ProductCTA from "../Comman/ProductCTA";
-import formatToHyphenated from "@/utils/formatPathName";
 
 const productIds = [1, 2, 3];
 
@@ -31,10 +30,10 @@ const products: Record<number, ProductInfo> = {
   1: {
     imgSrc:
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-    href: `/categories/${formatToHyphenated("GASTEC Calibration Kit")}`,
-    link: '/gastec',
+    href: `/categories/ghs8at-ex-monitor`,
+    link: '/categories/ghs8at-ex-monitor',
     bgSrc: images.gastecL,
-    name: "GASTEC Calibration Kit",
+    name: "H2S Data Logger-GHS-8AT-EX",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -46,10 +45,10 @@ const products: Record<number, ProductInfo> = {
   },
   2: {
     imgSrc: "/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg",
-    href: `/categories/${formatToHyphenated("Permeater PD-1C")}`,
-    link: '/gastec',
+    href: `/categories/dosimeter-tubes-twa`,
+    link: '/categories/dosimeter-tubes-twa',
     bgSrc: images.gastecL,
-    name: "Permeater PD-1C",
+    name: "Dosimeter Tubes – TWA",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -61,11 +60,11 @@ const products: Record<number, ProductInfo> = {
   },
   3: {
     imgSrc:
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/TG_1_EN.jpg",
-    href: `/categories/${formatToHyphenated("TG-1EN Gas Sampling Kit")}`,
-    link: '/gastec',
+      "/images/Gastec3/gas-generator-solutions/PD_1C_1.jpg",
+    href: `/categories/permeater-pd1c`,
+    link: '/categories/permeater-pd1c',
     bgSrc: images.gastecL,
-    name: "Gastec Tube",
+    name: "Permeater PD-1C",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {

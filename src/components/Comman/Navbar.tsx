@@ -28,6 +28,7 @@ const Navbar = () => {
     "/product-page",
     "/blogs",
     "/gastec/product-data",
+    "/categories"
   ];
 
   const isWhite = whitePages.includes(pathname);

@@ -33,7 +33,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
   };
 
   return (
-    <section className={className || `lg:px-15 px-5 py-10 lg:mt-30 mt-20 md:px-10`}>
+    <section className={className || `lg:px-15 px-5 py-10 lg:mt-20 mt-20 md:px-10`}>
       {/* ✅ Breadcrumb (optional) */}
       {showBreadcrumb && (
         <div className="lg:text-lg text-gray-500 mb-4 space-x-1 text-sm md:text-[15px]">
@@ -110,8 +110,8 @@ const ProductHero: React.FC<ProductHeroProps> = ({
                 <Image
                   src={img}
                   alt={`${name} ${index + 1}`}
-                  width={80}
-                  height={80}
+                  width={100}
+                  height={100}
                   className="object-contain rounded"
                 />
               </button>

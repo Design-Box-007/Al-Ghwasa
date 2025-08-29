@@ -6,45 +6,43 @@ import Image from 'next/image'
 import React from 'react'
 
 const ContactHero = () => {
-    return (
-        <header className="py-c-20 h-screen lg:min-h-[700px] lg:h-[800px] w-full bg-white">
-            <div className="h-full flex flex-col lg:flex-row justify-end items-end p-6 md:p-c-20 relative overflow-hidden rounded-[20px]">
-                {/* Background Image */}
-                <Image
-                    src={images.ContactUsHero}
-                    alt="home-hero"
-                    width={1024}
-                    height={768}
-                    className="absolute brightness-75 w-full h-full inset-0 z-10 object-cover object-center rounded-[20px]"
-                />
+  return (
+    <header className="relative w-full bg-white mt-[120px] lg:mt-5">
+      <div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[90vh] min-h-[450px] rounded-[20px] overflow-hidden flex items-center justify-center">
+        {/* Background Image */}
+        <Image
+          src={images.ContactUsHero}
+          alt="Contact Hero"
+          fill
+          priority
+          className="absolute inset-0 object-cover object-center brightness-75 rounded-[20px]"
+        />
 
-                {/* Hero Content */}
+        {/* Content */}
+        <div className="relative z-20 text-white text-center px-4 md:px-8">
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            viewport={{ once: true }}
+            className="text-5xl md:text-4xl lg:text-6xl font-medium mb-2"
+          >
+            Connect with
+          </motion.p>
 
-                <div className="relative z-20 text-white w-full space-y-1">
-                    <motion.p
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, ease: 'easeOut' }}
-                        viewport={{ once: true }}
-                        className="text-[20px] lg:text-[50px] font-medium"
-                    >
-                        Connect with
-                    </motion.p>
-
-                    <motion.h1
-                        initial={{ opacity: 0, y: 40 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
-                        viewport={{ once: true }}
-                        className="font-medium text-[68px] md:text-[100px] lg:text-[250px] text-white leading-[1]"
-                    >
-                        Al Ghwasa
-                    </motion.h1>
-                </div>
-
-            </div>
-        </header>
-    )
+          <motion.h1
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
+            viewport={{ once: true }}
+            className="font-bold leading-tight text-7xl md:text-6xl lg:text-[150px] xl:text-[200px]"
+          >
+            Al Ghwasa
+          </motion.h1>
+        </div>
+      </div>
+    </header>
+  )
 }
 
 export default ContactHero

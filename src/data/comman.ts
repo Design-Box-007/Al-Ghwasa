@@ -78,15 +78,16 @@ export const navLinks: NavLinksType[] = [
           { navTitle: "Twin Tube Holder GV500" },
         ],
       },
-      {
-        navTitle: "Support Materials",
-        subLinks: [
-          { navTitle: "Product Manuals" },
-          { navTitle: "Safety Datasheets" },
-        ],
-      },
+      // {
+      //   navTitle: "Support Materials",
+      //   subLinks: [
+      //     { navTitle: "Product Manuals" },
+      //     { navTitle: "Safety Datasheets" },
+      //   ],
+      // },
       {
         navTitle: "GASTEC Detector Tubes",
+        navHref: "/Detection-table",
         subLinks: [
           { navTitle: "Detection Table", navHref: "/Detection-table" },
         ],

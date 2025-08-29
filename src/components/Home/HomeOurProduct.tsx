@@ -67,7 +67,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
           <div className="flex justify-between items-center md:self-auto">
             {link && (
               <Link href={link}>
-                <button className="flex lg:hidden py-2 px-4 border border-[#4A4A4A] items-center gap-2 rounded-3xl text-sm sm:text-base">
+                <button className="flex lg:hidden py-2 px-4 border border-[#4A4A4A] items-center gap-2 rounded-3xl text-sm sm:text-base mr-5">
                   <MdExplore />
                   <span>Explore More</span>
                 </button>
@@ -89,12 +89,21 @@ const ProductSection: React.FC<ProductSectionProps> = ({
       {isOpen && (
         <div className="mt-4">
           {/* Products Grid */}
-          <div className="mt-4 overflow-x-auto">
-            <div className="flex md:justify-between gap-4 pb-2 no-scrollbar">
+          <div className="mt-4">
+            <div
+              className="
+                          grid 
+                          grid-cols-1        
+                          md:grid-cols-2     
+                          lg:grid-cols-3      
+                          gap-6 
+                          place-items-center  
+                          "
+            >
               {images.map((product, index) => (
                 <RevealComponent
                   backgroundClass="bg-background"
-                  outerClass="flex-shrink-0 h-[400px] lg:flex-1 w-[400px] lg:w-fit lg:h-[400px]"
+                  outerClass="w-full h-[400px] flex justify-center"
                   direction="bottom"
                   key={index}
                 >
@@ -102,7 +111,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
                     imgSrc={product.imgSrc}
                     name={product.name}
                     href={product.href}
-                    className="h-full"
+                    className="h-full max-w-[500px] w-full"
                   />
                 </RevealComponent>
               ))}

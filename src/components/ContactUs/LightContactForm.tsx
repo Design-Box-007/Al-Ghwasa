@@ -108,7 +108,7 @@ const LightContactFrom = () => {
                     </div>
 
                     {/* Location */}
-                    <div className="relative z-0 w-full">
+                    {/* <div className="relative z-0 w-full">
                         <select
                             {...register("product")}
                             className="peer block py-2.5 px-0 w-full text-sm text-black bg-transparent border-0 border-b-2 rounded-b-md border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1 appearance-none"
@@ -123,20 +123,20 @@ const LightContactFrom = () => {
                                 Select a product
                             </option>
                             <option className="text-black" value="gastec">Gastec</option>
-                            {/* <option className="text-black" value="mx3">MX3</option>
-                            <option className="text-black" value="oiltester">Oil Tester</option> */}
+                            <option className="text-black" value="mx3">MX3</option>
+                            <option className="text-black" value="oiltester">Oil Tester</option>
                         </select>
 
-                        {/* <label className="absolute text-lg text-custom-blue-1 duration-300 transform -translate-y-6 scale-75 top-[36px] -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                        <label className="absolute text-lg text-custom-blue-1 duration-300 transform -translate-y-6 scale-75 top-[36px] -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
                             Product
-                        </label> */}
+                        </label>
 
                         {errors.product && (
                             <p className="text-yellow-300 text-xs mt-1">
                                 {errors.product.message}
                             </p>
                         )}
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Message */}

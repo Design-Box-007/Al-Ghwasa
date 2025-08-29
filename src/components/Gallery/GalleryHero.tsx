@@ -7,7 +7,7 @@ import RevealComponent from "../Comman/RevealComponent";
 
 const GalleryHero = () => {
   return (
-    <header className="py-10 px-10">
+    <header className="py-10 lg:px-10 p-5 md:p-8">
       <RevealComponent
         direction="bottom"
         outerClass="flex flex-col lg:flex-row items-start justify-between lg:items-center py-4"
@@ -22,7 +22,7 @@ const GalleryHero = () => {
 
       <RevealComponent
         direction="bottom"
-        outerClass="w-full h-[600px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"
+        outerClass="w-full lg:h-[600px] h-[300px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"
       >
         {/* Background Image */}
         <Image
@@ -34,10 +34,10 @@ const GalleryHero = () => {
         />
 
         {/* Gradient Overlay at Bottom */}
-        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#143C66] to-transparent z-20"></div>
+        <div className="absolute inset-x-0 bottom-0 lg:h-40 h-60 bg-gradient-to-t from-[#143C66] to-transparent z-20"></div>
 
         {/* Content */}
-        <div className="relative z-30 flex flex-col lg:flex-row justify-between items-center w-full gap-10">
+        <div className="relative z-30 flex flex-col lg:flex-row justify-between items-center w-full lg:gap-10 gap-3">
           <p className="font-inter text-base lg:text-xl text-white">
             Discover how our cutting-edge products and solutions are used across
             industrial, hospitality, safety, and hydration sectors. Browse

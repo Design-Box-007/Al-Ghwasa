@@ -49,7 +49,7 @@ const ResponsiveYouTube: React.FC<ResponsiveYoutubeProps> = ({ videoURL }) => {
   return (
     <div style={{ width: "100%", maxWidth: "100%", textAlign: "center" }}>
       {width && window.innerWidth >= 900 ? (
-        <div className="w-full select-none h-[500px] relative flex justify-center items-center">
+        <div className="w-full select-none h-[700px] relative flex justify-center items-center">
           <Image
             src={thumbnailURL}
             alt="Video Thumbnail"

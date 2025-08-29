@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 
 export default function IndustryHero() {
   return (
-    <section className="pt-40 flex items-center justify-center md:px-15 px-5">
+    <section className="pt-30 flex items-center justify-center md:px-15 px-5">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-        <div className="w-full border border-gray-400 rounded-2xl p-4 flex flex-col gap-4 bg-gray-200">
+        <div className="w-full border lg:h-[600px] border-gray-400 rounded-2xl p-4 flex flex-col gap-4 bg-gray-200">
           <div className="relative w-full rounded-3xl overflow-hidden">
             <Image
               src="/images/industry-hero.jpg"

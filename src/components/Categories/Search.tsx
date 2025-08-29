@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import Calibration from "./Calibration";
 import DigitalMonitors from "./MonitorsTesters";
 import GasSampling from "./SamplingPumps";
@@ -9,7 +9,6 @@ import SpecializedKits from "./SpecializedKits";
 import ProductGrid from "../Comman/ProductGrid";
 import data from "@/data/products/category-gastec.json";
 
-// ✅ Moved outside so it's stable
 const productDetails: Record<string, React.ReactNode> = {
   "Specialized Sampling Kits": (
     <>
@@ -56,40 +55,22 @@ const productDetails: Record<string, React.ReactNode> = {
 
 const SearchSection = () => {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
 
-  // Step 1: decide which product to show
   useEffect(() => {
     const categoryFromQuery = searchParams.get("category");
-    const saved =
-      typeof window !== "undefined"
-        ? localStorage.getItem("selectedProduct")
-        : null;
-
     if (categoryFromQuery && productDetails[categoryFromQuery]) {
       setSelectedProduct(categoryFromQuery);
-    } else if (saved && productDetails[saved]) {
-      setSelectedProduct(saved);
     } else {
       setSelectedProduct("Specialized Sampling Kits");
     }
   }, [searchParams]);
 
-  // Step 2: scroll *after* render
-  // useEffect(() => {
-  //   if (selectedProduct && typeof window !== "undefined") {
-  //     localStorage.setItem("selectedProduct", selectedProduct);
-
-  //     const timeout = setTimeout(() => {
-  //       const el = document.getElementById(selectedProduct);
-  //       if (el) {
-  //         el.scrollIntoView({ behavior: "smooth", block: "start" });
-  //       }
-  //     }, 100);
-
-  //     return () => clearTimeout(timeout);
-  //   }
-  // }, [selectedProduct]);
+  const handleClick = (item: string) => {
+    setSelectedProduct(item);
+    router.push(`/categories?category=${encodeURIComponent(item)}`);
+  };
 
   return (
     <div className="w-full mx-auto p-6 space-y-6">
@@ -100,7 +81,7 @@ const SearchSection = () => {
           {Object.keys(productDetails).map((item) => (
             <button
               key={item}
-              onClick={() => setSelectedProduct(item)}
+              onClick={() => handleClick(item)}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                 selectedProduct === item
                   ? "bg-[#0A2540] text-white"

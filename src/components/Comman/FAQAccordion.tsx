@@ -14,9 +14,9 @@ const FAQAccordion: React.FC<{ faqs: FAQItem[] }> = ({ faqs }) => {
   };
 
   return (
-    <div className="p-4 w-full space-y-16 my-5 bg-white">
+    <div className="p-4 w-full space-y-10 my-5 bg-white">
       <RevealComponent backgroundClass="bg-white">
-        <h2 className="text-5xl font-medium text-black">Frequently Asked Questions</h2>
+        <h2 className="lg:text-5xl md:text-3xl text-2xl font-medium text-black">Frequently Asked Questions</h2>
       </RevealComponent>
       <div className="space-y-5">
         {faqs.map((faq, index) => (

@@ -117,7 +117,7 @@ const GallerySection = () => {
           "/images/Experience-Center/Frame-1171277077.png",
         ]}
         showBreadcrumb={false}
-        className="lg:mt-0 px-10"
+        className="lg:mt-0 lg:px-10 px-5"
       />
     </section>
   );

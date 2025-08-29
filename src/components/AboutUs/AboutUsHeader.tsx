@@ -9,9 +9,9 @@ const AboutUsHeader = () => {
         outerClass="relative inline-block overflow-hidden flex items-center justify-center text-center w-full"
         direction="bottom"
       >
-        <h1 className="font-medium text-4xl sm:text- md:text-[75px] text-black text-center leading-tight">
-          Driven by Excellence <br />
-          Since <span className="text-custom-blue-1">1988</span>
+        <h1 className="font-medium text-3xl  md:text-5xl text-black text-center leading-tight">
+          Driven by Excellence 
+          (Since <span className="text-custom-blue-1">1988)</span>
         </h1>
       </RevealComponent>
       <AboutSwiperComponent />

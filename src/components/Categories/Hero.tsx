@@ -44,9 +44,9 @@ const GalleryHero = () => {
     <header className="p-6 space-y-4 lg:mt-[1px] mt-[100px]">
       <RevealComponent
         direction="bottom"
-        outerClass="w-full lg:h-[800px] h-[350px] md:h-[450px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"
+        outerClass="w-full lg:h-[700px] h-[350px] md:h-[450px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"
       >
-        <p className="absolute px-10 top-40 left-1/2 -translate-x-1/2 z-40 text-white text-4xl lg:text-7xl lg:leading-[80px] text-center w-full">
+        <p className="absolute px-10 lg:top-40 top-10 left-1/2 -translate-x-1/2 z-40 text-white text-2xl lg:text-7xl lg:leading-[80px] text-center w-full">
           {title}
         </p>
         <Image

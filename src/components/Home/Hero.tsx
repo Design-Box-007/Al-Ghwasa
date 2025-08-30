@@ -118,8 +118,9 @@ const Hero = () => {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.5 }}
+                  className="flex flex-col gap-5"
                 >
-                  <h1 className="text-3xl md:text-4xl lg:text-[50px] font-medium leading-tight tracking-wide">
+                  <h1 className="text-2xl md:text-4xl lg:text-[50px] font-medium leading-tight tracking-wide">
                     {products[productCardId].contentData.title}
                   </h1>
                   <p className="text-base md:text-xl lg:text-2xl font-normal">

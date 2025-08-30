@@ -7,10 +7,10 @@ import RevealComponent from "../Comman/RevealComponent";
 
 const GalleryHero = () => {
   return (
-    <header className="py-10 lg:px-10 p-5 md:p-8">
+    <header className="py-5 lg:px-10 p-5">
       <RevealComponent
         direction="bottom"
-        outerClass="flex flex-col lg:flex-row items-start justify-between lg:items-center py-4"
+        outerClass="flex flex-col lg:flex-row items-start justify-between lg:items-center py-4 gap-3"
       >
         <h1 className="text-3xl lg:text-5xl font-semibold">
           Experience Innovation in Action
@@ -22,7 +22,7 @@ const GalleryHero = () => {
 
       <RevealComponent
         direction="bottom"
-        outerClass="w-full lg:h-[600px] h-[300px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"
+        outerClass="w-full lg:h-[500px] h-[400px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"
       >
         {/* Background Image */}
         <Image

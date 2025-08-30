@@ -92,14 +92,14 @@ const LightContactFrom = () => {
                 </div>
 
                 {/* Mobile & Location */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
                     {/* Mobile */}
                     <div className="relative z-0 w-full">
                         <input
                             type="text"
                             {...register("mobile")}
                             className="peer block py-2.5 px-0 w-full text-sm text-custom-blue-1 bg-transparent border-0 border-b-2 rounded-b-md border-custom-blue-1 focus:outline-none focus:ring-0 focus:border-custom-blue-1"
-                            placeholder=" "
+                            placeholder=""
                         />
                         <label className="absolute text-sm text-custom-blue-1 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
                             Mobile No

@@ -118,6 +118,8 @@ const GallerySection = () => {
         ]}
         showBreadcrumb={false}
         className="lg:mt-0 lg:px-10 px-5"
+        className2="relative h-full w-full"
+        className3="rounded w-full md:h-full h-[30px] object-cover"
       />
     </section>
   );

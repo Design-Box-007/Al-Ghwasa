@@ -45,7 +45,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
         >
           {/* Title and number */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-6 flex-1">
-            <h2 className="text-2xl md:text-3xl lg:text-[40px] font-semibold flex items-center gap-4">
+            <h2 className="md:text-3xl lg:text-[40px] font-semibold flex items-center gap-4">
               <span className="text-gray-500 text-xl md:text-2xl">
                 {number}
               </span>

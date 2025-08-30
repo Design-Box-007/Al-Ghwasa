@@ -1,18 +1,12 @@
 import { industries } from "@/data/products/industryData";
 import IndustryCard from "./IndustryCard";
-import { motion } from "framer-motion";
 
 export default function IndustryGrid() {
   return (
     <main>
       <div className="lg:mx-20 mx-10 py-16 mt-5.5">
         {/* Header Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, ease: "easeOut" }}
-          viewport={{ once: true }}
-        >
+        <div>
           <div className="text-center mb-[70px]">
             <h1 className="font-dm-sans font-semibold text-4xl md:text-7xl leading-[1.302] text-black mb-4 mx-auto">
               Tailored Solutions for Every Industry
@@ -22,16 +16,10 @@ export default function IndustryGrid() {
               comes to detecting and measuring hazardous gases.
             </p>
           </div>
-        </motion.div>
+        </div>
 
         {/* Industry Grid */}
-        <motion.div
-          initial={{ scale: 1.02, opacity: 0 }}
-          whileInView={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1.4, ease: "easeOut" }}
-          viewport={{ once: true }}
-          
-        >
+        <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 ">
             {industries.map((industry, index) => (
               <IndustryCard
@@ -42,7 +30,7 @@ export default function IndustryGrid() {
               />
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </main>
   );

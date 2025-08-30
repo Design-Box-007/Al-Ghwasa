@@ -103,13 +103,16 @@ export const navLinks: NavLinksType[] = [
 export const socialMedia: SocialMediaLinks[] = [
   {
     icon: FaFacebook,
-    link: "https://www.facebook.com/profile.php?id=100069135072790",
+    link: "https://www.facebook.com/search/top?q=al%20ghwasa%20technical%20equipment%20trading%20llc",
   },
-  { icon: FaLinkedin, link: "https://x.com/Spacesculpt_uae " },
+  {
+    icon: FaLinkedin,
+    link: "https://www.linkedin.com/company/al-ghwasa-technical-equipment-trading-llc/",
+  },
   { icon: FaInstagram, link: "https://instagram.com" },
   { icon: FaXTwitter, link: "https://x.com/Spacesculpt_uae" },
   { icon: FaMedium, link: "https://medium.com/@Spacesculp" },
-  { icon: FaYoutube, link: "https://www.youtube.com/@AlGhwasa" },
+  { icon: FaYoutube, link: "https://www.youtube.com/@alghwasa" },
 ];
 
 export const homePagefaqs: FAQItem[] = [

@@ -9,9 +9,9 @@ import images from '@/data/assets';
 
 const HeroSection: React.FC = () => {
   return (
-    <header className="relative min-h-[720px] lg:min-h-[820px] rounded-3xl overflow-hidden mt-8 sm:mt-10 lg:mt-40 mx-4 sm:mx-6 lg:mx-8">
+    <header className="relative lg:min-h-[600px] rounded-3xl overflow-hidden mt-[110px] lg:mt-30 mx-4 sm:mx-6 lg:mx-8 h-[400px] md:h-[600px]">
       {/* Gradient background */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#0F2D46] via-[#214265] to-[#F2F5F8]" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#0F2D46] via-[#214265] to-[#121213]" />
 
       {/* Detector tubes image anchored to bottom center */}
       <div className="absolute inset-x-0 bottom-0 z-[1] flex justify-center pointer-events-none select-none">
@@ -32,7 +32,7 @@ const HeroSection: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-white font-semibold tracking-tight text-[38px] sm:text-5xl lg:text-6xl xl:text-[60px] leading-[1.1]"
+            className="text-white font-semibold tracking-tight text-[25px] lg:text-6xl md:text-[45px] leading-[1.1]"
           >
             GASTEC Detector Tubes for Fast,
             <br className="hidden sm:block" /> Accurate Results
@@ -46,7 +46,7 @@ const HeroSection: React.FC = () => {
           >
             <Link
               href="/gastec/product-data"
-              className="group inline-flex items-center justify-between gap-4 rounded-full bg-white text-[#0F2F4D] px-6 md:px-8 py-3 md:h-12 font-medium shadow-md hover:bg-gray-50 transition-colors"
+              className="group inline-flex items-center justify-between gap-4 rounded-full bg-white text-[#0F2F4D] lg:px-6 px-3 md:px-8 py-2 md:h-12 font-medium shadow-md hover:bg-gray-50 transition-colors"
             >
               <span className="text-base md:text-lg">Browse Detector Tubes</span>
               <span className="grid place-items-center w-8 h-8 rounded-full bg-[#0F2F4D] text-white transition-transform group-hover:scale-105">
@@ -59,7 +59,7 @@ const HeroSection: React.FC = () => {
 
       {/* Bottom corner captions overlaid on the image */}
       <div className="absolute inset-x-0 bottom-25 px-6 z-[3]">
-        <div className="flex items-end justify-between text-black text-sm sm:text-base font-medium max-w-[1360px] mx-auto">
+        <div className="flex items-center justify-between text-white text-sm sm:text-base font-medium max-w-[1360px] mx-auto">
           <p className="max-w-[260px] leading-tight">
             Measure Over 500 Gases<br />
             with Proven GASTEC Precision

@@ -40,7 +40,7 @@ const ProductPageCTA: React.FC<ProductPageCTAProps> = ({ items }) => {
                                     borderColor: data.color,
                                 }}
                             >
-                                <h5 className="text-3xl sm:text-4xl font-bold">{data.title}</h5>
+                                <h5 className="lg:text-4xl md:text-3xl text-xl font-bold">{data.title}</h5>
                                 <div className="text-lg sm:text-xl font-light flex justify-between">
                                     <span>Click here to know more</span>
                                     <FaArrowRight />

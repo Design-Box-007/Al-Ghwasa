@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 const BlogHero = () => {
     return (
         <header className="w-full bg-white pt-[140px] px-c-20 lg:p-c-20 relative">
-            <div className="relative overflow-hidden rounded-[20px] lg:h-screen h-[400px] md:h-[500px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row justify-center lg:justify-start items-end gap-8">
+            <div className="relative overflow-hidden rounded-[20px] lg:h-[700px] h-[300px] md:h-[600px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row justify-center lg:justify-start items-end gap-8">
                 {/* Background Image */}
                 <Image
                     src={images.gastecL}

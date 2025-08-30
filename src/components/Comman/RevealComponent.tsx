@@ -51,7 +51,7 @@ const RevealComponent: React.FC<RevealComponentProps> = ({
                 className={`absolute z-[90] ${backgroundClass}`}
                 style={getInitialStyle(direction)}
                 initial={getInitialStyle(direction)}
-                whileInView={getAnimateStyle(direction)}
+                animate={getAnimateStyle(direction)}
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 2.5, ease: 'easeOut' }}
             />

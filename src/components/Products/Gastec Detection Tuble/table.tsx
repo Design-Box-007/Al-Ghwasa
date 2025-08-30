@@ -113,7 +113,7 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
     });
 
     return (
-        <section className='relative w-full bg-[#F1F1F1] rounded-[20px] p-9 pt-20 mt-30'>
+        <section className='relative w-full bg-[#F1F1F1] rounded-[20px] p-9 pt-20 mt-30 '>
             <FilterProducts
                 selectedCategory={selectedCategory}
                 setSelectedCategory={setSelectedCategory}
@@ -123,7 +123,7 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
             />
 
             {/* Render filtered data */}
-            <div className="w-full">
+            <div className="w-full md:mt-20 mt-60">
                 <CustomTable data={filteredData} columns={columns} />
             </div>
         </section>

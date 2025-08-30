@@ -1,4 +1,3 @@
-import images from "@/data/assets";
 import Image from "next/image";
 import React from "react";
 import { FaLightbulb } from "react-icons/fa";
@@ -24,12 +23,12 @@ const HomeProductApplications = () => {
 
       <div className="mt-10 space-y-6">
         {/* First Row */}
-        <div className="flex flex-col lg:flex-row gap-4 h-auto lg:h-[50vh]">
+        <div className="flex flex-col lg:flex-row gap-4 h-auto lg:h-[75vh]">
           <RevealComponent outerClass="w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]">
             <Image
-              src={images.gastecL}
+              src={"/images/Home/Experience-Center-1.png"}
               alt="grid-image"
-              className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
+              className="absolute z-10 inset-0 brightness-[.9] w-full h-full object-cover"
               width={788}
               height={469}
             />
@@ -46,12 +45,12 @@ const HomeProductApplications = () => {
 
           <RevealComponent
             direction="bottom"
-            outerClass="lg:w-[40%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
+            outerClass="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={"/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg"}
+              src={"/images/Home/Experience-Center-2.png"}
               alt="grid-image"
-              className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
+              className="absolute z-10 inset-0 brightness-[.9] w-full h-full object-cover"
               width={788}
               height={469}
             />
@@ -74,9 +73,9 @@ const HomeProductApplications = () => {
             outerClass="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={"/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg"}
+              src={"/images/Home/Experience-Center-4.png"}
               alt="grid-image"
-              className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
+              className="absolute z-10 inset-0 brightness-[.9] w-full h-full object-cover"
               width={788}
               height={469}
             />
@@ -96,9 +95,9 @@ const HomeProductApplications = () => {
             outerClass="lg:w-[40%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={"/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg"}
+              src={"/images/Home/Experience-Center-3.png"}
               alt="grid-image"
-              className="absolute z-10 inset-0 brightness-[.4] w-full h-full object-cover"
+              className="absolute z-10 inset-0 brightness-[.9] w-full h-full object-cover"
               width={788}
               height={469}
             />

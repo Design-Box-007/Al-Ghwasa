@@ -12,6 +12,8 @@ interface ProductHeroProps {
   subName?: string;
   showBreadcrumb?: boolean;
   className?: string
+  className2?: string
+  className3?: string
 }
 
 const ProductHero: React.FC<ProductHeroProps> = ({
@@ -20,7 +22,9 @@ const ProductHero: React.FC<ProductHeroProps> = ({
   category,
   subName,
   showBreadcrumb = true,
-  className = ""
+  className = "",
+  className2 = "",
+  className3 = "",
 }) => {
   const [current, setCurrent] = useState(0);
 
@@ -67,13 +71,13 @@ const ProductHero: React.FC<ProductHeroProps> = ({
 
       <div className="relative flex flex-col items-center">
         {/* Main Image */}
-        <div className="relative w-full h-full">
+        <div className={ className2 || `relative lg:w-[900px] lg:h-[500px]`}>
           <Image
             src={images[current]}
             alt={name}
             width={2000}
             height={700}
-            className="rounded-[30px] shadow-lg object-contain mx-auto w-full h-full"
+            className="rounded-[30px] shadow-lg object-cover mx-auto w-full h-full"
           />
 
           {/* ✅ Arrows only if multiple images */}
@@ -112,7 +116,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
                   alt={`${name} ${index + 1}`}
                   width={100}
                   height={100}
-                  className="object-contain rounded"
+                  className={className3 || `rounded w-full h-full object-cover"`}
                 />
               </button>
             ))}

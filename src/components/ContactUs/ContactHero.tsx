@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import images from '@/data/assets'
 import Image from 'next/image'
 import React from 'react'
 
@@ -11,7 +10,7 @@ const ContactHero = () => {
       <div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[90vh] min-h-[450px] rounded-[20px] overflow-hidden flex items-center justify-center">
         {/* Background Image */}
         <Image
-          src={images.ContactUsHero}
+          src={"/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg"}
           alt="Contact Hero"
           fill
           priority

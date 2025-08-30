@@ -26,10 +26,10 @@ const AboutUsSecond = () => {
   ];
 
   return (
-    <section className="space-y-4 py-5 px-c-20">
+    <section className="space-y-7 px-c-20">
       <div className="flex flex-col gap-4">
         <motion.h1
-          className="font-medium text-4xl lg:text-[60px] flex-1"
+          className="font-medium text-3xl md:text-4xl lg:text-[60px] flex-1"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, amount: 0.5 }}

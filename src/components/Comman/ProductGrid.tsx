@@ -45,7 +45,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
     <section className={`w-full bg-[#f5f5f5] py-10 ${className ?? ""}`}>
       <div className="w-full ">
         {topDivider ? <div className="w-full border-t border-gray-300 mb-8" /> : null}
-        <div className="flex justify-between gap-3 items-start mb-4">
+        <div className="flex lg:justify-between lg:flex-row flex-col gap-2 items-start mb-6">
           <div className="flex-1">
             {titleTopLine ? (
               <div className="w-14 h-1.5 bg-gray-900 rounded-full mb-4" />

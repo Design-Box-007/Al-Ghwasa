@@ -350,7 +350,6 @@ const chemicalFormulas:{ [key: string]: string } = {
   return (
     <section className="space-y-8">
       <HeroSection />
-      
       <ReusableTable
         data={detectionTubeData}
         columns={columns}

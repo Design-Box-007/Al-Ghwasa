@@ -1,19 +1,22 @@
-import React from 'react'
-import ProductHero from './ProductHero'
-import ProductDataTable from './ProductDataTable'
-import GastecContactForm from './GastecContactForm'
-import { GastecDataProvider } from '@/context/GastecDataContext'
+import React from "react";
+import ProductHero from "./ProductHero";
+import ProductDataTable from "./ProductDataTable";
+import GastecContactForm from "./GastecContactForm";
+import { GastecDataProvider } from "@/context/GastecDataContext";
 
 const GastecProduct = () => {
-    return (
-        <main className='pt-[140px] bg-white px-5 lg:py-4 space-y-10'>
-            <ProductHero />
-            <GastecDataProvider>
-                <ProductDataTable />
-                <GastecContactForm className='bg-[#00897B]' btnClassName='text-[#00897B]' />
-            </GastecDataProvider>
-        </main>
-    )
-}
+  return (
+    <main className="pt-[140px] bg-white px-5 lg:py-4 space-y-10">
+      <ProductHero />
+      <GastecDataProvider>
+        <ProductDataTable />
+        <GastecContactForm
+          className="bg-[#00897B]"
+          btnClassName="text-[#00897B]"
+        />
+      </GastecDataProvider>
+    </main>
+  );
+};
 
-export default GastecProduct
+export default GastecProduct;

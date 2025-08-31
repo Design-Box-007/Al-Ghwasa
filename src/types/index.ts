@@ -1,100 +1,110 @@
 import { IconType } from "react-icons";
 
 export interface NavLinksType {
-    navTitle: string;
-    navHref?: string;
-    subLinks?: NavLinksType[]; // Allow nesting
+  navTitle: string;
+  navHref?: string;
+  subLinks?: NavLinksType[]; // Allow nesting
 }
 
 export interface SocialMediaLinks {
-    link: string;
-    icon: IconType;
+  link: string;
+  icon: IconType;
 }
 
 export interface Assets {
-    [key: string]: string;
+  [key: string]: string;
 }
 
 export interface ContactForm {
-    name: string;
-    email: string;
-    mobile: string;
-    product: string;
-    message: string;
+  name: string;
+  email: string;
+  mobile: string;
+  product: string;
+  message: string;
 }
 
 export type GastecContactForm = Omit<ContactForm, "product">;
-
+export type DetectionContactForm = Omit<ContactForm, "product">;
 
 export interface FAQItem {
-    question: string;
-    answer: string;
+  question: string;
+  answer: string;
 }
 
 export interface Product {
-    imgSrc: string;
-    name: string;
-    href?: string;
+  imgSrc: string;
+  name: string;
+  href?: string;
 }
 
 export interface ProductSectionData {
-    number: string;
-    title: string;
-    link:string;
-    images: Product[];
+  number: string;
+  title: string;
+  link: string;
+  images: Product[];
 }
 
 export interface Blog {
-    title: string;
-    description: string;
-    imgSrc: string;
-    component: string;
+  title: string;
+  description: string;
+  imgSrc: string;
+  component: string;
 }
 
-export interface mx3DataType extends Omit<Blog, 'description'> { linkName: string }
-
+export interface mx3DataType extends Omit<Blog, "description"> {
+  linkName: string;
+}
 
 export interface ProductFilterBtnProps {
-    title: string;
-    icon?: IconType;
-    isActive?: boolean;
-    images?: string[];
-    btnColor?: string;
-    onClick?: () => void;
+  title: string;
+  icon?: IconType;
+  isActive?: boolean;
+  images?: string[];
+  btnColor?: string;
+  onClick?: () => void;
 }
 export interface IFeature {
-    title: string;
-    description?: string;
-    icon: string | IconType;
+  title: string;
+  description?: string;
+  icon: string | IconType;
 }
 
 export interface IHowItWorks {
-    description: string;
-    sliderData: {
-        imgSrc: string;
-        content?: string;
-    }[];
+  description: string;
+  sliderData: {
+    imgSrc: string;
+    content?: string;
+  }[];
 }
 export interface TableData {
-    [columnName: string]: (string | number)[];
+  [columnName: string]: (string | number)[];
 }
 export interface TestimonialCard {
-    imageSrc: string;
-    userImageSrc: string;
-    userName: string;
-    userRole: string;
-    testimonial: string;
+  imageSrc: string;
+  userImageSrc: string;
+  userName: string;
+  userRole: string;
+  testimonial: string;
 }
 export interface FeatureClassName {
-    featureClass?: string;
-    imageClass?: string;
-    iconClass?: string;
-    titleClass?: string;
-    contentClass?: string;
+  featureClass?: string;
+  imageClass?: string;
+  iconClass?: string;
+  titleClass?: string;
+  contentClass?: string;
 }
 export interface GastecDataType {
-    tubeId: string
-    name: string
-    category: string
+  tubeId: string;
+  name: string;
+  category: string;
 }
 
+export interface DetectionTubeItem {
+  tube_no: string; // e.g. "92"
+  tube_name: string; // e.g. "Acetaldehyde"
+  measuring_range: string; // e.g. "5-750"
+  scale_range: string; // e.g. "10-300"
+  no_test_per_box: string; // e.g. "10"
+  tube_type: string; // e.g. "Short-term measurement"
+  tube_model: string;
+}

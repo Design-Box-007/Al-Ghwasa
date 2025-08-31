@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -11,9 +11,9 @@ interface ProductHeroProps {
   category?: string;
   subName?: string;
   showBreadcrumb?: boolean;
-  className?: string
-  className2?: string
-  className3?: string
+  className?: string;
+  className2?: string;
+  className3?: string;
 }
 
 const ProductHero: React.FC<ProductHeroProps> = ({
@@ -27,17 +27,44 @@ const ProductHero: React.FC<ProductHeroProps> = ({
   className3 = "",
 }) => {
   const [current, setCurrent] = useState(0);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   const prevImage = () => {
-    setCurrent((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+    setCurrent((prev) => {
+      const newIndex = prev === 0 ? images.length - 1 : prev - 1;
+      scrollToThumbnail(newIndex);
+      return newIndex;
+    });
   };
 
   const nextImage = () => {
-    setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+    setCurrent((prev) => {
+      const newIndex = prev === images.length - 1 ? 0 : prev + 1;
+      scrollToThumbnail(newIndex);
+      return newIndex;
+    });
+  };
+
+  // ✅ Smooth scroll to thumbnail when main image changes
+  const scrollToThumbnail = (index: number) => {
+    const container = scrollRef.current;
+    if (!container) return;
+
+    const thumbnail = container.children[index] as HTMLElement;
+    if (thumbnail) {
+      container.scrollTo({
+        left: thumbnail.offsetLeft - container.clientWidth / 2 + thumbnail.clientWidth / 2,
+        behavior: "smooth",
+      });
+    }
   };
 
   return (
-    <section className={className || `lg:px-15 px-5 py-10 lg:mt-20 mt-20 md:px-10`}>
+    <section
+      className={
+        className || `lg:px-15 px-5 py-10 lg:mt-20 mt-20 md:px-10`
+      }
+    >
       {/* ✅ Breadcrumb (optional) */}
       {showBreadcrumb && (
         <div className="lg:text-lg text-gray-500 mb-4 space-x-1 text-sm md:text-[15px]">
@@ -71,7 +98,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
 
       <div className="relative flex flex-col items-center">
         {/* Main Image */}
-        <div className={ className2 || `relative lg:w-[900px] lg:h-[500px]`}>
+        <div className={className2 || `relative lg:w-[900px] lg:h-[500px]`}>
           <Image
             src={images[current]}
             alt={name}
@@ -80,7 +107,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
             className="rounded-[30px] shadow-lg object-cover mx-auto w-full h-full"
           />
 
-          {/* ✅ Arrows only if multiple images */}
+          {/* ✅ Use same arrows to also scroll thumbnails */}
           {images.length > 1 && (
             <>
               <button
@@ -100,14 +127,20 @@ const ProductHero: React.FC<ProductHeroProps> = ({
           )}
         </div>
 
-        {/* ✅ Thumbnails only if multiple images */}
+        {/* ✅ Thumbnails Row (scrollable in one row) */}
         {images.length > 1 && (
-          <div className="flex gap-4 mt-4 overflow-x-auto">
+          <div
+            ref={scrollRef}
+            className="flex gap-4 overflow-x-auto scroll-smooth mt-4 px-2 scrollbar-hide"
+          >
             {images.map((img, index) => (
               <button
                 key={index}
-                onClick={() => setCurrent(index)}
-                className={`border-2 rounded-md p-1 ${
+                onClick={() => {
+                  setCurrent(index);
+                  scrollToThumbnail(index);
+                }}
+                className={`border-2 rounded-md flex-shrink-0 p-1 ${
                   index === current ? "border-blue-500" : "border-transparent"
                 }`}
               >
@@ -116,7 +149,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
                   alt={`${name} ${index + 1}`}
                   width={100}
                   height={100}
-                  className={className3 || `rounded w-full h-full object-cover"`}
+                  className={className3 || "rounded w-full h-full object-cover"}
                 />
               </button>
             ))}

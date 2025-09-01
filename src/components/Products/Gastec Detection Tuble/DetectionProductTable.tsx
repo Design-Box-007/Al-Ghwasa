@@ -156,7 +156,7 @@ const DetectionProductTable: React.FC = () => {
   });
 
   return (
-    <section className="relative w-full bg-[#F1F1F1] rounded-[20px] p-9 pt-20">
+    <section className="relative w-full bg-white rounded-[20px] md:px-10 px-4 my-10">
       <FilterProducts
         selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}

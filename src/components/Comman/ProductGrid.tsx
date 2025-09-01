@@ -42,7 +42,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
   topDivider = false,
 }) => {
   return (
-    <section className={`w-full bg-[#f5f5f5] py-10 ${className ?? ""}`}>
+    <section className={`w-full bg-background py-10 ${className ?? ""}`}>
       <div className="w-full ">
         {topDivider ? <div className="w-full border-t border-gray-300 mb-8" /> : null}
         <div className="flex lg:justify-between lg:flex-row flex-col gap-2 items-start mb-6">
@@ -113,7 +113,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
           {items.map((product, index) => (
             <div
               key={`${product.name}-${index}`}
-              className="relative bg-white rounded-2xl border border-gray-200 hover:border-gray-300 transition-colors p-4 sm:p-6"
+              className="relative bg-neutral rounded-2xl border border-gray-200 hover:border-gray-300 transition-colors p-4 sm:p-6"
             >
               <div className="aspect-square mb-4 overflow-hidden rounded-xl border border-gray-200">
                 <Image

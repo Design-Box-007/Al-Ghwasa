@@ -12,7 +12,7 @@ const ContactSection = () => {
         <section className="flex flex-col lg:flex-row justify-between bg-custom-blue-1 p-4 text-white rounded-lg overflow-hidden">
             {/* Left Side - Contact Info */}
             <div className="w-full lg:w-1/2 p-10 flex flex-col gap-6">
-                <h1 className="text-[48px] lg:text-[64px] font-bold">Contact Us</h1>
+                <h1 className="text-h1 font-bold">Contact Us</h1>
                 <p className="text-lg">Have questions, need a quote, or just want to say hello?<br />Get in touch with us today</p>
 
                 <hr className="border-white my-4" />

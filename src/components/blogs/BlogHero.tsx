@@ -15,7 +15,7 @@ const BlogHero = () => {
                     alt="home-hero"
                     width={1360}
                     height={683}
-                    className="absolute brightness-75 inset-0 z-10 object-cover object-center lg:w-full lg:h-full rounded-[20px]"
+                    className="absolute brightness-40 inset-0 z-10 object-cover object-center lg:w-full lg:h-full rounded-[20px]"
                 />
 
                 {/* Content Layer */}

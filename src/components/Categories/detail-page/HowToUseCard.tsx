@@ -16,9 +16,9 @@ interface StepsGridProps {
 
 const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
   return (
-    <div className="lg:px-20 px-5 md:px-10 py-10">
+    <div className="px-5 md:px-10 py-10">
       {/* Heading */}
-    <h2 className="lg:text-4xl text-2xl md:text-4xl font-bold mb-6 text-heading">{heading}</h2>
+    <h2 className="text-h1 font-bold mb-6 text-heading">{heading}</h2>
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {steps?.map((item, index) => (
@@ -37,7 +37,7 @@ const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
               />
               
             ) : (
-              <div className="w-full h-80 bg-gray-100 rounded-xl mb-4"></div>
+              <div className="w-full h-80 bg-neutral rounded-xl mb-4"></div>
             )}
            
 
@@ -45,9 +45,9 @@ const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
             <div className="flex flex-col gap-3">
             <div className="flex justify-between">
               <h3 className="font-semibold text-lg">{item.title}</h3>
-              <span className="text-gray-400 font-medium">{item.step}</span>
+              <span className="text-black font-bold">{item.step}</span>
             </div>
-              <ul className="list-disc list-inside space-y-1 text-sm text-gray-600">
+              <ul className="list-disc list-outside space-y-1 text-sm text-text-color ml-3 text-paragraph">
                 {item.details.map((point, i) => (
                   <li key={i}>{point}</li>
                 ))}

@@ -26,7 +26,7 @@ const AboutUsSecond = () => {
   ];
 
   return (
-    <section className="space-y-7 px-c-20">
+    <section className="space-y-7 md:px-10 px-5">
       <div className="flex flex-col gap-4">
         <motion.h1
           className="font-medium text-3xl md:text-4xl lg:text-[60px] flex-1"
@@ -116,7 +116,7 @@ const AboutUsSecond = () => {
         <div className="flex flex-col md:flex-row gap-4 w-full h-auto relative z-30">
           {aboutUsSecondContent.map((data, index) => (
             <div
-              className={`flex-1 space-y-4 bg-white px-4 py-6 rounded-2xl`}
+              className={`flex-1 space-y-4 bg-background px-4 py-6 rounded-2xl`}
               style={{ color: data.color }}
               key={index}
             >

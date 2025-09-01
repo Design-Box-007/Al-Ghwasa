@@ -17,7 +17,7 @@ const containerVariants = {
 const BlogCardGrid: React.FC<{ blogs: Blog[] }> = ({ blogs }) => {
     return (
         <div className="px-4 space-y-5">
-        <h4 className='text-[32px] lg:text-start leading-[48px] font-medium font-poppins'>Recent Blogs</h4>
+        <h4 className='text-h2 leading-[48px] font-medium font-poppins'>Recent Blogs</h4>
         <motion.section
             className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[14px] font-poppins"
             variants={containerVariants}

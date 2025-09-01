@@ -36,7 +36,7 @@ const trustedPartnersData: { icon: IconType, partnerName: string }[] = [
 
 const TrustedPartners = () => {
     return (
-        <section className='space-y-8 lg:px-10 px-5'>
+        <section className='space-y-8 lg:px-10 px-5 bg-background'>
             <h5 className='text-3xl font-medium text-custom-red-light font-poppins text-center'>Trusted By</h5>
             <div className='flex flex-wrap gap-10'>
                 {

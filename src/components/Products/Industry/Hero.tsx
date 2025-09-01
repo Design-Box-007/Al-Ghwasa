@@ -10,7 +10,7 @@ export default function IndustryHero() {
         transition={{ duration: 0.9, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-        <div className="w-full border lg:h-[600px] border-gray-400 rounded-2xl p-4 flex flex-col gap-4 bg-gray-200">
+        <div className="w-full border lg:h-[600px] border-gray-300 rounded-2xl p-4 flex flex-col gap-4 bg-neutral">
           <div className="relative w-full rounded-3xl overflow-hidden">
             <Image
               src="/images/industry-hero.jpg"

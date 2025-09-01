@@ -157,7 +157,7 @@ const LightContactFrom = () => {
                 <div>
                     <button
                         type="submit"
-                        className="w-full cursor-pointer bg-custom-blue-1 text-white font-semibold py-3 rounded-lg hover:bg-gray-200 transition"
+                        className="w-full cursor-pointer bg-custom-blue-1 text-white font-semibold py-3 rounded-lg hover:bg-blue-900 transition"
                         disabled={loading}
                     >
                         {loading ? "Sending..." : "Submit"}

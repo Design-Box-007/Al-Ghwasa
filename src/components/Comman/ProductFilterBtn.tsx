@@ -10,7 +10,7 @@ const ProductFilterBtn: React.FC<ProductFilterBtnProps> = ({
 }) => {
     return (
         <button
-            className={`flex items-center gap-2 px-6 py-3 rounded-full transition-all cursor-pointer ${isActive
+            className={`flex items-center gap-2 px-6 md:text-paragraph text-[13px] py-3 rounded-full transition-all cursor-pointer ${isActive
                 ? `${btnColor} text-white`
                 : "bg-gray-200 text-gray-500"
                 }`}

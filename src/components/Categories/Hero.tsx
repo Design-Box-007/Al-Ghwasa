@@ -46,7 +46,7 @@ const GalleryHero = () => {
         direction="bottom"
         outerClass="w-full lg:h-[700px] h-[350px] md:h-[450px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"
       >
-        <p className="absolute px-10 lg:top-40 top-10 left-1/2 -translate-x-1/2 z-40 text-white text-2xl lg:text-7xl lg:leading-[80px] text-center w-full">
+        <p className="absolute px-10 lg:top-40 top-10 left-1/2 -translate-x-1/2 z-40 text-white text-2xl md:text-7xl lg:leading-[80px] text-center w-full">
           {title}
         </p>
         <Image
@@ -54,7 +54,7 @@ const GalleryHero = () => {
           alt={"hero-img"}
           width={1360}
           height={600}
-          className="lg:w-full lg:h-[800px] h-[350px] md:h-[450px] absolute inset-0 object-center object-cover z-10"
+          className="w-full h-full absolute inset-0 object-center object-cover z-10"
         />
         <div className="absolute inset-0 bg-black/40 z-20"></div>
 

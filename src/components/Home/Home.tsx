@@ -21,7 +21,7 @@ const Home = () => {
         title="Featured Articles"
         ctaBtn="View All"
         ctaBtnClassName="px-4 py-2 sm:px-6 sm:py-c-10 bg-custom-green-1 text-white font-medium text-base sm:text-xl flex justify-between items-center rounded-lg"
-        titleClassName="text-3xl lg:text-[56px] font-normal font-inter text-custom-red-light"
+        titleClassName="text-h1 font-medium font-inter text-custom-red-light"
       />
       <FAQAccordion faqs={homePagefaqs} />
       <div className="px-4">

@@ -115,7 +115,7 @@ const ProductDetailPage = () => {
       {product.cta && (
         <CTA
           title={
-            <span className="lg:text-7xl text-3xl md:text-5xl font-light lg:leading-[80px] md:leading-[50px]">
+            <span className="lg:text-7xl text-5xl font-light lg:leading-[80px] md:leading-[50px]">
               {product.cta.title}
             </span>
           }

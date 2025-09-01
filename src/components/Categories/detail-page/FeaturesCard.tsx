@@ -18,13 +18,13 @@ const Table: React.FC<TableProps> = ({
   columns,
   data,
   headerClassName = "bg-gray-100",
-  rowClassName = "hover:bg-gray-200",
-  colClassName = "text-left lg:text-[20px] md:text-[15px]",
+  rowClassName = "hover:bg-neutral",
+  colClassName = "text-left md:text-h3 font-light",
 }) => {
   return (
-    <section className="px-5 md:px-10 lg:px-20 py-5">
-      <h2 className="lg:text-5xl text-3xl md:text-4xl font-semibold text-[#143C66] mb-6">{title}</h2>
-      <div className="overflow-x-scroll rounded-lg border-2 border-gray-400">
+    <section className="px-5 md:px-10 py-5">
+      <h2 className="text-h1 font-semibold text-custom-blue-1 mb-6">{title}</h2>
+      <div className="overflow-x-auto rounded-lg border-2 border-gray-400">
         <table className="w-full">
           {showHeader && (
             <thead>
@@ -32,7 +32,7 @@ const Table: React.FC<TableProps> = ({
                 {columns?.map((col, idx) => (
                   <th
                     key={idx}
-                    className={`px-4 py-5 font-semibold text-gray-800 ${colClassName}`}
+                    className={`px-4 py-5 font-semibold text-black ${colClassName}`}
                   >
                     {col}
                   </th>
@@ -49,7 +49,7 @@ const Table: React.FC<TableProps> = ({
                 {row.map((cell, colIndex) => (
                   <td
                     key={colIndex}
-                    className={`px-4 py-3 text-gray-600 ${colClassName}`}
+                    className={`px-4 py-3 text-text-color ${colClassName}`}
                   >
                     {cell}
                   </td>

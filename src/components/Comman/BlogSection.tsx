@@ -14,7 +14,7 @@ interface BlogSectionProps {
 const BlogSection: React.FC<BlogSectionProps> = ({ title, titleClassName, ctaBtn, ctaBtnClassName }) => {
     return (
         <section className='px-5 bg-white py-10 space-y-4'>
-            <div className='flex flex-wrap w-full justify-between items-center lg:px-4'>
+            <div className='flex flex-wrap w-full justify-between items-center lg:px-4 gap-2'>
                 <h4 className={titleClassName}>{title}</h4>
                 <Link href={'/blogs'}>
                     <button className={ctaBtnClassName}>

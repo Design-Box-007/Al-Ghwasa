@@ -48,11 +48,11 @@ export const navLinks: NavLinksType[] = [
             )}`,
           },
           {
-            navTitle: "Gas sampling pump kit GV-100LS",
+            navTitle: "Gas sampling pump kit GV-100S",
             navHref: `/categories/${formatToHyphenated("GV-100S Hand Pump")}`,
           },
           {
-            navTitle: "Gas sampling pump kit GV-100S",
+            navTitle: "Gas sampling pump kit GV-110S",
             navHref: `/categories/${formatToHyphenated("GV-110S Hand Pump")}`,
           },
         ],

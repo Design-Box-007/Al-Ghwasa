@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import RevealComponent from "../Comman/RevealComponent";
+import Link from "next/link";
 
 const GalleryHero = () => {
   return (
@@ -30,7 +31,7 @@ const GalleryHero = () => {
           alt={"hero-img"}
           width={1360}
           height={600}
-          className="w-full h-full absolute inset-0 object-center object-cover z-10"
+          className="w-full h-full absolute inset-0 object-center object-cover z-10 brightness-85"
         />
 
         {/* Gradient Overlay at Bottom */}
@@ -46,7 +47,7 @@ const GalleryHero = () => {
 
           {/* Explore Products Button in One Line */}
           <button className="flex items-center gap-2 font-bold whitespace-nowrap bg-white p-2.5 rounded-3xl">
-            <span>Explore our Products</span>
+            <Link href={"/categories"}>Explore our Products</Link>
             <span className="border border-white rounded-full p-1 flex items-center justify-center">
               <FaArrowRight />
             </span>

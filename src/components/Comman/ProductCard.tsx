@@ -18,7 +18,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   return (
     <Link
       href={href}
-      className={`block bg-white p-c-10 rounded-[20px] w-full text-custom-green-1 text-lg ${className}`}
+      className={`block bg-neutral p-c-10 rounded-[20px] w-full text-custom-green-1 text-lg ${className}`}
     >
       <Image
         src={imgSrc}

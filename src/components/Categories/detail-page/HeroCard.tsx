@@ -53,18 +53,17 @@ const ProductHero: React.FC<ProductHeroProps> = ({
     const thumbnail = container.children[index] as HTMLElement;
     if (thumbnail) {
       container.scrollTo({
-        left: thumbnail.offsetLeft - container.clientWidth / 2 + thumbnail.clientWidth / 2,
+        left:
+          thumbnail.offsetLeft -
+          container.clientWidth / 2 +
+          thumbnail.clientWidth / 2,
         behavior: "smooth",
       });
     }
   };
 
   return (
-    <section
-      className={
-        className || `lg:px-15 px-5 py-10 lg:mt-20 mt-20 md:px-10`
-      }
-    >
+    <section className={className || `md:px-10 px-5 py-10 lg:mt-20 mt-20`}>
       {/* ✅ Breadcrumb (optional) */}
       {showBreadcrumb && (
         <div className="lg:text-lg text-gray-500 mb-4 space-x-1 text-sm md:text-[15px]">
@@ -98,7 +97,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
 
       <div className="relative flex flex-col items-center">
         {/* Main Image */}
-        <div className={className2 || `relative lg:w-[900px] lg:h-[500px]`}>
+        <div className={className2 || `md:h-[600px]`}>
           <Image
             src={images[current]}
             alt={name}
@@ -108,51 +107,74 @@ const ProductHero: React.FC<ProductHeroProps> = ({
           />
 
           {/* ✅ Use same arrows to also scroll thumbnails */}
-          {images.length > 1 && (
+          {/* {images.length > 1 && (
             <>
               <button
                 onClick={prevImage}
                 className="absolute top-1/2 left-0 -translate-y-1/2 cursor-pointer"
               >
-                <ChevronLeft size={40} />
+                <ChevronLeft
+                  size={40}
+                  className="bg-white rounded-full ml-1 text-custom-blue-1"
+                />
               </button>
 
               <button
                 onClick={nextImage}
                 className="absolute top-1/2 right-0 -translate-y-1/2 cursor-pointer"
               >
-                <ChevronRight size={40} />
+                <ChevronRight
+                  size={40}
+                  className="bg-white rounded-full mr-1 text-custom-blue-1"
+                />
               </button>
             </>
-          )}
+          )} */}
         </div>
 
         {/* ✅ Thumbnails Row (scrollable in one row) */}
         {images.length > 1 && (
-          <div
-            ref={scrollRef}
-            className="flex gap-4 overflow-x-auto scroll-smooth mt-4 px-2 scrollbar-hide"
-          >
-            {images.map((img, index) => (
-              <button
-                key={index}
-                onClick={() => {
-                  setCurrent(index);
-                  scrollToThumbnail(index);
-                }}
-                className={`border-2 rounded-md flex-shrink-0 p-1 ${
-                  index === current ? "border-blue-500" : "border-transparent"
-                }`}
-              >
-                <Image
-                  src={img}
-                  alt={`${name} ${index + 1}`}
-                  width={100}
-                  height={100}
-                  className={className3 || "rounded w-full h-full object-cover"}
-                />
-              </button>
-            ))}
+          <div className="flex items-center justify-center gap-2 mt-4 w-full">
+            {/* Left Arrow */}
+            <button
+              onClick={prevImage}
+            >
+              <ChevronLeft size={40} />
+            </button>
+
+            {/* Scrollable Thumbnails */}
+            <div
+              ref={scrollRef}
+              className="flex gap-4 overflow-x-auto scroll-smooth px-2 scrollbar-hide"
+            >
+              {images.map((img, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    setCurrent(index);
+                    scrollToThumbnail(index);
+                  }}
+                  className={`border-2 rounded-md flex-shrink-0 p-1 ${
+                    index === current ? "border-blue-500" : "border-transparent"
+                  }`}
+                >
+                  <Image
+                    src={img}
+                    alt={`${name} ${index + 1}`}
+                    width={80}
+                    height={80}
+                    className={className3 || "rounded object-cover"}
+                  />
+                </button>
+              ))}
+            </div>
+
+            {/* Right Arrow */}
+            <button
+              onClick={nextImage}
+            >
+              <ChevronRight size={40} />
+            </button>
           </div>
         )}
       </div>

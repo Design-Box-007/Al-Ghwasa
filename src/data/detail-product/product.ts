@@ -14,7 +14,11 @@ export const products: DetailProduct[] = [
     description:
       "The GASTEC CG-1 Calibration Kit enables fast, simultaneous detection of CO, CO₂, water vapor, and oil mist in breathing air—directly from a cylinder or compressor. It operates without electricity, housed in a sturdy, convenient carry case suitable for both industrial and field environments.",
     overViewcategory: [
-      { catalogUrl: "https://www.gastec.co.jp/files/topics/3953_ext_14_en_0.pdf", catalogName: "Download Catalog" },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/topics/3953_ext_14_en_0.pdf",
+        catalogName: "Download Catalog",
+      },
     ],
     featureCard2: [
       "No power source required",
@@ -74,22 +78,28 @@ export const products: DetailProduct[] = [
 
     relatedProduct: [
       {
+        name: "GASTEC Flow Regulator",
+        description: "Ensures stable gas flow during sampling.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
+      },
+      {
+        name: "Pressure Regulator",
+        description: "Maintains consistent pressure for reliable results.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
-        name: "Pressure Regulator",
-        description: "for adjusting calibration gas pressure",
       },
       {
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
-        name: "Adaptor / Connector",
-        description: "for precise flow and device compatibility",
-      },
-      {
+        name: "High-Precision Flow Regulator",
+        description: "Designed for precise gas flow control.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-        name: "High-Precision Flow Regulator",
-        description: "cylinder or compressor integration kit",
+      },
+      {
+        name: "Adaptor / Connector",
+        description: "Compatible connector for multi-device integration.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
       },
     ],
   },
@@ -159,16 +169,29 @@ export const products: DetailProduct[] = [
 
     relatedProduct: [
       {
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
-        name: "Adaptor / Connector",
-        description: "Maintains consistent pressure for reliable results.",
-      },
-      {
+        name: "GASTEC Calibration Kit",
+        description: "Complete calibration set for accurate measurements.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
-        name: "GASTEC Calibration Kit",
-        description: "Fit testing unit for respiratory equipment.",
+      },
+
+      {
+        name: "Pressure Regulator",
+        description: "Maintains consistent pressure for reliable results.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
+      },
+      {
+        name: "High-Precision Flow Regulator",
+        description: "Designed for precise gas flow control.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
+      },
+      {
+        name: "Adaptor / Connector",
+        description: "Compatible connector for multi-device integration.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
       },
     ],
   },
@@ -235,22 +258,29 @@ export const products: DetailProduct[] = [
 
     relatedProduct: [
       {
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
-        name: "Adaptor / Connector",
-        description: "Maintains consistent pressure for reliable results.",
-      },
-      {
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-        name: "High-Precision Flow Regulator",
-        description: "Fit testing unit for respiratory equipment.",
-      },
-      {
+        name: "GASTEC Calibration Kit",
+        description: "Complete calibration set for accurate measurements.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
-        name: "GASTEC Calibration Kit",
-        description: "Fit testing unit for respiratory equipment.",
+      },
+      {
+        name: "GASTEC Flow Regulator",
+        description: "Ensures stable gas flow during sampling.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
+      },
+
+      {
+        name: "High-Precision Flow Regulator",
+        description: "Designed for precise gas flow control.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
+      },
+      {
+        name: "Adaptor / Connector",
+        description: "Compatible connector for multi-device integration.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
       },
     ],
   },
@@ -438,16 +468,28 @@ export const products: DetailProduct[] = [
 
     relatedProduct: [
       {
+        name: "GASTEC Calibration Kit",
+        description: "Complete calibration set for accurate measurements.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-        name: "GHS-8AT EX Starter Kit",
-        description: "Maintains consistent pressure for reliable results.",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
       },
       {
+        name: "GASTEC Flow Regulator",
+        description: "Ensures stable gas flow during sampling.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-        name: "GHS-501FT Fit Tester",
-        description: "Fit testing unit for respiratory equipment.",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
+      },
+      {
+        name: "Pressure Regulator",
+        description: "Maintains consistent pressure for reliable results.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
+      },
+      {
+        name: "Adaptor / Connector",
+        description: "Compatible connector for multi-device integration.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
       },
     ],
   },
@@ -513,22 +555,28 @@ export const products: DetailProduct[] = [
 
     relatedProduct: [
       {
+        name: "GASTEC Calibration Kit",
+        description: "Complete calibration set for accurate measurements.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
-        name: "GASTEC Calibration Kit",
-        description: "Maintains consistent pressure for reliable results.",
       },
       {
+        name: "GASTEC Flow Regulator",
+        description: "Ensures stable gas flow during sampling.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
-        name: "GASTEC Flow Regulator",
-        description: "Fit testing unit for respiratory equipment.",
       },
       {
+        name: "Pressure Regulator",
+        description: "Maintains consistent pressure for reliable results.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
+      },
+      {
+        name: "High-Precision Flow Regulator",
+        description: "Designed for precise gas flow control.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-        name: "High-Precision Flow Regulator",
-        description: "Fit testing unit for respiratory equipment.",
       },
     ],
   },
@@ -541,7 +589,6 @@ export const products: DetailProduct[] = [
   {
     name: "GHS-8AT EX Monitor",
     category: "Gas Detection Monitors",
-    subName: "GHS_8AT_EX_1",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_2.jpg",
@@ -552,7 +599,11 @@ export const products: DetailProduct[] = [
     description:
       "The GHS-8AT EX Monitor is a portable hazardous gas detection device designed for high precision and reliability in industrial and field environments. It ensures worker safety and compliance by detecting a wide range of gases with quick response times.",
     overViewcategory: [
-      { catalogUrl: "https://www.gastec.co.jp/files/topics/2148_ext_14_en_0.pdf", catalogName: "Download Catalog" },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/topics/2148_ext_14_en_0.pdf",
+        catalogName: "Download Catalog",
+      },
     ],
 
     features: [
@@ -696,16 +747,22 @@ export const products: DetailProduct[] = [
     },
     relatedProduct: [
       {
+        name: "GHS-8AT EX with Accessories",
+        description: "Enhanced version with extended accessories.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-        name: "GHS-8AT EX Starter Kit",
-        description: "Maintains consistent pressure for reliable results.",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
       },
       {
+        name: "GHS-8AT EX Starter Kit",
+        description: "Maintains consistent pressure for reliable results.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+      },
+      {
         name: "GHS-501FT Fit Tester",
         description: "Fit testing unit for respiratory equipment.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
       },
     ],
   },
@@ -864,18 +921,22 @@ export const products: DetailProduct[] = [
     },
     relatedProduct: [
       {
+        name: "GHS-8AT EX Monitor",
+        description: "Portable monitor for hazardous gas detection.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-        name: "GHS-8AT EX Starter Kit",
-        slug: "ghs-8at-ex-starter-kit",
-        description: "Maintains consistent pressure for reliable results.",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
       },
       {
+        name: "GHS-8AT EX Starter Kit",
+        description: "Maintains consistent pressure for reliable results.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+      },
+      {
+        name: "GHS-501FT Fit Tester",
+        description: "Fit testing unit for respiratory equipment.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-        name: "GHS-501FT Fit Tester",
-        slug: "ghs-501ft-fit-tester",
-        description: "Fit testing unit for respiratory equipment.",
       },
     ],
   },
@@ -956,16 +1017,22 @@ export const products: DetailProduct[] = [
     ],
     relatedProduct: [
       {
+        name: "GHS-8AT EX Monitor",
+        description: "Portable monitor for hazardous gas detection.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-        name: "GHS-8AT EX Starter Kit",
-        description: "Maintains consistent pressure for reliable results.",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
       },
       {
+        name: "GHS-8AT EX with Accessories",
+        description: "Enhanced version with extended accessories.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+      },
+      {
         name: "GHS-501FT Fit Tester",
         description: "Fit testing unit for respiratory equipment.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
       },
     ],
   },
@@ -974,7 +1041,6 @@ export const products: DetailProduct[] = [
   {
     name: "GHS-501FT Fit Tester",
     category: "Gas Detection Monitors",
-    subName: "GHS-501FT",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_2.jpg",
@@ -984,8 +1050,16 @@ export const products: DetailProduct[] = [
       "The GHS-501FT Fit Tester is a precision tool for verifying the seal and integrity of respiratory protection gear—including gas masks and respirators. Built for industrial safety, it delivers reliable, quantitative results during compliance audits or regular inspections.",
 
     overViewcategory: [
-      { catalogUrl: "https://www.gastec.co.jp/files/topics/4534_ext_14_en_0.pdf", catalogName: "Instruction Manuals" },
-      { catalogUrl: "https://www.gastec.co.jp/files/topics/4534_ext_14_en_1.pdf", catalogName: "Download Catalog" },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/topics/4534_ext_14_en_0.pdf",
+        catalogName: "Instruction Manuals",
+      },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/topics/4534_ext_14_en_1.pdf",
+        catalogName: "Download Catalog",
+      },
     ],
 
     features: [
@@ -1094,18 +1168,22 @@ export const products: DetailProduct[] = [
     },
     relatedProduct: [
       {
+        name: "GHS-8AT EX Monitor",
+        description: "Portable monitor for hazardous gas detection.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-        name: "GHS-8AT EX Starter Kit",
-        slug: "ghs-8at-ex-starter-kit",
-        description: "Maintains consistent pressure for reliable results.",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
       },
       {
+        name: "GHS-8AT EX with Accessories",
+        description: "Enhanced version with extended accessories.",
         imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-        name: "GHS-501FT Fit Tester",
-        slug: "ghs-501ft-fit-tester",
-        description: "Fit testing unit for respiratory equipment.",
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+      },
+      {
+        name: "GHS-8AT EX Starter Kit",
+        description: "Maintains consistent pressure for reliable results.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
       },
     ],
 
@@ -1187,7 +1265,11 @@ export const products: DetailProduct[] = [
       "The GV-100S Hand Pump is a manual gas sampling device specifically designed to be used with GASTEC detector tubes. Built with durability and ease of use in mind, the GV-100S ensures that air samples are drawn consistently for accurate detection and measurement of gases and vapors. Its compact design makes it ideal for on-site testing, industrial hygiene surveys, and confined space monitoring.",
 
     overViewcategory: [
-      { catalogUrl: "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf", catalogName: "Download Catalog" },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf",
+        catalogName: "Download Catalog",
+      },
     ],
 
     featureCard2: [
@@ -1264,7 +1346,11 @@ export const products: DetailProduct[] = [
       "The GV-110S Hand Pump is an upgraded version of the GV-100S, offering dual sampling volumes for greater flexibility in gas detection applications. With its high-precision design, the pump ensures consistent sample collection while providing a built-in stroke counter for accuracy. Compact, durable, and easy to operate, the GV-110S is ideal for industrial hygiene surveys, workplace safety monitoring, and environmental testing.",
 
     overViewcategory: [
-      { catalogUrl: "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf", catalogName: "Download Catalog" },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf",
+        catalogName: "Download Catalog",
+      },
     ],
 
     featureCard2: [
@@ -1429,7 +1515,11 @@ export const products: DetailProduct[] = [
       "The 351A Extension Hoses allow gas sampling from difficult-to-access locations like manholes and storage tanks. They securely attach to the inlet of GV-100/GV-110 sampling pumps and enable accurate downward measurement at a distance. For twin-tube configurations, additional accessories such as guard rubbers (No. 358 and No. 359) are available. Note: these hoses are not compatible with Oxygen Detector Tube No. 31B.",
 
     overViewcategory: [
-      { catalogUrl: ": https://www.gastec.co.jp/files/topics/2114_ext_14_en_0.pdf", catalogName: "Download Catalog" },
+      {
+        catalogUrl:
+          ": https://www.gastec.co.jp/files/topics/2114_ext_14_en_0.pdf",
+        catalogName: "Download Catalog",
+      },
     ],
 
     featureCard3: [
@@ -1710,7 +1800,11 @@ export const products: DetailProduct[] = [
       "The Extension Pole 350BP-2, crafted from durable yet lightweight fiberglass, is designed to facilitate gas sampling in areas not easily accessed directly—such as overhead ducts, confined spaces, or across horizontal corridors. It collapses for portability and extends for reach, ensuring contactless, safe operation.",
 
     overViewcategory: [
-      { catalogUrl: "i.	https://www.gastec.co.jp/files/topics/2116_ext_14_en_0.pdf", catalogName: "Download Catalog" },
+      {
+        catalogUrl:
+          "i.	https://www.gastec.co.jp/files/topics/2116_ext_14_en_0.pdf",
+        catalogName: "Download Catalog",
+      },
     ],
 
     featureCard3: [
@@ -1965,8 +2059,16 @@ export const products: DetailProduct[] = [
       "Dosimeter (Dosi) tubes provide a user-friendly and economical way to monitor long-term exposure to airborne contaminants. Designed for either personal or area monitoring, these tubes require only passive exposure and visual reading—no additional equipment, calibration, or analysis required. Each tube includes a colorimetric scale for direct, on-the-spot concentration readings.",
 
     overViewcategory: [
-      { catalogUrl: "https://www.gastec.co.jp/files/topics/4539_ext_14_en_0.pdf", catalogName: "Download Catalog" },
-      { catalogUrl: "ii.	https://www.gastec.co.jp/files/topics/4539_ext_14_en_2.pdf", catalogName: "Download Catalog" },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/topics/4539_ext_14_en_0.pdf",
+        catalogName: "Download Catalog",
+      },
+      {
+        catalogUrl:
+          "ii.	https://www.gastec.co.jp/files/topics/4539_ext_14_en_2.pdf",
+        catalogName: "Download Catalog",
+      },
     ],
 
     tableTitle: "Why Dosimeter Tubes?",

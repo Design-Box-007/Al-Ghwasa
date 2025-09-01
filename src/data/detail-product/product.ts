@@ -771,7 +771,6 @@ export const products: DetailProduct[] = [
   {
     name: "GHS-8AT EX with Accessories",
     category: "Gas Detection Monitors",
-    subName: "GHS-501FT",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
@@ -945,7 +944,6 @@ export const products: DetailProduct[] = [
   {
     name: "GHS-8AT EX Starter Kit",
     category: "Gas Detection Monitors",
-    subName: "GHS-8AT EX",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",

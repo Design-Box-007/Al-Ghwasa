@@ -70,6 +70,16 @@ export interface DetailProduct {
   tubeSystemDescription?: string;
   tubeSystemImage?: string;
   tubeSystemFeatures?: Array<{ title: string; description: string }>;
+  whyChooseImage?: string;
+  whyChooseTitle?: string;
+  whyChooseFeature?: Array<{featureImage?: string; featureTitle: string; description: string}>
+  video?: string;
+  airTightNessCheck?: string;
+  airTightFeature?: Array<{featureImage?: string; featureTitle: string; description: string}>
+  airTightNessCheckdes?: string;
+  airTightFeature2?: Array<{featureImage?: string; featureTitle: string; description: string}>
+
+
   /** If provided -> show CTA. If omitted -> hide CTA for this product */
   cta?: CTAData;
 

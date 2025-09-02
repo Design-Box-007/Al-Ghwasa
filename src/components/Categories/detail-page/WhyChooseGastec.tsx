@@ -10,34 +10,58 @@ interface FeatureCardProps {
 }
 
 interface WhyChooseProps {
-  imageUrl: string;
+  imageUrl?: string;
   title?: string;
+  title2?: string;
   features?: FeatureCardProps[];
+  description?: string;
+  className?: string;
 }
 
 const WhyChooseGastec: React.FC<WhyChooseProps> = ({
   imageUrl,
-  title = "Why Choose GASTEC?",
+  title,
+  title2,
   features,
+  description,
+  className,
 }) => {
   return (
     <section className="px-6 lg:px-10 py-8">
       {/* Top Image */}
-      <div className="w-full flex justify-center mb-10">
-        <Image
-          src={imageUrl}
-          alt="Why Choose GASTEC"
-          width={900}
-          height={500}
-          className="rounded-2xl object-contain shadow-md"
-        />
-      </div>
+      {imageUrl && (
+        <div className="w-full flex justify-center mb-10">
+          <Image
+            src={imageUrl}
+            alt="Why Choose GASTEC"
+            width={900}
+            height={500}
+            className="rounded-2xl object-contain shadow-md"
+          />
+        </div>
+      )}
 
-      {/* Section Title */}
-      <h2 className="text-h2 font-semibold text-custom-blue-1 mb-6">{title}</h2>
+      {/* Section Title (only if title exists) */}
+      {title && (
+        <h2 className="text-h1 font-semibold text-custom-blue-1 mb-6">
+          {title}
+        </h2>
+      )}
+
+      {/* Description Container (only if description exists) */}
+      {description && (
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-8 gap-4">
+          {title2 && (
+            <h2 className="text-h1 font-semibold text-custom-blue-1 w-full lg:w-1/2">
+              {title2}
+            </h2>
+          )}
+          <p className="text-text-color w-full lg:w-1/2">{description}</p>
+        </div>
+      )}
 
       {/* Features Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className={className || `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6`}>
         {features?.map((item, index) => (
           <div
             key={index}
@@ -47,7 +71,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
             {item.featureImage ? (
               <Image
                 src={item.featureImage}
-                alt={title}
+                alt={item.featureTitle || "Feature"}
                 width={400}
                 height={400}
                 className="w-full object-cover rounded-xl mb-4"
@@ -58,8 +82,14 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
 
             {/* Content */}
             <div className="flex flex-col gap-3">
-              <h3 className="font-semibold text-lg">{item.featureTitle}</h3>
-              <p>{item.description}</p>
+              {item.featureTitle && (
+                <h3 className="font-semibold text-lg text-custom-blue-1">
+                  {item.featureTitle}
+                </h3>
+              )}
+              {item.description && (
+                <p className="text-text-color">{item.description}</p>
+              )}
             </div>
           </div>
         ))}

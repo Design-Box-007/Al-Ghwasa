@@ -14,7 +14,7 @@ import formatToHyphenated from "@/utils/formatPathName";
 import KeyFeatureCard2 from "./KeyFeaturesCard2";
 import KeyFeaturesCard3 from "./KeyFeaturesCard3";
 import WhyChooseGastec from "./WhyChooseGastec";
- 
+import ResponsiveYouTube from "@/components/Gallery/GalleryVideo";
 
 const ProductDetailPage = () => {
   const params = useParams();
@@ -52,8 +52,12 @@ const ProductDetailPage = () => {
         />
       )}
 
-      {(product.tubeSystemTitle || product.tubeSystemDescription?.length) && (
-        <WhyChooseGastec imageUrl=""/>
+      {(product.whyChooseImage || product.whyChooseTitle?.length) && (
+        <WhyChooseGastec
+          imageUrl={product.whyChooseImage}
+          title={product.whyChooseTitle}
+          features={product.whyChooseFeature}
+        />
       )}
 
       {/* Features Table */}
@@ -118,6 +122,37 @@ const ProductDetailPage = () => {
         <StepsGrid
           heading={`How to Use ${product.name}`}
           steps={product.howToUseSteps}
+        />
+      )}
+
+      {!!product.video?.length && (
+        <div className="overflow-x-hidden relative md:px-4 px-4 lg:px-10 py-10">
+          <hr className="mb-6" />
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-5">
+            {product.video}
+          </h1>
+
+          <ResponsiveYouTube
+            videoURL={
+              "https://www.youtube.com/embed/D0UnqGm_miA?si=35W6STzM9tPG7nSI"
+            }
+          />
+          <hr className="mt-6" />
+        </div>
+      )}
+
+      {(product.airTightNessCheck || product.airTightFeature?.length) && (
+        <WhyChooseGastec
+          title2={product.airTightNessCheck}
+          description={product.airTightNessCheckdes}
+          features={product.airTightFeature}
+        />
+      )}
+
+      {(product.airTightNessCheck || product.airTightFeature?.length) && (
+        <WhyChooseGastec
+          features={product.airTightFeature2}
+          className="grid md:grid-cols-2 grid-cols-1 gap-5"
         />
       )}
 

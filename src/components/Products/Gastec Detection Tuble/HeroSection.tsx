@@ -1,11 +1,9 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { FaArrowRight } from 'react-icons/fa';
-import images from '@/data/assets';
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import images from "@/data/assets";
 
 const HeroSection: React.FC = () => {
   return (
@@ -44,7 +42,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-6"
           >
-            <Link
+            {/* <Link
               href="/gastec/product-data"
               className="group inline-flex items-center justify-between gap-4 rounded-full bg-white text-[#0F2F4D] lg:px-6 px-3 md:px-8 py-2 md:h-12 font-medium shadow-md hover:bg-gray-50 transition-colors"
             >
@@ -52,7 +50,7 @@ const HeroSection: React.FC = () => {
               <span className="grid place-items-center w-8 h-8 rounded-full bg-[#0F2F4D] text-white transition-transform group-hover:scale-105">
                 <FaArrowRight size={14} />
               </span>
-            </Link>
+            </Link> */}
           </motion.div>
         </div>
       </div>
@@ -61,11 +59,13 @@ const HeroSection: React.FC = () => {
       <div className="absolute inset-x-0 bottom-25 px-6 z-[3]">
         <div className="flex items-center justify-between text-white text-sm sm:text-base font-medium max-w-[1360px] mx-auto">
           <p className="max-w-[260px] leading-tight">
-            Measure Over 500 Gases<br />
+            Measure Over 500 Gases
+            <br />
             with Proven GASTEC Precision
           </p>
           <p className="text-right max-w-[260px] leading-tight">
-            Reliable Gas Detection,<br />
+            Reliable Gas Detection,
+            <br />
             Wherever You Need It
           </p>
         </div>
@@ -75,5 +75,3 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
-
-

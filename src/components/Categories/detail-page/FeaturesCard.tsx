@@ -3,13 +3,14 @@
 import React from "react";
 
 interface TableProps {
-  title?: string;
+  title?: string | false;
   showHeader?: boolean;
   columns?: string[];
   data?: (string | number)[][];
   headerClassName?: string;
   rowClassName?: string;
   colClassName?: string;
+  className?: string;
 }
 
 const Table: React.FC<TableProps> = ({
@@ -19,11 +20,17 @@ const Table: React.FC<TableProps> = ({
   data,
   headerClassName = "bg-gray-100",
   rowClassName = "hover:bg-neutral",
-  colClassName = "text-left md:text-h3 font-light",
+  colClassName = "text-left md:text-h4",
+  className = "",
 }) => {
   return (
-    <section className="px-5 md:px-10 py-5">
-      <h2 className="text-h1 font-semibold text-custom-blue-1 mb-6">{title}</h2>
+    <section className={className || `px-5 md:px-10 py-5`}>
+      {title !== false && (
+        <h2 className="text-h1 font-semibold text-custom-blue-1 mb-6">
+          {title}
+        </h2>
+      )}
+
       <div className="overflow-x-auto rounded-lg border-2 border-gray-400">
         <table className="w-full">
           {showHeader && (
@@ -32,7 +39,7 @@ const Table: React.FC<TableProps> = ({
                 {columns?.map((col, idx) => (
                   <th
                     key={idx}
-                    className={`px-4 py-5 font-semibold text-black ${colClassName}`}
+                    className={`px-4 py-6 font-semibold text-black ${colClassName}`}
                   >
                     {col}
                   </th>
@@ -49,7 +56,9 @@ const Table: React.FC<TableProps> = ({
                 {row.map((cell, colIndex) => (
                   <td
                     key={colIndex}
-                    className={`px-4 py-3 text-text-color ${colClassName}`}
+                    className={`px-4 py-6 text-text-color ${colClassName} ${
+                      colIndex === 0 ? "font-semibold" : "font-normal"
+                    }`}
                   >
                     {cell}
                   </td>

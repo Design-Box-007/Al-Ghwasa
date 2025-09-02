@@ -89,7 +89,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
 
       {/* Title */}
       <div className="flex justify-between mb-6 items-end">
-        <h1 className="lg:text-5xl text-2xl lg:font-medium font-bold md:text-3xl md:font-semibold">
+        <h1 className="text-h1 lg:font-medium font-bold md:font-semibold">
           {name}
         </h1>
         <p className="lg:text-[26px]">{subName}</p>

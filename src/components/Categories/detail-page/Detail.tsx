@@ -13,6 +13,8 @@ import { products } from "@/data/detail-product/product";
 import formatToHyphenated from "@/utils/formatPathName";
 import KeyFeatureCard2 from "./KeyFeaturesCard2";
 import KeyFeaturesCard3 from "./KeyFeaturesCard3";
+import WhyChooseGastec from "./WhyChooseGastec";
+ 
 
 const ProductDetailPage = () => {
   const params = useParams();
@@ -40,12 +42,33 @@ const ProductDetailPage = () => {
         />
       )}
 
-      {/* Features Table */}
-      {!!product.features?.length && <Table title={product.tableTitle || "Key Features"} data={product.features} />}
+      {(product.tubeSystemTitle || product.tubeSystemDescription?.length) && (
+        <Overview
+          title={product.tubeSystemTitle}
+          description={product.tubeSystemDescription}
+          showImage={true}
+          imageUrl={product.tubeSystemImage}
+          features={product.tubeSystemFeatures}
+        />
+      )}
 
+      {(product.tubeSystemTitle || product.tubeSystemDescription?.length) && (
+        <WhyChooseGastec imageUrl=""/>
+      )}
+
+      {/* Features Table */}
+      {!!product.features?.length && (
+        <Table
+          title={product.tableTitle || "Key Features"}
+          data={product.features}
+        />
+      )}
 
       {!!product.featureCard2?.length && (
-        <KeyFeatureCard2 title={product.KeyFeatureCard2Heading || "Key Feature"}  items={product.featureCard2} />
+        <KeyFeatureCard2
+          title={product.KeyFeatureCard2Heading || "Key Feature"}
+          items={product.featureCard2}
+        />
       )}
 
       {!!product.featureCard3?.length && (

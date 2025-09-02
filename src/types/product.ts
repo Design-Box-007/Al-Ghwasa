@@ -56,7 +56,7 @@ export interface DetailProduct {
   columns2?: string[];
   data?: string[];
   data2?: Array<(string | number)[]>;
-  tableTitle?: string
+  tableTitle?: string;
   howToUseSteps?: HowToUseStep[];
   softwareName?: string;
   software?: Array<{ label: string; link: string }>;
@@ -66,6 +66,10 @@ export interface DetailProduct {
   featureCard3?: string[];
   featureCard3_2?: string[];
   relatedProduct?: RelatedProduct[];
+  tubeSystemTitle?: string;
+  tubeSystemDescription?: string;
+  tubeSystemImage?: string;
+  tubeSystemFeatures?: Array<{ title: string; description: string }>;
   /** If provided -> show CTA. If omitted -> hide CTA for this product */
   cta?: CTAData;
 

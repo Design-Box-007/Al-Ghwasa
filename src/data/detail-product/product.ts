@@ -6,7 +6,7 @@ export const products: DetailProduct[] = [
 
   // GASTEC Calibration Kit
   {
-    name: "GASTEC Calibration Kit",
+    name: "GASTEC Compressed Breathing Air Measurement KitCG-1",
     category: "Gas Detection Monitors",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
@@ -587,7 +587,7 @@ export const products: DetailProduct[] = [
 
   // GHS-8AT EX Monitor
   {
-    name: "GHS-8AT EX Monitor",
+    name: "H2S Data Logger-GHS-8AT-EX",
     category: "Gas Detection Monitors",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
@@ -745,508 +745,508 @@ export const products: DetailProduct[] = [
       buttonText: "Make an Enquiry",
       buttonHref: "/contact",
     },
-    relatedProduct: [
-      {
-        name: "GHS-8AT EX with Accessories",
-        description: "Enhanced version with extended accessories.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-      },
-      {
-        name: "GHS-8AT EX Starter Kit",
-        description: "Maintains consistent pressure for reliable results.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-      },
-      {
-        name: "GHS-501FT Fit Tester",
-        description: "Fit testing unit for respiratory equipment.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-      },
-    ],
+    // relatedProduct: [
+    //   {
+    //     name: "GHS-8AT EX with Accessories",
+    //     description: "Enhanced version with extended accessories.",
+    //     imgSrc:
+    //       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+    //   },
+    //   {
+    //     name: "GHS-8AT EX Starter Kit",
+    //     description: "Maintains consistent pressure for reliable results.",
+    //     imgSrc:
+    //       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+    //   },
+    //   {
+    //     name: "GHS-501FT Fit Tester",
+    //     description: "Fit testing unit for respiratory equipment.",
+    //     imgSrc:
+    //       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
+    //   },
+    // ],
   },
 
   // GHS-8AT EX with Accessories
-  {
-    name: "GHS-8AT EX with Accessories",
-    category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_2.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_3.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-    ],
-    description:
-      "The GHS-501FT Fit Tester is a precision tool for verifying the seal and integrity of respiratory protection gear—including gas masks and respirators. Built for industrial safety, it delivers reliable, quantitative results during compliance audits or regular inspections.",
+  // {
+  //   name: "GHS-8AT EX with Accessories",
+  //   category: "Gas Detection Monitors",
+  //   images: [
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_2.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_3.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+  //   ],
+  //   description:
+  //     "The GHS-501FT Fit Tester is a precision tool for verifying the seal and integrity of respiratory protection gear—including gas masks and respirators. Built for industrial safety, it delivers reliable, quantitative results during compliance audits or regular inspections.",
 
-    overViewcategory: [
-      { catalogUrl: "/pdf/1.pdf", catalogName: "Instruction Manuals" },
-      { catalogUrl: "/pdf/1.pdf", catalogName: "Download Catalog" },
-    ],
+  //   overViewcategory: [
+  //     { catalogUrl: "/pdf/1.pdf", catalogName: "Instruction Manuals" },
+  //     { catalogUrl: "/pdf/1.pdf", catalogName: "Download Catalog" },
+  //   ],
 
-    features: [
-      [
-        "Quantitative Fit Checking",
-        "Provides objective, numeric fit results for better accuracy.",
-      ],
-      [
-        "Multi-Mask Compatibility",
-        "Works with full-face, half-face, and disposable respirators.",
-      ],
-      ["Portable & Lightweight", "Compact design allows for use in the field."],
-      ["Intuitive Interface", "Easy to operate with minimal training."],
-      ["Data Recording", "Stores fit test results for compliance reporting."],
-      ["Rechargeable Power", "Comes with a long-lasting rechargeable battery."],
-    ],
+  //   features: [
+  //     [
+  //       "Quantitative Fit Checking",
+  //       "Provides objective, numeric fit results for better accuracy.",
+  //     ],
+  //     [
+  //       "Multi-Mask Compatibility",
+  //       "Works with full-face, half-face, and disposable respirators.",
+  //     ],
+  //     ["Portable & Lightweight", "Compact design allows for use in the field."],
+  //     ["Intuitive Interface", "Easy to operate with minimal training."],
+  //     ["Data Recording", "Stores fit test results for compliance reporting."],
+  //     ["Rechargeable Power", "Comes with a long-lasting rechargeable battery."],
+  //   ],
 
-    // specifications: [
-    //   {
-    //     title: "Sampling mode",
-    //     description:
-    //       "Timer Mode: 1 min–30 hrs (auto-stop); Volume Mode: 0.010–900 L (auto-stop)",
-    //   },
-    //   {
-    //     title: "Settable instantaneous flow rate",
-    //     description:
-    //       "Timer Mode: 50–500 mL/min; Volume Mode: 10–500 mL/min (10–49 mL/min intermittent at 50 mL/min)",
-    //   },
-    //   {
-    //     title: "Constant flow rate operating range",
-    //     description:
-    //       "10–49 mL/min: 0–0.5 kPa; 50 mL/min: 0–40.0 kPa; 100 mL/min: 0–37.0 kPa; 200 mL/min: 0–30.0 kPa; 300 mL/min: 0–23.0 kPa; 400 mL/min: 0–20.0 kPa; 500 mL/min: 0–10.0 kPa",
-    //   },
-    //   {
-    //     title: "Display",
-    //     description: "LCD digital (with backlight), 0–600 mL/min",
-    //   },
-    //   {
-    //     title: "Structure and function",
-    //     description:
-    //       "Constant flow rate function, autostart function, diaphragm type air pump, program mode (5 sampling settings)",
-    //   },
-    //   {
-    //     title: "Accuracy of instantaneous flow",
-    //     description: "50–500 mL/min ±5%",
-    //   },
-    //   {
-    //     title: "Accuracy of integrated flow",
-    //     description:
-    //       "50–500 mL/min: ±5% (Volume Mode only); 10–49 mL/min: ±(2.5 × sampling time [min]) mL",
-    //   },
-    //   {
-    //     title: "Operating temperature range",
-    //     description: "0–40°C",
-    //   },
-    //   {
-    //     title: "Operating humidity range",
-    //     description: "10–90% RH (non-condensing)",
-    //   },
-    //   {
-    //     title: "Power supply",
-    //     description:
-    //       "2 × AA alkaline batteries (standard) or 2 × AA NiMH batteries",
-    //   },
-    //   {
-    //     title: "Continuous operation time",
-    //     description: "20 hours (200 mL/min, 2 kPa, 25°C)",
-    //   },
-    //   {
-    //     title: "Dimensions & weight",
-    //     description: "80(W) × 40(D) × 126(H) mm, 280 g (including batteries)",
-    //   },
-    //   {
-    //     title: "Standard accessories",
-    //     description:
-    //       "2 AA alkaline batteries, detector tube adaptor, tube tip holder, dust filter (5 pcs), instruction manual, warranty & inspection certificate",
-    //   },
-    //   {
-    //     title: "Directives & regulations",
-    //     description:
-    //       "2014/30/EU (EMC), 2011/65/EU, (EU)2015/863 (RoHS), (EU)2023/1542 (BATTERY)",
-    //   },
-    //   {
-    //     title: "EMC harmonised standards",
-    //     description: "EN 61326-1:2013",
-    //   },
-    //   {
-    //     title: "RoHS designated standards",
-    //     description: "EN IEC63000:2018",
-    //   },
-    // ],
+  //   // specifications: [
+  //   //   {
+  //   //     title: "Sampling mode",
+  //   //     description:
+  //   //       "Timer Mode: 1 min–30 hrs (auto-stop); Volume Mode: 0.010–900 L (auto-stop)",
+  //   //   },
+  //   //   {
+  //   //     title: "Settable instantaneous flow rate",
+  //   //     description:
+  //   //       "Timer Mode: 50–500 mL/min; Volume Mode: 10–500 mL/min (10–49 mL/min intermittent at 50 mL/min)",
+  //   //   },
+  //   //   {
+  //   //     title: "Constant flow rate operating range",
+  //   //     description:
+  //   //       "10–49 mL/min: 0–0.5 kPa; 50 mL/min: 0–40.0 kPa; 100 mL/min: 0–37.0 kPa; 200 mL/min: 0–30.0 kPa; 300 mL/min: 0–23.0 kPa; 400 mL/min: 0–20.0 kPa; 500 mL/min: 0–10.0 kPa",
+  //   //   },
+  //   //   {
+  //   //     title: "Display",
+  //   //     description: "LCD digital (with backlight), 0–600 mL/min",
+  //   //   },
+  //   //   {
+  //   //     title: "Structure and function",
+  //   //     description:
+  //   //       "Constant flow rate function, autostart function, diaphragm type air pump, program mode (5 sampling settings)",
+  //   //   },
+  //   //   {
+  //   //     title: "Accuracy of instantaneous flow",
+  //   //     description: "50–500 mL/min ±5%",
+  //   //   },
+  //   //   {
+  //   //     title: "Accuracy of integrated flow",
+  //   //     description:
+  //   //       "50–500 mL/min: ±5% (Volume Mode only); 10–49 mL/min: ±(2.5 × sampling time [min]) mL",
+  //   //   },
+  //   //   {
+  //   //     title: "Operating temperature range",
+  //   //     description: "0–40°C",
+  //   //   },
+  //   //   {
+  //   //     title: "Operating humidity range",
+  //   //     description: "10–90% RH (non-condensing)",
+  //   //   },
+  //   //   {
+  //   //     title: "Power supply",
+  //   //     description:
+  //   //       "2 × AA alkaline batteries (standard) or 2 × AA NiMH batteries",
+  //   //   },
+  //   //   {
+  //   //     title: "Continuous operation time",
+  //   //     description: "20 hours (200 mL/min, 2 kPa, 25°C)",
+  //   //   },
+  //   //   {
+  //   //     title: "Dimensions & weight",
+  //   //     description: "80(W) × 40(D) × 126(H) mm, 280 g (including batteries)",
+  //   //   },
+  //   //   {
+  //   //     title: "Standard accessories",
+  //   //     description:
+  //   //       "2 AA alkaline batteries, detector tube adaptor, tube tip holder, dust filter (5 pcs), instruction manual, warranty & inspection certificate",
+  //   //   },
+  //   //   {
+  //   //     title: "Directives & regulations",
+  //   //     description:
+  //   //       "2014/30/EU (EMC), 2011/65/EU, (EU)2015/863 (RoHS), (EU)2023/1542 (BATTERY)",
+  //   //   },
+  //   //   {
+  //   //     title: "EMC harmonised standards",
+  //   //     description: "EN 61326-1:2013",
+  //   //   },
+  //   //   {
+  //   //     title: "RoHS designated standards",
+  //   //     description: "EN IEC63000:2018",
+  //   //   },
+  //   // ],
 
-    howToUseSteps: [
-      {
-        step: "01",
-        title: "Prepare the Tube",
-        details: [
-          "Break off both tips of the detector tube the tip holder.",
-          "Insert the tube into the rubber tube holder inlet.",
-        ],
-      },
-      {
-        step: "02",
-        title: "Setup & Start Sampling",
-        details: [
-          "Switch Power ON.",
-          "Adjust the flow rate and confirm the timer on the pump.",
-          "Press the Start Button to begin sampling.",
-        ],
-      },
+  //   howToUseSteps: [
+  //     {
+  //       step: "01",
+  //       title: "Prepare the Tube",
+  //       details: [
+  //         "Break off both tips of the detector tube the tip holder.",
+  //         "Insert the tube into the rubber tube holder inlet.",
+  //       ],
+  //     },
+  //     {
+  //       step: "02",
+  //       title: "Setup & Start Sampling",
+  //       details: [
+  //         "Switch Power ON.",
+  //         "Adjust the flow rate and confirm the timer on the pump.",
+  //         "Press the Start Button to begin sampling.",
+  //       ],
+  //     },
 
-      {
-        step: "03",
-        title: "Read Results",
-        details: [
-          "After sampling, remove the tube.",
-          "Read the concentration directly from the detector tube.",
-        ],
-      },
-    ],
-    packageContent: [
-      "GHS-501FT Fit Tester",
-      "Portable Carrying Case",
-      "Sampling Tube Kit",
-      "Battery & Charger",
-      "Calibration Certificate",
-      "User Manual",
-    ],
-    cta: {
-      title: "Interested in this product?",
-      rightDescription: "Get in touch with us to know more or request a quote.",
-      buttonText: "Make an Enquiry",
-      buttonHref: "/contact",
-    },
-    relatedProduct: [
-      {
-        name: "GHS-8AT EX Monitor",
-        description: "Portable monitor for hazardous gas detection.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-      },
-      {
-        name: "GHS-8AT EX Starter Kit",
-        description: "Maintains consistent pressure for reliable results.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-      },
-      {
-        name: "GHS-501FT Fit Tester",
-        description: "Fit testing unit for respiratory equipment.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-      },
-    ],
-  },
+  //     {
+  //       step: "03",
+  //       title: "Read Results",
+  //       details: [
+  //         "After sampling, remove the tube.",
+  //         "Read the concentration directly from the detector tube.",
+  //       ],
+  //     },
+  //   ],
+  //   packageContent: [
+  //     "GHS-501FT Fit Tester",
+  //     "Portable Carrying Case",
+  //     "Sampling Tube Kit",
+  //     "Battery & Charger",
+  //     "Calibration Certificate",
+  //     "User Manual",
+  //   ],
+  //   cta: {
+  //     title: "Interested in this product?",
+  //     rightDescription: "Get in touch with us to know more or request a quote.",
+  //     buttonText: "Make an Enquiry",
+  //     buttonHref: "/contact",
+  //   },
+  //   relatedProduct: [
+  //     {
+  //       name: "GHS-8AT EX Monitor",
+  //       description: "Portable monitor for hazardous gas detection.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+  //     },
+  //     {
+  //       name: "GHS-8AT EX Starter Kit",
+  //       description: "Maintains consistent pressure for reliable results.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+  //     },
+  //     {
+  //       name: "GHS-501FT Fit Tester",
+  //       description: "Fit testing unit for respiratory equipment.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
+  //     },
+  //   ],
+  // },
 
   // GHS-8AT EX Starter Kit
-  {
-    name: "GHS-8AT EX Starter Kit",
-    category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_2.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_3.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-    ],
-    description:
-      "The GHS-8AT EX Starter Kit provides a complete solution for gas detection and safety compliance. Designed for industrial and field applications, the kit includes the GHS-8AT EX Monitor along with essential accessories for quick setup, reliable monitoring, and long-term usability.",
-    overViewcategory: [
-      { catalogUrl: "/pdf/1.pdf", catalogName: "Download Catalog" },
-    ],
+  // {
+  //   name: "GHS-8AT EX Starter Kit",
+  //   category: "Gas Detection Monitors",
+  //   images: [
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_2.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_3.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+  //   ],
+  //   description:
+  //     "The GHS-8AT EX Starter Kit provides a complete solution for gas detection and safety compliance. Designed for industrial and field applications, the kit includes the GHS-8AT EX Monitor along with essential accessories for quick setup, reliable monitoring, and long-term usability.",
+  //   overViewcategory: [
+  //     { catalogUrl: "/pdf/1.pdf", catalogName: "Download Catalog" },
+  //   ],
 
-    features: [
-      [
-        "Complete Package",
-        "Includes monitor, sampling tube, rechargeable battery, and charger.",
-      ],
-      ["Enhanced Portability", "Convenient carrying case for field use."],
-      ["Fast Setup", "Pre-configured components for immediate deployment."],
-      ["Reliable Detection", "Accurate monitoring of hazardous gases."],
-      ["Durable Accessories", "Built for rugged industrial applications."],
-      ["User-Friendly", "Easy to assemble and operate in the field."],
-    ],
+  //   features: [
+  //     [
+  //       "Complete Package",
+  //       "Includes monitor, sampling tube, rechargeable battery, and charger.",
+  //     ],
+  //     ["Enhanced Portability", "Convenient carrying case for field use."],
+  //     ["Fast Setup", "Pre-configured components for immediate deployment."],
+  //     ["Reliable Detection", "Accurate monitoring of hazardous gases."],
+  //     ["Durable Accessories", "Built for rugged industrial applications."],
+  //     ["User-Friendly", "Easy to assemble and operate in the field."],
+  //   ],
 
-    cta: {
-      title: "Need a Complete Gas Detection Solution?",
-      rightDescription:
-        "Our starter kit has everything you need to get started quickly. Contact us for bulk orders, technical support, or custom requirements.",
-      buttonText: "Make an Enquiry",
-      buttonHref: "/contact",
-    },
-    columns: ["Category", "Details"],
+  //   cta: {
+  //     title: "Need a Complete Gas Detection Solution?",
+  //     rightDescription:
+  //       "Our starter kit has everything you need to get started quickly. Contact us for bulk orders, technical support, or custom requirements.",
+  //     buttonText: "Make an Enquiry",
+  //     buttonHref: "/contact",
+  //   },
+  //   columns: ["Category", "Details"],
 
-    specifications: [
-      ["Target Gas", "Hydrogen Sulphide (H₂S)"],
-      ["Included Device", "1 × GHS-8AT EX Monitor"],
-      [
-        "Accessories",
-        "Sampling tube, rechargeable battery & charger, carrying case, user manual",
-      ],
-      ["Power Source", "Lithium-ion rechargeable battery"],
-      ["Battery Life", "Approx. 3 months (with normal operation)"],
-      [
-        "Backup Battery",
-        "Lithium battery (5 years) – Maintains data when primary is disconnected",
-      ],
-      ["Communication Interface", "USB 2.0"],
-      ["Weight (Kit)", "~1.2 kg (including case and accessories)"],
-      ["Dimensions (Carrying Case)", "Compact design for portability"],
-    ],
+  //   specifications: [
+  //     ["Target Gas", "Hydrogen Sulphide (H₂S)"],
+  //     ["Included Device", "1 × GHS-8AT EX Monitor"],
+  //     [
+  //       "Accessories",
+  //       "Sampling tube, rechargeable battery & charger, carrying case, user manual",
+  //     ],
+  //     ["Power Source", "Lithium-ion rechargeable battery"],
+  //     ["Battery Life", "Approx. 3 months (with normal operation)"],
+  //     [
+  //       "Backup Battery",
+  //       "Lithium battery (5 years) – Maintains data when primary is disconnected",
+  //     ],
+  //     ["Communication Interface", "USB 2.0"],
+  //     ["Weight (Kit)", "~1.2 kg (including case and accessories)"],
+  //     ["Dimensions (Carrying Case)", "Compact design for portability"],
+  //   ],
 
-    software: [
-      {
-        label: "ANASYS Software Download",
-        link: "https://gastec-software.com/anasys",
-      },
-      {
-        label: "ANASYS Software Download",
-        link: "https://gastec-software.com/anasys",
-      },
-    ],
-    packageContent: [
-      "1 × GHS-8AT EX Monitor",
-      "1 × Sampling Tube",
-      "1 × Rechargeable Battery & Charger",
-      "1 × Carrying Case",
-      "1 × User Manual",
-    ],
-    relatedProduct: [
-      {
-        name: "GHS-8AT EX Monitor",
-        description: "Portable monitor for hazardous gas detection.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-      },
-      {
-        name: "GHS-8AT EX with Accessories",
-        description: "Enhanced version with extended accessories.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-      },
-      {
-        name: "GHS-501FT Fit Tester",
-        description: "Fit testing unit for respiratory equipment.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-      },
-    ],
-  },
+  //   software: [
+  //     {
+  //       label: "ANASYS Software Download",
+  //       link: "https://gastec-software.com/anasys",
+  //     },
+  //     {
+  //       label: "ANASYS Software Download",
+  //       link: "https://gastec-software.com/anasys",
+  //     },
+  //   ],
+  //   packageContent: [
+  //     "1 × GHS-8AT EX Monitor",
+  //     "1 × Sampling Tube",
+  //     "1 × Rechargeable Battery & Charger",
+  //     "1 × Carrying Case",
+  //     "1 × User Manual",
+  //   ],
+  //   relatedProduct: [
+  //     {
+  //       name: "GHS-8AT EX Monitor",
+  //       description: "Portable monitor for hazardous gas detection.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+  //     },
+  //     {
+  //       name: "GHS-8AT EX with Accessories",
+  //       description: "Enhanced version with extended accessories.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+  //     },
+  //     {
+  //       name: "GHS-501FT Fit Tester",
+  //       description: "Fit testing unit for respiratory equipment.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
+  //     },
+  //   ],
+  // },
 
   // GHS-501FT Fit Tester
-  {
-    name: "GHS-501FT Fit Tester",
-    category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_2.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg",
-    ],
-    description:
-      "The GHS-501FT Fit Tester is a precision tool for verifying the seal and integrity of respiratory protection gear—including gas masks and respirators. Built for industrial safety, it delivers reliable, quantitative results during compliance audits or regular inspections.",
+  // {
+  //   name: "GHS-501FT Fit Tester",
+  //   category: "Gas Detection Monitors",
+  //   images: [
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_2.jpg",
+  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg",
+  //   ],
+  //   description:
+  //     "The GHS-501FT Fit Tester is a precision tool for verifying the seal and integrity of respiratory protection gear—including gas masks and respirators. Built for industrial safety, it delivers reliable, quantitative results during compliance audits or regular inspections.",
 
-    overViewcategory: [
-      {
-        catalogUrl:
-          "https://www.gastec.co.jp/files/topics/4534_ext_14_en_0.pdf",
-        catalogName: "Instruction Manuals",
-      },
-      {
-        catalogUrl:
-          "https://www.gastec.co.jp/files/topics/4534_ext_14_en_1.pdf",
-        catalogName: "Download Catalog",
-      },
-    ],
+  //   overViewcategory: [
+  //     {
+  //       catalogUrl:
+  //         "https://www.gastec.co.jp/files/topics/4534_ext_14_en_0.pdf",
+  //       catalogName: "Instruction Manuals",
+  //     },
+  //     {
+  //       catalogUrl:
+  //         "https://www.gastec.co.jp/files/topics/4534_ext_14_en_1.pdf",
+  //       catalogName: "Download Catalog",
+  //     },
+  //   ],
 
-    features: [
-      [
-        "Quantitative Fit Checking",
-        "Provides objective, numeric fit results for better accuracy.",
-      ],
-      [
-        "Multi-Mask Compatibility",
-        "Works with full-face, half-face, and disposable respirators.",
-      ],
-      ["Portable & Lightweight", "Compact design allows for use in the field."],
-      ["Intuitive Interface", "Easy to operate with minimal training."],
-      ["Data Recording", "Stores fit test results for compliance reporting."],
-      ["Rechargeable Power", "Comes with a long-lasting rechargeable battery."],
-    ],
-    columns: ["Category", "Details"],
+  //   features: [
+  //     [
+  //       "Quantitative Fit Checking",
+  //       "Provides objective, numeric fit results for better accuracy.",
+  //     ],
+  //     [
+  //       "Multi-Mask Compatibility",
+  //       "Works with full-face, half-face, and disposable respirators.",
+  //     ],
+  //     ["Portable & Lightweight", "Compact design allows for use in the field."],
+  //     ["Intuitive Interface", "Easy to operate with minimal training."],
+  //     ["Data Recording", "Stores fit test results for compliance reporting."],
+  //     ["Rechargeable Power", "Comes with a long-lasting rechargeable battery."],
+  //   ],
+  //   columns: ["Category", "Details"],
 
-    specifications: [
-      [
-        "Sampling mode",
-        "Timer Mode: 1 min–30 hrs (auto-stop); Volume Mode: 0.010–900 L (auto-stop)",
-      ],
-      [
-        "Settable instantaneous flow rate",
-        "Timer Mode: 50–500 mL/min; Volume Mode: 10–500 mL/min (10–49 mL/min intermittent at 50 mL/min)",
-      ],
-      [
-        "Constant flow rate operating range",
-        "10–49 mL/min: 0–0.5 kPa; 50 mL/min: 0–40.0 kPa; 100 mL/min: 0–37.0 kPa; 200 mL/min: 0–30.0 kPa; 300 mL/min: 0–23.0 kPa; 400 mL/min: 0–20.0 kPa; 500 mL/min: 0–10.0 kPa",
-      ],
-      ["Display", "LCD digital (with backlight), 0–600 mL/min"],
-      [
-        "Structure and function",
-        "Constant flow rate function, autostart function, diaphragm type air pump, program mode (5 sampling settings)",
-      ],
-      ["Accuracy of instantaneous flow", "50–500 mL/min ±5%"],
-      [
-        "Accuracy of integrated flow",
-        "50–500 mL/min: ±5% (Volume Mode only); 10–49 mL/min: ±(2.5 × sampling time [min]) mL",
-      ],
-      ["Operating temperature range", "0–40°C"],
-      ["Operating humidity range", "10–90% RH (non-condensing)"],
-      [
-        "Power supply",
-        "2 × AA alkaline batteries (standard) or 2 × AA NiMH batteries",
-      ],
-      ["Continuous operation time", "20 hours (200 mL/min, 2 kPa, 25°C)"],
-      [
-        "Dimensions & weight",
-        "80(W) × 40(D) × 126(H) mm, 280 g (including batteries)",
-      ],
-      [
-        "Standard accessories",
-        "2 AA alkaline batteries, detector tube adaptor, tube tip holder, dust filter (5 pcs), instruction manual, warranty & inspection certificate",
-      ],
-      [
-        "Directives & regulations",
-        "2014/30/EU (EMC), 2011/65/EU, (EU)2015/863 (RoHS), (EU)2023/1542 (BATTERY)",
-      ],
-      ["EMC harmonised standards", "EN 61326-1:2013"],
-      ["RoHS designated standards", "EN IEC63000:2018"],
-    ],
+  //   specifications: [
+  //     [
+  //       "Sampling mode",
+  //       "Timer Mode: 1 min–30 hrs (auto-stop); Volume Mode: 0.010–900 L (auto-stop)",
+  //     ],
+  //     [
+  //       "Settable instantaneous flow rate",
+  //       "Timer Mode: 50–500 mL/min; Volume Mode: 10–500 mL/min (10–49 mL/min intermittent at 50 mL/min)",
+  //     ],
+  //     [
+  //       "Constant flow rate operating range",
+  //       "10–49 mL/min: 0–0.5 kPa; 50 mL/min: 0–40.0 kPa; 100 mL/min: 0–37.0 kPa; 200 mL/min: 0–30.0 kPa; 300 mL/min: 0–23.0 kPa; 400 mL/min: 0–20.0 kPa; 500 mL/min: 0–10.0 kPa",
+  //     ],
+  //     ["Display", "LCD digital (with backlight), 0–600 mL/min"],
+  //     [
+  //       "Structure and function",
+  //       "Constant flow rate function, autostart function, diaphragm type air pump, program mode (5 sampling settings)",
+  //     ],
+  //     ["Accuracy of instantaneous flow", "50–500 mL/min ±5%"],
+  //     [
+  //       "Accuracy of integrated flow",
+  //       "50–500 mL/min: ±5% (Volume Mode only); 10–49 mL/min: ±(2.5 × sampling time [min]) mL",
+  //     ],
+  //     ["Operating temperature range", "0–40°C"],
+  //     ["Operating humidity range", "10–90% RH (non-condensing)"],
+  //     [
+  //       "Power supply",
+  //       "2 × AA alkaline batteries (standard) or 2 × AA NiMH batteries",
+  //     ],
+  //     ["Continuous operation time", "20 hours (200 mL/min, 2 kPa, 25°C)"],
+  //     [
+  //       "Dimensions & weight",
+  //       "80(W) × 40(D) × 126(H) mm, 280 g (including batteries)",
+  //     ],
+  //     [
+  //       "Standard accessories",
+  //       "2 AA alkaline batteries, detector tube adaptor, tube tip holder, dust filter (5 pcs), instruction manual, warranty & inspection certificate",
+  //     ],
+  //     [
+  //       "Directives & regulations",
+  //       "2014/30/EU (EMC), 2011/65/EU, (EU)2015/863 (RoHS), (EU)2023/1542 (BATTERY)",
+  //     ],
+  //     ["EMC harmonised standards", "EN 61326-1:2013"],
+  //     ["RoHS designated standards", "EN IEC63000:2018"],
+  //   ],
 
-    howToUseSteps: [
-      {
-        step: "01",
-        title: "Prepare the Tube",
-        details: [
-          "Break off both tips of the detector tube the tip holder.",
-          "Insert the tube into the rubber tube holder inlet.",
-        ],
-      },
-      {
-        step: "02",
-        title: "Setup & Start Sampling",
-        details: [
-          "Switch Power ON.",
-          "Adjust the flow rate and confirm the timer on the pump.",
-          "Press the Start Button to begin sampling.",
-        ],
-      },
+  //   howToUseSteps: [
+  //     {
+  //       step: "01",
+  //       title: "Prepare the Tube",
+  //       details: [
+  //         "Break off both tips of the detector tube the tip holder.",
+  //         "Insert the tube into the rubber tube holder inlet.",
+  //       ],
+  //     },
+  //     {
+  //       step: "02",
+  //       title: "Setup & Start Sampling",
+  //       details: [
+  //         "Switch Power ON.",
+  //         "Adjust the flow rate and confirm the timer on the pump.",
+  //         "Press the Start Button to begin sampling.",
+  //       ],
+  //     },
 
-      {
-        step: "03",
-        title: "Read Results",
-        details: [
-          "After sampling, remove the tube.",
-          "Read the concentration directly from the detector tube.",
-        ],
-      },
-    ],
-    packageContent: [
-      "GHS-501FT Fit Tester",
-      "Portable Carrying Case",
-      "Sampling Tube Kit",
-      "Battery & Charger",
-      "Calibration Certificate",
-      "User Manual",
-    ],
-    cta: {
-      title: "Interested in this product?",
-      rightDescription: "Get in touch with us to know more or request a quote.",
-      buttonText: "Make an Enquiry",
-      buttonHref: "/contact",
-    },
-    relatedProduct: [
-      {
-        name: "GHS-8AT EX Monitor",
-        description: "Portable monitor for hazardous gas detection.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-      },
-      {
-        name: "GHS-8AT EX with Accessories",
-        description: "Enhanced version with extended accessories.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-      },
-      {
-        name: "GHS-8AT EX Starter Kit",
-        description: "Maintains consistent pressure for reliable results.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-      },
-    ],
+  //     {
+  //       step: "03",
+  //       title: "Read Results",
+  //       details: [
+  //         "After sampling, remove the tube.",
+  //         "Read the concentration directly from the detector tube.",
+  //       ],
+  //     },
+  //   ],
+  //   packageContent: [
+  //     "GHS-501FT Fit Tester",
+  //     "Portable Carrying Case",
+  //     "Sampling Tube Kit",
+  //     "Battery & Charger",
+  //     "Calibration Certificate",
+  //     "User Manual",
+  //   ],
+  //   cta: {
+  //     title: "Interested in this product?",
+  //     rightDescription: "Get in touch with us to know more or request a quote.",
+  //     buttonText: "Make an Enquiry",
+  //     buttonHref: "/contact",
+  //   },
+  //   relatedProduct: [
+  //     {
+  //       name: "GHS-8AT EX Monitor",
+  //       description: "Portable monitor for hazardous gas detection.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+  //     },
+  //     {
+  //       name: "GHS-8AT EX with Accessories",
+  //       description: "Enhanced version with extended accessories.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+  //     },
+  //     {
+  //       name: "GHS-8AT EX Starter Kit",
+  //       description: "Maintains consistent pressure for reliable results.",
+  //       imgSrc:
+  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+  //     },
+  //   ],
 
-    columns2: [
-      "Product Name",
-      "Product Code",
-      "Layer",
-      "Filling quantity",
-      "Dimensions (mm)",
-      "Tubes/box",
-      "Shelf life (months)",
-    ],
+  //   columns2: [
+  //     "Product Name",
+  //     "Product Code",
+  //     "Layer",
+  //     "Filling quantity",
+  //     "Dimensions (mm)",
+  //     "Tubes/box",
+  //     "Shelf life (months)",
+  //   ],
 
-    data2: [
-      [
-        "Activated charcoal tube",
-        "251S-20",
-        "2",
-        "100/50",
-        "5.6 × 100",
-        "20",
-        "60",
-      ],
-      [
-        "Activated charcoal tube",
-        "251S2-20",
-        "1",
-        "150",
-        "5.6 × 100",
-        "20",
-        "60",
-      ],
-      [
-        "Activated charcoal tube (Bead-shaped)",
-        "258-20",
-        "2",
-        "100/50",
-        "5.6 × 100",
-        "20",
-        "60",
-      ],
-      [
-        "Activated charcoal tube (Bead-shaped)",
-        "258A-20",
-        "2",
-        "400/200",
-        "7.0 × 105",
-        "20",
-        "60",
-      ],
-      [
-        "Activated charcoal tube (Bead-shaped)",
-        "258S2-20",
-        "2",
-        "150",
-        "5.6 × 100",
-        "20",
-        "60",
-      ],
-      ["Silica-gel tube", "252S-20", "2", "400/200", "7.0 × 105", "20", "60"],
-      ["Silica-gel tube", "252S2-20", "1", "600", "7.0 × 105", "20", "60"],
-      ["Silica-gel tube", "252S3-20", "2", "150/75", "5.6 × 100", "20", "60"],
-      ["Silica-gel tube", "252S4-20", "1", "300", "5.6 × 100", "20", "60"],
-    ],
-  },
+  //   data2: [
+  //     [
+  //       "Activated charcoal tube",
+  //       "251S-20",
+  //       "2",
+  //       "100/50",
+  //       "5.6 × 100",
+  //       "20",
+  //       "60",
+  //     ],
+  //     [
+  //       "Activated charcoal tube",
+  //       "251S2-20",
+  //       "1",
+  //       "150",
+  //       "5.6 × 100",
+  //       "20",
+  //       "60",
+  //     ],
+  //     [
+  //       "Activated charcoal tube (Bead-shaped)",
+  //       "258-20",
+  //       "2",
+  //       "100/50",
+  //       "5.6 × 100",
+  //       "20",
+  //       "60",
+  //     ],
+  //     [
+  //       "Activated charcoal tube (Bead-shaped)",
+  //       "258A-20",
+  //       "2",
+  //       "400/200",
+  //       "7.0 × 105",
+  //       "20",
+  //       "60",
+  //     ],
+  //     [
+  //       "Activated charcoal tube (Bead-shaped)",
+  //       "258S2-20",
+  //       "2",
+  //       "150",
+  //       "5.6 × 100",
+  //       "20",
+  //       "60",
+  //     ],
+  //     ["Silica-gel tube", "252S-20", "2", "400/200", "7.0 × 105", "20", "60"],
+  //     ["Silica-gel tube", "252S2-20", "1", "600", "7.0 × 105", "20", "60"],
+  //     ["Silica-gel tube", "252S3-20", "2", "150/75", "5.6 × 100", "20", "60"],
+  //     ["Silica-gel tube", "252S4-20", "1", "300", "5.6 × 100", "20", "60"],
+  //   ],
+  // },
 
   ////////////////////////////////////////////////////
 
@@ -1254,7 +1254,7 @@ export const products: DetailProduct[] = [
 
   // GV-100S Hand Pump
   {
-    name: "GV-100S Hand Pump",
+    name: "Gas sampling pump kit GV-100S",
     category: "Gas Detection Monitors",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100S.jpg",
@@ -1269,6 +1269,32 @@ export const products: DetailProduct[] = [
         catalogName: "Download Catalog",
       },
     ],
+
+    tubeSystemTitle: "What is the GASTEC Detector Tube System?",
+    tubeSystemDescription:
+      "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
+    tubeSystemImage: "/images/detector-tube-system.jpg",
+    tubeSystemFeatures: [
+      {
+        title: "Portable & Convenient",
+        description: "From common industrial gases to specialized chemicals",
+      },
+      {
+        title: "Quick Results",
+        description: "Instant on-site readings in minutes.",
+      },
+      {
+        title: "Extensive Coverage",
+        description: "Over 500 gases detectable.",
+      },
+      {
+        title: "Trusted Worldwide",
+        description:
+          "Used across industries for safety, research, and compliance.",
+      },
+    ],
+
+    
 
     featureCard2: [
       "Precision-engineered for reliable gas sampling",
@@ -1335,7 +1361,7 @@ export const products: DetailProduct[] = [
 
   // GV-110S Hand Pump
   {
-    name: "GV-110S Hand Pump",
+    name: "Gas sampling pump kit GV-110S",
     category: "Gas Detection Monitors",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_110S.jpg",

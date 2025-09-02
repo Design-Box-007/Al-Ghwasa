@@ -35,7 +35,7 @@ const CTA: React.FC<CTAProps> = ({
   return (
     <section className={sectionClasses}>
       <div className={`${containerClasses}`}>
-        <div className="w-full bg-[#0F2F4D] text-white rounded-2xl p-6 md:p-10">
+        <div className="w-full bg-custom-blue-1 text-white rounded-2xl p-6 md:p-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-start">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">

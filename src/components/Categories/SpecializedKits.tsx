@@ -5,7 +5,7 @@ import data from "@/data/products/category-gastec.json"
 const SpecializedKits: React.FC = () => {
   return (
     <ProductGrid
-      title="Specialized Kits"
+      title=" Toxic Gas detection kit"
       items={data["specialized-kits"]}
       ctaLabel="View Tubes"
       ctaHref="#"

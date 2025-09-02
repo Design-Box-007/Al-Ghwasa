@@ -1,6 +1,5 @@
 // import SpecializedKits from "@/components/Categories/SpecializedKits";
 import { FAQItem, NavLinksType, SocialMediaLinks } from "@/types";
-import formatToHyphenated from "@/utils/formatPathName";
 import {
   FaFacebook,
   FaLinkedin,
@@ -27,34 +26,30 @@ export const navLinks: NavLinksType[] = [
         subLinks: [
           {
             navTitle: "H2S Data Logger-GHS-8AT-EX",
-            navHref: `/categories/${formatToHyphenated("GHS-8AT EX Monitor")}`,
           },
-          {
-            navTitle: "Automatic Air Sampling Pump GSP-501FT",
-            navHref: `/categories/${formatToHyphenated(
-              "GHS-501FT Fit Tester"
-            )}`,
-          },
-          {
-            navTitle: "Toxic gas detection kit TG-1",
-            navHref: `/categories/${formatToHyphenated(
-              "TG-1EN Gas Sampling Kit"
-            )}`,
-          },
+          // {
+          //   navTitle: "Automatic Air Sampling Pump GSP-501FT",
+          //   navHref: `/categories/${formatToHyphenated(
+          //     "GHS-501FT Fit Tester"
+          //   )}`,
+          // },
+          // {
+          //   navTitle: "Toxic gas detection kit TG-1",
+          //   navHref: `/categories/${formatToHyphenated(
+          //     "TG-1EN Gas Sampling Kit"
+          //   )}`,
+          // },
           {
             navTitle: "GASTEC Compressed Breathing Air Measurement KitCG-1",
-            navHref: `/categories/${formatToHyphenated(
-              "GASTEC Calibration Kit"
-            )}`,
           },
-          {
-            navTitle: "Gas sampling pump kit GV-100S",
-            navHref: `/categories/${formatToHyphenated("GV-100S Hand Pump")}`,
-          },
-          {
-            navTitle: "Gas sampling pump kit GV-110S",
-            navHref: `/categories/${formatToHyphenated("GV-110S Hand Pump")}`,
-          },
+          // {
+          //   navTitle: "Gas sampling pump kit GV-100S",
+          //   navHref: `/categories/${formatToHyphenated("GV-100S Hand Pump")}`,
+          // },
+          // {
+          //   navTitle: "Gas sampling pump kit GV-110S",
+          //   navHref: `/categories/${formatToHyphenated("GV-110S Hand Pump")}`,
+          // },
         ],
       },
       {
@@ -66,6 +61,19 @@ export const navLinks: NavLinksType[] = [
         navTitle: "Gas Detection Passive Monitoring",
         navHref: "/categories?category=Gas Detection Passive Monitoring",
         subLinks: [{ navTitle: "Dosimeter Tubes – TWA" }],
+      },
+
+      {
+        navTitle: "Gasdetector Tube System",
+        navHref: "/categories?category=Gas Detection Passive Monitoring",
+        subLinks: [
+          {
+            navTitle: "Gas sampling pump kit GV-100S",
+          },
+          {
+            navTitle: "Gas sampling pump kit GV-110S",
+          },
+        ],
       },
       {
         navTitle: "Accessories",
@@ -86,8 +94,8 @@ export const navLinks: NavLinksType[] = [
       //   ],
       // },
       {
-        navTitle: "GASTEC Detector Tubes",
-        navHref: "/Detection-table",
+        navTitle: "PolytecTubes",
+        navHref: "/polytec-tubes",
         subLinks: [
           { navTitle: "Detection Table", navHref: "/Detection-table" },
         ],

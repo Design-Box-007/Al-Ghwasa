@@ -28,7 +28,8 @@ const Navbar = () => {
     "/product-page",
     "/blogs",
     "/gastec/product-data",
-    "/categories"
+    "/categories",
+    "/polytec-tubes",
   ];
 
   const isWhite = whitePages.includes(pathname);
@@ -80,17 +81,17 @@ const Navbar = () => {
                     {/* Mega Menu only for Our Products */}
                     {navlink.navTitle === "Solutions" ? (
                       <div className="absolute top-full left-[-30] -translate-x-1/3 mt-3 w-screen max-w-[1150px] bg-white text-black shadow-lg rounded-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-10 p-6 overflow-hidden">
-                        <div className="grid lg:grid-cols-3 gap-8">
+                        <div className="grid lg:grid-cols-3 gap-5">
                           {navlink.subLinks.map((sublink, i) => (
                             <div key={i}>
                               <Link href={sublink.navHref || `/categories`}>
-                                <h4 className="font-semibold text-[#0a2c61] mb-3">
+                                <h4 className="font-semibold text-custom-blue-1 mb-3 md:text-[18px]">
                                   {sublink.navTitle}
                                 </h4>
                               </Link>
                               <ul className="space-y-2">
                                 {sublink.subLinks?.map((item, j) => (
-                                  <li key={j}>
+                                  <li key={j} className="transition-all duration-200 hover:scale-[1.03]">
                                     <Link
                                       href={
                                         item.navHref ||
@@ -98,7 +99,7 @@ const Navbar = () => {
                                           item.navTitle
                                         )}`
                                       }
-                                      className="text-gray-800 hover:text-[#0a2c61] transition"
+                                      className="text-text-color hover:text-custom-blue-1 md:text-[16px] font-normal"
                                     >
                                       {item.navTitle}
                                     </Link>

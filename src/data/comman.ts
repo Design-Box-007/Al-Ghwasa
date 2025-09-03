@@ -64,7 +64,7 @@ export const navLinks: NavLinksType[] = [
       },
 
       {
-        navTitle: "Gasdetector Tube System",
+        navTitle: "Gas Detector Tube System",
         navHref: "/categories?category=Gas Detection Passive Monitoring",
         subLinks: [
           {
@@ -99,7 +99,7 @@ export const navLinks: NavLinksType[] = [
         subLinks: [
           { navTitle: "Detection Table", navHref: "/Detection-table" },
         ],
-      },
+      }, 
     ],
   },
 

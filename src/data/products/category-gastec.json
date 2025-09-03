@@ -31,6 +31,11 @@
       "name": "GHS-8AT EX Monitor",
       "description": "Portable monitor for hazardous gas detection.",
       "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg"
+    },
+    {
+      "name": "GHS-501FT Fit Tester",
+      "description": "Fit testing unit for respiratory equipment.",
+      "imgSrc": "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg"
     }
   ],
   "gas-sampling": [

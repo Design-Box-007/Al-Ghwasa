@@ -1036,217 +1036,217 @@ export const products: DetailProduct[] = [
   // },
 
   // GHS-501FT Fit Tester
-  // {
-  //   name: "GHS-501FT Fit Tester",
-  //   category: "Gas Detection Monitors",
-  //   images: [
-  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_2.jpg",
-  //     "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg",
-  //   ],
-  //   description:
-  //     "The GHS-501FT Fit Tester is a precision tool for verifying the seal and integrity of respiratory protection gear—including gas masks and respirators. Built for industrial safety, it delivers reliable, quantitative results during compliance audits or regular inspections.",
+  {
+    name: "GHS-501FT Fit Tester",
+    category: "Gas Detection Monitors",
+    images: [
+      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
+      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_2.jpg",
+      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg",
+    ],
+    description:
+      "The GHS-501FT Fit Tester is a precision tool for verifying the seal and integrity of respiratory protection gear—including gas masks and respirators. Built for industrial safety, it delivers reliable, quantitative results during compliance audits or regular inspections.",
 
-  //   overViewcategory: [
-  //     {
-  //       catalogUrl:
-  //         "https://www.gastec.co.jp/files/topics/4534_ext_14_en_0.pdf",
-  //       catalogName: "Instruction Manuals",
-  //     },
-  //     {
-  //       catalogUrl:
-  //         "https://www.gastec.co.jp/files/topics/4534_ext_14_en_1.pdf",
-  //       catalogName: "Download Catalog",
-  //     },
-  //   ],
+    overViewcategory: [
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/topics/4534_ext_14_en_0.pdf",
+        catalogName: "Instruction Manuals",
+      },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/files/topics/4534_ext_14_en_1.pdf",
+        catalogName: "Download Catalog",
+      },
+    ],
 
-  //   features: [
-  //     [
-  //       "Quantitative Fit Checking",
-  //       "Provides objective, numeric fit results for better accuracy.",
-  //     ],
-  //     [
-  //       "Multi-Mask Compatibility",
-  //       "Works with full-face, half-face, and disposable respirators.",
-  //     ],
-  //     ["Portable & Lightweight", "Compact design allows for use in the field."],
-  //     ["Intuitive Interface", "Easy to operate with minimal training."],
-  //     ["Data Recording", "Stores fit test results for compliance reporting."],
-  //     ["Rechargeable Power", "Comes with a long-lasting rechargeable battery."],
-  //   ],
-  //   columns: ["Category", "Details"],
+    features: [
+      [
+        "Quantitative Fit Checking",
+        "Provides objective, numeric fit results for better accuracy.",
+      ],
+      [
+        "Multi-Mask Compatibility",
+        "Works with full-face, half-face, and disposable respirators.",
+      ],
+      ["Portable & Lightweight", "Compact design allows for use in the field."],
+      ["Intuitive Interface", "Easy to operate with minimal training."],
+      ["Data Recording", "Stores fit test results for compliance reporting."],
+      ["Rechargeable Power", "Comes with a long-lasting rechargeable battery."],
+    ],
+    columns: ["Category", "Details"],
 
-  //   specifications: [
-  //     [
-  //       "Sampling mode",
-  //       "Timer Mode: 1 min–30 hrs (auto-stop); Volume Mode: 0.010–900 L (auto-stop)",
-  //     ],
-  //     [
-  //       "Settable instantaneous flow rate",
-  //       "Timer Mode: 50–500 mL/min; Volume Mode: 10–500 mL/min (10–49 mL/min intermittent at 50 mL/min)",
-  //     ],
-  //     [
-  //       "Constant flow rate operating range",
-  //       "10–49 mL/min: 0–0.5 kPa; 50 mL/min: 0–40.0 kPa; 100 mL/min: 0–37.0 kPa; 200 mL/min: 0–30.0 kPa; 300 mL/min: 0–23.0 kPa; 400 mL/min: 0–20.0 kPa; 500 mL/min: 0–10.0 kPa",
-  //     ],
-  //     ["Display", "LCD digital (with backlight), 0–600 mL/min"],
-  //     [
-  //       "Structure and function",
-  //       "Constant flow rate function, autostart function, diaphragm type air pump, program mode (5 sampling settings)",
-  //     ],
-  //     ["Accuracy of instantaneous flow", "50–500 mL/min ±5%"],
-  //     [
-  //       "Accuracy of integrated flow",
-  //       "50–500 mL/min: ±5% (Volume Mode only); 10–49 mL/min: ±(2.5 × sampling time [min]) mL",
-  //     ],
-  //     ["Operating temperature range", "0–40°C"],
-  //     ["Operating humidity range", "10–90% RH (non-condensing)"],
-  //     [
-  //       "Power supply",
-  //       "2 × AA alkaline batteries (standard) or 2 × AA NiMH batteries",
-  //     ],
-  //     ["Continuous operation time", "20 hours (200 mL/min, 2 kPa, 25°C)"],
-  //     [
-  //       "Dimensions & weight",
-  //       "80(W) × 40(D) × 126(H) mm, 280 g (including batteries)",
-  //     ],
-  //     [
-  //       "Standard accessories",
-  //       "2 AA alkaline batteries, detector tube adaptor, tube tip holder, dust filter (5 pcs), instruction manual, warranty & inspection certificate",
-  //     ],
-  //     [
-  //       "Directives & regulations",
-  //       "2014/30/EU (EMC), 2011/65/EU, (EU)2015/863 (RoHS), (EU)2023/1542 (BATTERY)",
-  //     ],
-  //     ["EMC harmonised standards", "EN 61326-1:2013"],
-  //     ["RoHS designated standards", "EN IEC63000:2018"],
-  //   ],
+    specifications: [
+      [
+        "Sampling mode",
+        "Timer Mode: 1 min–30 hrs (auto-stop); Volume Mode: 0.010–900 L (auto-stop)",
+      ],
+      [
+        "Settable instantaneous flow rate",
+        "Timer Mode: 50–500 mL/min; Volume Mode: 10–500 mL/min (10–49 mL/min intermittent at 50 mL/min)",
+      ],
+      [
+        "Constant flow rate operating range",
+        "10–49 mL/min: 0–0.5 kPa; 50 mL/min: 0–40.0 kPa; 100 mL/min: 0–37.0 kPa; 200 mL/min: 0–30.0 kPa; 300 mL/min: 0–23.0 kPa; 400 mL/min: 0–20.0 kPa; 500 mL/min: 0–10.0 kPa",
+      ],
+      ["Display", "LCD digital (with backlight), 0–600 mL/min"],
+      [
+        "Structure and function",
+        "Constant flow rate function, autostart function, diaphragm type air pump, program mode (5 sampling settings)",
+      ],
+      ["Accuracy of instantaneous flow", "50–500 mL/min ±5%"],
+      [
+        "Accuracy of integrated flow",
+        "50–500 mL/min: ±5% (Volume Mode only); 10–49 mL/min: ±(2.5 × sampling time [min]) mL",
+      ],
+      ["Operating temperature range", "0–40°C"],
+      ["Operating humidity range", "10–90% RH (non-condensing)"],
+      [
+        "Power supply",
+        "2 × AA alkaline batteries (standard) or 2 × AA NiMH batteries",
+      ],
+      ["Continuous operation time", "20 hours (200 mL/min, 2 kPa, 25°C)"],
+      [
+        "Dimensions & weight",
+        "80(W) × 40(D) × 126(H) mm, 280 g (including batteries)",
+      ],
+      [
+        "Standard accessories",
+        "2 AA alkaline batteries, detector tube adaptor, tube tip holder, dust filter (5 pcs), instruction manual, warranty & inspection certificate",
+      ],
+      [
+        "Directives & regulations",
+        "2014/30/EU (EMC), 2011/65/EU, (EU)2015/863 (RoHS), (EU)2023/1542 (BATTERY)",
+      ],
+      ["EMC harmonised standards", "EN 61326-1:2013"],
+      ["RoHS designated standards", "EN IEC63000:2018"],
+    ],
 
-  //   howToUseSteps: [
-  //     {
-  //       step: "01",
-  //       title: "Prepare the Tube",
-  //       details: [
-  //         "Break off both tips of the detector tube the tip holder.",
-  //         "Insert the tube into the rubber tube holder inlet.",
-  //       ],
-  //     },
-  //     {
-  //       step: "02",
-  //       title: "Setup & Start Sampling",
-  //       details: [
-  //         "Switch Power ON.",
-  //         "Adjust the flow rate and confirm the timer on the pump.",
-  //         "Press the Start Button to begin sampling.",
-  //       ],
-  //     },
+    howToUseSteps: [
+      {
+        step: "01",
+        title: "Prepare the Tube",
+        details: [
+          "Break off both tips of the detector tube the tip holder.",
+          "Insert the tube into the rubber tube holder inlet.",
+        ],
+      },
+      {
+        step: "02",
+        title: "Setup & Start Sampling",
+        details: [
+          "Switch Power ON.",
+          "Adjust the flow rate and confirm the timer on the pump.",
+          "Press the Start Button to begin sampling.",
+        ],
+      },
 
-  //     {
-  //       step: "03",
-  //       title: "Read Results",
-  //       details: [
-  //         "After sampling, remove the tube.",
-  //         "Read the concentration directly from the detector tube.",
-  //       ],
-  //     },
-  //   ],
-  //   packageContent: [
-  //     "GHS-501FT Fit Tester",
-  //     "Portable Carrying Case",
-  //     "Sampling Tube Kit",
-  //     "Battery & Charger",
-  //     "Calibration Certificate",
-  //     "User Manual",
-  //   ],
-  //   cta: {
-  //     title: "Interested in this product?",
-  //     rightDescription: "Get in touch with us to know more or request a quote.",
-  //     buttonText: "Make an Enquiry",
-  //     buttonHref: "/contact",
-  //   },
-  //   relatedProduct: [
-  //     {
-  //       name: "GHS-8AT EX Monitor",
-  //       description: "Portable monitor for hazardous gas detection.",
-  //       imgSrc:
-  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-  //     },
-  //     {
-  //       name: "GHS-8AT EX with Accessories",
-  //       description: "Enhanced version with extended accessories.",
-  //       imgSrc:
-  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-  //     },
-  //     {
-  //       name: "GHS-8AT EX Starter Kit",
-  //       description: "Maintains consistent pressure for reliable results.",
-  //       imgSrc:
-  //         "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-  //     },
-  //   ],
+      {
+        step: "03",
+        title: "Read Results",
+        details: [
+          "After sampling, remove the tube.",
+          "Read the concentration directly from the detector tube.",
+        ],
+      },
+    ],
+    packageContent: [
+      "GHS-501FT Fit Tester",
+      "Portable Carrying Case",
+      "Sampling Tube Kit",
+      "Battery & Charger",
+      "Calibration Certificate",
+      "User Manual",
+    ],
+    cta: {
+      title: "Interested in this product?",
+      rightDescription: "Get in touch with us to know more or request a quote.",
+      buttonText: "Make an Enquiry",
+      buttonHref: "/contact",
+    },
+    relatedProduct: [
+      {
+        name: "GHS-8AT EX Monitor",
+        description: "Portable monitor for hazardous gas detection.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+      },
+      {
+        name: "GHS-8AT EX with Accessories",
+        description: "Enhanced version with extended accessories.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+      },
+      {
+        name: "GHS-8AT EX Starter Kit",
+        description: "Maintains consistent pressure for reliable results.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+      },
+    ],
 
-  //   columns2: [
-  //     "Product Name",
-  //     "Product Code",
-  //     "Layer",
-  //     "Filling quantity",
-  //     "Dimensions (mm)",
-  //     "Tubes/box",
-  //     "Shelf life (months)",
-  //   ],
+    columns2: [
+      "Product Name",
+      "Product Code",
+      "Layer",
+      "Filling quantity",
+      "Dimensions (mm)",
+      "Tubes/box",
+      "Shelf life (months)",
+    ],
 
-  //   data2: [
-  //     [
-  //       "Activated charcoal tube",
-  //       "251S-20",
-  //       "2",
-  //       "100/50",
-  //       "5.6 × 100",
-  //       "20",
-  //       "60",
-  //     ],
-  //     [
-  //       "Activated charcoal tube",
-  //       "251S2-20",
-  //       "1",
-  //       "150",
-  //       "5.6 × 100",
-  //       "20",
-  //       "60",
-  //     ],
-  //     [
-  //       "Activated charcoal tube (Bead-shaped)",
-  //       "258-20",
-  //       "2",
-  //       "100/50",
-  //       "5.6 × 100",
-  //       "20",
-  //       "60",
-  //     ],
-  //     [
-  //       "Activated charcoal tube (Bead-shaped)",
-  //       "258A-20",
-  //       "2",
-  //       "400/200",
-  //       "7.0 × 105",
-  //       "20",
-  //       "60",
-  //     ],
-  //     [
-  //       "Activated charcoal tube (Bead-shaped)",
-  //       "258S2-20",
-  //       "2",
-  //       "150",
-  //       "5.6 × 100",
-  //       "20",
-  //       "60",
-  //     ],
-  //     ["Silica-gel tube", "252S-20", "2", "400/200", "7.0 × 105", "20", "60"],
-  //     ["Silica-gel tube", "252S2-20", "1", "600", "7.0 × 105", "20", "60"],
-  //     ["Silica-gel tube", "252S3-20", "2", "150/75", "5.6 × 100", "20", "60"],
-  //     ["Silica-gel tube", "252S4-20", "1", "300", "5.6 × 100", "20", "60"],
-  //   ],
-  // },
+    data2: [
+      [
+        "Activated charcoal tube",
+        "251S-20",
+        "2",
+        "100/50",
+        "5.6 × 100",
+        "20",
+        "60",
+      ],
+      [
+        "Activated charcoal tube",
+        "251S2-20",
+        "1",
+        "150",
+        "5.6 × 100",
+        "20",
+        "60",
+      ],
+      [
+        "Activated charcoal tube (Bead-shaped)",
+        "258-20",
+        "2",
+        "100/50",
+        "5.6 × 100",
+        "20",
+        "60",
+      ],
+      [
+        "Activated charcoal tube (Bead-shaped)",
+        "258A-20",
+        "2",
+        "400/200",
+        "7.0 × 105",
+        "20",
+        "60",
+      ],
+      [
+        "Activated charcoal tube (Bead-shaped)",
+        "258S2-20",
+        "2",
+        "150",
+        "5.6 × 100",
+        "20",
+        "60",
+      ],
+      ["Silica-gel tube", "252S-20", "2", "400/200", "7.0 × 105", "20", "60"],
+      ["Silica-gel tube", "252S2-20", "1", "600", "7.0 × 105", "20", "60"],
+      ["Silica-gel tube", "252S3-20", "2", "150/75", "5.6 × 100", "20", "60"],
+      ["Silica-gel tube", "252S4-20", "1", "300", "5.6 × 100", "20", "60"],
+    ],
+  },
 
   ////////////////////////////////////////////////////
 

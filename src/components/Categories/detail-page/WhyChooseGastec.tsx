@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import RevealComponent from "@/components/Comman/RevealComponent";
 
 interface FeatureCardProps {
   featureImage?: string;
@@ -26,26 +27,32 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
   features,
   description,
   className,
-  titleClass
+  titleClass,
 }) => {
   return (
     <section className="px-6 lg:px-10 py-8">
       {/* Top Image */}
       {imageUrl && (
-        <div className="w-full flex justify-center mb-10">
-          <Image
-            src={imageUrl}
-            alt="Why Choose GASTEC"
-            width={900}
-            height={500}
-            className="rounded-2xl object-contain shadow-md"
-          />
-        </div>
+        <RevealComponent direction="left" backgroundClass="bg-white">
+          <div className="w-full flex justify-center mb-10">
+            <Image
+              src={imageUrl}
+              alt="Why Choose GASTEC"
+              width={900}
+              height={500}
+              className="rounded-2xl object-contain  rotate-180"
+            />
+          </div>
+        </RevealComponent>
       )}
 
       {/* Section Title (only if title exists) */}
       {title && (
-        <h2 className={titleClass || `text-h1 font-semibold text-custom-blue-1 mb-6`}>
+        <h2
+          className={
+            titleClass || `text-h1 font-semibold text-custom-blue-1 mb-6`
+          }
+        >
           {title}
         </h2>
       )}
@@ -63,7 +70,11 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
       )}
 
       {/* Features Grid */}
-      <div className={className || `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6`}>
+      <div
+        className={
+          className || `grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6`
+        }
+      >
         {features?.map((item, index) => (
           <div
             key={index}

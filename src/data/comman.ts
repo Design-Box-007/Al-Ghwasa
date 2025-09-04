@@ -27,6 +27,12 @@ export const navLinks: NavLinksType[] = [
           {
             navTitle: "H2S Data Logger-GHS-8AT-EX",
           },
+          {
+            navTitle: "GHS-501FT Fit Tester",
+          },
+          {
+            navTitle: "TG-1EN Gas Sampling Kit",
+          },
           // {
           //   navTitle: "Automatic Air Sampling Pump GSP-501FT",
           //   navHref: `/categories/${formatToHyphenated(
@@ -99,7 +105,7 @@ export const navLinks: NavLinksType[] = [
         subLinks: [
           { navTitle: "Detection Table", navHref: "/Detection-table" },
         ],
-      }, 
+      },
     ],
   },
 

@@ -17,7 +17,13 @@ const GasDetector = () => {
         ctaText="Browse Detector Tubes"
         link="/Detection-table"
       />
+
       <Overview
+        title="Overview"
+        description="GASTEC Detector Tubes provide direct concentration readings using a calibrated scale printed on each tube. At GASTEC, we are committed to delivering the highest quality detector tubes for accurate analysis of gases and vapours in air, as well as pollutants in soil and water, backed by advanced, state-of-the-art research and development. Our dedication to quality and innovation has earned us a strong reputation across a wide range of industries, commercial sectors, and public services. Today, our detector tubes support over 500 different applications."
+      />
+
+      {/* <Overview
         title={"What is the GASTEC Detector Tube System?"}
         description={
           "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required."
@@ -44,66 +50,73 @@ const GasDetector = () => {
               "Used across industries for safety, research, and compliance.",
           },
         ]}
-      />
+      /> */}
 
       <WhyChooseGastec
-        title={"Why Choose GASTEC?"}
+        title={"Gas Sampling Pump Features"}
         imageUrl="/images/Gastec/Gastec-2.png"
         features={[
           {
-            featureTitle: "Direct Onsite Readouts",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 1.png",
             description:
-              "No interpretation required; results are visible on the tube itself.",
+              "The built-in tip breaker incorporates a diamond edge for maximum durability that cuts the surface of the detector tube. This makes the tip breaking much easier, safer and convenient. Discarded tips are deposited in a storage bin for safe and easy disposal.",
           },
           {
-            featureTitle: "Wide Concentration Range",
+            // featureTitle: "Wide Concentration Range",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 2.png",
             description:
-              "Flexible measurements, adjustable with sampling volume.",
+              "The GASTEC GV-110 and GV-100 pumps feature a smaller-diameter piston for easier operation with minimal effort. Both models meet the EN1231 leakage standard, ensuring leakage stays below 3 mL/min in the first minute of a pump stroke. A red line on the pump shaft clearly indicates leakage rates for quick visual confirmation.",
           },
           {
-            featureTitle: "High Accuracy",
+            // featureTitle: "High Accuracy",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 3.png",
             description:
-              "ach tube is individually calibrated and comes with a control number.",
+              "The pump body is coated with a soft elastomer and designed with a narrower middle section for a secure grip. All external parts are made from non-sparking ABS resin, except for the tube tip cutter opening, which is constructed from chrome-plated stainless steel.",
           },
           {
-            featureTitle: "Stable & Long-Lasting",
+            // featureTitle: "Stable & Long-Lasting",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 4.png",
-            description: "Tubes maintain accuracy with long shelf life.",
+            description:
+              "The pump shaft features clear red markings for both full-stroke (100 mL) and half-stroke (50 mL) positions, with the handle locking precisely in place. A built-in flow finish indicator automatically signals when sampling is complete—when the white disk pops out, the stroke is finished.",
           },
           {
-            featureTitle: "User-Friendly Operation",
+            // featureTitle: "User-Friendly Operation",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 5.png",
             description:
-              "Intuitive design makes it simple for professionals in any field.",
+              "The automatic stroke counter built in model GV-110 (in Model GV-110S) gas sampling pump can track up to ten pump strokes automatically so there is no chance of miscounting.",
           },
         ]}
       />
+
       <WhyChooseGastec
         title={"Three Simple Steps to Accurate Gas Detection"}
         titleClass="lg:text-5xl md:text-4xl text-2xl text-center mb-6 font-bold"
         features={[
           {
-            featureTitle: "Insert the Detector Tube",
+            // featureTitle: "Insert the Detector Tube",
             description:
-              "Select the appropriate tube for your target gas and break off the tips",
+              "Break off both ends of the detector tube. Insert the tube into the rubber inlet.",
+            featureImage:
+              "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Operating Procedure/operating procedure image 1.png",
           },
           {
-            featureTitle: "Draw the Sample",
+            // featureTitle: "Draw the Sample",
             description:
-              "Use the hand pump to pull the exact volume of air required.",
+              "Pull out the handle until it is locked. Wait until the sampling time has elapsed.",
+            featureImage:
+              "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Operating Procedure/operating procedure image 2.png",
           },
           {
-            featureTitle: "Read the Result",
+            // featureTitle: "Read the Result",
             description:
-              "Compare the color change against the printed scale for an immediate measurement.",
+              "Read the measurement at the end of the coloured layer.",
+            featureImage:
+              "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Operating Procedure/operating procedure image 3.png",
           },
         ]}
       />
@@ -129,24 +142,24 @@ const GasDetector = () => {
         }
         features={[
           {
-            featureTitle: "Secure the Inlet",
+            // featureTitle: "Secure the Inlet",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 1.png",
-            description: "Ensure the inlet nut is firmly tightened",
+            description: "First, confirm that the inlet nut is not loose.",
           },
           {
-            featureTitle: "Insert Intact Tube",
+            // featureTitle: "Insert Intact Tube",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 2.png",
             description:
-              "Place a detector tube (with both tips intact) into the pump’s rubber inlet",
+              "Insert a detector tube (with both tips intact) into the rubber tube inlet of the sampling pump.",
           },
           {
-            featureTitle: "Align Marks",
+            // featureTitle: "Align Marks",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 3.png",
             description:
-              "Push the handle fully in, aligning the guide marks (red line on pump body and triangle on handle)",
+              "With the handle fully pushed in, align both of the guide marks (red line + triangle) on the pump (tail-end block) and the handle (▲100).",
           },
         ]}
       />
@@ -154,22 +167,23 @@ const GasDetector = () => {
       <WhyChooseGastec
         features={[
           {
-            featureTitle: "Lock & Hold",
+            // featureTitle: "Lock & Hold",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 4.png",
             description:
-              "Pull out in one motion until locked. Wait approximately 1 minute.",
+              "Pull out the handle in one thrust until it is locked, and then release the handle. Wait until the sampling time (approx. 1 minute) has elapsed.",
           },
           {
-            featureTitle: "Perform the Test",
+            // featureTitle: "Perform the Test",
             featureImage:
               "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 5.png",
             description:
-              "Twist handle 90°, then release gently. The handle should smoothly return—if the red mark is fully concealed, the pump is airtight.",
+              "Grasp the handle and turn it 90 degrees. If the pump is completely airtight, the handle should readily return to its original position; with the handle's demarcation read line fully concealed.",
           },
         ]}
         className="grid md:grid-cols-2 grid-cols-1 gap-5"
       />
+
       <ProductGrid
         title="Related Products"
         items={data["Gas-detector-tube-system"]}

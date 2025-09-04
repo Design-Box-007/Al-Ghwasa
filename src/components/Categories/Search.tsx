@@ -7,18 +7,20 @@ import DigitalMonitors from "./MonitorsTesters";
 import SpecializedKits from "./SpecializedKits";
 import ProductGrid from "../Comman/ProductGrid";
 import data from "@/data/products/category-gastec.json";
+import AutomaticAir from "./Automatic-air";
 
 const productDetails: Record<string, React.ReactNode> = {
   "Specialized Sampling Kits": (
     <>
       <Calibration />
       <DigitalMonitors />
+      <AutomaticAir/>
       <SpecializedKits />
     </>
   ),
   "Gas Generator Solutions": (
     <ProductGrid
-      title="Digital Monitors & Testers"
+      title="Calibration Gas Generation System"
       items={data["gas-detection-passive-2"]}
       ctaLabel="View Tubes"
       ctaHref="#"

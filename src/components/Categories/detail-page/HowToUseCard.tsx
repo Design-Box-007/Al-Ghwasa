@@ -10,7 +10,7 @@ interface Step {
 }
 
 interface StepsGridProps {
-  heading?: React.ReactNode;
+  heading: React.ReactNode;
   steps?: Step[];
 }
 

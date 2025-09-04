@@ -1056,7 +1056,7 @@ export const products: DetailProduct[] = [
       {
         catalogUrl:
           "https://www.gastec.co.jp/files/topics/4534_ext_14_en_0.pdf",
-        catalogName: "Instruction Manuals",
+        catalogName: "Instruction Manual",
       },
       {
         catalogUrl:
@@ -1255,8 +1255,6 @@ export const products: DetailProduct[] = [
   ////////////////////////////////////////////////////
 
   // Gas Sampling Pumps
-
-  
 
   // GV-100S Hand Pump
   {
@@ -1680,20 +1678,20 @@ export const products: DetailProduct[] = [
       buttonText: "Make an Enquiry",
       buttonHref: "/contact",
     },
-    relatedProduct: [
-      {
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-        name: "GHS-8AT EX Monitor",
-        description: "Portable monitor for hazardous gas detection.",
-      },
-      {
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-        name: "GHS-8AT EX Starter Kit",
-        description: "Maintains consistent pressure for reliable results.",
-      },
-    ],
+    // relatedProduct: [
+    //   {
+    //     imgSrc:
+    //       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+    //     name: "GHS-8AT EX Monitor",
+    //     description: "Portable monitor for hazardous gas detection.",
+    //   },
+    //   {
+    //     imgSrc:
+    //       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+    //     name: "GHS-8AT EX Starter Kit",
+    //     description: "Maintains consistent pressure for reliable results.",
+    //   },
+    // ],
   },
 
   /////////////////////////////////////////////////////

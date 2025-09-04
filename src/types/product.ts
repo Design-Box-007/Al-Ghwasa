@@ -80,6 +80,7 @@ export interface DetailProduct {
   airTightNessCheckdes?: string;
   airTightFeature2?: Array<{featureImage?: string; featureTitle: string; description: string}>
   packageContentimage?: string;
+  howToUseTitle?: string;
   
 
 

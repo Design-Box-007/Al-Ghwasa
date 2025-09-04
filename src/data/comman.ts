@@ -28,7 +28,7 @@ export const navLinks: NavLinksType[] = [
             navTitle: "H2S Data Logger-GHS-8AT-EX",
           },
           {
-            navTitle: "Automatic Air Sampling Pump GSP-501FT",
+            navTitle: "GASTEC Compressed Breathing Air Measurement Kit CG-1",
           },
           {
             navTitle: "Toxic gas detection kit TG-1",
@@ -40,7 +40,7 @@ export const navLinks: NavLinksType[] = [
           //   )}`,
           // },
           {
-            navTitle: "GASTEC Compressed Breathing Air Measurement Kit CG-1",
+            navTitle: "Automatic Air Sampling Pump GSP-501FT",
           },
           // {
           //   navTitle: "Gas sampling pump kit GV-100S",
@@ -57,7 +57,7 @@ export const navLinks: NavLinksType[] = [
         navHref: "/categories?category=Gas Generator Solutions",
         subLinks: [{ navTitle: "Permeater PD-1C" }],
       },
-      {   
+      {
         navTitle: "Gas Detection Passive Monitoring",
         navHref: "/categories?category=Gas Detection Passive Monitoring",
         subLinks: [{ navTitle: "Dosimeter Tubes – TWA" }],

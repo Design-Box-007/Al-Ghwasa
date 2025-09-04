@@ -1,14 +1,12 @@
-"use client";
-
 import React from "react";
 import ProductGrid from "@/components/Comman/ProductGrid";
-import data from "@/data/products/category-gastec.json"
+import data from "@/data/products/category-gastec.json";
 
-const DigitalMonitors: React.FC = () => {
+const AutomaticAir: React.FC = () => {
   return (
     <ProductGrid
-      title="Hydrogen Sulphide Data Logger"
-      items={data["digital-monitors"]}
+      title="Automatic Air Sampling Pump"
+      items={data["automatic-air-sampling-pump"]}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"
@@ -18,4 +16,4 @@ const DigitalMonitors: React.FC = () => {
   );
 };
 
-export default DigitalMonitors;
+export default AutomaticAir;

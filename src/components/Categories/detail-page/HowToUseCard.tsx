@@ -36,8 +36,9 @@ const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
                 className="w-full object-cover rounded-xl mb-4"
               />
             ) : (
-              <div className="w-full h-80 bg-neutral rounded-xl mb-4"></div>
-            )}
+               <div></div>
+            )} 
+          
 
             {/* Content */}
             <div className="flex flex-col gap-3">

@@ -5,13 +5,13 @@ import Steps from "./Steps";
 import Explore from "./Explore";
 
 export default function InduvialProduct() {
-  return(
+  return (
     <div>
-      <InduvialHero/>
-       <Features/>
-       <InduvialTable/>
-       <Steps/> 
-       <Explore/>
+      <InduvialHero />
+      <Features />
+      <InduvialTable />
+      <Steps />
+      <Explore />
     </div>
-  )
+  );
 }

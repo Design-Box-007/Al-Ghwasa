@@ -16,6 +16,7 @@ interface WhyChooseProps {
   features?: FeatureCardProps[];
   description?: string;
   className?: string;
+  titleClass?: string;
 }
 
 const WhyChooseGastec: React.FC<WhyChooseProps> = ({
@@ -25,6 +26,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
   features,
   description,
   className,
+  titleClass
 }) => {
   return (
     <section className="px-6 lg:px-10 py-8">
@@ -43,7 +45,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
 
       {/* Section Title (only if title exists) */}
       {title && (
-        <h2 className="text-h1 font-semibold text-custom-blue-1 mb-6">
+        <h2 className={titleClass || `text-h1 font-semibold text-custom-blue-1 mb-6`}>
           {title}
         </h2>
       )}

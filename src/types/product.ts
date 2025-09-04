@@ -79,6 +79,8 @@ export interface DetailProduct {
   airTightFeature?: Array<{featureImage?: string; featureTitle: string; description: string}>
   airTightNessCheckdes?: string;
   airTightFeature2?: Array<{featureImage?: string; featureTitle: string; description: string}>
+  packageContentimage?: string;
+  
 
 
   /** If provided -> show CTA. If omitted -> hide CTA for this product */

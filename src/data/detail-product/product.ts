@@ -742,6 +742,8 @@ export const products: DetailProduct[] = [
       "1 × Carrying Case",
       "1 × User Manual",
     ],
+    packageContentimage:
+      "/images/Specialised Sampling/Package Contents/GHS_8AT_EX_5.jpg",
     cta: {
       title: "Interested in this product?",
       rightDescription: "Get in touch with us to know more or request a quote.",
@@ -1253,6 +1255,8 @@ export const products: DetailProduct[] = [
   ////////////////////////////////////////////////////
 
   // Gas Sampling Pumps
+
+  
 
   // GV-100S Hand Pump
   {

@@ -30,6 +30,7 @@ const Navbar = () => {
     "/gastec/product-data",
     "/categories",
     "/polytec-tubes",
+    "/gas-detector-tube-system"
   ];
 
   const isWhite = whitePages.includes(pathname);

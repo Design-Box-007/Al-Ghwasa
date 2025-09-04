@@ -130,15 +130,14 @@ const ProductHero: React.FC<ProductHeroProps> = ({
               </button>
             </>
           )} */}
+          
         </div>
 
         {/* ✅ Thumbnails Row (scrollable in one row) */}
         {images.length > 1 && (
           <div className="flex items-center justify-center gap-2 mt-4 w-full">
             {/* Left Arrow */}
-            <button
-              onClick={prevImage}
-            >
+            <button onClick={prevImage}>
               <ChevronLeft size={40} />
             </button>
 
@@ -170,9 +169,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
             </div>
 
             {/* Right Arrow */}
-            <button
-              onClick={nextImage}
-            >
+            <button onClick={nextImage}>
               <ChevronRight size={40} />
             </button>
           </div>

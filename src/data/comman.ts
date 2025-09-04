@@ -40,7 +40,7 @@ export const navLinks: NavLinksType[] = [
           //   )}`,
           // },
           {
-            navTitle: "GASTEC Compressed Breathing Air Measurement KitCG-1",
+            navTitle: "GASTEC Compressed Breathing Air Measurement Kit CG-1",
           },
           // {
           //   navTitle: "Gas sampling pump kit GV-100S",
@@ -57,7 +57,7 @@ export const navLinks: NavLinksType[] = [
         navHref: "/categories?category=Gas Generator Solutions",
         subLinks: [{ navTitle: "Permeater PD-1C" }],
       },
-      {
+      {   
         navTitle: "Gas Detection Passive Monitoring",
         navHref: "/categories?category=Gas Detection Passive Monitoring",
         subLinks: [{ navTitle: "Dosimeter Tubes – TWA" }],
@@ -65,7 +65,7 @@ export const navLinks: NavLinksType[] = [
 
       {
         navTitle: "Gas Detector Tube System",
-        navHref: "/categories?category=Gas Detector Tube System",
+        navHref: `/gas-detector-tube-system`,
         subLinks: [
           {
             navTitle: "Gas sampling pump kit GV-100S",

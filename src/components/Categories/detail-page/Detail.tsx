@@ -166,6 +166,7 @@ const ProductDetailPage = () => {
         <PackageContentsCard
           title="Package Contents"
           items={product.packageContent}
+          image={product.packageContentimage}
         />
       )}
 

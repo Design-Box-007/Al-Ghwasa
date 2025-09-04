@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Calibration from "./Calibration";
 import DigitalMonitors from "./MonitorsTesters";
-import GasSampling from "./SamplingPumps";
 import SpecializedKits from "./SpecializedKits";
 import ProductGrid from "../Comman/ProductGrid";
 import data from "@/data/products/category-gastec.json";

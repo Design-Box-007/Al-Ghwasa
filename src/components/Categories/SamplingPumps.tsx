@@ -6,7 +6,7 @@ const GasSampling: React.FC = () => {
   return (
     <ProductGrid
       title="Gas Sampling Pumps"
-      items={data["gas-sampling"]}
+      items={data["digital-monitors"]}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"

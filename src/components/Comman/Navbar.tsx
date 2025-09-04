@@ -71,7 +71,7 @@ const Navbar = () => {
             }`}
           >
             {navLinks.map((navlink: NavLinksType, index: number) => (
-              <li key={index} className="relative group">
+              <li key={index} className="relative group" id="navbar">
                 {navlink.subLinks ? (
                   <>
                     <span className="cursor-pointer hover:-translate-y-1 inline-block transition">

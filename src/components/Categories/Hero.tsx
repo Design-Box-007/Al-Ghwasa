@@ -33,6 +33,12 @@ const heroData: Record<
       "Passive monitoring for long-term and efficient gas detection across diverse applications.",
     img: "/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg",
   },
+  "Gas Detector Tube System": {
+    title: "Gas Detector Tube System",
+    description:
+      "Passive monitoring for long-term and efficient gas detection across diverse applications.",
+    img: "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100S.jpg",
+  },
 };
 
 const GalleryHero = () => {

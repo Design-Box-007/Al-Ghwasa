@@ -23,6 +23,7 @@ export interface HowToUseStep {
   step: string; // e.g. "01"
   title: string; // e.g. "Preparation"
   details: string[]; // e.g. ["Charge fully", "Attach probe", ...]
+  image?: string;
 }
 
 export interface RelatedProduct {

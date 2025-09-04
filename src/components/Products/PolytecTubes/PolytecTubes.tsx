@@ -25,6 +25,7 @@ const PolytecTubes = () => {
           "Color change indicates the type of gas present",
           "Simple, portable, and highly efficient for field use",
         ]}
+        imageUrl="/images/Polytec/1.png"
       />
 
       <Table
@@ -57,6 +58,7 @@ const PolytecTubes = () => {
           ["Required Details", "Required Details", "Required Details"],
           ["Required Details", "Required Details", "Required Details"],
         ]}
+       imageUrl="/images/Polytec/2.png"
       />
 
       <ProductShowcase
@@ -69,6 +71,7 @@ const PolytecTubes = () => {
           ["Required Details", "Required Details", "Required Details"],
           ["Required Details", "Required Details", "Required Details"],
         ]}
+        imageUrl="/images/Polytec/3.png"
       />
 
       <ProductShowcase
@@ -81,6 +84,7 @@ const PolytecTubes = () => {
           ["Required Details", "Required Details", "Required Details"],
           ["Required Details", "Required Details", "Required Details"],
         ]}
+        imageUrl="/images/Polytec/4.png"
       />
 
       <ProductShowcase
@@ -93,6 +97,7 @@ const PolytecTubes = () => {
           ["Required Details", "Required Details", "Required Details"],
           ["Required Details", "Required Details", "Required Details"],
         ]}
+        imageUrl="/images/Polytec/5.png"
       />
 
       <ProductShowcase
@@ -105,6 +110,7 @@ const PolytecTubes = () => {
           ["Required Details", "Required Details", "Required Details"],
           ["Required Details", "Required Details", "Required Details"],
         ]}
+        imageUrl="/images/Polytec/6.png"
       />
 
       <CTA

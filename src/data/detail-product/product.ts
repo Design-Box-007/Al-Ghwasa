@@ -6,13 +6,13 @@ export const products: DetailProduct[] = [
 
   // GASTEC Calibration Kit
   {
-    name: "GASTEC Compressed Breathing Air Measurement KitCG-1",
+    name: "GASTEC Compressed Breathing Air Measurement Kit CG-1",
     category: "Gas Detection Monitors",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
     ],
     description:
-      "The GASTEC CG-1 Calibration Kit enables fast, simultaneous detection of CO, CO₂, water vapor, and oil mist in breathing air—directly from a cylinder or compressor. It operates without electricity, housed in a sturdy, convenient carry case suitable for both industrial and field environments.",
+      "Rapid Impurity Measurement for Compressed Breathing Air The Gastec CG-1 system allows for simple, fast, and simultaneous measurement of four harmful contaminants—CO, CO₂, water vapor, and oil mist—present in compressed breathing air from cylinders or compressors.",
     overViewcategory: [
       {
         catalogUrl:
@@ -48,24 +48,33 @@ export const products: DetailProduct[] = [
     howToUseSteps: [
       {
         step: "01",
-        title: "Setup",
+        title: "Prepare the Kit",
         details: [
-          "Unpack the kit, select the target tube (CO, CO₂, H₂O, or Oil Mist) Mount it in the rubber shroud Place the stopwatch nearby",
+          "Ensure the measurement kit is complete with all tubes, sensors, and the sampling pump.",
+          "Check that the air source (cylinder or compressor) is ready for testing.",
         ],
+        image:
+          "/images/GASTEC Compressed Breathing Air Measurement KitCG-1/How to use Image 1.jpg",
       },
       {
         step: "02",
-        title: "Measurement",
+        title: "Sample the Air",
         details: [
-          "Connect the device to the compressed air source, insert the tube, and initiate sampling manually—observe the reaction on the tube.",
+          "Connect the sampling tube to the compressed air source.",
+          "Activate the pump to draw air through the sensors.",
+          "The CG-1 system simultaneously measures CO, CO₂, water vapor, and oil mist.",
         ],
+        image: "/images/Gaslit/9.png",
       },
       {
         step: "03",
-        title: "Read & Store Result",
+        title: "Read and Record Results",
         details: [
-          "Remove the tube and interpret the concentration using the colored scale. Store results and reseal the kit for secure storage.",
+          "Observe the color change or reading on each sensor to determine contaminant levels.",
+          "Record the results for safety compliance and monitoring purposes",
         ],
+        image:
+          "/images/GASTEC Compressed Breathing Air Measurement KitCG-1/How to use Image 3.png",
       },
     ],
 
@@ -78,28 +87,22 @@ export const products: DetailProduct[] = [
 
     relatedProduct: [
       {
-        name: "GASTEC Flow Regulator",
-        description: "Ensures stable gas flow during sampling.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
-      },
-      {
         name: "Pressure Regulator",
         description: "Maintains consistent pressure for reliable results.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
       },
       {
-        name: "High-Precision Flow Regulator",
-        description: "Designed for precise gas flow control.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-      },
-      {
         name: "Adaptor / Connector",
         description: "Compatible connector for multi-device integration.",
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
+      },
+      {
+        name: "High-Precision Flow Regulator",
+        description: "Designed for precise gas flow control.",
+        imgSrc:
+          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
       },
     ],
   },
@@ -597,7 +600,7 @@ export const products: DetailProduct[] = [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
     ],
     description:
-      "The GHS-8AT EX Monitor is a portable hazardous gas detection device designed for high precision and reliability in industrial and field environments. It ensures worker safety and compliance by detecting a wide range of gases with quick response times.",
+      "Continuous H₂S monitoring is straightforward, convenient, and dependable. When corrosive hydrogen sulfide forms in sewer systems, it can cause corrosion, leading to rust, unpleasant odors, and, in severe cases, significant damage to buildings and infrastructure. The GHS-8AT-EX data logger enables continuous, reliable monitoring of H₂S levels within the sewer system.",
     overViewcategory: [
       {
         catalogUrl:
@@ -669,57 +672,57 @@ export const products: DetailProduct[] = [
     howToUseSteps: [
       {
         step: "01",
-        title: "Preparation",
+        title: "Checking Device Status",
         details: [
-          "Charge the device fully.",
-          "Attach sampling probe/tube securely.",
-          "Check sensor cover is clean.",
-          "Run a quick self-check on startup.",
+          "Large display shows H₂S concentration, temperature, and remaining battery.",
+          "Sensor calibration alerts notify when recalibration is needed.",
         ],
+        image: "/images/Specialised Sampling/H2S Data Logger/Image 1.jpg",
       },
       {
         step: "02",
-        title: "Power On",
+        title: "Power Management & Recording",
         details: [
-          "Hold Power Button until startup sound.",
-          "Wait for initialization sequence.",
-          "Display shows battery, calibration, and sensor status.",
+          "Use the power supply and recording switch to conserve energy.",
+          "Freely select start and end points for recording data.",
         ],
+        image: "/images/Specialised Sampling/H2S Data Logger/Image 2.jpg",
       },
       {
         step: "03",
-        title: "Calibration Check",
+        title: "Handling & Maintenance",
         details: [
-          "Ensure calibration is up-to-date.",
-          "If needed, connect calibration gas.",
-          "Follow on-screen calibration procedure.",
+          "Small and lightweight for easy portability.",
+          "Outer case can be easily removed for replacement.",
         ],
+        image: "/images/Specialised Sampling/H2S Data Logger/Image 3.jpg",
       },
       {
         step: "04",
-        title: "Operation",
+        title: "Durability Features",
         details: [
-          "Insert probe into environment.",
-          "Monitor real-time readings on display.",
-          "Alarm (sound, light, vibration) triggers if limits exceeded.",
+          "Enhanced water and corrosion resistance (IP66/67).",
+          "Device is designed to float on water.",
         ],
+        image: "/images/Specialised Sampling/H2S Data Logger/Image 4.png",
       },
       {
         step: "05",
-        title: "Data Logging (Optional)",
+        title: "Data Logging Capacity",
         details: [
-          "Enable logging from menu.",
-          "Save results for PC review or storage card.",
+          "Even at 1-minute logging intervals, can store up to one month of data.",
+          "Suitable for various measurement locations and applications.",
         ],
+        image: "/images/Specialised Sampling/H2S Data Logger/Image 5.jpg",
       },
       {
         step: "06",
-        title: "After Use",
+        title: "Data Transfer & Processing",
         details: [
-          "Power off with Power Button.",
-          "Wipe device and probe clean.",
-          "Store in protective case in safe conditions.",
+          "Connect the GHS-8AT to a PC via USB to read logged data.",
+          "Dedicated software allows graphical display and text file generation.",
         ],
+        image: "/images/Specialised Sampling/H2S Data Logger/Image 6.png",
       },
     ],
     software: [
@@ -728,8 +731,8 @@ export const products: DetailProduct[] = [
         link: "https://gastec-software.com/anasys",
       },
       {
-        label: "ANASYS Software Download",
-        link: "https://gastec-software.com/anasys",
+        label: "ANASYS Software Troubleshooting",
+        link: "https://gastec-software.com/anasys/HelpAndSupport",
       },
     ],
     packageContent: [
@@ -1037,7 +1040,7 @@ export const products: DetailProduct[] = [
 
   // GHS-501FT Fit Tester
   {
-    name: "GHS-501FT Fit Tester",
+    name: "Automatic Air Sampling Pump GSP-501FT",
     category: "Gas Detection Monitors",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
@@ -1045,7 +1048,7 @@ export const products: DetailProduct[] = [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg",
     ],
     description:
-      "The GHS-501FT Fit Tester is a precision tool for verifying the seal and integrity of respiratory protection gear—including gas masks and respirators. Built for industrial safety, it delivers reliable, quantitative results during compliance audits or regular inspections.",
+      "A compact, lightweight, and reliable automatic air sampling pump designed for use with GASTEC detector tubes and sorbent tubes.",
 
     overViewcategory: [
       {
@@ -1127,27 +1130,26 @@ export const products: DetailProduct[] = [
         step: "01",
         title: "Prepare the Tube",
         details: [
-          "Break off both tips of the detector tube the tip holder.",
-          "Insert the tube into the rubber tube holder inlet.",
+          "Break tips off the detector tube using the tube tip holder.",
         ],
+        image: "/images/GSP 501/how to use image 1.png",
       },
       {
         step: "02",
         title: "Setup & Start Sampling",
         details: [
-          "Switch Power ON.",
-          "Adjust the flow rate and confirm the timer on the pump.",
-          "Press the Start Button to begin sampling.",
+          "Insert the detector tube to the inlet of the rubber tube holder. Put the power switch to ON. Adjust the flow rate, confirm that the timer of the air sampling pump is set, then push the start button.",
         ],
+        image: "/images/GSP 501/how to use image 2.png",
       },
 
       {
         step: "03",
         title: "Read Results",
         details: [
-          "After sampling, remove the tube.",
-          "Read the concentration directly from the detector tube.",
+          "After sampling, remove the detector tube from the rubber tube holder and read the concentration of the tube.",
         ],
+        image: "/images/GSP 501/how to use image 3.png",
       },
     ],
     packageContent: [
@@ -1164,26 +1166,26 @@ export const products: DetailProduct[] = [
       buttonText: "Make an Enquiry",
       buttonHref: "/contact",
     },
-    relatedProduct: [
-      {
-        name: "GHS-8AT EX Monitor",
-        description: "Portable monitor for hazardous gas detection.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-      },
-      {
-        name: "GHS-8AT EX with Accessories",
-        description: "Enhanced version with extended accessories.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-      },
-      {
-        name: "GHS-8AT EX Starter Kit",
-        description: "Maintains consistent pressure for reliable results.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
-      },
-    ],
+    // relatedProduct: [
+    //   {
+    //     name: "GHS-8AT EX Monitor",
+    //     description: "Portable monitor for hazardous gas detection.",
+    //     imgSrc:
+    //       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
+    //   },
+    //   {
+    //     name: "GHS-8AT EX with Accessories",
+    //     description: "Enhanced version with extended accessories.",
+    //     imgSrc:
+    //       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
+    //   },
+    //   {
+    //     name: "GHS-8AT EX Starter Kit",
+    //     description: "Maintains consistent pressure for reliable results.",
+    //     imgSrc:
+    //       "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+    //   },
+    // ],
 
     columns2: [
       "Product Name",
@@ -1299,32 +1301,42 @@ export const products: DetailProduct[] = [
     whyChooseFeature: [
       {
         featureTitle: "Direct Onsite Readouts",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 1.png",
         description:
           "No interpretation required; results are visible on the tube itself.",
       },
       {
         featureTitle: "Wide Concentration Range",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 2.png",
         description: "Flexible measurements, adjustable with sampling volume.",
       },
       {
         featureTitle: "High Accuracy",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 3.png",
         description:
           "ach tube is individually calibrated and comes with a control number.",
       },
       {
         featureTitle: "Stable & Long-Lasting",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 4.png",
         description: "Tubes maintain accuracy with long shelf life.",
       },
       {
         featureTitle: "User-Friendly Operation",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 5.png",
         description:
           "Intuitive design makes it simple for professionals in any field.",
       },
-      {
-        featureTitle: "Eco-Friendly Design",
-        description:
-          "Built with sustainability in mind, reducing environmental impact.",
-      },
+      // {
+      //   featureTitle: "Eco-Friendly Design",
+      //   description:
+      //     "Built with sustainability in mind, reducing environmental impact.",
+      // },
     ],
 
     columns: ["Parameter", "Details"],
@@ -1343,6 +1355,8 @@ export const products: DetailProduct[] = [
       {
         step: "01",
         title: "Prepare Pump",
+        image:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Operating Procedure/operating procedure image 1.png",
         details: [
           "Insert the detector tube into the pump inlet.",
           "Break off both tube tips before insertion.",
@@ -1351,6 +1365,8 @@ export const products: DetailProduct[] = [
       {
         step: "02",
         title: "Take Sample",
+        image:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Operating Procedure/operating procedure image 2.png",
         details: [
           "Pull the handle back fully to draw one stroke (100 mL).",
           "Use multiple strokes if required, depending on test conditions.",
@@ -1359,6 +1375,8 @@ export const products: DetailProduct[] = [
       {
         step: "03",
         title: "Read Results",
+        image:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Operating Procedure/operating procedure image 3.png",
         details: [
           "After the required sampling strokes, remove the tube.",
           "Compare color change with scale markings to determine concentration.",
@@ -1374,15 +1392,21 @@ export const products: DetailProduct[] = [
     airTightFeature: [
       {
         featureTitle: "Secure the Inlet",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 1.png",
         description: "Ensure the inlet nut is firmly tightened",
       },
       {
         featureTitle: "Insert Intact Tube",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 2.png",
         description:
           "Place a detector tube (with both tips intact) into the pump’s rubber inlet",
       },
       {
         featureTitle: "Align Marks",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 3.png",
         description:
           "Push the handle fully in, aligning the guide marks (red line on pump body and triangle on handle)",
       },
@@ -1391,11 +1415,15 @@ export const products: DetailProduct[] = [
     airTightFeature2: [
       {
         featureTitle: "Lock & Hold",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 4.png",
         description:
           "Pull out in one motion until locked. Wait approximately 1 minute.",
       },
       {
         featureTitle: "Perform the Test",
+        featureImage:
+          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/air tightness/air tightness image 5.png",
         description:
           "Twist handle 90°, then release gently. The handle should smoothly return—if the red mark is fully concealed, the pump is airtight.",
       },
@@ -1586,13 +1614,13 @@ export const products: DetailProduct[] = [
 
   // TG-1EN Gas Sampling Kit
   {
-    name: "TG-1EN Gas Sampling Kit",
+    name: "Toxic gas detection kit TG-1",
     category: "Gas Detection Monitors",
     images: [
       "/images/Gastec3/gas-detection-specialized-sampling-kits/TG_1_EN.jpg",
     ],
     description:
-      "The TG-1EN Kit offers fast, accurate identification of toxic gases—without the need for electricity or specialized training. Its compact design makes it ideal for emergencies and field operations where time and mobility are critical. Key advantages include ease of use, low operational cost, and no maintenance required.",
+      "A quick and effective method for identifying toxic gases is essential for preventing hazardous emissions in the workplace, contributing to occupational hygiene and pollution control. The first step is obtaining accurate data on the types of gases present and their concentration levels. Our Toxic Gas Detection Kit TG-1 is designed for this purpose and comes equipped with 12 specialized detector tubes.",
 
     overViewcategory: [
       { catalogUrl: "/pdf/1.pdf", catalogName: "Download Catalog" },
@@ -1620,27 +1648,23 @@ export const products: DetailProduct[] = [
     howToUseSteps: [
       {
         step: "01",
-        title: "Setup",
+        title: "Initial Airstream Check",
         details: [
-          "Open kit and choose the appropriate detector tube.",
-          "Attach the tube securely to the sampling pump or adapter.",
+          "Use a smoke tester to verify the presence and flow direction of the airstream.",
         ],
       },
       {
         step: "02",
-        title: "Select Volume & Sample",
+        title: "Qualitative Detection of Unknown Gas",
         details: [
-          "Break off both ends of the tube using the built-in tip cutte",
-          "Draw air through the tube manually—color change indicates gas reaction. Wait 1–4 minutes per test",
+          "Begin measurement with detector tube Polytec No. 107 to identify the presence of an unknown gas.",
         ],
       },
       {
         step: "03",
-        title: "Read Results",
+        title: "Targeted Gas Identification and Judgment",
         details: [
-          "Observe where the color change stops on the tube scale",
-          "Interpret the concentration using the printed scale.",
-          "Record results and safely close the kit.",
+          "Conduct progressive measurements using appropriate detector tubes based on the matrix diagram. Conclude by identifying the gas, confirming its absence, or determining if it is below the detection limit.",
         ],
       },
     ],
@@ -1773,10 +1797,6 @@ export const products: DetailProduct[] = [
     images: ["/images/Gastec3/gas-detection-accessories/380_1.jpg"],
     description:
       "The Fumigation Probe 380 enables safe measurement of residual fumigants inside sealed containers. You simply connect it to a GASTEC detector tube and insert it through the container’s rubber seal, allowing accurate and efficient testing without compromising the container integrity.",
-
-    overViewcategory: [
-      { catalogUrl: "/pdf/1.pdf", catalogName: "Download Catalog" },
-    ],
 
     columns: ["Attribute", "Details"],
 
@@ -1968,7 +1988,7 @@ export const products: DetailProduct[] = [
     overViewcategory: [
       {
         catalogUrl:
-          "i.	https://www.gastec.co.jp/files/topics/2116_ext_14_en_0.pdf",
+          "https://www.gastec.co.jp/files/topics/2116_ext_14_en_0.pdf",
         catalogName: "Download Catalog",
       },
     ],
@@ -2214,7 +2234,7 @@ export const products: DetailProduct[] = [
     },
   },
 
-  // Gas Generator
+  // Gas Generator Permeater PD-1C
   ///////////////////////////////////////////////////
 
   {
@@ -2222,8 +2242,7 @@ export const products: DetailProduct[] = [
     category: "Gas Detection Monitors",
     images: ["/images/Gastec3/gas-generator-solutions/PD_1C_2.jpg"],
     description:
-      "Dosimeter (Dosi) tubes provide a user-friendly and economical way to monitor long-term exposure to airborne contaminants. Designed for either personal or area monitoring, these tubes require only passive exposure and visual reading—no additional equipment, calibration, or analysis required. Each tube includes a colorimetric scale for direct, on-the-spot concentration readings.",
-
+      "The Permeater Gas Generator is a high-precision calibration device that uses permeation tubes and diffusion tubes to produce accurate and stable calibration gas for gas detection and monitoring systems. By maintaining a constant temperature, the system ensures a consistent release rate of both permeating and evaporating gases. With a steady flow of dilution gas such as air or nitrogen, the Permeater provides a continuous and reliable source of calibration gas, making it ideal for gas detector calibration, industrial gas analysis, and environmental monitoring applications.",
     overViewcategory: [
       {
         catalogUrl:
@@ -2232,32 +2251,37 @@ export const products: DetailProduct[] = [
       },
       {
         catalogUrl:
-          "ii.	https://www.gastec.co.jp/files/topics/4539_ext_14_en_2.pdf",
-        catalogName: "Download Catalog",
+          "https://www.gastec.co.jp/files/topics/4539_ext_14_en_2.pdf",
+        catalogName: "Instruction Manual",
+      },
+      {
+        catalogUrl:
+          "https://www.gastec.co.jp/en/technology/knowledge/permeater/",
+        catalogName: "Calculation of the preparation condition",
       },
     ],
 
-    tableTitle: "Why Dosimeter Tubes?",
+    tableTitle: "Why Permeator Tubes?",
     features: [
       [
-        "Ready to Use",
-        "Pre-calibrated, direct-read design eliminates extra equipment and training needs.",
+        "Continuous and Stable Calibration Gas Generation",
+        "The Permeater ensures long-term, uninterrupted calibration gas output with stable concentrations, minimizing manual intervention and eliminating the need for high-pressure gas cylinders.",
       ],
       [
-        "Cost-Effective & Versatile",
-        "No need for repeated site visits or complex setups; great for various time periods (from minutes to 48 hours).",
+        "Wide Range of Concentration Control",
+        "It enables easy generation of calibration gases across a broad concentration range, offering flexibility to meet diverse application and sensor calibration needs.",
       ],
       [
-        "Accurate & Reliable",
-        "Each tube is labeled with production-specific calibration for traceability and precision.",
+        "High Accuracy and Reliability",
+        "By relying on measurable physical parameters like weight loss and dilution flow, the Permeater delivers highly accurate, repeatable, and dependable gas concentrations for precision-critical environments.",
       ],
       [
-        "Flexible Monitoring Modes",
-        "Use them as wearable personal monitors or install within work areas for area-level TWA readings.",
+        "Versatility in Calibration Gas Types",
+        "Capable of generating various low-concentration gases using permeation and diffusion tubes, the Permeater is compatible with multiple carrier gases and supports complex multi-gas calibration setups.",
       ],
       [
-        "Practical Applications",
-        "For example, in winemaking environments where SO₂ is used, these tubes verify safe dosages to both the product and workers.",
+        "User-Friendly Automation and Interface",
+        "Equipped with a touchscreen interface and automatic flow calculations, the Permeater simplifies calibration workflows through real-time control, intuitive operation, and minimal user error.",
       ],
     ],
 
@@ -2298,23 +2322,23 @@ export const products: DetailProduct[] = [
     howToUseSteps: [
       {
         step: "01",
-        title: "Set Up Tubes",
+        title: "Filling and Setup",
         details: [
-          "Load the chosen permeation or diffusion tubes into the holder. Adjust temperature and connect the appropriate dilution gas line (N₂ or air).",
+          "A diffusion tube with a fixed inner diameter is filled with a liquid substance (usually an organic solvent) using a syringe and maintained at a constant temperature.",
         ],
       },
       {
         step: "02",
-        title: "Configure Output",
+        title: "Controlled Diffusion",
         details: [
-          "Use the touch screen to enter your desired gas concentration. The device will calculate and set the correct dilution flow automatically via the mass flow controller.",
+          "At the set temperature, the liquid evaporates and diffuses at a constant rate, determined by the tube’s dimensions.",
         ],
       },
       {
         step: "03",
-        title: "Begin Calibration",
+        title: "Continuous Gas Generation",
         details: [
-          "Start the unit to begin generating calibration gas. Monitor output and proceed with instrument calibration as required.",
+          "A steady flow of dilution gas (like air or nitrogen) passes through the tube, mixing with the evaporated substance to continuously generate a low, stable concentration of calibration gas.",
         ],
       },
     ],

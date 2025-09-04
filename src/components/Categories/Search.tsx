@@ -14,7 +14,6 @@ const productDetails: Record<string, React.ReactNode> = {
     <>
       <Calibration />
       <DigitalMonitors />
-      <GasSampling />
       <SpecializedKits />
     </>
   ),
@@ -44,6 +43,17 @@ const productDetails: Record<string, React.ReactNode> = {
     <ProductGrid
       title="Gas Detection Passive Monitoring"
       items={data["gas-detection-passive"]}
+      ctaLabel="View Tubes"
+      ctaHref="#"
+      actionVariant="arrow"
+      topDivider
+      gridClassName="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+    />
+  ),
+  "Gas Detector Tube System": (
+    <ProductGrid
+      title="Gas sampling pump"
+      items={data["Gas-detector-tube-system"]}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"

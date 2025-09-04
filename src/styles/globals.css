@@ -85,6 +85,10 @@
   }
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: white;
   color: black;

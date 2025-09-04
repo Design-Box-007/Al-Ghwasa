@@ -18,7 +18,7 @@ export const navLinks: NavLinksType[] = [
 
   {
     navTitle: "Solutions",
-    navHref: "/categories?category=Solutions",
+    navHref: "#navbar",
     subLinks: [
       {
         navTitle: "Specialised Sampling Kits",
@@ -28,21 +28,15 @@ export const navLinks: NavLinksType[] = [
             navTitle: "H2S Data Logger-GHS-8AT-EX",
           },
           {
-            navTitle: "GHS-501FT Fit Tester",
+            navTitle: "Automatic Air Sampling Pump GSP-501FT",
           },
           {
-            navTitle: "TG-1EN Gas Sampling Kit",
+            navTitle: "Toxic gas detection kit TG-1",
           },
           // {
           //   navTitle: "Automatic Air Sampling Pump GSP-501FT",
           //   navHref: `/categories/${formatToHyphenated(
           //     "GHS-501FT Fit Tester"
-          //   )}`,
-          // },
-          // {
-          //   navTitle: "Toxic gas detection kit TG-1",
-          //   navHref: `/categories/${formatToHyphenated(
-          //     "TG-1EN Gas Sampling Kit"
           //   )}`,
           // },
           {
@@ -71,7 +65,7 @@ export const navLinks: NavLinksType[] = [
 
       {
         navTitle: "Gas Detector Tube System",
-        navHref: "/categories?category=Gas Detection Passive Monitoring",
+        navHref: "/categories?category=Gas Detector Tube System",
         subLinks: [
           {
             navTitle: "Gas sampling pump kit GV-100S",
@@ -103,7 +97,7 @@ export const navLinks: NavLinksType[] = [
         navTitle: "PolytecTubes",
         navHref: "/polytec-tubes",
         subLinks: [
-          { navTitle: "Detection Table", navHref: "/Detection-table" },
+          { navTitle: "Find the right tube", navHref: "/Detection-table" },
         ],
       },
     ],

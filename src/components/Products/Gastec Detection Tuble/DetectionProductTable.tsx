@@ -8,7 +8,9 @@ import detectionTableData from "@/data/products/gastec-v2.json";
 import CustomTable from "@/components/Comman/CustomTable";
 import { useDetectionData } from "@/context/DetectionDataContext";
 import data from "@/data/products/gastec-v2.json";
+import pdfData from "@/data/products/pdf.json";
 import { chemicalFormulas } from "@/data/products/detectionData";
+import Link from "next/link";
 
 interface FilterProps {
   selectedCategory: string;
@@ -103,10 +105,15 @@ const DetectionProductTable: React.FC = () => {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const getPdfLinkwithmodelNo = (modelNo: string): string | undefined => {
+    const tube = pdfData.find((t) => t.modelNo === modelNo);
+    return tube?.href;
+  };
 
   const detectionTubesWithFormula = data.map((item) => ({
     ...item,
     tube_model: chemicalFormulas[item.tube_name] || "", // match by chemical name
+    pdfLink: getPdfLinkwithmodelNo(item.tube_no) as string,
   }));
 
   const columns = [
@@ -126,6 +133,19 @@ const DetectionProductTable: React.FC = () => {
         >
           {"Inquire"}
         </button>
+      ),
+    },
+    {
+      key: "pdfLink",
+      header: "PDF",
+      render: (row: (typeof detectionTubesWithFormula)[0]) => (
+        <Link href={row.pdfLink} target="_blank">
+          <button
+            className={`px-2 py-1 text-[14px] cursor-pointer bg-custom-green-1 text-white hover:bg-white hover:text-custom-green-1 hover font-bold rounded-lg border-[1px] border-solid transition-all duration-300 ease-in-out`}
+          >
+            {"Download"}
+          </button>
+        </Link>
       ),
     },
   ];

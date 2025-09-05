@@ -1,4 +1,6 @@
 import { ProductSectionData } from "@/types";
+import { specializedKits } from "./products/category-gastec";
+import formatToHyphenated from "@/utils/formatPathName";
 
 const productsData: ProductSectionData[] = [
   // {
@@ -46,8 +48,8 @@ const productsData: ProductSectionData[] = [
       {
         imgSrc:
           "/images/Gastec3/gas-detection-specialized-sampling-kits/TG_1_EN.jpg",
-        name: "Toxic gas detection kit TG-1",
-        href: `/categories/tg1en-gas-sampling-kit`,
+        name: specializedKits[0].name,
+        href: `categories/${formatToHyphenated(specializedKits[0].name)}`
       },
       {
         imgSrc:

@@ -18,6 +18,7 @@ interface WhyChooseProps {
   description?: string;
   className?: string;
   titleClass?: string;
+  imageClass?: string;
 }
 
 const WhyChooseGastec: React.FC<WhyChooseProps> = ({
@@ -28,6 +29,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
   description,
   className,
   titleClass,
+  imageClass,
 }) => {
   return (
     <section className="px-6 lg:px-10 py-8">
@@ -40,7 +42,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
               alt="Why Choose GASTEC"
               width={900}
               height={500}
-              className="rounded-2xl object-contain  rotate-180"
+              className={imageClass || `rounded-2xl object-contain`}
             />
           </div>
         </RevealComponent>

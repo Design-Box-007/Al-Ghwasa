@@ -55,6 +55,7 @@ const GasDetector = () => {
       <WhyChooseGastec
         title={"Gas Sampling Pump Features"}
         imageUrl="/images/Gastec/Gastec-2.png"
+        imageClass="rotate-180"
         features={[
           {
             featureImage:

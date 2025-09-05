@@ -7,7 +7,7 @@ import ProductFilterBtn from "@/components/Comman/ProductFilterBtn";
 import detectionTableData from "@/data/products/gastec-v2.json";
 import CustomTable from "@/components/Comman/CustomTable";
 import { useDetectionData } from "@/context/DetectionDataContext";
-import data from "@/data/products/gastec-v2.json"
+import data from "@/data/products/gastec-v2.json";
 import { chemicalFormulas } from "@/data/products/detectionData";
 
 interface FilterProps {
@@ -29,14 +29,11 @@ const FilterProducts: React.FC<FilterProps> = ({
 }) => {
   const categoriesList: string[] = Array.from(
     new Set(
-      detectionTableData.map(data =>
-        data.tube_type.trim().toLowerCase()
-      )
+      detectionTableData.map((data) => data.tube_type.trim().toLowerCase())
     )
   );
 
   return (
- 
     <div className="p-6 rounded-3xl border border-gray-200 shadow-sm mx-auto bg-white">
       {/* Search Bar */}
       <div className="relative mb-6">
@@ -88,7 +85,6 @@ const FilterProducts: React.FC<FilterProps> = ({
         </div>
       </div>
     </div>
-   
   );
 };
 
@@ -109,12 +105,9 @@ const DetectionProductTable: React.FC = () => {
   };
 
   const detectionTubesWithFormula = data.map((item) => ({
-  ...item,
-  tube_model: chemicalFormulas[item.tube_name] || "", // match by chemical name
-}));
-
-
-  
+    ...item,
+    tube_model: chemicalFormulas[item.tube_name] || "", // match by chemical name
+  }));
 
   const columns = [
     { key: "tube_name", header: "Chemical" },
@@ -126,7 +119,7 @@ const DetectionProductTable: React.FC = () => {
     {
       key: "actions",
       header: "Actions",
-      render: (row: typeof detectionTubesWithFormula[0]) => (
+      render: (row: (typeof detectionTubesWithFormula)[0]) => (
         <button
           onClick={() => goToContactForm(row)}
           className={`px-2 py-1 text-[14px] cursor-pointer bg-custom-green-1 text-white hover:bg-white hover:text-custom-green-1 hover font-bold rounded-lg border-[1px] border-solid transition-all duration-300 ease-in-out`}

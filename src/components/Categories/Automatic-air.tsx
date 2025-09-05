@@ -1,12 +1,12 @@
 import React from "react";
 import ProductGrid from "@/components/Comman/ProductGrid";
-import data from "@/data/products/category-gastec.json";
+import { automaticAirSamplingPump } from "@/data/products/category-gastec";
 
 const AutomaticAir: React.FC = () => {
   return (
     <ProductGrid
       title="Automatic Air Sampling Pump"
-      items={data["automatic-air-sampling-pump"]}
+      items={automaticAirSamplingPump}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"

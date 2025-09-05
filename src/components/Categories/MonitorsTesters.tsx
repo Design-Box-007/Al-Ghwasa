@@ -2,13 +2,13 @@
 
 import React from "react";
 import ProductGrid from "@/components/Comman/ProductGrid";
-import data from "@/data/products/category-gastec.json"
+import { digitalMonitors } from "@/data/products/category-gastec";
 
 const DigitalMonitors: React.FC = () => {
   return (
     <ProductGrid
       title="Hydrogen Sulphide Data Logger"
-      items={data["digital-monitors"]}
+      items={digitalMonitors}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"

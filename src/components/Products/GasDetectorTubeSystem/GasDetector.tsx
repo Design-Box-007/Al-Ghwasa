@@ -3,7 +3,7 @@ import Overview from "@/components/Categories/detail-page/OverViewCard";
 import WhyChooseGastec from "@/components/Categories/detail-page/WhyChooseGastec";
 import ProductGrid from "@/components/Comman/ProductGrid";
 import ResponsiveYouTube from "@/components/Gallery/GalleryVideo";
-import data from "@/data/products/category-gastec.json";
+import { gasDetectorTubeSystem } from "@/data/products/category-gastec";
 
 import React from "react";
 
@@ -186,7 +186,7 @@ const GasDetector = () => {
 
       <ProductGrid
         title="Related Products"
-        items={data["Gas-detector-tube-system"]}
+        items={gasDetectorTubeSystem}
         ctaLabel="View Accessories"
         ctaHref="#"
         actionVariant="arrow"

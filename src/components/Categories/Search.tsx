@@ -6,7 +6,7 @@ import Calibration from "./Calibration";
 import DigitalMonitors from "./MonitorsTesters";
 import SpecializedKits from "./SpecializedKits";
 import ProductGrid from "../Comman/ProductGrid";
-import data from "@/data/products/category-gastec.json";
+import { calibrationEquipment, gasDetectionPassive, gasDetectionPassive2, gasDetectorTubeSystem } from "@/data/products/category-gastec";
 import AutomaticAir from "./Automatic-air";
 
 const productDetails: Record<string, React.ReactNode> = {
@@ -14,14 +14,14 @@ const productDetails: Record<string, React.ReactNode> = {
     <>
       <Calibration />
       <DigitalMonitors />
-      <AutomaticAir/>
+      <AutomaticAir />
       <SpecializedKits />
     </>
   ),
   "Gas Generator Solutions": (
     <ProductGrid
       title="Calibration Gas Generation System"
-      items={data["gas-detection-passive-2"]}
+      items={gasDetectionPassive2}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"
@@ -32,7 +32,7 @@ const productDetails: Record<string, React.ReactNode> = {
   Accessories: (
     <ProductGrid
       title="Calibration Equipment & Accessories"
-      items={data["Calibration-Equipment"]}
+      items={calibrationEquipment}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"
@@ -43,7 +43,7 @@ const productDetails: Record<string, React.ReactNode> = {
   "Gas Detection Passive Monitoring": (
     <ProductGrid
       title="Gas Detection Passive Monitoring"
-      items={data["gas-detection-passive"]}
+      items={gasDetectionPassive}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"
@@ -54,7 +54,7 @@ const productDetails: Record<string, React.ReactNode> = {
   "Gas Detector Tube System": (
     <ProductGrid
       title="Gas sampling pump"
-      items={data["Gas-detector-tube-system"]}
+      items={gasDetectorTubeSystem}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"

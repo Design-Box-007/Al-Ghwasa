@@ -1,12 +1,12 @@
 import React from "react";
 import ProductGrid from "@/components/Comman/ProductGrid";
-import data from "@/data/products/category-gastec.json"
+import { calibrationRegulators } from "@/data/products/category-gastec";
 
 const Calibration: React.FC = () => {
   return (
     <ProductGrid
       title="Calibration & Regulators"
-      items={data["calibration-regulators"]}
+      items={calibrationRegulators}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"

@@ -1,12 +1,12 @@
 import React from "react";
 import ProductGrid from "@/components/Comman/ProductGrid";
-import data from "@/data/products/category-gastec.json"
+import { specializedKits } from "@/data/products/category-gastec";
 
 const SpecializedKits: React.FC = () => {
   return (
     <ProductGrid
       title=" Toxic Gas detection kit"
-      items={data["specialized-kits"]}
+      items={specializedKits}
       ctaLabel="View Tubes"
       ctaHref="#"
       actionVariant="arrow"

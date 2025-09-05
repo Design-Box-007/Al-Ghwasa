@@ -1,4 +1,15 @@
+import { images } from "@/All-Image-Data/Data";
 import { DetailProduct } from "@/types/product";
+import {
+  automaticAirSamplingPump,
+  calibrationEquipment,
+  calibrationRegulators,
+  digitalMonitors,
+  gasDetectionPassive,
+  gasDetectionPassive2,
+  gasDetectorTubeSystem,
+  specializedKits,
+} from "../products/category-gastec";
 
 // data/products.ts
 export const products: DetailProduct[] = [
@@ -6,11 +17,9 @@ export const products: DetailProduct[] = [
 
   // GASTEC Calibration Kit
   {
-    name: "GASTEC Compressed Breathing Air Measurement Kit CG-1",
+    name: calibrationRegulators[0].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
-    ],
+    images: [calibrationRegulators[0].imgSrc],
     description:
       "Rapid Impurity Measurement for Compressed Breathing Air The Gastec CG-1 system allows for simple, fast, and simultaneous measurement of four harmful contaminants—CO, CO₂, water vapor, and oil mist—present in compressed breathing air from cylinders or compressors.",
     overViewcategory: [
@@ -86,33 +95,16 @@ export const products: DetailProduct[] = [
     },
 
     relatedProduct: [
-      {
-        name: "Pressure Regulator",
-        description: "Maintains consistent pressure for reliable results.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
-      },
-      {
-        name: "Adaptor / Connector",
-        description: "Compatible connector for multi-device integration.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
-      },
-      {
-        name: "High-Precision Flow Regulator",
-        description: "Designed for precise gas flow control.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-      },
+      calibrationRegulators[2],
+      calibrationRegulators[4],
+      calibrationRegulators[3],
     ],
   },
   // Flow Regulator
   {
-    name: "GASTEC Flow Regulator",
+    name: calibrationRegulators[1].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
-    ],
+    images: [calibrationRegulators[1].imgSrc],
     description:
       "The GV Series Flow Regulators are engineered for field and laboratory calibration of gas detection instruments. Built for ease of use, these regulators ensure that calibration gas is dispensed at a steady, accurate rate. Available in both fixed flow and adjustable flow versions, they are suitable for a wide range of applications including industrial hygiene, confined space monitoring, and environmental safety testing.",
     overViewcategory: [
@@ -171,40 +163,17 @@ export const products: DetailProduct[] = [
     },
 
     relatedProduct: [
-      {
-        name: "GASTEC Calibration Kit",
-        description: "Complete calibration set for accurate measurements.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
-      },
-
-      {
-        name: "Pressure Regulator",
-        description: "Maintains consistent pressure for reliable results.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
-      },
-      {
-        name: "High-Precision Flow Regulator",
-        description: "Designed for precise gas flow control.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-      },
-      {
-        name: "Adaptor / Connector",
-        description: "Compatible connector for multi-device integration.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
-      },
+      calibrationRegulators[0],
+      calibrationRegulators[2],
+      calibrationRegulators[3],
+      calibrationRegulators[4],
     ],
   },
   // Pressure Regulator
   {
-    name: "Pressure Regulator",
+    name: calibrationRegulators[2].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
-    ],
+    images: [calibrationRegulators[2].imgSrc],
     description:
       "The CG1 Series Pressure Regulators are specifically developed to maintain stable gas flow during calibration. Designed for use with disposable calibration gas cylinders, these regulators ensure reliability, accuracy, and safety in test environments. Models are available for different flow control needs (fixed or variable), supporting applications in industrial hygiene, safety, and gas detection calibration.",
 
@@ -260,40 +229,17 @@ export const products: DetailProduct[] = [
     },
 
     relatedProduct: [
-      {
-        name: "GASTEC Calibration Kit",
-        description: "Complete calibration set for accurate measurements.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
-      },
-      {
-        name: "GASTEC Flow Regulator",
-        description: "Ensures stable gas flow during sampling.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
-      },
-
-      {
-        name: "High-Precision Flow Regulator",
-        description: "Designed for precise gas flow control.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-      },
-      {
-        name: "Adaptor / Connector",
-        description: "Compatible connector for multi-device integration.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
-      },
+      calibrationRegulators[0],
+      calibrationRegulators[1],
+      calibrationRegulators[3],
+      calibrationRegulators[4],
     ],
   },
   // High-Precision Flow Regulator
   {
-    name: "High-Precision Flow Regulator",
+    name: calibrationRegulators[3].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-    ],
+    images: [calibrationRegulators[3].imgSrc],
     description:
       "The GASTEC CG-1 Calibration Kit enables fast, simultaneous detection of CO, CO₂, water vapor, and oil mist in breathing air—directly from a cylinder or compressor. It operates without electricity, housed in a sturdy, convenient carry case suitable for both industrial and field environments.",
 
@@ -470,39 +416,17 @@ export const products: DetailProduct[] = [
     },
 
     relatedProduct: [
-      {
-        name: "GASTEC Calibration Kit",
-        description: "Complete calibration set for accurate measurements.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
-      },
-      {
-        name: "GASTEC Flow Regulator",
-        description: "Ensures stable gas flow during sampling.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
-      },
-      {
-        name: "Pressure Regulator",
-        description: "Maintains consistent pressure for reliable results.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
-      },
-      {
-        name: "Adaptor / Connector",
-        description: "Compatible connector for multi-device integration.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
-      },
+      calibrationRegulators[0],
+      calibrationRegulators[1],
+      calibrationRegulators[2],
+      calibrationRegulators[4],
     ],
   },
   // Adaptor / Connector
   {
-    name: "Adaptor / Connector",
+    name: calibrationRegulators[4].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_6.jpg",
-    ],
+    images: [calibrationRegulators[4].imgSrc],
     description:
       "These adapters allow seamless connection between your calibration systems and gas cylinders or regulators. Models include CG1-11 through CG1-17, matching various interface standards (ISO12209, CGA346, CGA347) and compatible with extreme pressure conditions (up to 300 bar) to support accurate and secure gas calibration setups.",
 
@@ -557,30 +481,10 @@ export const products: DetailProduct[] = [
     },
 
     relatedProduct: [
-      {
-        name: "GASTEC Calibration Kit",
-        description: "Complete calibration set for accurate measurements.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_1.jpg",
-      },
-      {
-        name: "GASTEC Flow Regulator",
-        description: "Ensures stable gas flow during sampling.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_2.jpg",
-      },
-      {
-        name: "Pressure Regulator",
-        description: "Maintains consistent pressure for reliable results.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_4.jpg",
-      },
-      {
-        name: "High-Precision Flow Regulator",
-        description: "Designed for precise gas flow control.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/CG_1_5.jpg",
-      },
+      calibrationRegulators[0],
+      calibrationRegulators[1],
+      calibrationRegulators[2],
+      calibrationRegulators[3],
     ],
   },
 
@@ -590,14 +494,14 @@ export const products: DetailProduct[] = [
 
   // GHS-8AT EX Monitor
   {
-    name: "H2S Data Logger-GHS-8AT-EX",
+    name: digitalMonitors[0].name,
     category: "Gas Detection Monitors",
     images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_2.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_3.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_4.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_5.jpg",
+      images.GHS8ATEX1,
+      images.GHS8ATEX1,
+      images.GHS8ATEX1,
+      images.GHS8ATEX1,
+      images.GHS8ATEX1,
     ],
     description:
       "Continuous H₂S monitoring is straightforward, convenient, and dependable. When corrosive hydrogen sulfide forms in sewer systems, it can cause corrosion, leading to rust, unpleasant odors, and, in severe cases, significant damage to buildings and infrastructure. The GHS-8AT-EX data logger enables continuous, reliable monitoring of H₂S levels within the sewer system.",
@@ -1042,13 +946,9 @@ export const products: DetailProduct[] = [
 
   // GHS-501FT Fit Tester
   {
-    name: "Automatic Air Sampling Pump GSP-501FT",
+    name: automaticAirSamplingPump[0].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_3.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_2.jpg",
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_501FT_1.jpg",
-    ],
+    images: [images.GSP501FT1, images.GSP501FT2, images.GSP501FT3],
     description:
       "A compact, lightweight, and reliable automatic air sampling pump designed for use with GASTEC detector tubes and sorbent tubes.",
 
@@ -1258,11 +1158,9 @@ export const products: DetailProduct[] = [
 
   // GV-100S Hand Pump
   {
-    name: "Gas sampling pump kit GV-100S",
+    name: gasDetectorTubeSystem[0].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100S.jpg",
-    ],
+    images: [gasDetectorTubeSystem[0].imgSrc],
     description:
       "The GV-100S Hand Pump is a manual gas sampling device specifically designed to be used with GASTEC detector tubes. Built with durability and ease of use in mind, the GV-100S ensures that air samples are drawn consistently for accurate detection and measurement of gases and vapors. Its compact design makes it ideal for on-site testing, industrial hygiene surveys, and confined space monitoring.",
 
@@ -1437,23 +1335,14 @@ export const products: DetailProduct[] = [
       buttonText: "Make an Enquiry",
       buttonHref: "/contact",
     },
-    relatedProduct: [
-      {
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_110S.jpg",
-        name: "Gas sampling pump kit GV-110S",
-        description: "Compact gas sampling pump with carrying case.",
-      },
-    ],
+    relatedProduct: [gasDetectorTubeSystem[1]],
   },
 
   // GV-110S Hand Pump
   {
-    name: "Gas sampling pump kit GV-110S",
+    name: gasDetectorTubeSystem[1].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_110S.jpg",
-    ],
+    images: [gasDetectorTubeSystem[1].imgSrc],
     description:
       "The GV-110S Hand Pump is an upgraded version of the GV-100S, offering dual sampling volumes for greater flexibility in gas detection applications. With its high-precision design, the pump ensures consistent sample collection while providing a built-in stroke counter for accuracy. Compact, durable, and easy to operate, the GV-110S is ideal for industrial hygiene surveys, workplace safety monitoring, and environmental testing.",
 
@@ -1602,25 +1491,172 @@ export const products: DetailProduct[] = [
       buttonText: "Make an Enquiry",
       buttonHref: "/contact",
     },
-    relatedProduct: [
+    relatedProduct: [gasDetectorTubeSystem[0]],
+  },
+
+  // GV-100LS Hand Pump
+  {
+    name: gasDetectorTubeSystem[2].name,
+    category: "Gas Detection Monitors",
+    images: [gasDetectorTubeSystem[2].imgSrc],
+    description:
+      "The GV-110S Hand Pump is an upgraded version of the GV-100S, offering dual sampling volumes for greater flexibility in gas detection applications. With its high-precision design, the pump ensures consistent sample collection while providing a built-in stroke counter for accuracy. Compact, durable, and easy to operate, the GV-110S is ideal for industrial hygiene surveys, workplace safety monitoring, and environmental testing.",
+
+    overViewcategory: [
       {
-        imgSrc:
-          "/images/Gastec3/gas-detection-specialized-sampling-kits/GV_100S.jpg",
-        name: "Gas sampling pump kit GV-100S",
-        description: "Compact gas sampling pump with carrying case.",
+        catalogUrl:
+          "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf",
+        catalogName: "Download Catalog",
       },
     ],
+
+    tubeSystemTitle: "What is the GASTEC Detector Tube System?",
+    tubeSystemDescription:
+      "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
+    tubeSystemImage: "/images/detector-tube-system.jpg",
+    tubeSystemFeatures: [
+      {
+        title: "Portable & Convenient",
+        description: "From common industrial gases to specialized chemicals",
+      },
+      {
+        title: "Quick Results",
+        description: "Instant on-site readings in minutes.",
+      },
+      {
+        title: "Extensive Coverage",
+        description: "Over 500 gases detectable.",
+      },
+      {
+        title: "Trusted Worldwide",
+        description:
+          "Used across industries for safety, research, and compliance.",
+      },
+    ],
+
+    whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
+    whyChooseTitle: "Why Choose GASTEC?",
+    whyChooseFeature: [
+      {
+        featureTitle: "Direct Onsite Readouts",
+        description:
+          "No interpretation required; results are visible on the tube itself.",
+      },
+      {
+        featureTitle: "Wide Concentration Range",
+        description: "Flexible measurements, adjustable with sampling volume.",
+      },
+      {
+        featureTitle: "High Accuracy",
+        description:
+          "ach tube is individually calibrated and comes with a control number.",
+      },
+      {
+        featureTitle: "Stable & Long-Lasting",
+        description: "Tubes maintain accuracy with long shelf life.",
+      },
+      {
+        featureTitle: "User-Friendly Operation",
+        description:
+          "Intuitive design makes it simple for professionals in any field.",
+      },
+      {
+        featureTitle: "Eco-Friendly Design",
+        description:
+          "Built with sustainability in mind, reducing environmental impact.",
+      },
+    ],
+    columns: ["Parameter", "Details"],
+
+    specifications: [
+      ["Sample Volume", "100 mL or 50 mL per stroke"],
+      ["Pump Type", "Piston-type dual-volume hand pump"],
+      ["Material", "High-durability plastic and metal"],
+      ["Dimensions", "Compact and portable"],
+      [
+        "Applications",
+        "Gas monitoring, confined space safety, on-site testing",
+      ],
+    ],
+
+    howToUseSteps: [
+      {
+        step: "01",
+        title: "Prepare Pump",
+        details: [
+          "Break both tips of the detector tube.",
+          "Insert the tube into the pump inlet.",
+        ],
+      },
+      {
+        step: "02",
+        title: "Select Volume & Sample",
+        details: [
+          "Choose either 100 mL or 50 mL stroke setting.",
+          "Pull back the handle fully to complete one sampling stroke.",
+        ],
+      },
+      {
+        step: "03",
+        title: "Read Results",
+        details: [
+          "After required strokes, remove the tube.",
+          "Compare the color change on the tube with the printed scale to determine gas concentration.",
+        ],
+      },
+    ],
+
+    video: "Video Instruction",
+
+    airTightNessCheck: "Airtightness Check",
+    airTightNessCheckdes:
+      "Before you begin sampling, it’s crucial to verify that your sampling pump is airtight—any leaks can compromise measurement accuracy. Here’s a simple check to ensure reliability:",
+    airTightFeature: [
+      {
+        featureTitle: "Secure the Inlet",
+        description: "Ensure the inlet nut is firmly tightened",
+      },
+      {
+        featureTitle: "Insert Intact Tube",
+        description:
+          "Place a detector tube (with both tips intact) into the pump’s rubber inlet",
+      },
+      {
+        featureTitle: "Align Marks",
+        description:
+          "Push the handle fully in, aligning the guide marks (red line on pump body and triangle on handle)",
+      },
+    ],
+
+    airTightFeature2: [
+      {
+        featureTitle: "Lock & Hold",
+        description:
+          "Pull out in one motion until locked. Wait approximately 1 minute.",
+      },
+      {
+        featureTitle: "Perform the Test",
+        description:
+          "Twist handle 90°, then release gently. The handle should smoothly return—if the red mark is fully concealed, the pump is airtight.",
+      },
+    ],
+
+    cta: {
+      title: "Interested in this product?",
+      rightDescription: "Get in touch with us to know more or request a quote.",
+      buttonText: "Make an Enquiry",
+      buttonHref: "/contact",
+    },
+    relatedProduct: [gasDetectorTubeSystem[0]],
   },
 
   /////////////////////////////////////////////////////
 
   // TG-1EN Gas Sampling Kit
   {
-    name: "Toxic gas detection kit TG-1",
+    name: specializedKits[0].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/TG_1_EN.jpg",
-    ],
+    images: [specializedKits[0].imgSrc],
     description:
       "A quick and effective method for identifying toxic gases is essential for preventing hazardous emissions in the workplace, contributing to occupational hygiene and pollution control. The first step is obtaining accurate data on the types of gases present and their concentration levels. Our Toxic Gas Detection Kit TG-1 is designed for this purpose and comes equipped with 12 specialized detector tubes.",
 
@@ -1700,9 +1736,9 @@ export const products: DetailProduct[] = [
 
   // 351A Extension Hoses
   {
-    name: "351A Extension Hoses",
+    name: calibrationEquipment[0].name,
     category: "Gas Detection Monitors",
-    images: ["/images/Gastec3/gas-detection-accessories/351A_5.jpg"],
+    images: [calibrationEquipment[0].imgSrc],
     description:
       "The 351A Extension Hoses allow gas sampling from difficult-to-access locations like manholes and storage tanks. They securely attach to the inlet of GV-100/GV-110 sampling pumps and enable accurate downward measurement at a distance. For twin-tube configurations, additional accessories such as guard rubbers (No. 358 and No. 359) are available. Note: these hoses are not compatible with Oxygen Detector Tube No. 31B.",
 
@@ -1767,36 +1803,19 @@ export const products: DetailProduct[] = [
       buttonHref: "/contact",
     },
     relatedProduct: [
-      {
-        imgSrc: "/images/Gastec3/gas-detection-accessories/380_1.jpg",
-        name: "Fumigation Probe 380",
-        description: "Portable monitor for hazardous gas detection.",
-      },
-      {
-        imgSrc: "/images/Gastec3/gas-detection-accessories/860_1.jpg",
-        name: "Pyrotec Pyrolyzer 860",
-        description: "Maintains consistent pressure for reliable results.",
-      },
-      {
-        imgSrc:
-          "/images/Gastec3/gas-detection-accessories/Extension Pole 350BP-2.jpeg",
-        name: "Extension Pole 350BP-2",
-        description: "Portable monitor for hazardous gas detection.",
-      },
-      {
-        imgSrc: "/images/Gastec3/gas-detection-accessories/GV500_1.jpg",
-        name: "Twin Tube Holder GV500",
-        description: "Maintains consistent pressure for reliable results.",
-      },
+      calibrationEquipment[1],
+      calibrationEquipment[2],
+      calibrationEquipment[3],
+      calibrationEquipment[4],
     ],
   },
 
   // Fumigation Probe 380
 
   {
-    name: "Fumigation Probe 380",
+    name: calibrationEquipment[1].name,
     category: "Gas Detection Monitors",
-    images: ["/images/Gastec3/gas-detection-accessories/380_1.jpg"],
+    images: [calibrationEquipment[1].imgSrc],
     description:
       "The Fumigation Probe 380 enables safe measurement of residual fumigants inside sealed containers. You simply connect it to a GASTEC detector tube and insert it through the container’s rubber seal, allowing accurate and efficient testing without compromising the container integrity.",
 
@@ -1853,37 +1872,19 @@ export const products: DetailProduct[] = [
       buttonHref: "/contact",
     },
     relatedProduct: [
-      {
-        name: "351A Extension Hoses",
-        description:
-          "For remote sampling in confined spaces, connects to GV-100 / GV-110 pumps.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/351A_5.jpg",
-      },
-      {
-        name: "Pyrotec Pyrolyzer 860",
-        description: "Converts sulfuryl fluoride for detection with tubes.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/860_1.jpg",
-      },
-      {
-        name: "Extension Pole 350BP-2",
-        description: "Lightweight 2.8 m pole for extended reach sampling.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-accessories/Extension Pole 350BP-2.jpeg",
-      },
-      {
-        name: "Twin Tube Holder GV500",
-        description: "Protects twin tubes during sampling.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/GV500_1.jpg",
-      },
+      calibrationEquipment[0],
+      calibrationEquipment[2],
+      calibrationEquipment[3],
+      calibrationEquipment[4],
     ],
   },
 
   // Pyrotec Pyrolyzer 860
 
   {
-    name: "Pyrotec Pyrolyzer 860",
+    name: calibrationEquipment[2].name,
     category: "Gas Detection Monitors",
-    images: ["/images/Gastec3/gas-detection-accessories/860_1.jpg"],
+    images: [calibrationEquipment[2].imgSrc],
     description:
       "The Pyrotec Pyrolyzer 860 enables precise measurement of Sulphuryl Fluoride by thermally breaking it down into a detectable gas. This compact unit attaches directly to a GASTEC sampling pump and uses pyrolysis to deliver accurate readings through specialized tubes, ensuring reliability in demanding environments.",
 
@@ -1951,39 +1952,19 @@ export const products: DetailProduct[] = [
       buttonHref: "/contact",
     },
     relatedProduct: [
-      {
-        name: "351A Extension Hoses",
-        description:
-          "For remote sampling in confined spaces, connects to GV-100 / GV-110 pumps.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/351A_5.jpg",
-      },
-      {
-        name: "Fumigation Probe 380",
-        description: "For sampling residual fumigants through container seals.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/380_1.jpg",
-      },
-      {
-        name: "Extension Pole 350BP-2",
-        description: "Lightweight 2.8 m pole for extended reach sampling.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-accessories/Extension Pole 350BP-2.jpeg",
-      },
-      {
-        name: "Twin Tube Holder GV500",
-        description: "Protects twin tubes during sampling.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/GV500_1.jpg",
-      },
+      calibrationEquipment[0],
+      calibrationEquipment[1],
+      calibrationEquipment[3],
+      calibrationEquipment[4],
     ],
   },
 
   // Extension Pole 350BP-2
 
   {
-    name: "Extension Pole 350BP-2",
+    name: calibrationEquipment[3].name,
     category: "Gas Detection Monitors",
-    images: [
-      "/images/Gastec3/gas-detection-accessories/Extension Pole 350BP-2.jpeg",
-    ],
+    images: [calibrationEquipment[3].imgSrc],
     description:
       "The Extension Pole 350BP-2, crafted from durable yet lightweight fiberglass, is designed to facilitate gas sampling in areas not easily accessed directly—such as overhead ducts, confined spaces, or across horizontal corridors. It collapses for portability and extends for reach, ensuring contactless, safe operation.",
 
@@ -2041,36 +2022,19 @@ export const products: DetailProduct[] = [
       buttonHref: "/contact",
     },
     relatedProduct: [
-      {
-        name: "351A Extension Hoses",
-        description:
-          "For remote sampling in confined spaces, connects to GV-100 / GV-110 pumps.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/351A_5.jpg",
-      },
-      {
-        name: "Fumigation Probe 380",
-        description: "For sampling residual fumigants through container seals.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/380_1.jpg",
-      },
-      {
-        name: "Pyrotec Pyrolyzer 860",
-        description: "Converts sulfuryl fluoride for detection with tubes.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/860_1.jpg",
-      },
-      {
-        name: "Twin Tube Holder GV500",
-        description: "Protects twin tubes during sampling.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/GV500_1.jpg",
-      },
+      calibrationEquipment[0],
+      calibrationEquipment[1],
+      calibrationEquipment[2],
+      calibrationEquipment[4],
     ],
   },
 
   // Twin Tube Holder GV500
 
   {
-    name: "Twin Tube Holder GV500",
+    name: calibrationEquipment[4].name,
     category: "Gas Detection Monitors",
-    images: ["/images/Gastec3/gas-detection-accessories/GV500_1.jpg"],
+    images: [calibrationEquipment[4].imgSrc],
     description:
       "The GV500 Twin Tube Holder is a safety accessory designed to stabilize two detector tubes during measurements. It reduces the risk of tube breakage or user injury by securely holding the tubes in place during handling or accidental impact. Ideal for field use, it enhances operational safety and reliability.",
 
@@ -2122,38 +2086,22 @@ export const products: DetailProduct[] = [
       buttonHref: "/contact",
     },
     relatedProduct: [
-      {
-        name: "351A Extension Hoses",
-        description:
-          "For remote sampling in confined spaces, connects to GV-100 / GV-110 pumps.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/351A_5.jpg",
-      },
-      {
-        name: "Fumigation Probe 380",
-        description: "For sampling residual fumigants through container seals.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/380_1.jpg",
-      },
-      {
-        name: "Pyrotec Pyrolyzer 860",
-        description: "Converts sulfuryl fluoride for detection with tubes.",
-        imgSrc: "/images/Gastec3/gas-detection-accessories/860_1.jpg",
-      },
-      {
-        name: "Extension Pole 350BP-2",
-        description: "Lightweight 2.8 m pole for extended reach sampling.",
-        imgSrc:
-          "/images/Gastec3/gas-detection-accessories/Extension Pole 350BP-2.jpeg",
-      },
+      calibrationEquipment[0],
+      calibrationEquipment[1],
+      calibrationEquipment[2],
+      calibrationEquipment[3],
     ],
   },
 
   ///////////////////////////////////////////////////
 
   // Passive Monitoring
+
+  // Dosimeter Tubes – TWA
   {
-    name: "Dosimeter Tubes – TWA",
+    name: gasDetectionPassive[0].name,
     category: "Gas Detection Monitors",
-    images: ["/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg"],
+    images: [gasDetectionPassive[0].imgSrc],
     description:
       "Dosimeter (Dosi) tubes provide a user-friendly and economical way to monitor long-term exposure to airborne contaminants. Designed for either personal or area monitoring, these tubes require only passive exposure and visual reading—no additional equipment, calibration, or analysis required. Each tube includes a colorimetric scale for direct, on-the-spot concentration readings.",
 
@@ -2236,13 +2184,101 @@ export const products: DetailProduct[] = [
     },
   },
 
-  // Gas Generator Permeater PD-1C
+  // Dositube Holder
+  {
+    name: gasDetectionPassive[1].name,
+    category: "Gas Detection Monitors",
+    images: [gasDetectionPassive[1].imgSrc],
+    description:
+      "Dosimeter (Dosi) tubes provide a user-friendly and economical way to monitor long-term exposure to airborne contaminants. Designed for either personal or area monitoring, these tubes require only passive exposure and visual reading—no additional equipment, calibration, or analysis required. Each tube includes a colorimetric scale for direct, on-the-spot concentration readings.",
+
+    overViewcategory: [
+      { catalogUrl: "/pdf/1.pdf", catalogName: "Download Catalog" },
+    ],
+
+    tableTitle: "Why Dosimeter Tubes?",
+    features: [
+      [
+        "Ready to Use",
+        "Pre-calibrated, direct-read design eliminates extra equipment and training needs.",
+      ],
+      [
+        "Cost-Effective & Versatile",
+        "No need for repeated site visits or complex setups; great for various time periods (from minutes to 48 hours).",
+      ],
+      [
+        "Accurate & Reliable",
+        "Each tube is labeled with production-specific calibration for traceability and precision.",
+      ],
+      [
+        "Flexible Monitoring Modes",
+        "Use them as wearable personal monitors or install within work areas for area-level TWA readings.",
+      ],
+      [
+        "Practical Applications",
+        "For example, in winemaking environments where SO₂ is used, these tubes verify safe dosages to both the product and workers.",
+      ],
+    ],
+
+    KeyFeatureCard2Heading: "Application",
+    featureCard2: [
+      "Worker exposure monitoring",
+      "Industrial hygiene compliance",
+      "Long-term gas monitoring with Passive Dositubes",
+    ],
+
+    columns: ["Feature", "Details"],
+
+    specifications: [
+      ["Method", "Passive diffusion of ambient air"],
+      ["Readout", "Length of stain, read directly against printed scale"],
+      [
+        "Sampling Duration",
+        "From minutes to 48 hours depending on application",
+      ],
+      ["Applications", "Personal exposure, area monitoring, workplace safety"],
+    ],
+
+    howToUseSteps: [
+      {
+        step: "01",
+        title: "Activate Tube",
+        details: [
+          "Snap off the scored end of the dosimeter tube and place it into the tube holder.",
+        ],
+      },
+      {
+        step: "02",
+        title: "Deploy for Monitoring",
+        details: [
+          "Clip the tube holder to the worker’s breathing zone or area of interest. The tube samples passively over time.",
+        ],
+      },
+      {
+        step: "03",
+        title: "Read & Calculate",
+        details: [
+          "Read where the color change stops on the tube scale (ppm·hours). Divide by the exposure time (hours) to convert to ppm TWA concentration.",
+        ],
+      },
+    ],
+
+    cta: {
+      title: "Interested in this product?",
+      rightDescription: "Get in touch with us to know more or request a quote.",
+      buttonText: "Make an Enquiry",
+      buttonHref: "/contact",
+    },
+  },
+
   ///////////////////////////////////////////////////
 
+  // Gas Generator Permeater PD-1C
+
   {
-    name: "Permeater PD-1C",
+    name: gasDetectionPassive2[0].name,
     category: "Gas Detection Monitors",
-    images: ["/images/Gastec3/gas-generator-solutions/PD_1C_2.jpg"],
+    images: [gasDetectionPassive2[0].imgSrc],
     description:
       "The Permeater Gas Generator is a high-precision calibration device that uses permeation tubes and diffusion tubes to produce accurate and stable calibration gas for gas detection and monitoring systems. By maintaining a constant temperature, the system ensures a consistent release rate of both permeating and evaporating gases. With a steady flow of dilution gas such as air or nitrogen, the Permeater provides a continuous and reliable source of calibration gas, making it ideal for gas detector calibration, industrial gas analysis, and environmental monitoring applications.",
     overViewcategory: [

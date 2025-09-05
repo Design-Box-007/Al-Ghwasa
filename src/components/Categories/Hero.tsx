@@ -31,7 +31,7 @@ const heroData: Record<
     title: "Gas Detection Passive Monitoring Solutions",
     description:
       "Passive monitoring for long-term and efficient gas detection across diverse applications.",
-    img: "/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg",
+    img: "/images/Gaslit/21.png",
   },
   "Gas Detector Tube System": {
     title: "Gas Detector Tube System",

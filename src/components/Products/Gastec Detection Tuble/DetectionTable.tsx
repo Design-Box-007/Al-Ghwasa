@@ -14,7 +14,7 @@ const DetectionTable = () => {
           className="bg-[#00897B] md:mx-10 mx-5" 
           btnClassName="text-[#00897B]"
         />
-      </DetectionDataProvider>``
+      </DetectionDataProvider>
     </div>
   );
 };

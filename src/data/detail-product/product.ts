@@ -1384,7 +1384,7 @@ export const products: DetailProduct[] = [
       buttonText: "Make an Enquiry",
       buttonHref: "/contact",
     },
-    relatedProduct: [gasDetectorTubeSystem[1]],
+    // relatedProduct: [gasDetectorTubeSystem[1]],
   },
 
   // GV-110S Hand Pump

@@ -74,7 +74,7 @@ const GlideText = () => (
     <RevealComponent outerClass="relative overflow-hidden w-full z-[14]">
         <motion.div
             className="whitespace-nowrap text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-semibold text-custom-blue-1"
-            animate={{ x: ['0%', '-100%'] }}
+            whileInView={{ x: ['0%', '-100%'] }}
             transition={{ repeat: Infinity, duration: 20, ease: 'linear' }}
         >
             <span className="mr-10">Fast, Reliable, & Precise On-Site Gas Analysis</span>
@@ -115,7 +115,7 @@ const GastecHero = () => {
 
     const renderContent = width < 768 || (milestone >= 4 && width >= 768);
     return (
-        <header className={`relative rounded-3xl lg:h-[750px] custom-linear-gradient-white transition-all duration-500 ease-linear px-4 sm:px-6 overflow-hidden md:px-10 pt-[20px] md:pt-11 md:pt-1`}>
+        <header className={`relative rounded-3xl lg:h-[750px]  transition-all duration-500 ease-linear px-4 sm:px-6 overflow-hidden md:px-10 pt-[20px] md:pt-11 md:pt-1`}>
 
             {/* ✅ Step 0: Reveal GASTEC */}
             {milestone >= 0 && width > 768 && <GastecText />}

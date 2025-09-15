@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { FaLightbulb } from "react-icons/fa";
-import { ImImages } from "react-icons/im";
-import RevealComponent from "../Comman/RevealComponent";
+ import RevealComponent from "../Comman/RevealComponent";
 
 const HomeProductApplications = () => {
   return (
@@ -14,7 +13,7 @@ const HomeProductApplications = () => {
             <p className="font-inter text-xl">Product Applications</p>
           </RevealComponent>
           <RevealComponent direction="bottom">
-            <h1 className="font-medium text-4xl lg:text-[100px] leading-tight">
+            <h1 className="lg:text-5xl md:text-3xl text-2xl font-medium leading-tight">
               Experience Center
             </h1>
           </RevealComponent>
@@ -36,10 +35,10 @@ const HomeProductApplications = () => {
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
                 Gas Detection & Workplace Safety
               </h5>
-              <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
+              {/* <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
                 <span className="capitalize">Full Experience Center</span>
-              </button>
+              </button> */}
             </div>
           </RevealComponent>
 
@@ -58,10 +57,10 @@ const HomeProductApplications = () => {
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
                 GASTEC Calibration Kit
               </h5>
-              <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
+              {/* <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
                 <span className="capitalize">Full Experience Center</span>
-              </button>
+              </button> */}
             </div>
           </RevealComponent>
         </div>
@@ -83,10 +82,10 @@ const HomeProductApplications = () => {
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
                 GHS-8AT EX Monitor
               </h5>
-              <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
+              {/* <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
                 <span className="capitalize">Full Experience Center</span>
-              </button>
+              </button> */}
             </div>
           </RevealComponent>
 
@@ -105,10 +104,10 @@ const HomeProductApplications = () => {
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
                 GHS-501FT Fit Tester
               </h5>
-              <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
+              {/* <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
                 <span className="capitalize">Full Experience Center</span>
-              </button>
+              </button> */}
             </div>
           </RevealComponent>
         </div>

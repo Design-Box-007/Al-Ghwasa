@@ -88,7 +88,7 @@ export const calibrationEquipment: ProductItem[] = [
 // Gas Detector Tube System
 export const gasDetectorTubeSystem: ProductItem[] = [
   {
-    name: "Gas sampling pump kit GV-100S",
+    name: "Gas Sampling Pump GV100S/GV100LS/GV110S.",
     description: "Compact gas sampling pump with carrying case.",
     imgSrc: images.GV100S,
   },
@@ -101,6 +101,14 @@ export const gasDetectorTubeSystem: ProductItem[] = [
     name: "Gas sampling pump kit GV-100LS",
     description: "Advanced model with extra durability.",
     imgSrc: images.GV100LS,
+  },
+];
+
+export const gasDetectorTubeSystem2: ProductItem[] = [
+  {
+    name: "Gas Sampling Pump GV100S/GV100LS/GV110S.",
+    description: "Compact gas sampling pump with carrying case.",
+    imgSrc: images.GV100S,
   },
 ];
 

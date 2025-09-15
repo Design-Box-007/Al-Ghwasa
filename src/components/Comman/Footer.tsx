@@ -5,12 +5,12 @@ import Link from "next/link";
 import React from "react";
 import images from "@/data/assets";
 import Image from "next/image";
-import RevealComponent from "./RevealComponent";
+ 
 
 const Footer = () => {
   const newNavLinks: NavLinksType[] = navLinks 
   return (
-    <footer className="h-auto lg:h-[395px] p-c-10">
+    <footer className="h-auto lg:h-[300px] p-c-10">
       <div className="px-4 py-10 rounded-2xl h-full overflow-hidden custom-linear-gradient-blue flex flex-col justify-between gap-4">
         {/* top */}
         <div>
@@ -76,7 +76,7 @@ const Footer = () => {
                 </div> */}
 
         {/* products  */}
-        <div className="w-full py- flex flex-col lg:flex-row lg:items-center justify-between gap-4 capitalize">
+        {/* <div className="w-full py- flex flex-col lg:flex-row lg:items-center justify-between gap-4 capitalize">
           <RevealComponent
             backgroundClass="custom-linear-gradient-blue" // Also fix: missing `bg-` prefix
             outerClass="relative inline-block overflow-hidden"
@@ -84,7 +84,7 @@ const Footer = () => {
             <h2 className="text-4xl lg:text-7xl capitalize text-white font-semibold">
               Lot more to Explore
             </h2>
-          </RevealComponent>
+          </RevealComponent> */}
 
           {/* <div className="flex flex-wrap gap-3 font-semibold">
             <RevealComponent backgroundClass="custom-linear-gradient-blue">
@@ -102,7 +102,7 @@ const Footer = () => {
                             <ProductCTA link="/frying-oil-tester" name="Oil Tester" imgSrc={images.fryingOilTesterSmall} className="text-custom-red-light" />
                         </RevealComponent>
           </div> */}
-        </div>
+        {/* </div> */}
 
         {/* bottom */}
       </div>

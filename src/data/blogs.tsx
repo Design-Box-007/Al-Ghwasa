@@ -6,7 +6,7 @@ export const blogListData: Blog[] = [
     title:
       "Why Gastec Gas Detection Systems Are Essential for Industrial Safety",
     description:
-      "In hazardous industrial environments, accurate gas detection is not a luxury—it’s a necessity.",
+      "The Gastec Gas Detection System provides reliable, portable, and precise solutions for identifying harmful gases and vapors across a range of industries. From confined spaces to offshore rigs, Gastec detector tubes and pumps are trusted globally to protect lives and ensure regulatory compliance.",
     imgSrc: images.gastecL,
     component: "Blog1",
   },
@@ -14,7 +14,7 @@ export const blogListData: Blog[] = [
     title:
       "Why Gastec Gas Detection Systems Are Essential for Industrial Safety",
     description:
-      "In hazardous industrial environments, accurate gas detection is not a luxury—it’s a necessity.",
+      "The Gastec Gas Detection System provides reliable, portable, and precise solutions for identifying harmful gases and vapors across a range of industries. From confined spaces to offshore rigs, Gastec detector tubes and pumps are trusted globally to protect lives and ensure regulatory compliance.",
     imgSrc: images.gastecL,
     component: "Blog1",
   },
@@ -22,7 +22,7 @@ export const blogListData: Blog[] = [
     title:
       "Why Gastec Gas Detection Systems Are Essential for Industrial Safety",
     description:
-      "In hazardous industrial environments, accurate gas detection is not a luxury—it’s a necessity.",
+      "The Gastec Gas Detection System provides reliable, portable, and precise solutions for identifying harmful gases and vapors across a range of industries. From confined spaces to offshore rigs, Gastec detector tubes and pumps are trusted globally to protect lives and ensure regulatory compliance.",
     imgSrc: images.gastecL,
     component: "Blog1",
   },
@@ -30,10 +30,11 @@ export const blogListData: Blog[] = [
     title:
       "Why Gastec Gas Detection Systems Are Essential for Industrial Safety",
     description:
-      "In hazardous industrial environments, accurate gas detection is not a luxury—it’s a necessity.",
+      "The Gastec Gas Detection System provides reliable, portable, and precise solutions for identifying harmful gases and vapors across a range of industries. From confined spaces to offshore rigs, Gastec detector tubes and pumps are trusted globally to protect lives and ensure regulatory compliance.",
     imgSrc: images.gastecL,
     component: "Blog1",
   },
+
   // {
   //     title: "Hydration Testing with MX3: A Game-Changer for Workforce Health & Safety",
   //     description: "Dehydration is a silent threat on job sites, especially in hot, demanding environments.The MX3 Hydration Testing System offers a revolutionary, science-backed solution to monitor",

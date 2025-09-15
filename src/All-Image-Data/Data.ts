@@ -50,6 +50,8 @@ import { Assets } from "@/types";
   GV100S: "/images/All-Product-Images/Tube System/GV_100S.jpg",
   GV110S: "/images/All-Product-Images/Tube System/GV_110S.jpg",
   GV100LS: "/images/All-Product-Images/Tube System/GV_100LS.jpg",
+
+  gasDetectorTubeImg:"/images/All-Product-Images/Tube System/What is Gastec Detector System.png"
 };
 
 export default images

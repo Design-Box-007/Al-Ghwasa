@@ -3,9 +3,11 @@ import Overview from "@/components/Categories/detail-page/OverViewCard";
 import VideoTitle from "@/components/Categories/detail-page/VideoTitle";
 import WhyChooseGastec from "@/components/Categories/detail-page/WhyChooseGastec";
 import ProductGrid from "@/components/Comman/ProductGrid";
-import { gasDetectorTubeSystem } from "@/data/products/category-gastec";
+import { gasDetectorTubeSystem2 } from "@/data/products/category-gastec";
 
 import React from "react";
+import GastecHero from "../Gastec/GastecHero";
+
 
 const GasDetector = () => {
   return (
@@ -95,12 +97,12 @@ const GasDetector = () => {
               "Each number indicates the type of substance measurable, while the accompanying letter (H, M, L) shows high, medium, or low concentration detection levels.",
           },
         ]}
-        // imageSrc="/images/sample.png" // ✅ Optional image
       />
+
+       <GastecHero/>
 
       <WhyChooseGastec
         title={"Gas Sampling Pump Features"}
-        imageUrl="/images/Gastec/Gastec-2.png"
         imageClass="rotate-180"
         features={[
           {
@@ -258,7 +260,7 @@ const GasDetector = () => {
 
       <ProductGrid
         title="Related Products"
-        items={gasDetectorTubeSystem}
+        items={gasDetectorTubeSystem2}
         ctaLabel="View Accessories"
         ctaHref="#"
         actionVariant="arrow"

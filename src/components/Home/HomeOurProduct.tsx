@@ -154,7 +154,7 @@ const HomeOurProducts = () => {
         outerClass="mb-0"
         direction="right"
       >
-        <h1 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-semibold text-custom-blue-1 font-dm-sans leading-tight mb-0">
+        <h1 className="lg:text-5xl md:text-3xl text-2xl font-medium text-custom-blue-1 font-dm-sans leading-tight mb-0">
           Our Product
         </h1>
       </RevealComponent>

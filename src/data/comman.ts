@@ -67,13 +67,14 @@ export const navLinks: NavLinksType[] = [
 
       {
         navTitle: "Gas Detector Tube System",
-        navHref: `/categories/${formatToHyphenated(gasDetectorTubeSystem[0].name)}`,
+        navHref: `/gas-detector-tube-system`,
         subLinks: [
           {
             navTitle: "Gas Sampling Pump GV100S/GV100LS/GV110S.",
-            navHref: "/gas-detector-tube-system"
+            navHref: `/categories/${formatToHyphenated(
+              gasDetectorTubeSystem[0].name
+            )}`,
           },
-       
         ],
       },
       {

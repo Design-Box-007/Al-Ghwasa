@@ -7,13 +7,15 @@ interface IndustryCards {
   title: string;
   description: string;
   icon: IconType;
+  details?: string[]
 }
 
 export const industries: IndustryCards[] = [
   {
     title: "Agriculture",
     description: "Monitoring gas levels in silos, greenhouses, and storage facilities.",
-    icon: FaTractor
+    icon: FaTractor,
+    details:["knan"]
   },
   {
     title: "Chemical",

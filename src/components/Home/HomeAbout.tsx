@@ -76,18 +76,20 @@ const HomeAbout = () => {
           </div>
 
           {/* Learn More */}
-          <RevealComponent outerClass="flex flex-row items-center justify-between py-2 border-b border-b-custom-red-light">
-            <Link
+             <Link
               href="/about"
               passHref
               className="text-sm sm:text-base md:text-2xl font-medium text-custom-red-light"
             >
+          <RevealComponent outerClass="flex flex-row items-center justify-between py-2 border-b border-b-custom-red-light">
+         
               Learn More About us
-            </Link>
+           
             <span className="bg-transparent rounded-full p-1 sm:p-2">
               <FaArrowRight className="text-custom-red-light" />
             </span>
           </RevealComponent>
+           </Link>
         </div>
       </div>
     </section>

@@ -142,3 +142,35 @@ body {
   height: 50px !important;
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  display: flex;
+  animation: slide 20s linear infinite;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotateY-180 {
+  transform: rotateY(180deg);
+}
+
+
+@media (max-width: 768px) {
+  .animate-slide {
+    animation-duration: 8s; /* 🔥 speed up on mobile */
+  }
+}

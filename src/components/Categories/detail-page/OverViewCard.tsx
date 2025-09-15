@@ -4,6 +4,7 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import FeatureSection from "./TubeComponent";
+import images from "@/All-Image-Data/Data";
 
 interface OverviewProps {
   catalogUrl: string;
@@ -51,6 +52,7 @@ const Overview: React.FC<KeyOverViewProps> = ({
       {/* ✅ Conditionally Render FeatureSection */}
       {showFeatureSection && (
         <FeatureSection
+          imageSrc={images.gasDetectorTubeImg}
           leftFeatures={leftFeatures || []}
           rightFeatures={rightFeatures || []}
           // imageSrc="/images/sample.png"

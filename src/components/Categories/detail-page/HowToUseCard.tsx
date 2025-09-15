@@ -24,7 +24,7 @@ const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
         {steps?.map((item, index) => (
           <div
             key={index}
-            className="border border-gray-400 rounded-2xl shadow-sm p-4 flex flex-col bg-white hover:shadow-md transition"
+            className="border border-gray-400 rounded-2xl shadow-sm p-4 flex flex-col bg-white hover:shadow-md transition justify-between"
           >
             {/* Image or placeholder */}
             {item.image ? (
@@ -41,7 +41,7 @@ const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
           
 
             {/* Content */}
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 ">
               <div className="flex justify-between">
                 <h3 className="font-semibold text-lg">{item.title}</h3>
                 <span className="text-black font-bold">{item.step}</span>
@@ -52,6 +52,7 @@ const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
                 ))}
               </ul>
             </div>
+
           </div>
         ))}
       </div>

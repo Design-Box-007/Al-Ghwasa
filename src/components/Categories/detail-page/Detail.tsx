@@ -14,7 +14,8 @@ import formatToHyphenated from "@/utils/formatPathName";
 import KeyFeatureCard2 from "./KeyFeaturesCard2";
 import KeyFeaturesCard3 from "./KeyFeaturesCard3";
 import WhyChooseGastec from "./WhyChooseGastec";
-import ResponsiveYouTube from "@/components/Gallery/GalleryVideo";
+// import ResponsiveYouTube from "@/components/Gallery/GalleryVideo";
+import VideoTitle from "./VideoTitle";
 
 const ProductDetailPage = () => {
   const params = useParams();
@@ -125,7 +126,7 @@ const ProductDetailPage = () => {
         />
       )}
 
-      {!!product.video?.length && (
+      {/* {!!product.video?.length && (
         <div className="overflow-x-hidden relative md:px-4 px-4 lg:px-10 py-10">
           <hr className="mb-6" />
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-5">
@@ -139,7 +140,13 @@ const ProductDetailPage = () => {
           />
           <hr className="mt-6" />
         </div>
+      )} */}
+
+      {(product.videoTitle?.length) &&(
+        <VideoTitle titles={product.videoTitle}/>
       )}
+
+      
 
       {(product.airTightNessCheck || product.airTightFeature?.length) && (
         <WhyChooseGastec

@@ -5,7 +5,7 @@ import RevealComponent from './RevealComponent'
 
 const MapComponent = () => {
     return (
-        <section className='space-y-20 py-4 sm:py-6 md:py-8 lg:py-12 custom-linear-gradient-gray rounded-2xl'>
+        <section className='space-y-20 py-4 sm:py-6 md:py-8 lg:py-12 rounded-2xl'>
             <div className='w-3/4 mx-auto space-y-10 text-center'>
                     <RevealComponent backgroundClass='bg-background'>
                     <h1 className='font-medium text-4xl lg:text-[54px]'>

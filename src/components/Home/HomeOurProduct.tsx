@@ -40,49 +40,51 @@ const ProductSection: React.FC<ProductSectionProps> = ({
         direction="right"
       >
         <div
-          className="flex flex-col md:flex-row justify-between md:items-center gap-4 cursor-pointer py-4 border-b border-b-custom-gray"
+          className="flex md:items-center justify-between gap-3 cursor-pointer md:flex-row flex-col"
           onClick={onClick}
         >
           {/* Title and number */}
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-6 flex-1">
-            <h2 className="md:text-3xl lg:text-[40px] font-semibold flex items-center gap-4">
+          <div className="flex md:items-center lg:gap-46 md:gap-3.5 md:flex-row flex-col">
+            <h2 className="md:text-3xl flex items-center gap-4">
               <span className="text-gray-500 text-xl md:text-2xl">
                 {number}
               </span>
               <span>{title}</span>
             </h2>
+          </div>
 
+          <div className="flex gap-2.5 items-center">
             {/* Explore More button */}
             {link && (
               <Link href={link}>
-                <button className="hidden lg:flex py-2 px-4 border border-[#4A4A4A] items-center gap-2 rounded-3xl text-sm sm:text-base">
+                <button className="hidden lg:flex py-2 px-4 border border-[#4A4A4A] items-center gap-2 rounded-3xl text-sm sm:text-base md:ml-3.5">
                   <MdExplore />
                   <span>Explore More</span>
                 </button>
               </Link>
             )}
+            <div className="flex justify-between items-center md:self-auto">
+              {link && (
+                <Link href={link}>
+                  <button className="flex lg:hidden py-2 px-4 border border-[#4A4A4A] items-center gap-2 rounded-3xl text-sm sm:text-base mr-5">
+                    <MdExplore />
+                    <span>Explore More</span>
+                  </button>
+                </Link>
+              )}
+              {isOpen ? (
+                <div className="bg-custom-red-light flex items-center justify-center size-11 rounded-full">
+                  <FaXmark size={20} className="text-white" />
+                </div>
+              ) : (
+                <div className="bg-custom-blue-1 flex items-center justify-center size-11 rounded-full">
+                  <FaArrowRight size={20} className="text-white rotate-45" />
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Toggle Icon */}
-          <div className="flex justify-between items-center md:self-auto">
-            {link && (
-              <Link href={link}>
-                <button className="flex lg:hidden py-2 px-4 border border-[#4A4A4A] items-center gap-2 rounded-3xl text-sm sm:text-base mr-5">
-                  <MdExplore />
-                  <span>Explore More</span>
-                </button>
-              </Link>
-            )}
-            {isOpen ? (
-              <div className="bg-custom-red-light flex items-center justify-center size-11 rounded-full">
-                <FaXmark size={20} className="text-white" />
-              </div>
-            ) : (
-              <div className="bg-custom-blue-1 flex items-center justify-center size-11 rounded-full">
-                <FaArrowRight size={20} className="text-white rotate-45" />
-              </div>
-            )}
-          </div>
         </div>
       </RevealComponent>
 

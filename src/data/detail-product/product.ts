@@ -1,4 +1,4 @@
-import { images } from "@/All-Image-Data/Data";
+import images from "@/All-Image-Data/Data";
 import { DetailProduct } from "@/types/product";
 import {
   automaticAirSamplingPump,
@@ -498,10 +498,10 @@ export const products: DetailProduct[] = [
     category: "Gas Detection Monitors",
     images: [
       images.GHS8ATEX1,
-      images.GHS8ATEX1,
-      images.GHS8ATEX1,
-      images.GHS8ATEX1,
-      images.GHS8ATEX1,
+      images.GHS8ATEX2,
+      images.GHS8ATEX3,
+      images.GHS8ATEX4,
+      images.GHS8ATEX5,
     ],
     description:
       "Continuous H₂S monitoring is straightforward, convenient, and dependable. When corrosive hydrogen sulfide forms in sewer systems, it can cause corrosion, leading to rust, unpleasant odors, and, in severe cases, significant damage to buildings and infrastructure. The GHS-8AT-EX data logger enables continuous, reliable monitoring of H₂S levels within the sewer system.",
@@ -1172,72 +1172,72 @@ export const products: DetailProduct[] = [
       },
     ],
 
-    tubeSystemTitle: "What is the GASTEC Detector Tube System?",
-    tubeSystemDescription:
-      "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
-    tubeSystemImage: "/images/detector-tube-system.jpg",
-    tubeSystemFeatures: [
-      {
-        title: "Portable & Convenient",
-        description: "From common industrial gases to specialized chemicals",
-      },
-      {
-        title: "Quick Results",
-        description: "Instant on-site readings in minutes.",
-      },
-      {
-        title: "Extensive Coverage",
-        description: "Over 500 gases detectable.",
-      },
-      {
-        title: "Trusted Worldwide",
-        description:
-          "Used across industries for safety, research, and compliance.",
-      },
-    ],
+    // tubeSystemTitle: "What is the GASTEC Detector Tube System?",
+    // tubeSystemDescription:
+    //   "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
+    // tubeSystemImage: "/images/detector-tube-system.jpg",
+    // tubeSystemFeatures: [
+    //   {
+    //     title: "Portable & Convenient",
+    //     description: "From common industrial gases to specialized chemicals",
+    //   },
+    //   {
+    //     title: "Quick Results",
+    //     description: "Instant on-site readings in minutes.",
+    //   },
+    //   {
+    //     title: "Extensive Coverage",
+    //     description: "Over 500 gases detectable.",
+    //   },
+    //   {
+    //     title: "Trusted Worldwide",
+    //     description:
+    //       "Used across industries for safety, research, and compliance.",
+    //   },
+    // ],
 
-    whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
-    whyChooseTitle: "Why Choose GASTEC?",
-    whyChooseFeature: [
-      {
-        featureTitle: "Direct Onsite Readouts",
-        featureImage:
-          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 1.png",
-        description:
-          "No interpretation required; results are visible on the tube itself.",
-      },
-      {
-        featureTitle: "Wide Concentration Range",
-        featureImage:
-          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 2.png",
-        description: "Flexible measurements, adjustable with sampling volume.",
-      },
-      {
-        featureTitle: "High Accuracy",
-        featureImage:
-          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 3.png",
-        description:
-          "ach tube is individually calibrated and comes with a control number.",
-      },
-      {
-        featureTitle: "Stable & Long-Lasting",
-        featureImage:
-          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 4.png",
-        description: "Tubes maintain accuracy with long shelf life.",
-      },
-      {
-        featureTitle: "User-Friendly Operation",
-        featureImage:
-          "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 5.png",
-        description:
-          "Intuitive design makes it simple for professionals in any field.",
-      },
-      // {
-      //   featureTitle: "Eco-Friendly Design",
-      //   description:
-      //     "Built with sustainability in mind, reducing environmental impact.",
-      // },
-    ],
+    // whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
+    // whyChooseTitle: "Why Choose GASTEC?",
+    // whyChooseFeature: [
+    //   {
+    //     featureTitle: "Direct Onsite Readouts",
+    //     featureImage:
+    //       "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 1.png",
+    //     description:
+    //       "No interpretation required; results are visible on the tube itself.",
+    //   },
+    //   {
+    //     featureTitle: "Wide Concentration Range",
+    //     featureImage:
+    //       "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 2.png",
+    //     description: "Flexible measurements, adjustable with sampling volume.",
+    //   },
+    //   {
+    //     featureTitle: "High Accuracy",
+    //     featureImage:
+    //       "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 3.png",
+    //     description:
+    //       "ach tube is individually calibrated and comes with a control number.",
+    //   },
+    //   {
+    //     featureTitle: "Stable & Long-Lasting",
+    //     featureImage:
+    //       "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 4.png",
+    //     description: "Tubes maintain accuracy with long shelf life.",
+    //   },
+    //   {
+    //     featureTitle: "User-Friendly Operation",
+    //     featureImage:
+    //       "/images/GAS SAMPLING PUMP MAIN LANDING PAGE IMAGES/Gas sampling pum feature/gas sampling image 5.png",
+    //     description:
+    //       "Intuitive design makes it simple for professionals in any field.",
+    //   },
+    //   // {
+    //   //   featureTitle: "Eco-Friendly Design",
+    //   //   description:
+    //   //     "Built with sustainability in mind, reducing environmental impact.",
+    //   // },
+    // ],
 
     columns: ["Parameter", "Details"],
     specifications: [
@@ -1284,7 +1284,7 @@ export const products: DetailProduct[] = [
       },
     ],
 
-    video: "Video Instruction",
+    videoTitle: ["Video Title", "Video Title", "Video Title"],
 
     airTightNessCheck: "Airtightness Check",
     airTightNessCheckdes:
@@ -1354,62 +1354,62 @@ export const products: DetailProduct[] = [
       },
     ],
 
-    tubeSystemTitle: "What is the GASTEC Detector Tube System?",
-    tubeSystemDescription:
-      "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
-    tubeSystemImage: "/images/detector-tube-system.jpg",
-    tubeSystemFeatures: [
-      {
-        title: "Portable & Convenient",
-        description: "From common industrial gases to specialized chemicals",
-      },
-      {
-        title: "Quick Results",
-        description: "Instant on-site readings in minutes.",
-      },
-      {
-        title: "Extensive Coverage",
-        description: "Over 500 gases detectable.",
-      },
-      {
-        title: "Trusted Worldwide",
-        description:
-          "Used across industries for safety, research, and compliance.",
-      },
-    ],
+    // tubeSystemTitle: "What is the GASTEC Detector Tube System?",
+    // tubeSystemDescription:
+    //   "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
+    // tubeSystemImage: "/images/detector-tube-system.jpg",
+    // tubeSystemFeatures: [
+    //   {
+    //     title: "Portable & Convenient",
+    //     description: "From common industrial gases to specialized chemicals",
+    //   },
+    //   {
+    //     title: "Quick Results",
+    //     description: "Instant on-site readings in minutes.",
+    //   },
+    //   {
+    //     title: "Extensive Coverage",
+    //     description: "Over 500 gases detectable.",
+    //   },
+    //   {
+    //     title: "Trusted Worldwide",
+    //     description:
+    //       "Used across industries for safety, research, and compliance.",
+    //   },
+    // ],
 
-    whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
-    whyChooseTitle: "Why Choose GASTEC?",
-    whyChooseFeature: [
-      {
-        featureTitle: "Direct Onsite Readouts",
-        description:
-          "No interpretation required; results are visible on the tube itself.",
-      },
-      {
-        featureTitle: "Wide Concentration Range",
-        description: "Flexible measurements, adjustable with sampling volume.",
-      },
-      {
-        featureTitle: "High Accuracy",
-        description:
-          "ach tube is individually calibrated and comes with a control number.",
-      },
-      {
-        featureTitle: "Stable & Long-Lasting",
-        description: "Tubes maintain accuracy with long shelf life.",
-      },
-      {
-        featureTitle: "User-Friendly Operation",
-        description:
-          "Intuitive design makes it simple for professionals in any field.",
-      },
-      {
-        featureTitle: "Eco-Friendly Design",
-        description:
-          "Built with sustainability in mind, reducing environmental impact.",
-      },
-    ],
+    // whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
+    // whyChooseTitle: "Why Choose GASTEC?",
+    // whyChooseFeature: [
+    //   {
+    //     featureTitle: "Direct Onsite Readouts",
+    //     description:
+    //       "No interpretation required; results are visible on the tube itself.",
+    //   },
+    //   {
+    //     featureTitle: "Wide Concentration Range",
+    //     description: "Flexible measurements, adjustable with sampling volume.",
+    //   },
+    //   {
+    //     featureTitle: "High Accuracy",
+    //     description:
+    //       "ach tube is individually calibrated and comes with a control number.",
+    //   },
+    //   {
+    //     featureTitle: "Stable & Long-Lasting",
+    //     description: "Tubes maintain accuracy with long shelf life.",
+    //   },
+    //   {
+    //     featureTitle: "User-Friendly Operation",
+    //     description:
+    //       "Intuitive design makes it simple for professionals in any field.",
+    //   },
+    //   {
+    //     featureTitle: "Eco-Friendly Design",
+    //     description:
+    //       "Built with sustainability in mind, reducing environmental impact.",
+    //   },
+    // ],
     columns: ["Parameter", "Details"],
 
     specifications: [
@@ -1450,7 +1450,7 @@ export const products: DetailProduct[] = [
       },
     ],
 
-    video: "Video Instruction",
+    videoTitle: ["Video Title", "Video Title", "Video Title"],
 
     airTightNessCheck: "Airtightness Check",
     airTightNessCheckdes:
@@ -1510,62 +1510,62 @@ export const products: DetailProduct[] = [
       },
     ],
 
-    tubeSystemTitle: "What is the GASTEC Detector Tube System?",
-    tubeSystemDescription:
-      "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
-    tubeSystemImage: "/images/detector-tube-system.jpg",
-    tubeSystemFeatures: [
-      {
-        title: "Portable & Convenient",
-        description: "From common industrial gases to specialized chemicals",
-      },
-      {
-        title: "Quick Results",
-        description: "Instant on-site readings in minutes.",
-      },
-      {
-        title: "Extensive Coverage",
-        description: "Over 500 gases detectable.",
-      },
-      {
-        title: "Trusted Worldwide",
-        description:
-          "Used across industries for safety, research, and compliance.",
-      },
-    ],
+    // tubeSystemTitle: "What is the GASTEC Detector Tube System?",
+    // tubeSystemDescription:
+    //   "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
+    // tubeSystemImage: "/images/detector-tube-system.jpg",
+    // tubeSystemFeatures: [
+    //   {
+    //     title: "Portable & Convenient",
+    //     description: "From common industrial gases to specialized chemicals",
+    //   },
+    //   {
+    //     title: "Quick Results",
+    //     description: "Instant on-site readings in minutes.",
+    //   },
+    //   {
+    //     title: "Extensive Coverage",
+    //     description: "Over 500 gases detectable.",
+    //   },
+    //   {
+    //     title: "Trusted Worldwide",
+    //     description:
+    //       "Used across industries for safety, research, and compliance.",
+    //   },
+    // ],
 
-    whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
-    whyChooseTitle: "Why Choose GASTEC?",
-    whyChooseFeature: [
-      {
-        featureTitle: "Direct Onsite Readouts",
-        description:
-          "No interpretation required; results are visible on the tube itself.",
-      },
-      {
-        featureTitle: "Wide Concentration Range",
-        description: "Flexible measurements, adjustable with sampling volume.",
-      },
-      {
-        featureTitle: "High Accuracy",
-        description:
-          "ach tube is individually calibrated and comes with a control number.",
-      },
-      {
-        featureTitle: "Stable & Long-Lasting",
-        description: "Tubes maintain accuracy with long shelf life.",
-      },
-      {
-        featureTitle: "User-Friendly Operation",
-        description:
-          "Intuitive design makes it simple for professionals in any field.",
-      },
-      {
-        featureTitle: "Eco-Friendly Design",
-        description:
-          "Built with sustainability in mind, reducing environmental impact.",
-      },
-    ],
+    // whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
+    // whyChooseTitle: "Why Choose GASTEC?",
+    // whyChooseFeature: [
+    //   {
+    //     featureTitle: "Direct Onsite Readouts",
+    //     description:
+    //       "No interpretation required; results are visible on the tube itself.",
+    //   },
+    //   {
+    //     featureTitle: "Wide Concentration Range",
+    //     description: "Flexible measurements, adjustable with sampling volume.",
+    //   },
+    //   {
+    //     featureTitle: "High Accuracy",
+    //     description:
+    //       "ach tube is individually calibrated and comes with a control number.",
+    //   },
+    //   {
+    //     featureTitle: "Stable & Long-Lasting",
+    //     description: "Tubes maintain accuracy with long shelf life.",
+    //   },
+    //   {
+    //     featureTitle: "User-Friendly Operation",
+    //     description:
+    //       "Intuitive design makes it simple for professionals in any field.",
+    //   },
+    //   {
+    //     featureTitle: "Eco-Friendly Design",
+    //     description:
+    //       "Built with sustainability in mind, reducing environmental impact.",
+    //   },
+    // ],
     columns: ["Parameter", "Details"],
 
     specifications: [
@@ -1606,7 +1606,7 @@ export const products: DetailProduct[] = [
       },
     ],
 
-    video: "Video Instruction",
+    videoTitle: ["Video Title", "Video Title", "Video Title"],
 
     airTightNessCheck: "Airtightness Check",
     airTightNessCheckdes:

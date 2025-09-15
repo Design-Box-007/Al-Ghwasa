@@ -16,6 +16,7 @@ interface WhyChooseProps {
   title2?: string;
   features?: FeatureCardProps[];
   description?: string;
+  description2?: string;
   className?: string;
   titleClass?: string;
   imageClass?: string;
@@ -27,6 +28,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
   title2,
   features,
   description,
+  description2,
   className,
   titleClass,
   imageClass,
@@ -68,6 +70,12 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
             </h2>
           )}
           <p className="text-text-color w-full lg:w-1/2">{description}</p>
+        </div>
+      )}
+
+      {description2 &&(
+        <div className="mb-5">
+          <p>{description2}</p>
         </div>
       )}
 

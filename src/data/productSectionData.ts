@@ -1,5 +1,5 @@
 import { ProductSectionData } from "@/types";
-import { specializedKits } from "./products/category-gastec";
+import { calibrationEquipment, specializedKits } from "./products/category-gastec";
 import formatToHyphenated from "@/utils/formatPathName";
 
 const productsData: ProductSectionData[] = [
@@ -36,7 +36,7 @@ const productsData: ProductSectionData[] = [
 
   {
     number: "01",
-    title: "Explore the Full Range of Gastec Gas Detection Devices and Tubes",
+    title: "Explore full range of Gas Detection Devices and Tubes.",
     link: "/categories",
     images: [
       {
@@ -53,9 +53,9 @@ const productsData: ProductSectionData[] = [
       },
       {
         imgSrc:
-          "/images/Gastec3/gas-detection-accessories/380_1.jpg",
-        name: "Fumigation Probe 380",
-        href: `/categories/fumigation-probe-380`,
+          calibrationEquipment[0].imgSrc,
+        name: calibrationEquipment[0].name,
+        href: `/categories/${formatToHyphenated(calibrationEquipment[0].name)}`,
       },
     ],
   },

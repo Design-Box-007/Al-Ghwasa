@@ -135,3 +135,10 @@ body {
   scrollbar-width: none;
   /* Firefox */
 }
+
+/* global.css */
+.floating-whatsapp-button {
+  width: 50px !important;
+  height: 50px !important;
+}
+

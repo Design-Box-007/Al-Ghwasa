@@ -1,8 +1,8 @@
 import Hero from "@/components/Categories/detail-page/GasDetectorHero";
 import Overview from "@/components/Categories/detail-page/OverViewCard";
+import VideoTitle from "@/components/Categories/detail-page/VideoTitle";
 import WhyChooseGastec from "@/components/Categories/detail-page/WhyChooseGastec";
 import ProductGrid from "@/components/Comman/ProductGrid";
-import ResponsiveYouTube from "@/components/Gallery/GalleryVideo";
 import { gasDetectorTubeSystem } from "@/data/products/category-gastec";
 
 import React from "react";
@@ -23,13 +23,14 @@ const GasDetector = () => {
         description="GASTEC Detector Tubes provide direct concentration readings using a calibrated scale printed on each tube. At GASTEC, we are committed to delivering the highest quality detector tubes for accurate analysis of gases and vapours in air, as well as pollutants in soil and water, backed by advanced, state-of-the-art research and development. Our dedication to quality and innovation has earned us a strong reputation across a wide range of industries, commercial sectors, and public services. Today, our detector tubes support over 500 different applications."
       />
 
-      {/* <Overview
+      <Overview
         title={"What is the GASTEC Detector Tube System?"}
         description={
           "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required."
         }
         showImage={true}
         imageUrl={"/images/detector-tube-system.jpg"}
+        showFeatureSection={true}
         features={[
           {
             title: "Portable & Convenient",
@@ -50,7 +51,52 @@ const GasDetector = () => {
               "Used across industries for safety, research, and compliance.",
           },
         ]}
-      /> */}
+        leftFeatures={[
+          {
+            title: "High-Quality Glass Tube",
+            description:
+              "Every tube is made from durable, high-quality glass to ensure accuracy and reliability in testing.",
+          },
+          {
+            title: "Calibration Scale",
+            description:
+              "Scales are printed for clear readability (in ppm, mg/m³, mg/L, or %) against the color change layer. Each scale is lot-tested and qualified for precision.",
+          },
+          {
+            title: "Standard Number of Pump Strokes",
+            description:
+              "Indicates the required number of strokes needed to collect the standard air sample volume for this tube.",
+          },
+          {
+            title: "Quality Control Number (QC No.)",
+            description:
+              "Every production lot is assigned a QC number for traceability. Tubes with the same QC No. are regularly checked to maintain standards.",
+          },
+        ]}
+        rightFeatures={[
+          {
+            title: "Distinct Layer of Color Change",
+            description:
+              "Provides a clear, visual indication of gas presence, making results quick and easy to interpret.",
+          },
+          {
+            title: "Reliable Detecting Reagents",
+            description:
+              "Formulated to meet strict quality standards, ensuring accurate demarcation, clarity, and brightness of color change layers.",
+          },
+          {
+            title: "Chemical Formula",
+            description:
+              "Displays the chemical formula of the measured substance. Abbreviations are used for lengthy formulas.",
+          },
+          {
+            title: "Detector Tube Number",
+            description:
+              "Each number indicates the type of substance measurable, while the accompanying letter (H, M, L) shows high, medium, or low concentration detection levels.",
+          },
+        ]}
+        // imageSrc="/images/sample.png" // ✅ Optional image
+      />
 
       <WhyChooseGastec
         title={"Gas Sampling Pump Features"}
@@ -95,6 +141,43 @@ const GasDetector = () => {
       />
 
       <WhyChooseGastec
+        title={"Did You Know?"}
+        description2="Breathing air can contain invisible hazards that may pose serious health risks if not detected and controlled. Some common contaminants include carbon monoxide, carbon dioxide, oil mist, water vapor, and even oxygen deficiency."
+        features={[
+          {
+            featureTitle: "Oxygen",
+            description:
+              "Essential for life, oxygen becomes dangerous at very high or low levels. Deficiency can cause cognitive issues, organ damage, and hypoxemia, while excess can lead to oxidative stress and lung damage. Monitoring is vital for worker safety.",
+          },
+          {
+            featureTitle: "Carbon Monoxide (CO)",
+            description:
+              "The most deadly contaminant—colorless and odorless, CO binds to hemoglobin faster than oxygen, causing tissue starvation. Even low exposure can trigger headaches, dizziness, and unconsciousness, while high exposure may be fatal.",
+          },
+          {
+            featureTitle: "Carbon Dioxide (CO₂)",
+            description:
+              "CO₂ is toxic in high amounts. Increased breathing rates with CO₂ exposure raise the intake of other harmful gases. Symptoms include dizziness, sweating, shortness of breath, and at severe levels, coma or convulsions.",
+          },
+          {
+            featureTitle: "Oil Mist",
+            description:
+              "Formed from condensed hydrocarbons, oil mist can penetrate deep into the lungs. While larger particles are filtered, fine ones cause respiratory issues such as lipoid pneumonia and emphysema.",
+          },
+          {
+            featureTitle: "Water Vapor",
+            description:
+              "Water vapor promotes system corrosion and can freeze regulators in cold conditions. It also damages filtration catalysts that remove CO, turning a simple contaminant into a major system risk.",
+          },
+          {
+            featureTitle: "Oxygen Deficiency",
+            description:
+              "A lack of oxygen in the breathing environment is one of the most immediate hazards. Even short exposure can impair coordination and decision-making, while prolonged deficiency may lead to loss of consciousness or death.",
+          },
+        ]}
+      />
+
+      <WhyChooseGastec
         title={"Three Simple Steps to Accurate Gas Detection"}
         titleClass="lg:text-5xl md:text-4xl text-2xl text-center mb-6 font-bold"
         features={[
@@ -122,19 +205,7 @@ const GasDetector = () => {
         ]}
       />
 
-      <div className="overflow-x-hidden relative md:px-4 px-4 lg:px-10 py-10">
-        <hr className="mb-6" />
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-5">
-          {"Video instruction"}
-        </h1>
-
-        <ResponsiveYouTube
-          videoURL={
-            "https://www.youtube.com/embed/D0UnqGm_miA?si=35W6STzM9tPG7nSI"
-          }
-        />
-        <hr className="mt-6" />
-      </div>
+      <VideoTitle titles={["Video Title", "Video Title", "Video Title"]} />
 
       <WhyChooseGastec
         title2={"Airtightness Check"}

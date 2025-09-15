@@ -8,7 +8,7 @@ export default function IndustryGrid() {
         {/* Header Section */}
         <div>
           <div className="text-center mb-[70px]">
-            <h1 className="font-dm-sans font-semibold text-4xl md:text-7xl leading-[1.302] text-black mb-4 mx-auto">
+            <h1 className="font-dm-sans font-semibold text-3xl md:text-7xl leading-[1.302] text-black mb-4 mx-auto">
               Tailored Solutions for Every Industry
             </h1>
             <p className="font-poppins font-medium text-16 leading-[1.5] text-black max-w-[702px] mx-auto">

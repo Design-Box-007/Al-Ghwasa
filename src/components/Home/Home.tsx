@@ -9,6 +9,7 @@ import BlogSection from "../Comman/BlogSection";
 // import ProductCTA from '../Comman/ProductCTA'
 import ProductPageCTA from "../Comman/ProductPageCTA";
 import { gasetecSubLinks } from "@/data/products/mx3Data";
+import TrustedPartners from "../Comman/TrustedPartners";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Hero />
       <HomeOurProducts />
       <HomeAbout />
+      <TrustedPartners />
       <HomeProductApplication />
       <BlogSection
         title="Featured Articles"

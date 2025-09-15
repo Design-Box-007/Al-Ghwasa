@@ -8,6 +8,8 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { gasDetectorTubeSystem } from "./products/category-gastec";
+import formatToHyphenated from "@/utils/formatPathName";
 
 export const navLinks: NavLinksType[] = [
   // { navTitle: "Home", navHref: "/gastec-2" },
@@ -65,14 +67,13 @@ export const navLinks: NavLinksType[] = [
 
       {
         navTitle: "Gas Detector Tube System",
-        navHref: `/gas-detector-tube-system`,
+        navHref: `/categories/${formatToHyphenated(gasDetectorTubeSystem[0].name)}`,
         subLinks: [
           {
-            navTitle: "Gas sampling pump kit GV-100S",
+            navTitle: "Gas Sampling Pump GV100S/GV100LS/GV110S.",
+            navHref: "/gas-detector-tube-system"
           },
-          {
-            navTitle: "Gas sampling pump kit GV-110S",
-          },
+       
         ],
       },
       {

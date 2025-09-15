@@ -1,6 +1,5 @@
 "use client";
 
-import images from "@/data/assets";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 // import ProductCTA from '../Comman/ProductCTA'
@@ -8,6 +7,12 @@ import ProductCard from "../Comman/ProductCard";
 import { motion, AnimatePresence } from "framer-motion";
 import ProductCTA from "../Comman/ProductCTA";
 import formatToHyphenated from "@/utils/formatPathName";
+import {
+  digitalMonitors,
+  gasDetectionPassive2,
+  gasDetectorTubeSystem,
+} from "@/data/products/category-gastec";
+import images from "@/All-Image-Data/Data";
 
 const productIds = [1, 2, 3];
 
@@ -29,12 +34,11 @@ const products: Record<number, ProductInfo> = {
   // 1: { imgSrc: images.oilTesterT, link: "/frying-oil-tester", bgSrc: images.oilTesterL, name: 'Frying Oil Tester', className: 'bg-custom-green-1', textClass: 'text-custom-green-1' },
   // 2: { imgSrc: images.mx3T, link: "/mx-3", bgSrc: images.mx3L, name: 'Hydration Measurement', className: 'bg-custom-blue-1', textClass: 'text-custom-blue-1' },
   1: {
-    imgSrc:
-      "/images/Gastec3/gas-detection-specialized-sampling-kits/GHS_8AT_EX_1.jpg",
-    href: `/categories/${formatToHyphenated("H2S Data Logger-GHS-8AT-EX")}`,
-    link: `/categories/${formatToHyphenated("H2S Data Logger-GHS-8AT-EX")}`,
-    bgSrc: images.gastecL,
-    name: "H2S Data Logger-GHS-8AT-EX",
+    imgSrc: digitalMonitors[0].imgSrc,
+    href: `/categories/${formatToHyphenated(digitalMonitors[0].name)}`,
+    link: `/categories/${formatToHyphenated(digitalMonitors[0].name)}`,
+    bgSrc: images.GV110S,
+    name: digitalMonitors[0].name,
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -45,11 +49,11 @@ const products: Record<number, ProductInfo> = {
     },
   },
   2: {
-    imgSrc: "/images/Gastec3/gas-detection-passive-monitoring/passive_dt.jpg",
-    href: `/categories/dosimeter-tubes-twa`,
-    link: "/categories/dosimeter-tubes-twa",
-    bgSrc: images.gastecL,
-    name: "Dosimeter Tubes – TWA",
+    imgSrc: gasDetectorTubeSystem[0].imgSrc,
+    href: `/categories/${formatToHyphenated(gasDetectorTubeSystem[0].name)}`,
+    link: `/categories/${formatToHyphenated(gasDetectorTubeSystem[0].name)}`,
+    bgSrc: images.GV110S,
+    name: gasDetectorTubeSystem[0].name,
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
@@ -60,11 +64,11 @@ const products: Record<number, ProductInfo> = {
     },
   },
   3: {
-    imgSrc: "/images/Gastec3/gas-generator-solutions/PD_1C_1.jpg",
-    href: `/categories/permeater-pd1c`,
-    link: "/categories/permeater-pd1c",
-    bgSrc: images.gastecL,
-    name: "Permeater PD-1C",
+    imgSrc: gasDetectionPassive2[0].imgSrc,
+    href: `/categories/${formatToHyphenated(gasDetectionPassive2[0].name)}`,
+    link: `/categories/${formatToHyphenated(gasDetectionPassive2[0].name)}`,
+    bgSrc: images.GV110S,
+    name: gasDetectionPassive2[0].name,
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {

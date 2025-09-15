@@ -27,7 +27,7 @@ const AboutUsSecond = () => {
 
   return (
     <section className="space-y-7 md:px-10 px-5">
-      <div className="flex flex-col gap-4">
+      <div className="flex lg:flex-row flex-col justify-between gap-4">
         <motion.h1
           className="font-medium text-3xl md:text-4xl lg:text-[60px] flex-1"
           initial={{ opacity: 0 }}
@@ -41,7 +41,7 @@ const AboutUsSecond = () => {
           direction="bottom"
           outerClass="flex flex-col gap-4 justify-around flex-1"
         >
-          <p className="text-xl font-light text-secondary">
+          {/* <p className="text-xl font-light text-secondary">
             Founded in 1988, Al Ghwasa has established itself as a trusted name
             in gas detection and air quality monitoring across the UAE and the
             wider Gulf region. With a strong commitment to safety, accuracy, and
@@ -61,8 +61,8 @@ const AboutUsSecond = () => {
           <p className="text-xl font-light text-secondary">
             Our GASTEC product line supports a wide range of applications,
             including:
-          </p>
-          <ul className="list-disc list-inside space-y-2 text-xl font-light text-secondary pl-4">
+          </p> */}
+          {/* <ul className="list-disc list-inside space-y-2 text-xl font-light text-secondary pl-4">
             <li>
               <strong>Industrial & Occupational Gas Detection</strong> – Monitor
               toxic and flammable gases in factories, refineries, construction
@@ -87,8 +87,8 @@ const AboutUsSecond = () => {
               <strong>Shipping & Fumigation Safety</strong> – Detect residual
               fumigants in containers to ensure safe inspection and unloading.
             </li>
-          </ul>
-          <p className="text-xl font-light text-secondary">
+          </ul> */}
+          {/* <p className="text-xl font-light text-secondary">
             We provide end-to-end support for all GASTEC systems—including
             product selection, usage training, calibration guidance, and
             after-sales service. Our technical team works closely with clients
@@ -99,6 +99,14 @@ const AboutUsSecond = () => {
             Serving clients across the UAE, Saudi Arabia, Qatar, Oman, Bahrain,
             Kuwait, and South Africa, Al Ghwasa is your go-to source for
             dependable and easy-to-use gas detection systems from GASTEC.
+          </p> */}
+
+          <p className="md:text-xl font-light text-secondary">
+            Founded in 1988, Al Ghwasa has become a trusted name in providing
+            high-quality industrial and marine equipment. Our journey reflects a
+            commitment to quality, customer satisfaction, and technological
+            advancement—helping businesses across the UAE operate with
+            efficiency and confidence.
           </p>
         </RevealComponent>
       </div>

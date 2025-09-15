@@ -1,6 +1,6 @@
 import { Assets } from "@/types";
 
-export const images: Assets = {
+ const images: Assets = {
   // Specialized Sampling Kits
   CG1: "/images/All-Product-Images/Specialized Sampling Kits/CG_1_1.jpg",
   FlowRegulator:
@@ -51,3 +51,5 @@ export const images: Assets = {
   GV110S: "/images/All-Product-Images/Tube System/GV_110S.jpg",
   GV100LS: "/images/All-Product-Images/Tube System/GV_100LS.jpg",
 };
+
+export default images

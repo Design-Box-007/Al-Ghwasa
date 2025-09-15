@@ -1,6 +1,6 @@
 // data.ts
 
-import { images } from "@/All-Image-Data/Data";
+import images from "@/All-Image-Data/Data";
 
 export interface ProductItem {
   name: string;

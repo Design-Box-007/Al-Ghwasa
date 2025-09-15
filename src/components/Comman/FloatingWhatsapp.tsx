@@ -20,6 +20,7 @@ const FloatingWhatsapp = () => {
             chatMessage="Hello! How can we help you today?"
             avatar="/images/logo.png"
             darkMode={false}
+            className='floating-whatsapp-button'
         />
     );
 };

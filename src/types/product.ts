@@ -81,7 +81,7 @@ export interface DetailProduct {
   airTightFeature2?: Array<{featureImage?: string; featureTitle: string; description: string}>
   packageContentimage?: string;
   howToUseTitle?: string;
-  
+  videoTitle?: string[];
 
 
   /** If provided -> show CTA. If omitted -> hide CTA for this product */

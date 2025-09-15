@@ -9,13 +9,13 @@ const AboutUsHeader = () => {
         outerClass="relative inline-block overflow-hidden flex items-center justify-center text-center w-full"
         direction="bottom"
       >
-        <h1 className="font-medium text-3xl  md:text-5xl text-black text-center leading-tight">
-          Driven by Excellence 
-          (Since <span className="text-custom-blue-1">1988)</span>
+        <h1 className="font-medium text-3xl md:text-7xl text-[#4A4A4A] text-center leading-tight">
+          Driven by Excellence<br/>
+          Since <span className="text-[#0277BD]">1988</span>
         </h1>
       </RevealComponent>
       <AboutSwiperComponent />
-      <p className="font-normal text-base sm:text-lg md:text-xl w-full sm:w-4/5 lg:w-3/4 mx-auto text-center">
+      <p className="font-normal text-base sm:text-lg md:text-xl w-full mx-auto text-center mb-20">
         For over 30 years, Al Ghwasa has been the trusted distributor of GASTEC
         gas detection solutions, delivering reliable safety equipment and expert
         support across the UAE, Qatar, Kuwait, Saudi Arabia, Oman, Bahrain, and
@@ -23,6 +23,8 @@ const AboutUsHeader = () => {
         accuracy, and customer-focused service has made us a preferred partner
         for industries across the Gulf region and Africa.
       </p>
+
+      <hr className="text-[#0277BD]"/>
     </header>
   );
 };

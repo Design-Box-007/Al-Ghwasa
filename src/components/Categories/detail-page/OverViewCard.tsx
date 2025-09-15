@@ -3,7 +3,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
+import FeatureSection from "./TubeComponent";
 
 interface OverviewProps {
   catalogUrl: string;
@@ -21,16 +21,20 @@ interface KeyOverViewProps {
   overViewcategory?: OverviewProps[];
   showImage?: boolean;
   imageUrl?: string;
-  features?: FeatureProps[]; // new props for feature cards
+  features?: FeatureProps[];
+  showFeatureSection?: boolean; // ✅ optional prop
+  leftFeatures?: FeatureProps[];
+  rightFeatures?: FeatureProps[];
 }
 
 const Overview: React.FC<KeyOverViewProps> = ({
   title = "Overview",
   description,
   overViewcategory,
-  showImage = false,
-  imageUrl,
   features,
+  showFeatureSection = false,
+  leftFeatures,
+  rightFeatures,
 }) => {
   return (
     <section className="px-6 lg:px-10 py-5">
@@ -44,17 +48,13 @@ const Overview: React.FC<KeyOverViewProps> = ({
         </p>
       )}
 
-      {/* Optional Image */}
-      {showImage && imageUrl && (
-        <div className="w-full flex justify-center mb-8 lg:px-30">
-          <Image
-            src={imageUrl}
-            alt="Overview illustration"
-            width={600}
-            height={400}
-            className="rounded-lg object-contain w-full h-full"
-          />
-        </div>
+      {/* ✅ Conditionally Render FeatureSection */}
+      {showFeatureSection && (
+        <FeatureSection
+          leftFeatures={leftFeatures || []}
+          rightFeatures={rightFeatures || []}
+          // imageSrc="/images/sample.png"
+        />
       )}
 
       {/* Download Buttons */}
@@ -85,7 +85,7 @@ const Overview: React.FC<KeyOverViewProps> = ({
               <h4 className="font-semibold text-custom-blue-1 text-h3">
                 {feature.title}
               </h4>
-              <p className="text-text-color text-sm ">{feature.description}</p>
+              <p className="text-text-color text-sm">{feature.description}</p>
             </div>
           ))}
         </div>

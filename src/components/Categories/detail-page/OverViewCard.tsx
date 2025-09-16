@@ -66,7 +66,7 @@ const Overview: React.FC<KeyOverViewProps> = ({
           href={category.catalogUrl}
           target="_blank"
           download
-          className="inline-flex items-center gap-2 bg-neutral border border-gray-300 text-custom-blue-1 lg:font-medium px-4 py-2 rounded-full shadow-sm hover:bg-gray-100 transition mr-5 text-paragraph"
+          className="inline-flex items-center gap-2 bg-neutral border border-gray-300 text-custom-blue-1 lg:font-medium px-4 py-2 rounded-full shadow-sm hover:bg-gray-100 transition mr-5 mt-5 text-paragraph"
         >
           {category.catalogName}
           <ArrowRight

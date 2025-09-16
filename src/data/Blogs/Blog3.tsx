@@ -1,44 +1,72 @@
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const Blog3 = () => {
-    return (
-        <section className="blog-content space-y-6 text-base font-sans">
+  return (
+    <section className="blog-content space-y-6 text-base font-sans">
+      {/* Introduction */}
+      <p className="font-semibold text-xl">Introduction</p>
+      <p>
+        Not every workplace has the same risks. Selecting the right gas
+        detection measures can mean the difference between reactive measures and
+        proactive protection.
+      </p>
 
-            <p className="text-base">
-                <strong>
-                    {" Oil quality plays a major role in food flavor, safety, and customer satisfaction."}
-                </strong>{' '}
-                {"With Alla France Frying Oil Testers, hospitality professionals can easily monitor the quality of cooking oil and ensure compliance with food safety standards."}
-            </p>
-            <p className="text-base font-semibold">
-                Why Oil Quality Testing Is Critical in Kitchens
-            </p>
-            <p className="text-base">
-                Overused oil not only degrades food taste and appearance but can also release harmful compounds. Regular testing helps maintain hygiene and avoid health violations.
-            </p>
-            <p className="text-base font-semibold">
-                Benefits of Using Alla France Frying Oil Testers
-            </p>
-            <ul className="list-disc pl-5 space-y-2 text-base">
-                <li>Quick and easy readings with no lab equipment</li>
-                <li>Cost-effective tool to reduce oil waste</li>
-                <li>Enhances food consistency and customer trust</li>
-                <li>Supports HACCP and food safety programs</li>
-            </ul>
-            <p className="text-base font-semibold">
-                ROI: Reduce Costs and Extend Oil Life
-            </p>
-            <p className="text-base">
-                {" By monitoring oil degradation levels, businesses can optimize oil replacement cycles, saving money while upholding quality."}
-            </p>
-            <p className="text-base font-semibold">
-                Trusted by the Hospitality Industry
-            </p>
-            <p className="text-base">
-                {"Hotels, restaurants, catering services, and fast-food chains rely on Alla France testers for daily quality checks."}
-            </p>
-        </section>
-    );
+      {/* Portable Gas Detectors */}
+      <p className="font-semibold text-xl">Portable Gas Detectors</p>
+      <p>
+        Compact, battery-operated devices that workers can carry anywhere.
+      </p>
+      <p className="font-semibold text-xl">Ideal for:</p>
+      <ul className="list-disc list-inside space-y-1">
+        <li>Inspections and maintenance rounds</li>
+        <li>Confined spaces</li>
+        <li>Temporary or short-term monitoring</li>
+      </ul>
+
+      {/* Fixed Gas Detectors */}
+      <p className="font-semibold text-xl">Fixed Gas Detectors</p>
+      <p>
+        Permanently installed units that continuously track gas levels and send
+        instant alerts in case of leaks.
+      </p>
+      <p className="font-semibold text-xl">Ideal for:</p>
+      <ul className="list-disc list-inside space-y-1">
+        <li>Factories and manufacturing plants</li>
+        <li>Laboratories and storage facilities</li>
+        <li>High-risk, ongoing operations</li>
+      </ul>
+
+      {/* How to Choose */}
+      <p className="font-semibold text-xl">How to Choose</p>
+      <ul className="list-disc list-inside space-y-1">
+        <li>
+          <span className="font-semibold">Portable:</span> Best for mobile staff,
+          inspections, and temporary setups
+        </li>
+        <li>
+          <span className="font-semibold">Fixed:</span> Best for continuous
+          monitoring in high-risk environments
+        </li>
+      </ul>
+
+      {/* Conclusion */}
+      <p className="font-semibold text-xl">Conclusion</p>
+      <p>
+        Understanding your operational needs is the first step toward better
+        industrial safety. Al Ghwasa has guided businesses across the UAE, GCC,
+        and Africa in selecting and implementing the right gas detection
+        technologies to keep workplaces protected and compliant.
+      </p>
+
+      {/* Call to Action */}
+      <p className="font-semibold text-xl">Call to Action</p>
+      <p>
+        Need expert guidance? Contact our <Link href={"/"}><span className="link">Expert Team</span></Link> to get personalised help
+        choosing the best gas detector for your business.
+      </p>
+    </section>
+  );
 };
 
 export default Blog3;

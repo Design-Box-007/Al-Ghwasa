@@ -73,7 +73,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
         </div>
       )}
 
-      {description2 &&(
+      {description2 && (
         <div className="mb-5">
           <p>{description2}</p>
         </div>
@@ -90,21 +90,25 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
             key={index}
             className="border border-gray-400 rounded-2xl shadow-sm p-4 flex flex-col bg-white hover:shadow-md transition"
           >
-            {/* Image or placeholder */}
+            {/* Image with fixed height */}
             {item.featureImage ? (
-              <Image
-                src={item.featureImage}
-                alt={item.featureTitle || "Feature"}
-                width={400}
-                height={400}
-                className="w-full object-cover rounded-xl mb-4"
-              />
+              <div className="w-full h-70 mb-4">
+                {" "}
+                {/* Fixed height for all images */}
+                <Image
+                  src={item.featureImage}
+                  alt={item.featureTitle || "Feature"}
+                  width={400}
+                  height={240}
+                  className="w-full h-full object-cover rounded-xl"
+                />
+              </div>
             ) : (
-              <div className="w-full h-80 bg-neutral rounded-xl mb-4"></div>
+              <div className="w-full h-60 bg-neutral rounded-xl mb-4"></div>
             )}
 
-            {/* Content */}
-            <div className="flex flex-col gap-3">
+            {/* Content spaced with flex-grow */}
+            <div className="flex flex-col justify-between flex-grow gap-3">
               {item.featureTitle && (
                 <h3 className="font-semibold text-lg text-custom-blue-1">
                   {item.featureTitle}

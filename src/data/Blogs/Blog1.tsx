@@ -1,38 +1,62 @@
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const Blog1 = () => {
   return (
     <section className="blog-content space-y-6 text-base font-sans">
-
-      <h2 className="text-lg font-semibold mb-2">
-        {"In hazardous industrial environments, accurate gas detection is not a luxury—it’s a necessity."}
-      </h2>
-      <p className="mb-4 text-base leading-relaxed">
-        The Gastec Gas Detection System provides reliable, portable, and precise solutions for identifying harmful gases and vapors across a range of industries. From confined spaces to offshore rigs, Gastec detector tubes and pumps are trusted globally to protect lives and ensure regulatory compliance.
+      {/* Introduction */}
+      <p className="font-semibold text-xl">Introduction</p>
+      <p>
+        Founded in 1988, Ghwasa has grown from a small safety supplier in Dubai
+        into one of the region’s most trusted names in industrial safety and gas
+        detection solutions. As the official dealer of Gastec gas detection
+        devices, we supply authentic, reliable tools that help businesses across
+        the UAE, GCC, and Africa protect their people and meet stringent safety
+        standards.
       </p>
 
-      <h2 className="text-lg font-semibold mb-2">The Importance of On-Site Gas Monitoring</h2>
-      <p className="mb-4 text-base leading-relaxed">
-        Industries like oil and gas, manufacturing, and marine operations deal with a wide array of potentially toxic and flammable gases. Real-time, on-the-spot gas testing is crucial to prevent accidents, illnesses, and environmental damage.
+      {/* Our Story */}
+      <p className="font-semibold text-xl">Our Story</p>
+      <p>
+        With over three decades of experience, Ghwasa has established a legacy
+        of quality, trust, and service in gas detection and safety solutions. We
+        combine cutting-edge equipment with deep regional expertise to help
+        industries anticipate and control hazards before they escalate. This
+        long-standing commitment has earned us enduring partnerships with
+        clients across oil &amp; gas, manufacturing, and laboratory sectors.
       </p>
 
-      <h2 className="text-lg font-semibold mb-2">How Gastec Detector Tubes Work</h2>
-      <p className="mb-4 text-base leading-relaxed">
-        Gastec systems use a manual pump and calibrated chemical detector tubes that visibly change color upon exposure to a target gas. This low-tech yet highly accurate method offers immediate results without needing electricity or software calibration.
+      {/* Partnership with Gastec */}
+      <p className="font-semibold text-xl">
+        Why Our Partnership With Gastec Matters
+      </p>
+      <p>
+        Gastec gas detectors are renowned for their accuracy, durability, and
+        ease of use. Through our official dealership, companies gain direct
+        access to these proven technologies, backed by Ghwasa’s decades of
+        regional knowledge and hands-on support — a combination that has set the
+        benchmark for gas detection in the Middle East since 1988.
       </p>
 
-      <h2 className="text-lg font-semibold mb-2">GHS-8AT-EX: Explosion-Proof Protection</h2>
-      <p className="mb-4 text-base leading-relaxed">
-        The GHS-8AT-EX is an explosion-proof model designed for EX zones, allowing safe gas sampling in high-risk areas. It comes equipped with an extension hose for remote or confined sampling.
+      {/* Commitment */}
+      <p className="font-semibold text-xl">Our Commitment to Safety</p>
+      <p>
+        At Ghwasa, safety is more than a priority — it’s our promise. Our legacy
+        of over 35 years reflects a dedication to protecting workers, enhancing
+        operational safety, and building lasting trust with our clients
+        throughout the Middle East and Africa.
       </p>
 
-      <h2 className="text-lg font-semibold mb-2">Applications Across Industries</h2>
-      <ul className="list-disc list-inside space-y-2 text-base leading-relaxed">
-        <li>Confined space entry</li>
-        <li>Petrochemical processing</li>
-        <li>Industrial hygiene inspections</li>
-        <li>Marine and offshore monitoring</li>
-      </ul>
+      {/* Learn More */}
+      <p className="font-semibold text-xl">Learn More</p>
+      <p>
+        Discover more about our story, values, and leadership in gas detection
+        solutions on our{" "}
+        <Link href={"/about"}>
+          <span className="link">About Us</span>
+        </Link>{" "}
+        page.
+      </p>
     </section>
   );
 };

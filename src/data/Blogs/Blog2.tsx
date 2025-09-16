@@ -1,44 +1,64 @@
-import React from 'react';
+import React from "react";
 
 const Blog2 = () => {
   return (
     <section className="blog-content space-y-6 text-base font-sans">
+      {/* Introduction */}
+      <p className="font-semibold text-xl">Introduction</p>
       <p>
-        <span className="font-bold">
-          {"Dehydration is a silent threat on job sites, especially in hot, demanding environments."}
-        </span>{' '}
-        The MX3 Hydration Testing System offers a revolutionary, science-backed solution to monitor
-        and manage workforce hydration levels in real time.
+        Industrial safety starts with awareness. Reliable gas detection devices
+        identify hazards early, protect workers, and support compliance with
+        safety regulations across every sector.
       </p>
 
-      <p className="font-bold">Why Hydration Matters in the Workplace</p>
-
+      {/* What Are Gastec Gas Detectors */}
+      <p className="font-semibold text-xl">What Are Gastec Gas Detectors?</p>
       <p>
-        {"Hydration affects cognitive function, physical performance, and safety. For workers in construction, mining, oil &amp; gas, and emergency response, dehydration can lead to fatigue, dizziness, and increased risk of injury."}
+        Gastec offers a comprehensive range of portable and fixed devices
+        designed to detect gases such as oxygen, carbon monoxide, hydrogen
+        sulphide, and other hazardous substances. These detectors provide instant
+        alerts to potential dangers, reducing accidents and improving workplace
+        safety.
       </p>
 
-      <p className="font-bold">How the MX3 Hydration Testing System Works</p>
-
-      <p>
-        {"Using a small sample of saliva, the MX3 system delivers rapid hydration analysis directly on-site. It's non-invasive, portable, and connects to a digital dashboard for tracking workforce health trends."}
-      </p>
-
-      <p className="font-bold">Real-Time Insights for Safety Managers</p>
-
-      <p>
-        By identifying hydration issues early, managers can take immediate action to protect workers
-        and maintain productivity. MX3 provides data-driven solutions for safety and HR teams to
-        meet occupational health standards.
-      </p>
-
-      <p className="font-bold">Use Cases</p>
-
+      {/* Key Applications */}
+      <p className="font-semibold text-xl">Key Applications</p>
       <ul className="list-disc list-inside space-y-1">
-        <li>Construction sites</li>
-        <li>Remote oil rigs</li>
-        <li>Outdoor sports teams</li>
-        <li>Military operations</li>
+        <li>Oil &amp; gas facilities</li>
+        <li>Chemical and pharmaceutical laboratories</li>
+        <li>Manufacturing plants</li>
+        <li>Shipboard tank inspections</li>
+        <li>Mining industry</li>
+        <li>Fire investigations</li>
+        <li>Fumigation measurement</li>
       </ul>
+
+      {/* Why It Matters */}
+      <p className="font-semibold text-xl">Why It Matters</p>
+      <p>
+        Gas leaks and exposure can be fatal, costly, and damaging to operations.
+        Effective gas detection ensures timely alerts, enabling companies to
+        prevent incidents, protect their teams, and maintain a safe working
+        environment.
+      </p>
+
+      {/* Conclusion */}
+      <p className="font-semibold text-xl">Conclusion</p>
+      <p>
+        Since 1988, Al Ghwasa has been at the forefront of gas detection
+        solutions and industrial safety standards across the UAE, GCC, and
+        Africa. With decades of expertise, deep regional knowledge, and a
+        commitment to quality service, we help industries implement the right
+        technologies and practices to safeguard people, processes, and
+        compliance.
+      </p>
+
+      {/* Call to Action */}
+      <p className="font-semibold text-xl">Call to Action</p>
+      <p>
+        Explore our full range of specialised sampling kits to find the right gas
+        detection solution for your business.
+      </p>
     </section>
   );
 };

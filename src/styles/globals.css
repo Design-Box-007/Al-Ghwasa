@@ -124,6 +124,10 @@ body {
   @apply flex items-center gap-2 px-6 py-3 rounded-full transition-all cursor-pointer bg-[#222222] text-white capitalize;
 }
 
+.link{
+  @apply text-blue-500 underline underline-offset-4
+}
+
 /* globals.css */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -141,6 +145,8 @@ body {
   width: 50px !important;
   height: 50px !important;
 }
+
+
 
 @keyframes slide {
   0% {

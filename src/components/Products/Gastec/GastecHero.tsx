@@ -23,7 +23,7 @@ const TubeImageComponent = () => {
     <div className="absolute z-[20] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       <motion.div
         initial={{ rotate: 270 }}
-        whileInView={{ rotate: startRotate ? 405 : 270 }}
+        whileInView={{ rotate: startRotate ? 450 : 270 }}
         viewport={{ once: true }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >

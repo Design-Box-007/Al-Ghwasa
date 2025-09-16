@@ -104,7 +104,7 @@ import ProductHero from "../Categories/detail-page/HeroCard";
 const GallerySection = () => {
   return (
     <section>
-      <ProductHero
+      <ProductHero 
         name={"Our Experience Center"}
         images={[
           "/images/All-Product-Images/Experience Center/1.jpg",

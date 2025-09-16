@@ -10,7 +10,6 @@ import formatToHyphenated from "@/utils/formatPathName";
 import {
   digitalMonitors,
   gasDetectionPassive2,
-  gasDetectorTubeSystem,
 } from "@/data/products/category-gastec";
 import images from "@/All-Image-Data/Data";
 
@@ -48,12 +47,23 @@ const products: Record<number, ProductInfo> = {
         "Protect your workforce from hazardous gases and vapours using reliable, on-site gas detection solutions.",
     },
   },
+  /*
+    {
+        imgSrc:
+          "/images/Gastec3/gas-detection-active-sampling-tubes/Detector tube image_4.jpg",
+        name: "Gas Detection Tubes",
+        href: `/Detection-table`,
+      },
+      
+     */
+
   2: {
-    imgSrc: gasDetectorTubeSystem[0].imgSrc,
-    href: `/categories/${formatToHyphenated(gasDetectorTubeSystem[0].name)}`,
-    link: `/categories/${formatToHyphenated(gasDetectorTubeSystem[0].name)}`,
+    imgSrc:
+      "/images/Gastec3/gas-detection-active-sampling-tubes/Detector tube image_4.jpg",
+    href: `/Detection-table`,
+    link: `/Detection-table`,
     bgSrc: images.GV110S,
-    name: gasDetectorTubeSystem[0].name,
+    name: "Gas Detection Tubes",
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {

@@ -6,8 +6,7 @@ import ProductGrid from "@/components/Comman/ProductGrid";
 import { gasDetectorTubeSystem2 } from "@/data/products/category-gastec";
 
 import React from "react";
-import GastecHero from "../Gastec/GastecHero";
-
+import GastecHero from "./GastecHero";
 
 const GasDetector = () => {
   return (
@@ -99,7 +98,7 @@ const GasDetector = () => {
         ]}
       />
 
-       <GastecHero/>
+      <GastecHero />
 
       <WhyChooseGastec
         title={"Gas Sampling Pump Features"}
@@ -148,37 +147,43 @@ const GasDetector = () => {
         features={[
           {
             featureTitle: "Oxygen",
-            featureImage: "/images/All-Product-Images/New folder/back-view-firefighters-trying-put-out-wildfire.jpg",
+            featureImage:
+              "/images/All-Product-Images/New folder/back-view-firefighters-trying-put-out-wildfire.jpg",
             description:
               "Essential for life, oxygen becomes dangerous at very high or low levels. Deficiency can cause cognitive issues, organ damage, and hypoxemia, while excess can lead to oxidative stress and lung damage. Monitoring is vital for worker safety.",
           },
           {
             featureTitle: "Carbon Monoxide (CO)",
-            featureImage: "/images/All-Product-Images/New folder/firefighter-facing-smoky-scene.jpg",
+            featureImage:
+              "/images/All-Product-Images/New folder/firefighter-facing-smoky-scene.jpg",
             description:
               "The most deadly contaminant—colorless and odorless, CO binds to hemoglobin faster than oxygen, causing tissue starvation. Even low exposure can trigger headaches, dizziness, and unconsciousness, while high exposure may be fatal.",
           },
           {
             featureTitle: "Carbon Dioxide (CO₂)",
-            featureImage: "/images/All-Product-Images/New folder/midsection-man-standing-traditional-clothing.jpg",
+            featureImage:
+              "/images/All-Product-Images/New folder/midsection-man-standing-traditional-clothing.jpg",
             description:
               "CO₂ is toxic in high amounts. Increased breathing rates with CO₂ exposure raise the intake of other harmful gases. Symptoms include dizziness, sweating, shortness of breath, and at severe levels, coma or convulsions.",
           },
           {
             featureTitle: "Oil Mist",
-            featureImage: "/images/All-Product-Images/New folder/people-hazmat-suits-working-nuclear-power-plant.jpg",
+            featureImage:
+              "/images/All-Product-Images/New folder/people-hazmat-suits-working-nuclear-power-plant.jpg",
             description:
               "Formed from condensed hydrocarbons, oil mist can penetrate deep into the lungs. While larger particles are filtered, fine ones cause respiratory issues such as lipoid pneumonia and emphysema.",
           },
           {
             featureTitle: "Water Vapor",
-            featureImage: "/images/All-Product-Images/New folder/people-hazmats-masks-outside-nuclear-power-plant.jpg",
+            featureImage:
+              "/images/All-Product-Images/New folder/people-hazmats-masks-outside-nuclear-power-plant.jpg",
             description:
               "Water vapor promotes system corrosion and can freeze regulators in cold conditions. It also damages filtration catalysts that remove CO, turning a simple contaminant into a major system risk.",
           },
           {
             featureTitle: "Oxygen Deficiency",
-            featureImage: "/images/All-Product-Images/New folder/portrait-firefighter-dressed-uniform-oxygen-mask-standing-fire-sparks-smoke-dark-background.jpg",
+            featureImage:
+              "/images/All-Product-Images/New folder/portrait-firefighter-dressed-uniform-oxygen-mask-standing-fire-sparks-smoke-dark-background.jpg",
             description:
               "A lack of oxygen in the breathing environment is one of the most immediate hazards. Even short exposure can impair coordination and decision-making, while prolonged deficiency may lead to loss of consciousness or death.",
           },

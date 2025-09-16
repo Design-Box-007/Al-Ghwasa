@@ -22,7 +22,7 @@ const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <header className="w-full bg-white pt-[150px] px-c-20 lg:p-c-20 relative">
-      <div className="relative overflow-hidden rounded-[20px] lg:h-[700px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row items-center gap-8">
+      <div className="relative overflow-hidden rounded-[20px] lg:h-[700px] px-4 md:px-[5%] py-6 md:py-10 flex flex-col lg:flex-row items-center gap-8 h-full">
         {/* Background Image */}
         {backgroundImage && (
         <Image
@@ -41,7 +41,7 @@ const Hero: React.FC<HeroProps> = ({
             transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true }}
           >
-            <h1 className="text-white font-dm-sans font-semibold text-5xl md:text-7xl leading-tight mb-6">
+            <h1 className="text-white font-dm-sans font-semibold lg:text-7xl md:text-3xl text-2xl leading-tight mb-6">
               {title}
             </h1>
           </motion.div>
@@ -54,7 +54,7 @@ const Hero: React.FC<HeroProps> = ({
               transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 }}
               viewport={{ once: true }}
             >
-              <p className="text-white font-poppins font-medium text-base leading-relaxed mb-6 max-w-3xl mx-auto">
+              <p className="text-white font-poppins md:text-base text-[15px] leading-relaxed mb-6 max-w-3xl mx-auto">
                 {description}
               </p>
             </motion.div>

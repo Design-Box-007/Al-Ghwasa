@@ -25,7 +25,7 @@ const trustedPartnersData: { icon: IconType; partnerName: string }[] = [
 const TrustedPartners = () => {
   return (
     <section className="space-y-8 bg-background pt-10 overflow-hidden">
-      <h5 className="text-3xl font-medium text-custom-red-light font-poppins text-center">
+      <h5 className="text-xl sm:text-2xl lg:text-3xl font-medium text-custom-red-light font-poppins text-center">
         Trusted By
       </h5>
 
@@ -36,9 +36,12 @@ const TrustedPartners = () => {
             ({ partnerName, icon: Icon }, index) => (
               <div
                 key={index}
-                className="flex items-center justify-center gap-3 text-xl font-semibold capitalize px-10"
+                className="flex items-center justify-center gap-2 sm:gap-3 text-sm sm:text-base lg:text-xl font-semibold capitalize px-4 sm:px-6 lg:px-10"
               >
-                <Icon size={28} />
+                <Icon
+                  className="text-base sm:text-2xl lg:text-3xl"
+                  // 👆 size changes with screen
+                />
                 <span>{partnerName}</span>
               </div>
             )

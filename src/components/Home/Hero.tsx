@@ -42,9 +42,9 @@ const products: Record<number, ProductInfo> = {
     textClass: "text-custom-red-light",
     contentData: {
       title:
-        "Ensure Safety from Toxic Gases with Accurate Gas Detection Systems",
+        "Leading Gas Detection & Safety Solutions Provider in the UAE, GCC & Africa",
       subtitle:
-        "Protect your workforce from hazardous gases and vapours using reliable, on-site gas detection solutions.",
+        "Al Ghwasa is a regional leader in advanced gas detection and safety solutions, serving the UAE, Saudi Arabia, Kuwait, Oman, Bahrain, Iraq, and wider GCC and African markets. As the official dealer for Gastec products, we integrate world-class technologies with our expertise to deliver reliable and compliant solutions tailored to every industry.",
     },
   },
   /*
@@ -67,10 +67,9 @@ const products: Record<number, ProductInfo> = {
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
-      title:
-        "Gastec Gas Detection Tubes – Fast, Precise & Easy-to-Use Monitoring",
+      title: "Safe Gas Detection Solutions for Every Industry",
       subtitle:
-        "Detect a wide range of gases and vapours with Gastec's world-class gas detection tubes and devices.",
+        "Al Ghwasa delivers advanced gas detection and safety systems across the region. As the official Gastec dealer, we supply authentic equipment with expert support to ensure safety, efficiency, and full compliance in critical operations.",
     },
   },
   3: {
@@ -82,10 +81,9 @@ const products: Record<number, ProductInfo> = {
     className: "bg-custom-red-light",
     textClass: "text-custom-red-light",
     contentData: {
-      title:
-        "Now Available Across UAE & Gulf – Trusted by Industry Professionals",
+      title: "30+ Years of Trusted Leadership",
       subtitle:
-        "Serving the Middle East with certified Gastec gas detection equipment for industrial, laboratory, and field use.",
+        "With over three decades of experience, Al Ghwasa leads the market in gas detection and safety solutions. We combine proven expertise with genuine Gastec products to protect industries throughout the UAE, GCC, and Africa.",
     },
   },
 };

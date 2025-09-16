@@ -14,7 +14,7 @@ const TubeImageComponent = () => {
     // Wait until RevealComponent is done (about 1s), then rotate
     const timer = setTimeout(() => {
       setStartRotate(true);
-    }, 2000); // ⏳ adjust if your RevealComponent is slower/faster
+    }, 3000); // ⏳ adjust if your RevealComponent is slower/faster
 
     return () => clearTimeout(timer);
   }, []);
@@ -36,7 +36,7 @@ const TubeImageComponent = () => {
             alt="gastec-hero-obj"
             width={1000}
             height={238}
-            className="object-contain w-[170px] h-fit"
+            className="object-contain w-[170px] h-fit rotate-180"
           />
         </RevealComponent>
       </motion.div>

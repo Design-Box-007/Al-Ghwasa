@@ -4,7 +4,7 @@ import IndustryCard from "./IndustryCard";
 export default function IndustryGrid() {
   return (
     <main>
-      <div className="lg:mx-20 mx-10 py-16 mt-5.5">
+      <div className="px-10 py-16 mt-5.5">
         {/* Header Section */}
         <div>
           <div className="text-center mb-[70px]">

@@ -11,8 +11,8 @@ const BlogHeader: React.FC<{ blog: BlogHeaderProps, imageClassName?: string }> =
             <RevealComponent>
                 <h1 className="md:text-4xl text-2xl font-medium">{blog.title}</h1>
             </RevealComponent>
-            <RevealComponent direction="bottom" outerClass="h-auto lg:h-[700px] overflow-hidden rounded-lg">
-                <Image src={blog.imgSrc} alt={blog.title} width={1024} height={720} className={`rounded-lg object-cover h-full w-full ${imageClassName}`} />
+            <RevealComponent direction="bottom" outerClass="h-auto overflow-hidden rounded-lg flex justify-center">
+                <Image src={blog.imgSrc} alt={blog.title} width={1024} height={720} className={`rounded-lg object-cover h-full lg:w-300 justify-center ${imageClassName}`} />
             </RevealComponent>
             <RevealComponent>
                 <div className='bg-black h-[2px] w-full'></div>

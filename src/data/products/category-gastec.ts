@@ -92,16 +92,16 @@ export const gasDetectorTubeSystem: ProductItem[] = [
     description: "Compact gas sampling pump with carrying case.",
     imgSrc: images.GV100S,
   },
-  {
-    name: "Gas sampling pump kit GV-110S",
-    description: "Advanced model with extra durability.",
-    imgSrc: images.GV110S,
-  },
-  {
-    name: "Gas sampling pump kit GV-100LS",
-    description: "Advanced model with extra durability.",
-    imgSrc: images.GV100LS,
-  },
+  // {
+  //   name: "Gas sampling pump kit GV-110S",
+  //   description: "Advanced model with extra durability.",
+  //   imgSrc: images.GV110S,
+  // },
+  // {
+  //   name: "Gas sampling pump kit GV-100LS",
+  //   description: "Advanced model with extra durability.",
+  //   imgSrc: images.GV100LS,
+  // },
 ];
 
 export const gasDetectorTubeSystem2: ProductItem[] = [

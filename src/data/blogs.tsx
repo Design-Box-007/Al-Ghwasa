@@ -1,5 +1,4 @@
 import { Blog } from "@/types";
-import images from "./assets";
 
 export const blogListData: Blog[] = [
   {
@@ -7,42 +6,42 @@ export const blogListData: Blog[] = [
       "Who Is Ghwasa? Our Journey as Gas Detection Experts in the Middle East",
     description:
       "Founded in 1988, Ghwasa has grown from a small safety supplier in Dubai into one of the region’s most trusted names in industrial safety and gas detection solutions.",
-    imgSrc: images.gastecL,
+    imgSrc: "/images/All-Product-Images/Blog/1.jpg",
     component: "Blog1",
   },
   {
     title: "Introduction to Gas Detection Devices: Keeping Industries Safe",
     description:
       "Industrial safety starts with awareness. Reliable gas detection devices identify hazards early, protect workers, and support compliance with safety regulations across every sector.",
-    imgSrc: images.gastecL,
+    imgSrc: "/images/All-Product-Images/Blog/2.jpg",
     component: "Blog2",
   },
   {
     title: "Choosing the Right Gas Detection Solution",
     description:
       "Not every workplace has the same risks. Selecting the right gas detection measures can mean the difference between reactive measures and proactive protection.",
-    imgSrc: images.gastecL,
+    imgSrc: "/images/All-Product-Images/Blog/3.jpg",
     component: "Blog3",
   },
   {
     title: "Industries That Need Gas Detection Devices and Why",
     description:
       "Gas leaks are a hidden threat across many sectors. Reliable gas detection devices act as a safety net to prevent accidents, protect workers, and support compliance with safety standards.",
-    imgSrc: images.gastecL,
+    imgSrc: "/images/All-Product-Images/Blog/4.jpg",
     component: "Blog4",
   },
   {
     title: "Choosing the Right Gas Detection Device for Your Business",
     description:
       "Selecting the correct gas detection device is critical for workplace safety and compliance. Al Ghwasa helps organisations across the UAE, GCC, and Africa choose and implement the right solutions — including authentic Gastec models — to match their specific needs.",
-    imgSrc: images.gastecL,
+    imgSrc: "/images/All-Product-Images/Blog/5.jpg",
     component: "Blog5",
   },
   {
     title: "Maintenance Tips for Long-Lasting Gas Detectors",
     description:
       "Even the best gas detection devices need regular care. Proper maintenance keeps equipment accurate, reliable, and ready to protect your workplace.",
-    imgSrc: images.gastecL,
+    imgSrc: "/images/All-Product-Images/Blog/6.jpg",
     component: "Blog6",
   },
 

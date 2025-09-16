@@ -112,7 +112,7 @@ export const products: DetailProduct[] = [
           "Check that the air source (cylinder or compressor) is ready for testing.",
         ],
         image:
-          "/images/GASTEC Compressed Breathing Air Measurement KitCG-1/How to use Image 1.jpg",
+          "/images/GASTEC Compressed Breathing Air Measurement KitCG-1/How to use image 1.jpg",
       },
       {
         step: "02",
@@ -132,7 +132,7 @@ export const products: DetailProduct[] = [
           "Record the results for safety compliance and monitoring purposes",
         ],
         image:
-          "/images/GASTEC Compressed Breathing Air Measurement KitCG-1/How to use Image 3.png",
+          "/images/GASTEC Compressed Breathing Air Measurement KitCG-1/How to use image 3.png",
       },
     ],
 
@@ -1388,316 +1388,316 @@ export const products: DetailProduct[] = [
   },
 
   // GV-110S Hand Pump
-  {
-    name: gasDetectorTubeSystem[1].name,
-    category: "Gas Detection Monitors",
-    images: [gasDetectorTubeSystem[1].imgSrc],
-    description:
-      "The GV-110S Hand Pump is an upgraded version of the GV-100S, offering dual sampling volumes for greater flexibility in gas detection applications. With its high-precision design, the pump ensures consistent sample collection while providing a built-in stroke counter for accuracy. Compact, durable, and easy to operate, the GV-110S is ideal for industrial hygiene surveys, workplace safety monitoring, and environmental testing.",
+  // {
+  //   name: gasDetectorTubeSystem[1].name,
+  //   category: "Gas Detection Monitors",
+  //   images: [gasDetectorTubeSystem[1].imgSrc],
+  //   description:
+  //     "The GV-110S Hand Pump is an upgraded version of the GV-100S, offering dual sampling volumes for greater flexibility in gas detection applications. With its high-precision design, the pump ensures consistent sample collection while providing a built-in stroke counter for accuracy. Compact, durable, and easy to operate, the GV-110S is ideal for industrial hygiene surveys, workplace safety monitoring, and environmental testing.",
 
-    overViewcategory: [
-      {
-        catalogUrl:
-          "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf",
-        catalogName: "Download Catalog",
-      },
-    ],
+  //   overViewcategory: [
+  //     {
+  //       catalogUrl:
+  //         "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf",
+  //       catalogName: "Download Catalog",
+  //     },
+  //   ],
 
-    // tubeSystemTitle: "What is the GASTEC Detector Tube System?",
-    // tubeSystemDescription:
-    //   "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
-    // tubeSystemImage: "/images/detector-tube-system.jpg",
-    // tubeSystemFeatures: [
-    //   {
-    //     title: "Portable & Convenient",
-    //     description: "From common industrial gases to specialized chemicals",
-    //   },
-    //   {
-    //     title: "Quick Results",
-    //     description: "Instant on-site readings in minutes.",
-    //   },
-    //   {
-    //     title: "Extensive Coverage",
-    //     description: "Over 500 gases detectable.",
-    //   },
-    //   {
-    //     title: "Trusted Worldwide",
-    //     description:
-    //       "Used across industries for safety, research, and compliance.",
-    //   },
-    // ],
+  //   // tubeSystemTitle: "What is the GASTEC Detector Tube System?",
+  //   // tubeSystemDescription:
+  //   //   "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
+  //   // tubeSystemImage: "/images/detector-tube-system.jpg",
+  //   // tubeSystemFeatures: [
+  //   //   {
+  //   //     title: "Portable & Convenient",
+  //   //     description: "From common industrial gases to specialized chemicals",
+  //   //   },
+  //   //   {
+  //   //     title: "Quick Results",
+  //   //     description: "Instant on-site readings in minutes.",
+  //   //   },
+  //   //   {
+  //   //     title: "Extensive Coverage",
+  //   //     description: "Over 500 gases detectable.",
+  //   //   },
+  //   //   {
+  //   //     title: "Trusted Worldwide",
+  //   //     description:
+  //   //       "Used across industries for safety, research, and compliance.",
+  //   //   },
+  //   // ],
 
-    // whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
-    // whyChooseTitle: "Why Choose GASTEC?",
-    // whyChooseFeature: [
-    //   {
-    //     featureTitle: "Direct Onsite Readouts",
-    //     description:
-    //       "No interpretation required; results are visible on the tube itself.",
-    //   },
-    //   {
-    //     featureTitle: "Wide Concentration Range",
-    //     description: "Flexible measurements, adjustable with sampling volume.",
-    //   },
-    //   {
-    //     featureTitle: "High Accuracy",
-    //     description:
-    //       "ach tube is individually calibrated and comes with a control number.",
-    //   },
-    //   {
-    //     featureTitle: "Stable & Long-Lasting",
-    //     description: "Tubes maintain accuracy with long shelf life.",
-    //   },
-    //   {
-    //     featureTitle: "User-Friendly Operation",
-    //     description:
-    //       "Intuitive design makes it simple for professionals in any field.",
-    //   },
-    //   {
-    //     featureTitle: "Eco-Friendly Design",
-    //     description:
-    //       "Built with sustainability in mind, reducing environmental impact.",
-    //   },
-    // ],
-    columns: ["Parameter", "Details"],
+  //   // whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
+  //   // whyChooseTitle: "Why Choose GASTEC?",
+  //   // whyChooseFeature: [
+  //   //   {
+  //   //     featureTitle: "Direct Onsite Readouts",
+  //   //     description:
+  //   //       "No interpretation required; results are visible on the tube itself.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "Wide Concentration Range",
+  //   //     description: "Flexible measurements, adjustable with sampling volume.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "High Accuracy",
+  //   //     description:
+  //   //       "ach tube is individually calibrated and comes with a control number.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "Stable & Long-Lasting",
+  //   //     description: "Tubes maintain accuracy with long shelf life.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "User-Friendly Operation",
+  //   //     description:
+  //   //       "Intuitive design makes it simple for professionals in any field.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "Eco-Friendly Design",
+  //   //     description:
+  //   //       "Built with sustainability in mind, reducing environmental impact.",
+  //   //   },
+  //   // ],
+  //   columns: ["Parameter", "Details"],
 
-    specifications: [
-      ["Sample Volume", "100 mL or 50 mL per stroke"],
-      ["Pump Type", "Piston-type dual-volume hand pump"],
-      ["Material", "High-durability plastic and metal"],
-      ["Dimensions", "Compact and portable"],
-      [
-        "Applications",
-        "Gas monitoring, confined space safety, on-site testing",
-      ],
-    ],
+  //   specifications: [
+  //     ["Sample Volume", "100 mL or 50 mL per stroke"],
+  //     ["Pump Type", "Piston-type dual-volume hand pump"],
+  //     ["Material", "High-durability plastic and metal"],
+  //     ["Dimensions", "Compact and portable"],
+  //     [
+  //       "Applications",
+  //       "Gas monitoring, confined space safety, on-site testing",
+  //     ],
+  //   ],
 
-    howToUseSteps: [
-      {
-        step: "01",
-        title: "Prepare Pump",
-        details: [
-          "Break both tips of the detector tube.",
-          "Insert the tube into the pump inlet.",
-        ],
-      },
-      {
-        step: "02",
-        title: "Select Volume & Sample",
-        details: [
-          "Choose either 100 mL or 50 mL stroke setting.",
-          "Pull back the handle fully to complete one sampling stroke.",
-        ],
-      },
-      {
-        step: "03",
-        title: "Read Results",
-        details: [
-          "After required strokes, remove the tube.",
-          "Compare the color change on the tube with the printed scale to determine gas concentration.",
-        ],
-      },
-    ],
+  //   howToUseSteps: [
+  //     {
+  //       step: "01",
+  //       title: "Prepare Pump",
+  //       details: [
+  //         "Break both tips of the detector tube.",
+  //         "Insert the tube into the pump inlet.",
+  //       ],
+  //     },
+  //     {
+  //       step: "02",
+  //       title: "Select Volume & Sample",
+  //       details: [
+  //         "Choose either 100 mL or 50 mL stroke setting.",
+  //         "Pull back the handle fully to complete one sampling stroke.",
+  //       ],
+  //     },
+  //     {
+  //       step: "03",
+  //       title: "Read Results",
+  //       details: [
+  //         "After required strokes, remove the tube.",
+  //         "Compare the color change on the tube with the printed scale to determine gas concentration.",
+  //       ],
+  //     },
+  //   ],
 
-    videoTitle: ["Video Title", "Video Title", "Video Title"],
+  //   videoTitle: ["Video Title", "Video Title", "Video Title"],
 
-    airTightNessCheck: "Airtightness Check",
-    airTightNessCheckdes:
-      "Before you begin sampling, it’s crucial to verify that your sampling pump is airtight—any leaks can compromise measurement accuracy. Here’s a simple check to ensure reliability:",
-    airTightFeature: [
-      {
-        featureTitle: "Secure the Inlet",
-        description: "Ensure the inlet nut is firmly tightened",
-      },
-      {
-        featureTitle: "Insert Intact Tube",
-        description:
-          "Place a detector tube (with both tips intact) into the pump’s rubber inlet",
-      },
-      {
-        featureTitle: "Align Marks",
-        description:
-          "Push the handle fully in, aligning the guide marks (red line on pump body and triangle on handle)",
-      },
-    ],
+  //   airTightNessCheck: "Airtightness Check",
+  //   airTightNessCheckdes:
+  //     "Before you begin sampling, it’s crucial to verify that your sampling pump is airtight—any leaks can compromise measurement accuracy. Here’s a simple check to ensure reliability:",
+  //   airTightFeature: [
+  //     {
+  //       featureTitle: "Secure the Inlet",
+  //       description: "Ensure the inlet nut is firmly tightened",
+  //     },
+  //     {
+  //       featureTitle: "Insert Intact Tube",
+  //       description:
+  //         "Place a detector tube (with both tips intact) into the pump’s rubber inlet",
+  //     },
+  //     {
+  //       featureTitle: "Align Marks",
+  //       description:
+  //         "Push the handle fully in, aligning the guide marks (red line on pump body and triangle on handle)",
+  //     },
+  //   ],
 
-    airTightFeature2: [
-      {
-        featureTitle: "Lock & Hold",
-        description:
-          "Pull out in one motion until locked. Wait approximately 1 minute.",
-      },
-      {
-        featureTitle: "Perform the Test",
-        description:
-          "Twist handle 90°, then release gently. The handle should smoothly return—if the red mark is fully concealed, the pump is airtight.",
-      },
-    ],
+  //   airTightFeature2: [
+  //     {
+  //       featureTitle: "Lock & Hold",
+  //       description:
+  //         "Pull out in one motion until locked. Wait approximately 1 minute.",
+  //     },
+  //     {
+  //       featureTitle: "Perform the Test",
+  //       description:
+  //         "Twist handle 90°, then release gently. The handle should smoothly return—if the red mark is fully concealed, the pump is airtight.",
+  //     },
+  //   ],
 
-    cta: {
-      title: "Interested in this product?",
-      rightDescription: "Get in touch with us to know more or request a quote.",
-      buttonText: "Make an Enquiry",
-      buttonHref: "/contact",
-    },
-    relatedProduct: [gasDetectorTubeSystem[0]],
-  },
+  //   cta: {
+  //     title: "Interested in this product?",
+  //     rightDescription: "Get in touch with us to know more or request a quote.",
+  //     buttonText: "Make an Enquiry",
+  //     buttonHref: "/contact",
+  //   },
+  //   relatedProduct: [gasDetectorTubeSystem[0]],
+  // },
 
   // GV-100LS Hand Pump
-  {
-    name: gasDetectorTubeSystem[2].name,
-    category: "Gas Detection Monitors",
-    images: [gasDetectorTubeSystem[2].imgSrc],
-    description:
-      "The GV-110S Hand Pump is an upgraded version of the GV-100S, offering dual sampling volumes for greater flexibility in gas detection applications. With its high-precision design, the pump ensures consistent sample collection while providing a built-in stroke counter for accuracy. Compact, durable, and easy to operate, the GV-110S is ideal for industrial hygiene surveys, workplace safety monitoring, and environmental testing.",
+  // {
+  //   name: gasDetectorTubeSystem[2].name,
+  //   category: "Gas Detection Monitors",
+  //   images: [gasDetectorTubeSystem[2].imgSrc],
+  //   description:
+  //     "The GV-110S Hand Pump is an upgraded version of the GV-100S, offering dual sampling volumes for greater flexibility in gas detection applications. With its high-precision design, the pump ensures consistent sample collection while providing a built-in stroke counter for accuracy. Compact, durable, and easy to operate, the GV-110S is ideal for industrial hygiene surveys, workplace safety monitoring, and environmental testing.",
 
-    overViewcategory: [
-      {
-        catalogUrl:
-          "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf",
-        catalogName: "Download Catalog",
-      },
-    ],
+  //   overViewcategory: [
+  //     {
+  //       catalogUrl:
+  //         "https://www.gastec.co.jp/files/user/asset/pdf/GV_100_test_report.pdf",
+  //       catalogName: "Download Catalog",
+  //     },
+  //   ],
 
-    // tubeSystemTitle: "What is the GASTEC Detector Tube System?",
-    // tubeSystemDescription:
-    //   "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
-    // tubeSystemImage: "/images/detector-tube-system.jpg",
-    // tubeSystemFeatures: [
-    //   {
-    //     title: "Portable & Convenient",
-    //     description: "From common industrial gases to specialized chemicals",
-    //   },
-    //   {
-    //     title: "Quick Results",
-    //     description: "Instant on-site readings in minutes.",
-    //   },
-    //   {
-    //     title: "Extensive Coverage",
-    //     description: "Over 500 gases detectable.",
-    //   },
-    //   {
-    //     title: "Trusted Worldwide",
-    //     description:
-    //       "Used across industries for safety, research, and compliance.",
-    //   },
-    // ],
+  //   // tubeSystemTitle: "What is the GASTEC Detector Tube System?",
+  //   // tubeSystemDescription:
+  //   //   "The GASTEC system is a direct-reading, colorimetric gas detector tube method designed for accurate measurement of airborne gases and vapors. By simply drawing air through a glass detector tube, users can instantly read concentration levels on a pre-calibrated scale — no additional equipment required.",
+  //   // tubeSystemImage: "/images/detector-tube-system.jpg",
+  //   // tubeSystemFeatures: [
+  //   //   {
+  //   //     title: "Portable & Convenient",
+  //   //     description: "From common industrial gases to specialized chemicals",
+  //   //   },
+  //   //   {
+  //   //     title: "Quick Results",
+  //   //     description: "Instant on-site readings in minutes.",
+  //   //   },
+  //   //   {
+  //   //     title: "Extensive Coverage",
+  //   //     description: "Over 500 gases detectable.",
+  //   //   },
+  //   //   {
+  //   //     title: "Trusted Worldwide",
+  //   //     description:
+  //   //       "Used across industries for safety, research, and compliance.",
+  //   //   },
+  //   // ],
 
-    // whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
-    // whyChooseTitle: "Why Choose GASTEC?",
-    // whyChooseFeature: [
-    //   {
-    //     featureTitle: "Direct Onsite Readouts",
-    //     description:
-    //       "No interpretation required; results are visible on the tube itself.",
-    //   },
-    //   {
-    //     featureTitle: "Wide Concentration Range",
-    //     description: "Flexible measurements, adjustable with sampling volume.",
-    //   },
-    //   {
-    //     featureTitle: "High Accuracy",
-    //     description:
-    //       "ach tube is individually calibrated and comes with a control number.",
-    //   },
-    //   {
-    //     featureTitle: "Stable & Long-Lasting",
-    //     description: "Tubes maintain accuracy with long shelf life.",
-    //   },
-    //   {
-    //     featureTitle: "User-Friendly Operation",
-    //     description:
-    //       "Intuitive design makes it simple for professionals in any field.",
-    //   },
-    //   {
-    //     featureTitle: "Eco-Friendly Design",
-    //     description:
-    //       "Built with sustainability in mind, reducing environmental impact.",
-    //   },
-    // ],
-    columns: ["Parameter", "Details"],
+  //   // whyChooseImage: "/images/Gastec3/gas-detection-accessories/GV500_2.jpg",
+  //   // whyChooseTitle: "Why Choose GASTEC?",
+  //   // whyChooseFeature: [
+  //   //   {
+  //   //     featureTitle: "Direct Onsite Readouts",
+  //   //     description:
+  //   //       "No interpretation required; results are visible on the tube itself.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "Wide Concentration Range",
+  //   //     description: "Flexible measurements, adjustable with sampling volume.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "High Accuracy",
+  //   //     description:
+  //   //       "ach tube is individually calibrated and comes with a control number.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "Stable & Long-Lasting",
+  //   //     description: "Tubes maintain accuracy with long shelf life.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "User-Friendly Operation",
+  //   //     description:
+  //   //       "Intuitive design makes it simple for professionals in any field.",
+  //   //   },
+  //   //   {
+  //   //     featureTitle: "Eco-Friendly Design",
+  //   //     description:
+  //   //       "Built with sustainability in mind, reducing environmental impact.",
+  //   //   },
+  //   // ],
+  //   columns: ["Parameter", "Details"],
 
-    specifications: [
-      ["Sample Volume", "100 mL or 50 mL per stroke"],
-      ["Pump Type", "Piston-type dual-volume hand pump"],
-      ["Material", "High-durability plastic and metal"],
-      ["Dimensions", "Compact and portable"],
-      [
-        "Applications",
-        "Gas monitoring, confined space safety, on-site testing",
-      ],
-    ],
+  //   specifications: [
+  //     ["Sample Volume", "100 mL or 50 mL per stroke"],
+  //     ["Pump Type", "Piston-type dual-volume hand pump"],
+  //     ["Material", "High-durability plastic and metal"],
+  //     ["Dimensions", "Compact and portable"],
+  //     [
+  //       "Applications",
+  //       "Gas monitoring, confined space safety, on-site testing",
+  //     ],
+  //   ],
 
-    howToUseSteps: [
-      {
-        step: "01",
-        title: "Prepare Pump",
-        details: [
-          "Break both tips of the detector tube.",
-          "Insert the tube into the pump inlet.",
-        ],
-      },
-      {
-        step: "02",
-        title: "Select Volume & Sample",
-        details: [
-          "Choose either 100 mL or 50 mL stroke setting.",
-          "Pull back the handle fully to complete one sampling stroke.",
-        ],
-      },
-      {
-        step: "03",
-        title: "Read Results",
-        details: [
-          "After required strokes, remove the tube.",
-          "Compare the color change on the tube with the printed scale to determine gas concentration.",
-        ],
-      },
-    ],
+  //   howToUseSteps: [
+  //     {
+  //       step: "01",
+  //       title: "Prepare Pump",
+  //       details: [
+  //         "Break both tips of the detector tube.",
+  //         "Insert the tube into the pump inlet.",
+  //       ],
+  //     },
+  //     {
+  //       step: "02",
+  //       title: "Select Volume & Sample",
+  //       details: [
+  //         "Choose either 100 mL or 50 mL stroke setting.",
+  //         "Pull back the handle fully to complete one sampling stroke.",
+  //       ],
+  //     },
+  //     {
+  //       step: "03",
+  //       title: "Read Results",
+  //       details: [
+  //         "After required strokes, remove the tube.",
+  //         "Compare the color change on the tube with the printed scale to determine gas concentration.",
+  //       ],
+  //     },
+  //   ],
 
-    videoTitle: ["Video Title", "Video Title", "Video Title"],
+  //   videoTitle: ["Video Title", "Video Title", "Video Title"],
 
-    airTightNessCheck: "Airtightness Check",
-    airTightNessCheckdes:
-      "Before you begin sampling, it’s crucial to verify that your sampling pump is airtight—any leaks can compromise measurement accuracy. Here’s a simple check to ensure reliability:",
-    airTightFeature: [
-      {
-        featureTitle: "Secure the Inlet",
-        description: "Ensure the inlet nut is firmly tightened",
-      },
-      {
-        featureTitle: "Insert Intact Tube",
-        description:
-          "Place a detector tube (with both tips intact) into the pump’s rubber inlet",
-      },
-      {
-        featureTitle: "Align Marks",
-        description:
-          "Push the handle fully in, aligning the guide marks (red line on pump body and triangle on handle)",
-      },
-    ],
+  //   airTightNessCheck: "Airtightness Check",
+  //   airTightNessCheckdes:
+  //     "Before you begin sampling, it’s crucial to verify that your sampling pump is airtight—any leaks can compromise measurement accuracy. Here’s a simple check to ensure reliability:",
+  //   airTightFeature: [
+  //     {
+  //       featureTitle: "Secure the Inlet",
+  //       description: "Ensure the inlet nut is firmly tightened",
+  //     },
+  //     {
+  //       featureTitle: "Insert Intact Tube",
+  //       description:
+  //         "Place a detector tube (with both tips intact) into the pump’s rubber inlet",
+  //     },
+  //     {
+  //       featureTitle: "Align Marks",
+  //       description:
+  //         "Push the handle fully in, aligning the guide marks (red line on pump body and triangle on handle)",
+  //     },
+  //   ],
 
-    airTightFeature2: [
-      {
-        featureTitle: "Lock & Hold",
-        description:
-          "Pull out in one motion until locked. Wait approximately 1 minute.",
-      },
-      {
-        featureTitle: "Perform the Test",
-        description:
-          "Twist handle 90°, then release gently. The handle should smoothly return—if the red mark is fully concealed, the pump is airtight.",
-      },
-    ],
+  //   airTightFeature2: [
+  //     {
+  //       featureTitle: "Lock & Hold",
+  //       description:
+  //         "Pull out in one motion until locked. Wait approximately 1 minute.",
+  //     },
+  //     {
+  //       featureTitle: "Perform the Test",
+  //       description:
+  //         "Twist handle 90°, then release gently. The handle should smoothly return—if the red mark is fully concealed, the pump is airtight.",
+  //     },
+  //   ],
 
-    cta: {
-      title: "Interested in this product?",
-      rightDescription: "Get in touch with us to know more or request a quote.",
-      buttonText: "Make an Enquiry",
-      buttonHref: "/contact",
-    },
-    relatedProduct: [gasDetectorTubeSystem[0]],
-  },
+  //   cta: {
+  //     title: "Interested in this product?",
+  //     rightDescription: "Get in touch with us to know more or request a quote.",
+  //     buttonText: "Make an Enquiry",
+  //     buttonHref: "/contact",
+  //   },
+  //   relatedProduct: [gasDetectorTubeSystem[0]],
+  // },
 
   /////////////////////////////////////////////////////
 

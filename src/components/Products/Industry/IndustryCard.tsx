@@ -1,7 +1,7 @@
 "use client";
 
 import type { IconType } from "react-icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface IndustryCardProps {
   name: string;
@@ -261,9 +261,19 @@ export default function IndustryCard({
   icon: Icon,
 }: IndustryCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
+  const [isTouch, setIsTouch] = useState(false);
+
+  useEffect(() => {
+    // detect if device supports touch
+    if (typeof window !== "undefined") {
+      setIsTouch("ontouchstart" in window || navigator.maxTouchPoints > 0);
+    }
+  }, []);
 
   const handleCardClick = () => {
-    setIsFlipped(!isFlipped);
+    if (isTouch) {
+      setIsFlipped(!isFlipped);
+    }
   };
 
   const gasData = industryGasData[name];
@@ -273,67 +283,56 @@ export default function IndustryCard({
       className="relative w-full h-80 cursor-pointer"
       style={{ perspective: "1000px" }}
       onClick={handleCardClick}
+      onMouseEnter={() => !isTouch && setIsFlipped(true)}   // flip on hover (desktop)
+      onMouseLeave={() => !isTouch && setIsFlipped(false)} // unflip on hover out
     >
       <div
-        className={`relative w-full h-full transition-transform duration-700 ease-in-out transform-style-preserve-3d ${
-          isFlipped ? "rotate-y-180" : ""
-        }`}
+        className={`relative w-full h-full transition-transform duration-500 ease-in-out`}
         style={{
           transformStyle: "preserve-3d",
           transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
         }}
       >
-        {/* Front Side - Original Card Design */}
+        {/* Front Side */}
         <div
-          className="absolute inset-0 w-full h-full backface-hidden"
+          className="absolute inset-0 w-full h-full"
           style={{ backfaceVisibility: "hidden" }}
         >
-          <div className="bg-gray-200 border border-[#C5C5C5] rounded-2xl p-6 flex flex-col items-center justify-center gap-5 duration-300 transition-all hover:border-gray-500 h-full">
-            <div className="flex flex-col items-center justify-center gap-5 w-full py-7">
-              {/* Icon Container */}
-              <Icon className="text-5xl text-primary text-[#0F2E53]" />
-              {/* Industry Name */}
-              <h3 className="font-dm-sans font-semibold text-32 leading-[1.302] tracking-[1%] text-primary text-center text-[#0F2E53] text-2xl">
-                {name}
-              </h3>
-              {/* Description */}
-              <p className="font-poppins font-medium text-16 leading-[1.5] tracking-[1%] text-secondary text-center">
-                {description}
-              </p>
-            </div>
+          <div className="bg-gray-200 border border-[#C5C5C5] rounded-2xl p-6 flex flex-col items-center justify-center gap-5 h-full">
+            <Icon className="text-5xl text-[#0F2E53]" />
+            <h3 className="font-dm-sans font-semibold text-2xl text-[#0F2E53] text-center">
+              {name}
+            </h3>
+            <p className="font-poppins font-medium text-sm text-center">
+              {description}
+            </p>
           </div>
         </div>
 
+        {/* Back Side */}
         <div
-          className="absolute inset-0 w-full h-full backface-hidden"
+          className="absolute inset-0 w-full h-full"
           style={{
             backfaceVisibility: "hidden",
             transform: "rotateY(180deg)",
           }}
         >
           <div className="bg-gray-200 border border-[#C5C5C5] rounded-2xl p-6 flex flex-col gap-4 h-full overflow-y-auto">
-            {/* Header */}
-
-            {/* Gas List */}
             {gasData && (
-              <div className="flex-1">
-                <ul className="space-y-2">
-                  {gasData.gases.map((gas, index) => (
-                    <li
-                      key={index}
-                      className="font-poppins text-sm text-gray-700 bg-white/50 rounded-lg px-3 py-2 border border-gray-300"
-                    >
-                      • {gas}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <ul className="space-y-2">
+                {gasData.gases.map((gas, index) => (
+                  <li
+                    key={index}
+                    className="font-poppins text-sm text-gray-700 bg-white/50 rounded-lg px-3 py-2 border border-gray-300"
+                  >
+                    • {gas}
+                  </li>
+                ))}
+              </ul>
             )}
-
-            {/* Click to flip back hint */}
             <div className="text-center pt-2 border-t border-gray-300">
               <p className="font-poppins text-xs text-gray-500">
-                Click to flip back
+                {isTouch ? "Tap to flip back" : "Hover to flip back"}
               </p>
             </div>
           </div>
@@ -342,3 +341,4 @@ export default function IndustryCard({
     </div>
   );
 }
+

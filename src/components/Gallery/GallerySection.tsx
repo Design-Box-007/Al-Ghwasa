@@ -107,18 +107,15 @@ const GallerySection = () => {
       <ProductHero
         name={"Our Experience Center"}
         images={[
-          "/images/Experience-Center/Rectangle-197.png",
-          "/images/Experience-Center/Frame-1171277077.png",
-          "/images/Experience-Center/Rectangle-197.png",
-          "/images/Experience-Center/Frame-1171277077.png",
-          "/images/Experience-Center/Rectangle-197.png",
-          "/images/Experience-Center/Frame-1171277077.png",
-          "/images/Experience-Center/Rectangle-197.png",
-          "/images/Experience-Center/Frame-1171277077.png",
+          "/images/All-Product-Images/Experience Center/1.jpg",
+          "/images/All-Product-Images/Experience Center/2.jpg",
+          "/images/All-Product-Images/Experience Center/3.jpg",
+          "/images/All-Product-Images/Experience Center/4.jpg",
+          "/images/All-Product-Images/Experience Center/5.jpg",
         ]}
         showBreadcrumb={false}
         className="lg:mt-0 lg:px-10 px-5"
-        className2="relative md:h-full w-full h-[250px]"
+        className2="relative md:h-140 w-full h-[250px]"
       />
     </section>
   );

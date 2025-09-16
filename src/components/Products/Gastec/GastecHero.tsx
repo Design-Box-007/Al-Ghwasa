@@ -6,37 +6,30 @@ import { motion } from "framer-motion";
 import RevealComponent from "@/components/Comman/RevealComponent";
 import images from "@/data/assets";
 
-// TubeImageComponent: Reveal → THEN Rotate
 const TubeImageComponent = () => {
   const [startRotate, setStartRotate] = useState(false);
 
   useEffect(() => {
-    // Wait until RevealComponent is done (about 1s), then rotate
     const timer = setTimeout(() => {
       setStartRotate(true);
-    }, 3000); // ⏳ adjust if your RevealComponent is slower/faster
-
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div className="absolute z-[20] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    <div className="absolute z-[20] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
       <motion.div
         initial={{ rotate: 270 }}
-        whileInView={{ rotate: startRotate ? 450 : 270 }}
-        viewport={{ once: true }}
+        animate={{ rotate: startRotate ? 450 : 270 }} 
         transition={{ duration: 1, ease: "easeInOut" }}
       >
-        <RevealComponent
-          direction="left"
-          outerClass="origin-center w-fit h-fit"
-        >
+        <RevealComponent direction="left" outerClass="origin-center w-fit h-fit">
           <Image
             src={images.Gastec2A}
             alt="gastec-hero-obj"
-            width={1000}
-            height={238}
-            className="object-contain w-[170px] h-fit rotate-180"
+            width={500}
+            height={200}
+            className="object-contain md:w-40 lg:w-50 w-20 h-auto rotate-180" // ✅ responsive width
           />
         </RevealComponent>
       </motion.div>
@@ -44,7 +37,6 @@ const TubeImageComponent = () => {
   );
 };
 
-// Final Hero Section (only tube image animation)
 const GastecHero = () => {
   const [isClient, setIsClient] = useState(false);
 
@@ -55,7 +47,7 @@ const GastecHero = () => {
   if (!isClient) return null;
 
   return (
-    <header className="relative rounded-3xl lg:h-[750px] px-4 sm:px-6 md:px-10 pt-[20px] md:pt-11 overflow-hidden">
+    <header className="relative rounded-3xl h-[500px] sm:h-[650px] lg:h-[750px] px-4 sm:px-6 md:px-10 pt-[20px] md:pt-11 overflow-hidden">
       <TubeImageComponent />
     </header>
   );

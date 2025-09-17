@@ -74,7 +74,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
       )}
 
       {description2 && (
-        <div className="mb-5">
+        <div className="mb-5 text-2xl">
           <p>{description2}</p>
         </div>
       )}

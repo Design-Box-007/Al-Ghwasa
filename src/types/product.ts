@@ -82,7 +82,9 @@ export interface DetailProduct {
   packageContentimage?: string;
   howToUseTitle?: string;
   videoTitle?: string[];
-
+  didYouKnowtitle?: string;
+  didYouKnowdescription?: string;
+  didYouKnowFeatures?:Array<{featureImage?: string; featureTitle: string; description: string}>
 
   /** If provided -> show CTA. If omitted -> hide CTA for this product */
   cta?: CTAData;

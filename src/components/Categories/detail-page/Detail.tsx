@@ -93,6 +93,14 @@ const ProductDetailPage = () => {
         />
       )}
 
+      {!!product.didYouKnowFeatures?.length && (
+        <WhyChooseGastec
+          title={product.didYouKnowtitle}
+          description2={product.didYouKnowdescription}
+          features={product.didYouKnowFeatures}
+        />
+      )}
+
       {/* Applicable tubes */}
       {!!product.specifications2?.length && (
         <Table
@@ -142,11 +150,7 @@ const ProductDetailPage = () => {
         </div>
       )} */}
 
-      {(product.videoTitle?.length) &&(
-        <VideoTitle titles={product.videoTitle}/>
-      )}
-
-      
+      {product.videoTitle?.length && <VideoTitle titles={product.videoTitle} />}
 
       {(product.airTightNessCheck || product.airTightFeature?.length) && (
         <WhyChooseGastec

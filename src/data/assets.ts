@@ -8,6 +8,7 @@ const images: Assets = {
   HomeAbout: "/images/Home/home-aboutus.jpg",
 
   Logo: "/images/logo2.png",
+  LogoDark: "/images/logo-dark.png",
 
   About: "/images/About/About.png",
   AboutSliderHero: "/images/About/About-Slider-Hero.jpg",

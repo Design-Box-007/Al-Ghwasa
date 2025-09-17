@@ -7,8 +7,8 @@ import { FaBars, FaPhoneAlt, FaTimes } from "react-icons/fa";
 import { navLinks } from "@/data/comman";
 import { NavLinksType } from "@/types";
 import formatToHyphenated from "@/utils/formatPathName";
-// import Image from "next/image";
-// import images from "@/data/assets";
+import Image from "next/image";
+import images from "@/data/assets";
 
 const Navbar = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
@@ -46,23 +46,23 @@ const Navbar = () => {
           {/* Brand */}
           <Link
             href="/"
-            className=" text-black text-3xl font-semibold font-radjdhani"
+            className=" text-black w-[100px] text-3xl font-semibold font-radjdhani"
           >
-            {/* <Image
-              src={images.Logo}
+            <Image
+              src={isWhite ? images.Logo :images.LogoDark}
               alt="al-ghwasa"
               width={204}
               height={136}
               className="w-full h-full object-contain"
-            /> */}
+            />
 
-            <h1
+            {/* <h1
               className={`text-heading text-4xl font-sans ${
                 isWhite ? "lg:text-white text-heading" : "text-heading"
               }`}
-            >
-              Al Ghwasa
-            </h1>
+            > */}
+              {/* Al Ghwasa */}
+            {/* </h1> */}
           </Link>
 
           {/* Desktop Menu */}

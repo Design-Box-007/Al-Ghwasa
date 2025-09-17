@@ -49,11 +49,18 @@ const Navbar = () => {
             className=" text-black w-[100px] text-3xl font-semibold font-radjdhani"
           >
             <Image
-              src={isWhite ? images.Logo :images.LogoDark}
+              src={isWhite ? images.LogoDark : images.LogoDark}
               alt="al-ghwasa"
               width={204}
               height={136}
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain lg:hidden"
+            />
+            <Image
+              src={isWhite ? images.Logo : images.LogoDark}
+              alt="al-ghwasa"
+              width={204}
+              height={136}
+              className="w-full h-full object-contain hidden lg:block"
             />
 
             {/* <h1

@@ -1,6 +1,7 @@
 "use client";
 
 import ProductHero from "../Categories/detail-page/HeroCard";
+import images from "@/data/assets";
 // import React, { useState } from "react";
 // import { FaShieldAlt } from "react-icons/fa";
 // import ProductFilterBtn from "../Comman/ProductFilterBtn";
@@ -107,11 +108,11 @@ const GallerySection = () => {
       <ProductHero 
         name={"Our Experience Center"}
         images={[
-          "/images/All-Product-Images/Experience Center/1.jpg",
-          "/images/All-Product-Images/Experience Center/2.jpg",
-          "/images/All-Product-Images/Experience Center/3.jpg",
-          "/images/All-Product-Images/Experience Center/4.jpg",
-          "/images/All-Product-Images/Experience Center/5.jpg",
+          images.ExperienceCenterv1,
+          images.ExperienceCenterv2,
+          images.ExperienceCenterv3,
+          images.ExperienceCenterv4,
+          images.ExperienceCenterv5,
         ]}
         showBreadcrumb={false}
         className="lg:mt-0 lg:px-10 px-5"

@@ -4,16 +4,16 @@ import BlogSection from "../Comman/BlogSection";
 import GallerySection from "./GallerySection";
 import FAQAccordion from "../Comman/FAQAccordion";
 import { homePagefaqs } from "@/data/comman";
-import ResponsiveYouTube from "./GalleryVideo";
-import { FaArrowRight } from "react-icons/fa";
-import Link from "next/link";
+// import ResponsiveYouTube from "./GalleryVideo";
+// import { FaArrowRight } from "react-icons/fa";
+// import Link from "next/link";
 
 const Gallery = () => {
   return (
     <main className="mt-[100px] space-y-8">
       <GalleryHero />
       <GallerySection />
-      <div className="overflow-x-hidden relative md:px-4 px-4 lg:px-10 py-10">
+      {/* <div className="overflow-x-hidden relative md:px-4 px-4 lg:px-10 py-10">
         <div className="flex justify-between gap-2 items-center mb-4 lg:flex-row flex-col md:flex-row">
           <h1 className=" text-3xl md:text-4xl lg:text-5xl font-bold">See our Product in action</h1>
           <button className="flex items-center gap-2 font-bold whitespace-nowrap bg-neutral border border-gray-400 p-2.5 rounded-3xl">
@@ -28,7 +28,7 @@ const Gallery = () => {
             "https://www.youtube.com/embed/D0UnqGm_miA?si=35W6STzM9tPG7nSI"
           }
         />
-      </div>
+      </div> */}
       <BlogSection
         title="Featured Articles"
         ctaBtn="View All"

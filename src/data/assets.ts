@@ -127,6 +127,11 @@ const images: Assets = {
   Rectangle200: "/images/Experience-Center/Rectangle-200.png",
   Rectangle201: "/images/Experience-Center/Rectangle-201.png",
 
+
+  ExperienceCenter1: "/images/Experience-Center/new-images/1.jpg",
+  ExperienceCenter2: "/images/Experience-Center/new-images/2.jpg",
+  ExperienceCenter3: "/images/Experience-Center/new-images/3.jpg",
+
   Gastec1: "/images/Gastec/Gastec-1.png",
   Gastec2: "/images/Gastec/Gastec-2.png",
   Gastec2A: "/images/Gastec/Gastec-2A.png",
@@ -158,15 +163,20 @@ const images: Assets = {
   Article1: "/images/Home/Article-1.png",
   Article2: "/images/Home/Article-2.png",
   Article3: "/images/Home/Article-3.png",
-  ExperienceCenter1: "/images/Home/Experience-Center-1.png",
-  ExperienceCenter2: "/images/Home/Experience-Center-2.png",
-  ExperienceCenter3: "/images/Home/Experience-Center-3.png",
-  ExperienceCenter4: "/images/Home/Experience-Center-4.png",
+  
+
   Hero: "/images/Home/Hero.png",
   ProductCard1: "/images/Home/Product-Card-1.png",
   ProductCard: "/images/Home/Product-Card.png",
   ProductThumbnail1: "/images/Home/Product-thumbnail-1.png",
   ProductThumbnail: "/images/Home/Product-thumbnail.png",
+
+
+  ExperienceCenterv1: "/images/Experience-Center/new-images/1.jpg",
+  ExperienceCenterv2: "/images/Experience-Center/new-images/2.jpg",
+  ExperienceCenterv3: "/images/Experience-Center/new-images/3.jpg",
+  ExperienceCenterv4: "/images/Experience-Center/new-images/4.jpg",
+  ExperienceCenterv5: "/images/Experience-Center/new-images/5.jpg",
 
   Capa11: "/images/Icons/Capa_1-1.png",
   Capa12: "/images/Icons/Capa_1-2.png",

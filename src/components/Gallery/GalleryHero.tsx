@@ -5,6 +5,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import RevealComponent from "../Comman/RevealComponent";
 import Link from "next/link";
+import images from "@/data/assets";
 
 const GalleryHero = () => {
   return (
@@ -27,7 +28,7 @@ const GalleryHero = () => {
       >
         {/* Background Image */}
         <Image
-          src="/images/Experience-Center/Frame-1171277077.png"
+          src={images.ExperienceCenterv4}
           alt={"hero-img"}
           width={1360}
           height={600}
@@ -40,9 +41,7 @@ const GalleryHero = () => {
         {/* Content */}
         <div className="relative z-30 flex flex-col lg:flex-row justify-between items-center w-full lg:gap-10 gap-3">
           <p className="font-inter text-base lg:text-xl text-white">
-            Discover how our cutting-edge products and solutions are used across
-            industrial, hospitality, safety, and hydration sectors. Browse
-            through our Experience Center to see innovation at work.
+            Leading Gas Detection & Safety Solutions Provider in the UAE, GCC & Africa
           </p>
 
           {/* Explore Products Button in One Line */}

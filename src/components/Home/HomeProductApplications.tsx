@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { FaLightbulb } from "react-icons/fa";
  import RevealComponent from "../Comman/RevealComponent";
+import images from "@/data/assets";
 
 const HomeProductApplications = () => {
   return (
@@ -25,7 +26,7 @@ const HomeProductApplications = () => {
         <div className="flex flex-col lg:flex-row gap-4 h-auto lg:h-[75vh]">
           <RevealComponent outerClass="w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]">
             <Image
-              src={"/images/Home/Experience-Center-1.png"}
+              src={images.ExperienceCenterv1}
               alt="grid-image"
               className="absolute z-10 inset-0 brightness-[.9] w-full h-full object-cover"
               width={788}
@@ -33,7 +34,7 @@ const HomeProductApplications = () => {
             />
             <div className="flex items-center justify-between relative z-20 w-full">
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
-                Gas Detection & Workplace Safety
+                Technicians using Gastec detectors in industrial settings
               </h5>
               {/* <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
@@ -47,7 +48,7 @@ const HomeProductApplications = () => {
             outerClass="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={"/images/Home/Experience-Center-2.png"}
+              src={images.ExperienceCenterv2}
               alt="grid-image"
               className="absolute z-10 inset-0 brightness-[.9] w-full h-full object-cover"
               width={788}
@@ -55,7 +56,7 @@ const HomeProductApplications = () => {
             />
             <div className="flex items-center justify-between relative z-20 w-full">
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
-                GASTEC Calibration Kit
+                Signs or setups showing adherence to gas safety regulations
               </h5>
               {/* <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
@@ -72,7 +73,7 @@ const HomeProductApplications = () => {
             outerClass="lg:w-[60%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={"/images/Home/Experience-Center-4.png"}
+              src={images.ExperienceCenterv3}
               alt="grid-image"
               className="absolute z-10 inset-0 brightness-[.9] w-full h-full object-cover"
               width={788}
@@ -80,7 +81,7 @@ const HomeProductApplications = () => {
             />
             <div className="flex items-center justify-between relative z-20 w-full">
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
-                GHS-8AT EX Monitor
+                Detectors in outdoor settings like factories, plants, or chemical storage areas
               </h5>
               {/* <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />
@@ -94,7 +95,7 @@ const HomeProductApplications = () => {
             outerClass="lg:w-[40%] w-full rounded-xl overflow-hidden flex items-end relative p-c-10 min-h-[250px]"
           >
             <Image
-              src={"/images/Home/Experience-Center-3.png"}
+              src={images.ExperienceCenterv4}
               alt="grid-image"
               className="absolute z-10 inset-0 brightness-[.9] w-full h-full object-cover"
               width={788}
@@ -102,7 +103,7 @@ const HomeProductApplications = () => {
             />
             <div className="flex items-center justify-between relative z-20 w-full">
               <h5 className="font-semibold text-xl lg:text-2xl text-white">
-                GHS-501FT Fit Tester
+                Action shots of emergency gas detection in real scenarios
               </h5>
               {/* <button className="bg-white flex w-fit px-c-10 py-1.5 gap-2 rounded-xl text-sm">
                 <ImImages size={20} />

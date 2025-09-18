@@ -63,7 +63,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
   };
 
   return (
-    <section className={className || `md:px-10 px-5 py-10 lg:mt-20 mt-20`}>
+    <section className={className || `md:px-10 px-5 py-10 lg:mt-20 mt-30`}>
       {/* ✅ Breadcrumb (optional) */}
       {showBreadcrumb && (
         <div className="lg:text-lg text-gray-500 mb-4 space-x-1 text-sm md:text-[15px]">
@@ -89,7 +89,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
 
       {/* Title */}
       <div className="flex justify-between mb-6 items-end">
-        <h1 className="text-h1 lg:font-medium font-bold md:font-semibold">
+        <h1 className="text-xl md:text-3xl lg:font-medium font-bold md:font-semibold">
           {name}
         </h1>
         <p className="lg:text-[26px]">{subName}</p>

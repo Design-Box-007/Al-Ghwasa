@@ -16,7 +16,7 @@ const PackageContentsCard: React.FC<PackageContentsCardProps> = ({
   return (
     <section className="px-5 md:px-10 py-10">
       <div>
-        <h3 className="text-h1 font-semibold mb-8 text-heading">{title}</h3>
+        <h3 className="md:text-h1 text-2xlfont-semibold mb-8 text-heading">{title}</h3>
         {image && (
           <div className="flex items-center justify-center mb-5 w-full h-full">
             <Image

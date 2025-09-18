@@ -12,7 +12,7 @@ const SoftwareCard: React.FC<SoftwareCardProps> = ({ title, downloads }) => {
   return (
     <section className="px-5 md:px-10">
     <div className=" rounded-2xl py-4">
-      <h3 className="text-h1 font-semibold mb-4 text-heading ">{title}</h3>
+      <h3 className="md:text-h1 text-2xlfont-semibold mb-4 text-heading ">{title}</h3>
 
       <div className="flex lg:flex-row flex-col gap-6 w-full">
         {downloads?.map((item, index) => (

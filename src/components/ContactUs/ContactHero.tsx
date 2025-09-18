@@ -6,7 +6,7 @@ import React from 'react'
 
 const ContactHero = () => {
   return (
-    <header className="relative w-full bg-white mt-[120px] lg:mt-5">
+    <header className="relative w-full bg-white mt-[140px] lg:mt-5">
       <div className="relative w-full h-[60vh] md:h-[70vh] lg:h-[90vh] min-h-[450px] rounded-[20px] overflow-hidden flex items-center justify-center">
         {/* Background Image */}
         <Image

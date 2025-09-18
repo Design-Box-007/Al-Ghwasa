@@ -7,7 +7,7 @@ import images from "@/data/assets";
 
 const HeroSection: React.FC = () => {
   return (
-    <header className="relative lg:min-h-[600px] rounded-3xl overflow-hidden mt-[110px] lg:mt-30 mx-4 sm:mx-6 lg:mx-8 h-[400px] md:h-[600px]">
+    <header className="relative lg:min-h-[600px] rounded-3xl overflow-hidden mt-[140px] lg:mt-30 mx-4 sm:mx-6 lg:mx-8 h-[400px] md:h-[600px]">
       {/* Gradient background */}
       <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#0F2D46] via-[#214265] to-[#121213]" />
 

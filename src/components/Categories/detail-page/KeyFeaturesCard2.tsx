@@ -11,7 +11,7 @@ const KeyFeatureCard2: React.FC<FeatureChipsProps> = ({ title, items }) => {
   return (
     <section className="md:px-10 px-5 py-10">
       {title && (
-        <h2 className="text-h1 font-semibold mb-6 text-custom-blue-1">{title}</h2>
+        <h2 className="md:text-h1 text-2xl font-semibold mb-3 text-custom-blue-1">{title}</h2>
       )}
 
       <div className="flex flex-wrap gap-4">

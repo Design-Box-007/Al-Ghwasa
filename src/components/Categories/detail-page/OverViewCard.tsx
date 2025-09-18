@@ -40,7 +40,7 @@ const Overview: React.FC<KeyOverViewProps> = ({
   return (
     <section className="px-6 lg:px-10 py-5">
       {/* Title */}
-      <h2 className="text-h1 font-semibold text-custom-blue-1 mb-4">{title}</h2>
+      <h2 className="md:text-h1 text-2xl font-semibold text-custom-blue-1 mb-4">{title}</h2>
 
       {/* Description */}
       {description && (

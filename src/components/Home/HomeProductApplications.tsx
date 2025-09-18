@@ -6,7 +6,7 @@ import images from "@/data/assets";
 
 const HomeProductApplications = () => {
   return (
-    <section className="px-6 py-10">
+    <section className="md:px-6 px-4 py-10">
       <div className="w-full flex flex-col lg:flex-row items-start lg:items-center justify-start gap-6">
         <div className="space-y-2">
           <RevealComponent outerClass="flex gap-2 items-center">

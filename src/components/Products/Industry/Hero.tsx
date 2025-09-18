@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function IndustryHero() {
   return (
-    <section className="pt-30 flex items-center justify-center md:px-15 px-5">
+    <section className="pt-35 flex items-center justify-center md:px-15 px-5">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -24,13 +24,13 @@ export default function IndustryHero() {
 
           <div className="flex flex-col md:flex-col gap-2.5 lg:flex-row lg:justify-between lg:items-center">
             <div className="flex flex-col gap-6 ">
-              <h1 className="font-dm-sans font-semibold md:text-5xl text-3xl leading-[1.302] tracking-[0.01em]">
+              <h1 className="font-dm-sans font-semibold md:text-5xl text-2xl leading-[1.302] tracking-[0.01em]">
                 Industries We Serve
               </h1>
             </div>
 
             <div className="flex flex-col justify-between h-full gap-6">
-              <p className="font-poppins font-semibold text-base leading-[1.5] tracking-[0.01em] max-w-md">
+              <p className="font-poppins font-semibold md:text-base text-[10px] leading-[1.5] tracking-[0.01em] max-w-md">
                 Delivering trusted gas detection and safety solutions across
                 diverse sectors worldwide.
               </p>

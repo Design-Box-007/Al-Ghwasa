@@ -47,7 +47,7 @@ const GalleryHero = () => {
   const { title, description, img } =
     (category && heroData[category]) || heroData["Specialized Sampling Kits"];
   return (
-    <header className="p-6 space-y-4 lg:mt-[1px] mt-[100px]">
+    <header className="p-6 space-y-4 lg:mt-[1px] mt-[140px]">
       <RevealComponent
         direction="bottom"
         outerClass="w-full lg:h-[700px] h-[350px] md:h-[450px] relative overflow-hidden rounded-4xl p-8 flex items-end justify-start"

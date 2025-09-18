@@ -34,7 +34,7 @@ const Table: React.FC<TableProps> = ({
   return (
     <section className={className || `px-5 md:px-10 py-5`}>
       {title !== false && (
-        <h2 className="text-h1 font-semibold text-custom-blue-1 mb-6">
+        <h2 className="md:text-h1 text-2xl font-semibold text-custom-blue-1 mb-6">
           {title}
         </h2>
       )}

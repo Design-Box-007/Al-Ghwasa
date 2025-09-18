@@ -18,7 +18,7 @@ const StepsGrid: React.FC<StepsGridProps> = ({ steps, heading }) => {
   return (
     <div className="px-5 md:px-10 py-10">
       {/* Heading */}
-      <h2 className="text-h1 font-bold mb-6 text-heading">{heading}</h2>
+      <h2 className="md:text-h1 text-2xl font-bold mb-6 text-heading">{heading}</h2>
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {steps?.map((item, index) => (

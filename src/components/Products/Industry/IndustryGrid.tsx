@@ -4,14 +4,14 @@ import IndustryCard from "./IndustryCard";
 export default function IndustryGrid() {
   return (
     <main>
-      <div className="px-10 py-16 mt-5.5">
+      <div className="md:px-10 px-4 py-6 md:py-10 mt-5.5">
         {/* Header Section */}
         <div>
           <div className="text-center mb-[70px]">
-            <h1 className="font-dm-sans font-semibold text-3xl md:text-7xl leading-[1.302] text-black mb-4 mx-auto">
+            <h1 className="font-dm-sans font-semibold text-xl md:text-7xl leading-[1.302] text-black mb-4 mx-auto">
               Tailored Solutions for Every Industry
             </h1>
-            <p className="font-poppins font-medium text-16 leading-[1.5] text-black max-w-[702px] mx-auto">
+            <p className="font-poppins font-light md:font-medium text-16 leading-[1.5] text-black max-w-[702px] mx-auto">
               We understand that each industry has unique challenges when it
               comes to detecting and measuring hazardous gases.
             </p>

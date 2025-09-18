@@ -133,7 +133,7 @@ const HomeOurProducts = () => {
   };
 
   return (
-    <div className="px-8 py-8 bg-background">
+    <div className="px-5 md:px-8 py-8 bg-background">
       {/* Heading */}
 
       <RevealComponent

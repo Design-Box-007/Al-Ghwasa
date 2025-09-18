@@ -54,7 +54,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
       {title && (
         <h2
           className={
-            titleClass || `text-h1 font-semibold text-custom-blue-1 mb-6`
+            titleClass || `md:text-h1 text-2xl font-semibold text-custom-blue-1 mb-3`
           }
         >
           {title}
@@ -74,7 +74,7 @@ const WhyChooseGastec: React.FC<WhyChooseProps> = ({
       )}
 
       {description2 && (
-        <div className="mb-5 text-2xl">
+        <div className="mb-5 md:text-2xl">
           <p>{description2}</p>
         </div>
       )}

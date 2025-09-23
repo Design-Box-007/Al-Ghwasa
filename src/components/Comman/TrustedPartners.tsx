@@ -56,28 +56,27 @@ import Marquee from "react-fast-marquee";
 const TrustedPartners = () => {
   const trustedPartnersData: { logo: string }[] = [
     {
-      logo: "/images/All-Product-Images/pikaso-creations-2025-09-16_11_40/freepik__enhance__13235.png",
+      logo: "/images/All-Product-Images/Logos/1.png",
     },
     {
-      logo: "/images/All-Product-Images/pikaso-creations-2025-09-16_11_40/freepik__enhance__13236.png",
+      logo: "/images/All-Product-Images/Logos/2.png",
     },
     {
-      logo: "/images/All-Product-Images/pikaso-creations-2025-09-16_11_40/freepik__enhance__13237.png",
+      logo: "/images/All-Product-Images/Logos/3.png",
     },
     {
-      logo: "/images/All-Product-Images/pikaso-creations-2025-09-16_11_40/freepik__enhance__13238.png",
+      logo: "/images/All-Product-Images/Logos/4.png",
+    },    {
+      logo: "/images/All-Product-Images/Logos/1.png",
     },
     {
-      logo: "/images/All-Product-Images/pikaso-creations-2025-09-16_11_40/freepik__enhance__13239.png",
+      logo: "/images/All-Product-Images/Logos/2.png",
     },
     {
-      logo: "/images/All-Product-Images/pikaso-creations-2025-09-16_11_40/freepik__enhance__13240.png",
+      logo: "/images/All-Product-Images/Logos/3.png",
     },
     {
-      logo: "/images/All-Product-Images/pikaso-creations-2025-09-16_11_40/freepik__enhance__13236.png",
-    },
-    {
-      logo: "/images/All-Product-Images/pikaso-creations-2025-09-16_11_40/freepik__enhance__13237.png",
+      logo: "/images/All-Product-Images/Logos/4.png",
     },
   ];
   return (
@@ -90,7 +89,7 @@ const TrustedPartners = () => {
         {trustedPartnersData.map((item, index) => (
           <div
             key={index}
-            className="mx-8 py-12 flex items-center justify-center min-w-[100px] h-[64px]"
+            className="mx-8 flex items-center justify-center min-w-[100px] h-full"
           >
             <Image
               src={item.logo} // ✅ fixed here
@@ -98,7 +97,7 @@ const TrustedPartners = () => {
               width={120}
               height={64}
               quality={100}
-              className="object-contain h-16 w-auto"
+              className="object-cover w-full"
             />
           </div>
         ))}

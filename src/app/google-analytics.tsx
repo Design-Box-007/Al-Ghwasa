@@ -3,7 +3,7 @@
 "use client";
 
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, Suspense } from "react";
 
 declare global {
   interface Window {
@@ -11,14 +11,26 @@ declare global {
   }
 }
 
-export function GoogleAnalytics() {
+function GAInner() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
   useEffect(() => {
     const url = pathname + (searchParams.toString() ? `?${searchParams}` : "");
-    window.gtag?.("config", "G-6TWP40MEWL", { page_path: url });
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("config", "G-6TWP40MEWL", {
+        page_path: url,
+      });
+    }
   }, [pathname, searchParams]);
 
   return null;
+}
+
+export function GoogleAnalytics() {
+  return (
+    <Suspense fallback={null}>
+      <GAInner />
+    </Suspense>
+  );
 }

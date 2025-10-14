@@ -1,12 +1,15 @@
-import Categories from '@/components/Categories/Categories'
-import React from 'react'
+import Categories from "@/components/Categories/Categories";
+import { categories } from "@/lib/metadata";
+import React from "react";
+
+export const metadata = categories;
 
 const page = () => {
   return (
     <div>
-      <Categories/>
+      <Categories />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

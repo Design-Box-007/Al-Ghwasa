@@ -1,13 +1,16 @@
-import DetectionTable from '@/components/Products/Gastec Detection Tuble/DetectionTable';
+import DetectionTable from "@/components/Products/Gastec Detection Tuble/DetectionTable";
+import { detectionTable } from "@/lib/metadata";
+import { Metadata } from "next";
 // import DetectionTuble from '@/components/Products/Gastec Detection Tuble/DetectionTuble';
-import React from 'react';
+import React from "react";
+
+export const metadata = detectionTable;
 
 const Page = () => {
   return (
-    <DetectionTable/>
+    <DetectionTable />
     // <DetectionTuble/>
-  )
-}
+  );
+};
 
 export default Page;
-

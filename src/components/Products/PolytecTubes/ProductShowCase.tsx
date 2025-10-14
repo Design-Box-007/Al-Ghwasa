@@ -29,7 +29,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({
       <h2 className="text-h1 font-semibold text-custom-blue-1 mb-4">{title}</h2>
 
       {/* Image or Placeholder */}
-      <div className="w-full h-[500px] bg-gray-300 rounded-lg mb-6 flex items-center justify-center overflow-hidden">
+      <div className="w-full lg:h-[500px] bg-gray-300 rounded-lg mb-6 flex items-center justify-center overflow-hidden">
         {imageUrl ? (
           <Image
             src={imageUrl}

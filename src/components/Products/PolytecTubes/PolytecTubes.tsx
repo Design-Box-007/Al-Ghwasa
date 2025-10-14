@@ -58,7 +58,7 @@ const PolytecTubes = () => {
           ["Required Details", "Required Details", "Required Details"],
           ["Required Details", "Required Details", "Required Details"],
         ]}
-       imageUrl="/images/Polytec/2.png"
+        imageUrl="/images/Polytec/2.png"
       />
 
       <ProductShowcase

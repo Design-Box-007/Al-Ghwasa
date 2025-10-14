@@ -1,12 +1,11 @@
-"use client"
+import Industry from "@/components/Products/Industry/Industry";
+import { industries } from "@/lib/metadata";
+import React from "react";
 
-import Industry from '@/components/Products/Industry/Industry'
-import React from 'react'
+export const metadata = industries;
 
 const page = () => {
-  return (
-     <Industry />
-  )
-}
+  return <Industry />;
+};
 
-export default page
+export default page;

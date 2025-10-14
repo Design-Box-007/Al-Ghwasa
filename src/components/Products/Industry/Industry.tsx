@@ -1,15 +1,15 @@
- 
-import React from 'react'
-import IndustryHero from './Hero'
-import IndustryGrid from './IndustryGrid'
+"use client";
+import React from "react";
+import IndustryHero from "./Hero";
+import IndustryGrid from "./IndustryGrid";
 
 const Industry = () => {
   return (
     <div>
-      <IndustryHero/>
-      <IndustryGrid/>
+      <IndustryHero />
+      <IndustryGrid />
     </div>
-  )
-}
+  );
+};
 
-export default Industry
+export default Industry;

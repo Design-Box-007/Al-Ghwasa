@@ -1,10 +1,11 @@
-import AboutUs from '@/components/AboutUs/AboutUs'
-import React from 'react'
+import AboutUs from "@/components/AboutUs/AboutUs";
+import { about } from "@/lib/metadata";
+import React from "react";
+
+export const metadata = about;
 
 const page = () => {
-    return (
-        <AboutUs />
-    )
-}
+  return <AboutUs />;
+};
 
-export default page
+export default page;
